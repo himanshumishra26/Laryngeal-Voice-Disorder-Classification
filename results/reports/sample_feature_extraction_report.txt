@@ -1,0 +1,98 @@
+================================================================================
+STAGE 2: SAMPLE FEATURE EXTRACTION REPORT
+Automated Multi-Class Laryngeal Voice Disorder Classification
+Task: NSP Preprocessing & Log-Mel Spectrogram Extraction on Class Samples
+Generated: 2026-09-22
+================================================================================
+
+1. EXTRACTION SPECIFICATIONS & PARAMETERS
+--------------------------------------------------------------------------------
+  - Acoustic Sampling Rate:      22050 Hz
+  - Mel Filterbank Channels:     64 bins (n_mels)
+  - FFT Window Size:             2048 samples (n_fft)
+  - Hop Length (Frame Shift):    512 samples
+  - Frequency Range:             0.0 Hz to 11025.0 Hz (Nyquist)
+  - Silence Trimming Threshold:  20.0 dB (librosa.effects.trim)
+  - Dynamic Range Scaling:       80.0 dB (ref=np.max)
+  - Normalization:               Peak amplitude normalization to [-1.0, 1.0]
+  - Native Input Format:         KayPENTAX CSL NSP (50,000 Hz, 16-bit PCM mono)
+
+2. SAMPLE RECORDINGS SUMMARY & FEATURE RESULTS
+--------------------------------------------------------------------------------
+Class          | Session  | File Name      | Orig Dur  | Proc Dur  | Feature Shape  | Status  
+--------------------------------------------------------------------------------
+normal         | 1000     | 1000-a_n.nsp   | 1.131s    | 1.131s    | (64, 49)       | SUCCESS
+laryngozele    | 1205     | 1205-a_n.nsp   | 0.887s    | 0.887s    | (64, 39)       | SUCCESS
+vox_senilis    | 1203     | 1203-a_n.nsp   | 0.644s    | 0.644s    | (64, 28)       | SUCCESS
+--------------------------------------------------------------------------------
+
+3. DETAILED CLASS-BY-CLASS BREAKDOWN
+--------------------------------------------------------------------------------
+A. Class: NORMAL (Normal (Healthy Control))
+   - File Path:             data\raw\normal\1000\vowels\1000-a_n.nsp
+   - Session ID / Speaker:  AufnahmeID=1000, SprecherID=978
+   - Patient Demographics:  Sex=Female (w), Age=26.6 yrs (DOB: 1972-02-14)
+   - Clinical Diagnosis:    Healthy control (no laryngeal pathology)
+   - Original Duration:     1.1312 seconds (at native 50,000 Hz)
+   - Processed Duration:    1.1312 seconds (resampled to 22,050 Hz)
+   - Spectrogram Shape:     (64, 49) (n_mels x time_steps)
+   - Spectrogram Dtype:     float32
+   - Numerical Stats:       Min = -66.33 dB, Max = 0.00 dB, Mean = -33.91 dB, Std = 19.49 dB
+   - Feature File Saved:    D:\Laryngeal_Voice_Disorder_Project\data\processed\sample_features\normal_sample_logmel.npy (12,672 bytes)
+   - Spectrogram Image:     D:\Laryngeal_Voice_Disorder_Project\results\figures\sample_spectrograms\normal_sample_spectrogram.png
+
+A. Class: LARYNGOZELE (Laryngozele (Pathology))
+   - File Path:             data\raw\laryngozele\1205\vowels\1205-a_n.nsp
+   - Session ID / Speaker:  AufnahmeID=1205, SprecherID=1602
+   - Patient Demographics:  Sex=Male (m), Age=47.0 yrs (DOB: 1952-01-16)
+   - Clinical Diagnosis:    Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.
+   - Original Duration:     0.8869 seconds (at native 50,000 Hz)
+   - Processed Duration:    0.8870 seconds (resampled to 22,050 Hz)
+   - Spectrogram Shape:     (64, 39) (n_mels x time_steps)
+   - Spectrogram Dtype:     float32
+   - Numerical Stats:       Min = -67.99 dB, Max = 0.00 dB, Mean = -33.79 dB, Std = 17.40 dB
+   - Feature File Saved:    D:\Laryngeal_Voice_Disorder_Project\data\processed\sample_features\laryngozele_sample_logmel.npy (10,112 bytes)
+   - Spectrogram Image:     D:\Laryngeal_Voice_Disorder_Project\results\figures\sample_spectrograms\laryngozele_sample_spectrogram.png
+
+A. Class: VOX_SENILIS (Vox Senilis (Pathology))
+   - File Path:             data\raw\vox_senilis\1203\vowels\1203-a_n.nsp
+   - Session ID / Speaker:  AufnahmeID=1203, SprecherID=1600
+   - Patient Demographics:  Sex=Female (w), Age=61.1 yrs (DOB: 1937-12-20)
+   - Clinical Diagnosis:    Leicht
+   - Original Duration:     0.6437 seconds (at native 50,000 Hz)
+   - Processed Duration:    0.6437 seconds (resampled to 22,050 Hz)
+   - Spectrogram Shape:     (64, 28) (n_mels x time_steps)
+   - Spectrogram Dtype:     float32
+   - Numerical Stats:       Min = -71.23 dB, Max = 0.00 dB, Mean = -35.82 dB, Std = 16.06 dB
+   - Feature File Saved:    D:\Laryngeal_Voice_Disorder_Project\data\processed\sample_features\vox_senilis_sample_logmel.npy (7,296 bytes)
+   - Spectrogram Image:     D:\Laryngeal_Voice_Disorder_Project\results\figures\sample_spectrograms\vox_senilis_sample_spectrogram.png
+
+4. NUMERICAL INTEGRITY & VALIDATION CHECKS
+--------------------------------------------------------------------------------
+  - [NORMAL] NaN Count: 0 | Inf Count: 0 | Mel Dimension: 64 == 64 -> PASS
+  - [LARYNGOZELE] NaN Count: 0 | Inf Count: 0 | Mel Dimension: 64 == 64 -> PASS
+  - [VOX_SENILIS] NaN Count: 0 | Inf Count: 0 | Mel Dimension: 64 == 64 -> PASS
+
+  Overall Feature Array Verification: ALL SAMPLES PASSED (VALID NUMERICAL ARRAYS)
+
+5. GENERATED ARTIFACTS INVENTORY
+--------------------------------------------------------------------------------
+  A. Feature Arrays (.npy):
+     * D:\Laryngeal_Voice_Disorder_Project\data\processed\sample_features\normal_sample_logmel.npy
+     * D:\Laryngeal_Voice_Disorder_Project\data\processed\sample_features\laryngozele_sample_logmel.npy
+     * D:\Laryngeal_Voice_Disorder_Project\data\processed\sample_features\vox_senilis_sample_logmel.npy
+
+  B. Spectrogram Visualizations (.png):
+     * D:\Laryngeal_Voice_Disorder_Project\results\figures\sample_spectrograms\normal_sample_spectrogram.png
+     * D:\Laryngeal_Voice_Disorder_Project\results\figures\sample_spectrograms\laryngozele_sample_spectrogram.png
+     * D:\Laryngeal_Voice_Disorder_Project\results\figures\sample_spectrograms\vox_senilis_sample_spectrogram.png
+     * D:\Laryngeal_Voice_Disorder_Project\results\figures\sample_spectrograms\sample_spectrograms_comparison.png
+
+6. ERROR AND WARNING LOG
+--------------------------------------------------------------------------------
+  No errors or warnings encountered during Stage 2 execution.
+  All 3 samples were successfully read, preprocessed, converted, and saved.
+
+================================================================================
+END OF STAGE 2 REPORT
+================================================================================

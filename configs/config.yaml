@@ -1,0 +1,121 @@
+# ==============================================================================
+# Configuration: Automated Multi-Class Laryngeal Voice Disorder Classification
+# Architecture: Log-Mel Spectrogram + CNN-LSTM
+# Target Classes: Normal, Laryngozele, Vox senilis
+# Stage 4: Full Training Configuration
+# ==============================================================================
+
+project:
+  name: "Laryngeal_Voice_Disorder_Classification"
+  version: "1.0.0"
+  random_seed: 42
+
+classes:
+  names:
+    - "normal"
+    - "laryngozele"
+    - "vox_senilis"
+  num_classes: 3
+  mapping:
+    normal: 0
+    laryngozele: 1
+    vox_senilis: 2
+
+audio:
+  sample_rate: 22050          # Standard sampling rate for voice acoustic features
+  target_duration: 3.0        # Duration in seconds (66,150 samples at 22,050 Hz)
+  mono: true
+  top_db: 20.0                # Threshold for silence trimming via librosa.effects.trim
+
+features:
+  type: "log_mel_spectrogram"
+  n_fft: 2048                 # FFT window size (aligned with Stage 2 & 3)
+  hop_length: 512             # Step size between successive frames
+  n_mels: 64                  # Number of Mel filterbank channels (frequency resolution)
+  f_min: 0.0                  # Minimum frequency (Hz)
+  f_max: 11025.0              # Maximum frequency (Hz) (Nyquist rate)
+  top_db: 80.0                # Decibel dynamic range scaling (ref=np.max)
+  expected_shape: [64, 130]   # (n_mels, time_steps)
+
+model:
+  name: "CNN_LSTM"
+  # 2D CNN Feature Extractor
+  conv_blocks:
+    - filters: 32
+      kernel_size: [3, 3]
+      padding: 1
+      pool_size: [2, 2]
+      dropout: 0.25
+    - filters: 64
+      kernel_size: [3, 3]
+      padding: 1
+      pool_size: [2, 2]
+      dropout: 0.25
+    - filters: 128
+      kernel_size: [3, 3]
+      padding: 1
+      pool_size: [2, 2]
+      dropout: 0.30
+  # Sequential Bidirectional LSTM Module
+  lstm:
+    input_size: 1024          # 128 channels * (64 // 8 = 8 frequency bins)
+    hidden_size: 128
+    num_layers: 2
+    bidirectional: true
+    dropout: 0.30
+  # Dense Classification Head
+  dense:
+    input_dim: 256            # 128 * 2 (bidirectional)
+    hidden_units: 64
+    dropout: 0.40
+    output_units: 3
+
+training:
+  batch_size: 32
+  num_epochs: 50
+  optimizer: "Adam"
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  label_smoothing: 0.1
+  gradient_clip_norm: 5.0
+  use_balanced_manifests: true  # Uses train_balanced.csv / val_balanced.csv
+  apply_spec_augment: true      # Acoustic regularization during training
+  scheduler:
+    type: "ReduceLROnPlateau"
+    mode: "min"
+    factor: 0.5
+    patience: 5
+    min_lr: 0.00001
+  early_stopping:
+    enabled: true
+    monitor: "val_macro_f1"
+    mode: "max"
+    patience: 12
+    min_delta: 0.0001
+  checkpointing:
+    enabled: true
+    monitor: "val_macro_f1"
+    mode: "max"
+    best_model_filename: "best_cnn_lstm.pt"
+    last_model_filename: "last_cnn_lstm.pt"
+
+paths:
+  raw_data_dir: "data/raw"
+  processed_features_dir: "data/processed/features"
+  tabular_features_dir: "data/processed/tabular_features"
+  splits_dir: "data/splits"
+  checkpoint_dir: "results/checkpoints"
+  figures_dir: "results/figures"
+  reports_dir: "results/reports"
+
+classical_baseline:
+  model_type: "SVM"
+  kernel: "rbf"
+  class_weight: "balanced"
+  decision_function_shape: "ovo"
+  probability: true
+  param_grid:
+    C: [0.1, 0.5, 1.0, 2.0, 5.0, 10.0]
+    gamma: ["scale", "auto", 0.01, 0.05, 0.1]
+  checkpoint_filename: "best_svm_baseline.joblib"
+  report_filename: "classical_baseline_val_report.txt"

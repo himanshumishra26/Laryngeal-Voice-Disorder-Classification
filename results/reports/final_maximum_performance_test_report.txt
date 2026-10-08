@@ -1,0 +1,94 @@
+=====================================================================================
+FINAL MAXIMUM-PERFORMANCE EXPERIMENT: TEST EVALUATION REPORT
+Automated Multi-Class Laryngeal Voice Disorder Classification
+Generated: 2026-09-23 13:53:40
+=====================================================================================
+
+1. MODEL ARCHITECTURE & FROZEN SPECIFICATIONS
+-------------------------------------------------------------------------------------
+  - Model Type:              Calibrated Multi-Seed Acoustic Biomarker Ensemble
+  - Checkpoint Path:         results/checkpoints/final_calibrated_ensemble.joblib
+  - Feature Space:           52 Clinical Acoustic Biomarkers (F0, Jitter, Shimmer, HNR, CPP, Formants, MFCCs)
+  - Preprocessor:            StandardScaler (strictly fit on authentic training partition)
+  - Multi-Seed Ensembling:   5 Random Seeds [42, 101, 2024, 777, 999]
+  - Component Models:        LogisticRegression (45%), Linear SVC (40%), RBF SVC (15%)
+  - Frozen Threshold:        tau* = 0.10 (locked prior to test evaluation)
+
+2. PRIMARY BENCHMARK: BALANCED TEST SET (DEMOGRAPHIC-MATCHED, TEST_BALANCED.CSV)
+-------------------------------------------------------------------------------------
+  - Total Evaluation Samples: 181
+  - Overall Accuracy:         58.56%
+  - Balanced Accuracy:        42.37%
+  - Macro Precision:          41.22%
+  - Macro Recall / Sens.:     42.37%
+  - Macro Specificity:        74.71%
+  - Macro F1-Score:           40.46%
+  - Macro OvR ROC-AUC:        0.6611
+
+PER-CLASS PERFORMANCE (Balanced Test):
+Class            | Support  | Precision  | Recall     | Specificity  | F1-Score   | ROC-AUC 
+-------------------------------------------------------------------------------------
+Normal           | 83       |    54.17 % |    78.31 % |      43.88 % |    64.04 % |   0.6017
+Laryngozele      | 14       |     0.00 % |     0.00 % |      98.80 % |     0.00 % |   0.6989
+Vox Senilis      | 84       |    69.49 % |    48.81 % |      81.44 % |    57.34 % |   0.6827
+-------------------------------------------------------------------------------------
+Macro Average    | 181      |    41.22 % |    42.37 % |      74.71 % |    40.46 % |   0.6611
+
+CONFUSION MATRIX (Balanced Test - Raw Counts):
+True \ Pred      | Normal   | Laryngoz | Vox Seni
+--------------------------------------------------
+Normal           |       65 |        2 |       16
+Laryngozele      |       12 |        0 |        2
+Vox Senilis      |       43 |        0 |       41
+
+INDIVIDUAL TEST LARYNGOZELE PREDICTIONS (SPEAKER 2191, SESS 1981):
+Vowel      | True Class   | Predicted    | P(Norm)  | P(Lar)   | P(Vox)  
+---------------------------------------------------------------------------
+phrase     | Laryngozele  | Vox Senilis  |    0.376 |    0.003 |    0.621
+a_h        | Laryngozele  | Normal       |    0.844 |    0.000 |    0.155
+a_l        | Laryngozele  | Normal       |    0.916 |    0.019 |    0.066
+a_lhl      | Laryngozele  | Normal       |    0.834 |    0.001 |    0.165
+a_n        | Laryngozele  | Normal       |    0.894 |    0.006 |    0.100
+iau        | Laryngozele  | Normal       |    0.840 |    0.001 |    0.159
+i_h        | Laryngozele  | Normal       |    0.476 |    0.090 |    0.434
+i_l        | Laryngozele  | Normal       |    0.888 |    0.002 |    0.109
+i_lhl      | Laryngozele  | Normal       |    0.728 |    0.001 |    0.271
+i_n        | Laryngozele  | Vox Senilis  |    0.302 |    0.005 |    0.692
+u_h        | Laryngozele  | Normal       |    0.859 |    0.001 |    0.140
+u_l        | Laryngozele  | Normal       |    0.893 |    0.018 |    0.089
+u_lhl      | Laryngozele  | Normal       |    0.791 |    0.002 |    0.207
+u_n        | Laryngozele  | Normal       |    0.851 |    0.002 |    0.147
+
+3. SECONDARY BENCHMARK: FULL CLINICAL PREVALENCE TEST SET (TEST.CSV)
+-------------------------------------------------------------------------------------
+  - Total Evaluation Samples: 1503
+  - Overall Accuracy:         66.60%
+  - Balanced Accuracy:        39.05%
+  - Macro Precision:          34.54%
+  - Macro Recall / Sens.:     39.05%
+  - Macro Specificity:        70.83%
+  - Macro F1-Score:           31.53%
+  - Macro OvR ROC-AUC:        0.5945
+
+PER-CLASS PERFORMANCE (Full Prevalence Test):
+Class            | Support  | Precision  | Recall     | Specificity  | F1-Score   | ROC-AUC 
+-------------------------------------------------------------------------------------
+Normal           | 1405     |    94.58 % |    68.33 % |      43.88 % |    79.34 % |   0.5367
+Laryngozele      | 14       |     0.00 % |     0.00 % |      97.72 % |     0.00 % |   0.6435
+Vox Senilis      | 84       |     9.03 % |    48.81 % |      70.89 % |    15.24 % |   0.6033
+-------------------------------------------------------------------------------------
+Macro Average    | 1503     |    34.54 % |    39.05 % |      70.83 % |    31.53 % |   0.5945
+
+CONFUSION MATRIX (Full Prevalence Test - Raw Counts):
+True \ Pred      | Normal   | Laryngoz | Vox Seni
+--------------------------------------------------
+Normal           |      960 |       34 |      411
+Laryngozele      |       12 |        0 |        2
+Vox Senilis      |       43 |        0 |       41
+
+4. SCIENTIFIC INTEGRITY & ZERO-LEAKAGE VERIFICATION
+-------------------------------------------------------------------------------------
+  - The test manifests (test.csv and test_balanced.csv) remained 100% UNTOUCHED until after
+    the model, random seeds, scalers, ensembling weights, and threshold were completely frozen.
+  - Single-pass evaluation was executed with zero post-hoc modifications or cherry-picking.
+=====================================================================================

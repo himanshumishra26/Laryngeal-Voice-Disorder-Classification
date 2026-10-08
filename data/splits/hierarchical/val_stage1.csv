@@ -1,0 +1,183 @@
+feature_path,audio_path,class_name,class_label,session_id,speaker_id,vowel_type,gender,age,sample_weight,split,diagnosis,stage1_label,stage1_class_name
+data\processed\features\normal\1880_iau.npy,data\raw\normal\1880\vowels\1880-iau.nsp,normal,0,1880,1105,iau,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\2263_phrase.npy,data\raw\normal\2263\sentences\2263-phrase.nsp,normal,0,2263,1198,phrase,w,19.7,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\816_phrase.npy,data\raw\vox_senilis\816\sentences\816-phrase.nsp,vox_senilis,1,816,1428,phrase,w,70.9,6.484517304189436,val,Vox senilis,1,pathological
+data\processed\features\vox_senilis\2055_phrase.npy,data\raw\vox_senilis\2055\sentences\2055-phrase.nsp,vox_senilis,1,2055,2244,phrase,m,81.7,6.484517304189436,val,,1,pathological
+data\processed\features\vox_senilis\2522_i_h.npy,data\raw\vox_senilis\2522\vowels\2522-i_h.nsp,vox_senilis,1,2522,2656,i_h,w,84.1,6.484517304189436,val,,1,pathological
+data\processed\features\normal\1880_a_h.npy,data\raw\normal\1880\vowels\1880-a_h.nsp,normal,0,1880,1105,a_h,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\1880_u_h.npy,data\raw\normal\1880\vowels\1880-u_h.nsp,normal,0,1880,1105,u_h,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\86_u_lhl.npy,data\raw\normal\86\vowels\86-u_lhl.nsp,normal,0,86,94,u_lhl,w,61.7,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2110_a_lhl.npy,data\raw\vox_senilis\2110\vowels\2110-a_lhl.nsp,vox_senilis,1,2110,2299,a_lhl,w,77.6,6.484517304189436,val,"Laryngitis ist chronisch mit bds. beginnendem Reinke-Ödem, Nikotinabusus",1,pathological
+data\processed\features\laryngozele\1449_u_lhl.npy,data\raw\laryngozele\1449\vowels\1449-u_lhl.nsp,laryngozele,1,1449,1633,u_lhl,m,43.1,169.52380952380952,val,Zustand nach Abtragung,1,pathological
+data\processed\features\laryngozele\1449_u_l.npy,data\raw\laryngozele\1449\vowels\1449-u_l.nsp,laryngozele,1,1449,1633,u_l,m,43.1,169.52380952380952,val,Zustand nach Abtragung,1,pathological
+data\processed\features\vox_senilis\816_i_h.npy,data\raw\vox_senilis\816\vowels\816-i_h.nsp,vox_senilis,1,816,1428,i_h,w,70.9,6.484517304189436,val,Vox senilis,1,pathological
+data\processed\features\normal\86_u_n.npy,data\raw\normal\86\vowels\86-u_n.nsp,normal,0,86,94,u_n,w,61.7,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2055_u_n.npy,data\raw\vox_senilis\2055\vowels\2055-u_n.nsp,vox_senilis,1,2055,2244,u_n,m,81.7,6.484517304189436,val,,1,pathological
+data\processed\features\normal\2263_a_lhl.npy,data\raw\normal\2263\vowels\2263-a_lhl.nsp,normal,0,2263,1198,a_lhl,w,19.7,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\1880_a_l.npy,data\raw\normal\1880\vowels\1880-a_l.nsp,normal,0,1880,1105,a_l,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\2263_i_n.npy,data\raw\normal\2263\vowels\2263-i_n.nsp,normal,0,2263,1198,i_n,w,19.7,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2415_a_h.npy,data\raw\vox_senilis\2415\vowels\2415-a_h.nsp,vox_senilis,1,2415,2549,a_h,w,74.7,6.484517304189436,val,,1,pathological
+data\processed\features\laryngozele\1449_u_n.npy,data\raw\laryngozele\1449\vowels\1449-u_n.nsp,laryngozele,1,1449,1633,u_n,m,43.1,169.52380952380952,val,Zustand nach Abtragung,1,pathological
+data\processed\features\normal\86_phrase.npy,data\raw\normal\86\sentences\86-phrase.nsp,normal,0,86,94,phrase,w,61.7,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\818_i_h.npy,data\raw\vox_senilis\818\vowels\818-i_h.nsp,vox_senilis,1,818,1430,i_h,m,72.1,6.484517304189436,val,"Multikausale Stimmstörung, Laryngitis, vox senilis, Schwerhörigkeit",1,pathological
+data\processed\features\vox_senilis\2110_u_h.npy,data\raw\vox_senilis\2110\vowels\2110-u_h.nsp,vox_senilis,1,2110,2299,u_h,w,77.6,6.484517304189436,val,"Laryngitis ist chronisch mit bds. beginnendem Reinke-Ödem, Nikotinabusus",1,pathological
+data\processed\features\vox_senilis\2522_a_n.npy,data\raw\vox_senilis\2522\vowels\2522-a_n.nsp,vox_senilis,1,2522,2656,a_n,w,84.1,6.484517304189436,val,,1,pathological
+data\processed\features\normal\2260_a_l.npy,data\raw\normal\2260\vowels\2260-a_l.nsp,normal,0,2260,1195,a_l,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\1147_i_n.npy,data\raw\normal\1147\vowels\1147-i_n.nsp,normal,0,1147,911,i_n,w,26.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2110_u_l.npy,data\raw\vox_senilis\2110\vowels\2110-u_l.nsp,vox_senilis,1,2110,2299,u_l,w,77.6,6.484517304189436,val,"Laryngitis ist chronisch mit bds. beginnendem Reinke-Ödem, Nikotinabusus",1,pathological
+data\processed\features\normal\86_a_n.npy,data\raw\normal\86\vowels\86-a_n.nsp,normal,0,86,94,a_n,w,61.7,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\1880_a_n.npy,data\raw\normal\1880\vowels\1880-a_n.nsp,normal,0,1880,1105,a_n,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\816_u_l.npy,data\raw\vox_senilis\816\vowels\816-u_l.nsp,vox_senilis,1,816,1428,u_l,w,70.9,6.484517304189436,val,Vox senilis,1,pathological
+data\processed\features\vox_senilis\2522_a_lhl.npy,data\raw\vox_senilis\2522\vowels\2522-a_lhl.nsp,vox_senilis,1,2522,2656,a_lhl,w,84.1,6.484517304189436,val,,1,pathological
+data\processed\features\vox_senilis\818_a_n.npy,data\raw\vox_senilis\818\vowels\818-a_n.nsp,vox_senilis,1,818,1430,a_n,m,72.1,6.484517304189436,val,"Multikausale Stimmstörung, Laryngitis, vox senilis, Schwerhörigkeit",1,pathological
+data\processed\features\normal\2263_u_n.npy,data\raw\normal\2263\vowels\2263-u_n.nsp,normal,0,2263,1198,u_n,w,19.7,0.3521266073194856,val,,0,healthy
+data\processed\features\laryngozele\1449_i_h.npy,data\raw\laryngozele\1449\vowels\1449-i_h.nsp,laryngozele,1,1449,1633,i_h,m,43.1,169.52380952380952,val,Zustand nach Abtragung,1,pathological
+data\processed\features\normal\861_u_lhl.npy,data\raw\normal\861\vowels\861-u_lhl.nsp,normal,0,861,734,u_lhl,m,22.2,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\86_u_h.npy,data\raw\normal\86\vowels\86-u_h.nsp,normal,0,86,94,u_h,w,61.7,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\2260_a_h.npy,data\raw\normal\2260\vowels\2260-a_h.nsp,normal,0,2260,1195,a_h,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2110_i_l.npy,data\raw\vox_senilis\2110\vowels\2110-i_l.nsp,vox_senilis,1,2110,2299,i_l,w,77.6,6.484517304189436,val,"Laryngitis ist chronisch mit bds. beginnendem Reinke-Ödem, Nikotinabusus",1,pathological
+data\processed\features\normal\86_i_n.npy,data\raw\normal\86\vowels\86-i_n.nsp,normal,0,86,94,i_n,w,61.7,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\86_u_l.npy,data\raw\normal\86\vowels\86-u_l.nsp,normal,0,86,94,u_l,w,61.7,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\2260_a_lhl.npy,data\raw\normal\2260\vowels\2260-a_lhl.nsp,normal,0,2260,1195,a_lhl,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\1147_u_lhl.npy,data\raw\normal\1147\vowels\1147-u_lhl.nsp,normal,0,1147,911,u_lhl,w,26.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\2260_u_n.npy,data\raw\normal\2260\vowels\2260-u_n.nsp,normal,0,2260,1195,u_n,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2415_phrase.npy,data\raw\vox_senilis\2415\sentences\2415-phrase.nsp,vox_senilis,1,2415,2549,phrase,w,74.7,6.484517304189436,val,,1,pathological
+data\processed\features\laryngozele\1449_i_n.npy,data\raw\laryngozele\1449\vowels\1449-i_n.nsp,laryngozele,1,1449,1633,i_n,m,43.1,169.52380952380952,val,Zustand nach Abtragung,1,pathological
+data\processed\features\vox_senilis\2110_a_l.npy,data\raw\vox_senilis\2110\vowels\2110-a_l.nsp,vox_senilis,1,2110,2299,a_l,w,77.6,6.484517304189436,val,"Laryngitis ist chronisch mit bds. beginnendem Reinke-Ödem, Nikotinabusus",1,pathological
+data\processed\features\laryngozele\1449_a_h.npy,data\raw\laryngozele\1449\vowels\1449-a_h.nsp,laryngozele,1,1449,1633,a_h,m,43.1,169.52380952380952,val,Zustand nach Abtragung,1,pathological
+data\processed\features\vox_senilis\2110_iau.npy,data\raw\vox_senilis\2110\vowels\2110-iau.nsp,vox_senilis,1,2110,2299,iau,w,77.6,6.484517304189436,val,"Laryngitis ist chronisch mit bds. beginnendem Reinke-Ödem, Nikotinabusus",1,pathological
+data\processed\features\normal\2260_u_h.npy,data\raw\normal\2260\vowels\2260-u_h.nsp,normal,0,2260,1195,u_h,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2110_i_h.npy,data\raw\vox_senilis\2110\vowels\2110-i_h.nsp,vox_senilis,1,2110,2299,i_h,w,77.6,6.484517304189436,val,"Laryngitis ist chronisch mit bds. beginnendem Reinke-Ödem, Nikotinabusus",1,pathological
+data\processed\features\vox_senilis\2522_u_h.npy,data\raw\vox_senilis\2522\vowels\2522-u_h.nsp,vox_senilis,1,2522,2656,u_h,w,84.1,6.484517304189436,val,,1,pathological
+data\processed\features\normal\861_iau.npy,data\raw\normal\861\vowels\861-iau.nsp,normal,0,861,734,iau,m,22.2,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\816_i_l.npy,data\raw\vox_senilis\816\vowels\816-i_l.nsp,vox_senilis,1,816,1428,i_l,w,70.9,6.484517304189436,val,Vox senilis,1,pathological
+data\processed\features\normal\1147_a_l.npy,data\raw\normal\1147\vowels\1147-a_l.nsp,normal,0,1147,911,a_l,w,26.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2055_u_h.npy,data\raw\vox_senilis\2055\vowels\2055-u_h.nsp,vox_senilis,1,2055,2244,u_h,m,81.7,6.484517304189436,val,,1,pathological
+data\processed\features\normal\2263_a_n.npy,data\raw\normal\2263\vowels\2263-a_n.nsp,normal,0,2263,1198,a_n,w,19.7,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\816_i_lhl.npy,data\raw\vox_senilis\816\vowels\816-i_lhl.nsp,vox_senilis,1,816,1428,i_lhl,w,70.9,6.484517304189436,val,Vox senilis,1,pathological
+data\processed\features\vox_senilis\2522_u_n.npy,data\raw\vox_senilis\2522\vowels\2522-u_n.nsp,vox_senilis,1,2522,2656,u_n,w,84.1,6.484517304189436,val,,1,pathological
+data\processed\features\vox_senilis\2055_u_l.npy,data\raw\vox_senilis\2055\vowels\2055-u_l.nsp,vox_senilis,1,2055,2244,u_l,m,81.7,6.484517304189436,val,,1,pathological
+data\processed\features\vox_senilis\2522_i_lhl.npy,data\raw\vox_senilis\2522\vowels\2522-i_lhl.nsp,vox_senilis,1,2522,2656,i_lhl,w,84.1,6.484517304189436,val,,1,pathological
+data\processed\features\normal\1880_u_lhl.npy,data\raw\normal\1880\vowels\1880-u_lhl.nsp,normal,0,1880,1105,u_lhl,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\816_a_l.npy,data\raw\vox_senilis\816\vowels\816-a_l.nsp,vox_senilis,1,816,1428,a_l,w,70.9,6.484517304189436,val,Vox senilis,1,pathological
+data\processed\features\vox_senilis\2055_a_l.npy,data\raw\vox_senilis\2055\vowels\2055-a_l.nsp,vox_senilis,1,2055,2244,a_l,m,81.7,6.484517304189436,val,,1,pathological
+data\processed\features\vox_senilis\2110_a_h.npy,data\raw\vox_senilis\2110\vowels\2110-a_h.nsp,vox_senilis,1,2110,2299,a_h,w,77.6,6.484517304189436,val,"Laryngitis ist chronisch mit bds. beginnendem Reinke-Ödem, Nikotinabusus",1,pathological
+data\processed\features\vox_senilis\2110_u_n.npy,data\raw\vox_senilis\2110\vowels\2110-u_n.nsp,vox_senilis,1,2110,2299,u_n,w,77.6,6.484517304189436,val,"Laryngitis ist chronisch mit bds. beginnendem Reinke-Ödem, Nikotinabusus",1,pathological
+data\processed\features\normal\2260_i_lhl.npy,data\raw\normal\2260\vowels\2260-i_lhl.nsp,normal,0,2260,1195,i_lhl,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2055_a_lhl.npy,data\raw\vox_senilis\2055\vowels\2055-a_lhl.nsp,vox_senilis,1,2055,2244,a_lhl,m,81.7,6.484517304189436,val,,1,pathological
+data\processed\features\normal\1880_i_lhl.npy,data\raw\normal\1880\vowels\1880-i_lhl.nsp,normal,0,1880,1105,i_lhl,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\818_i_n.npy,data\raw\vox_senilis\818\vowels\818-i_n.nsp,vox_senilis,1,818,1430,i_n,m,72.1,6.484517304189436,val,"Multikausale Stimmstörung, Laryngitis, vox senilis, Schwerhörigkeit",1,pathological
+data\processed\features\normal\861_i_h.npy,data\raw\normal\861\vowels\861-i_h.nsp,normal,0,861,734,i_h,m,22.2,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2110_phrase.npy,data\raw\vox_senilis\2110\sentences\2110-phrase.nsp,vox_senilis,1,2110,2299,phrase,w,77.6,6.484517304189436,val,"Laryngitis ist chronisch mit bds. beginnendem Reinke-Ödem, Nikotinabusus",1,pathological
+data\processed\features\normal\1147_u_l.npy,data\raw\normal\1147\vowels\1147-u_l.nsp,normal,0,1147,911,u_l,w,26.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2055_i_h.npy,data\raw\vox_senilis\2055\vowels\2055-i_h.nsp,vox_senilis,1,2055,2244,i_h,m,81.7,6.484517304189436,val,,1,pathological
+data\processed\features\normal\1147_i_h.npy,data\raw\normal\1147\vowels\1147-i_h.nsp,normal,0,1147,911,i_h,w,26.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\1880_u_n.npy,data\raw\normal\1880\vowels\1880-u_n.nsp,normal,0,1880,1105,u_n,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2415_i_h.npy,data\raw\vox_senilis\2415\vowels\2415-i_h.nsp,vox_senilis,1,2415,2549,i_h,w,74.7,6.484517304189436,val,,1,pathological
+data\processed\features\normal\1147_a_n.npy,data\raw\normal\1147\vowels\1147-a_n.nsp,normal,0,1147,911,a_n,w,26.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\2260_a_n.npy,data\raw\normal\2260\vowels\2260-a_n.nsp,normal,0,2260,1195,a_n,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\861_i_lhl.npy,data\raw\normal\861\vowels\861-i_lhl.nsp,normal,0,861,734,i_lhl,m,22.2,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2522_iau.npy,data\raw\vox_senilis\2522\vowels\2522-iau.nsp,vox_senilis,1,2522,2656,iau,w,84.1,6.484517304189436,val,,1,pathological
+data\processed\features\vox_senilis\2415_i_l.npy,data\raw\vox_senilis\2415\vowels\2415-i_l.nsp,vox_senilis,1,2415,2549,i_l,w,74.7,6.484517304189436,val,,1,pathological
+data\processed\features\vox_senilis\2415_a_l.npy,data\raw\vox_senilis\2415\vowels\2415-a_l.nsp,vox_senilis,1,2415,2549,a_l,w,74.7,6.484517304189436,val,,1,pathological
+data\processed\features\normal\1147_u_h.npy,data\raw\normal\1147\vowels\1147-u_h.nsp,normal,0,1147,911,u_h,w,26.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\818_a_l.npy,data\raw\vox_senilis\818\vowels\818-a_l.nsp,vox_senilis,1,818,1430,a_l,m,72.1,6.484517304189436,val,"Multikausale Stimmstörung, Laryngitis, vox senilis, Schwerhörigkeit",1,pathological
+data\processed\features\vox_senilis\2522_i_l.npy,data\raw\vox_senilis\2522\vowels\2522-i_l.nsp,vox_senilis,1,2522,2656,i_l,w,84.1,6.484517304189436,val,,1,pathological
+data\processed\features\normal\1147_phrase.npy,data\raw\normal\1147\sentences\1147-phrase.nsp,normal,0,1147,911,phrase,w,26.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2415_u_l.npy,data\raw\vox_senilis\2415\vowels\2415-u_l.nsp,vox_senilis,1,2415,2549,u_l,w,74.7,6.484517304189436,val,,1,pathological
+data\processed\features\normal\861_phrase.npy,data\raw\normal\861\sentences\861-phrase.nsp,normal,0,861,734,phrase,m,22.2,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\86_i_lhl.npy,data\raw\normal\86\vowels\86-i_lhl.nsp,normal,0,86,94,i_lhl,w,61.7,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\2263_a_l.npy,data\raw\normal\2263\vowels\2263-a_l.nsp,normal,0,2263,1198,a_l,w,19.7,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2110_i_lhl.npy,data\raw\vox_senilis\2110\vowels\2110-i_lhl.nsp,vox_senilis,1,2110,2299,i_lhl,w,77.6,6.484517304189436,val,"Laryngitis ist chronisch mit bds. beginnendem Reinke-Ödem, Nikotinabusus",1,pathological
+data\processed\features\normal\2260_phrase.npy,data\raw\normal\2260\sentences\2260-phrase.nsp,normal,0,2260,1195,phrase,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\2260_u_lhl.npy,data\raw\normal\2260\vowels\2260-u_lhl.nsp,normal,0,2260,1195,u_lhl,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2415_u_n.npy,data\raw\vox_senilis\2415\vowels\2415-u_n.nsp,vox_senilis,1,2415,2549,u_n,w,74.7,6.484517304189436,val,,1,pathological
+data\processed\features\vox_senilis\2522_phrase.npy,data\raw\vox_senilis\2522\sentences\2522-phrase.nsp,vox_senilis,1,2522,2656,phrase,w,84.1,6.484517304189436,val,,1,pathological
+data\processed\features\normal\1880_u_l.npy,data\raw\normal\1880\vowels\1880-u_l.nsp,normal,0,1880,1105,u_l,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\1880_i_n.npy,data\raw\normal\1880\vowels\1880-i_n.nsp,normal,0,1880,1105,i_n,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2415_i_n.npy,data\raw\vox_senilis\2415\vowels\2415-i_n.nsp,vox_senilis,1,2415,2549,i_n,w,74.7,6.484517304189436,val,,1,pathological
+data\processed\features\normal\861_u_l.npy,data\raw\normal\861\vowels\861-u_l.nsp,normal,0,861,734,u_l,m,22.2,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\861_i_n.npy,data\raw\normal\861\vowels\861-i_n.nsp,normal,0,861,734,i_n,m,22.2,0.3521266073194856,val,,0,healthy
+data\processed\features\laryngozele\1449_phrase.npy,data\raw\laryngozele\1449\sentences\1449-phrase.nsp,laryngozele,1,1449,1633,phrase,m,43.1,169.52380952380952,val,Zustand nach Abtragung,1,pathological
+data\processed\features\normal\2260_u_l.npy,data\raw\normal\2260\vowels\2260-u_l.nsp,normal,0,2260,1195,u_l,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2522_a_h.npy,data\raw\vox_senilis\2522\vowels\2522-a_h.nsp,vox_senilis,1,2522,2656,a_h,w,84.1,6.484517304189436,val,,1,pathological
+data\processed\features\laryngozele\1449_a_l.npy,data\raw\laryngozele\1449\vowels\1449-a_l.nsp,laryngozele,1,1449,1633,a_l,m,43.1,169.52380952380952,val,Zustand nach Abtragung,1,pathological
+data\processed\features\normal\861_i_l.npy,data\raw\normal\861\vowels\861-i_l.nsp,normal,0,861,734,i_l,m,22.2,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\818_i_lhl.npy,data\raw\vox_senilis\818\vowels\818-i_lhl.nsp,vox_senilis,1,818,1430,i_lhl,m,72.1,6.484517304189436,val,"Multikausale Stimmstörung, Laryngitis, vox senilis, Schwerhörigkeit",1,pathological
+data\processed\features\vox_senilis\2522_u_lhl.npy,data\raw\vox_senilis\2522\vowels\2522-u_lhl.nsp,vox_senilis,1,2522,2656,u_lhl,w,84.1,6.484517304189436,val,,1,pathological
+data\processed\features\normal\2263_iau.npy,data\raw\normal\2263\vowels\2263-iau.nsp,normal,0,2263,1198,iau,w,19.7,0.3521266073194856,val,,0,healthy
+data\processed\features\laryngozele\1449_u_h.npy,data\raw\laryngozele\1449\vowels\1449-u_h.nsp,laryngozele,1,1449,1633,u_h,m,43.1,169.52380952380952,val,Zustand nach Abtragung,1,pathological
+data\processed\features\vox_senilis\2415_u_lhl.npy,data\raw\vox_senilis\2415\vowels\2415-u_lhl.nsp,vox_senilis,1,2415,2549,u_lhl,w,74.7,6.484517304189436,val,,1,pathological
+data\processed\features\vox_senilis\818_a_h.npy,data\raw\vox_senilis\818\vowels\818-a_h.nsp,vox_senilis,1,818,1430,a_h,m,72.1,6.484517304189436,val,"Multikausale Stimmstörung, Laryngitis, vox senilis, Schwerhörigkeit",1,pathological
+data\processed\features\normal\86_iau.npy,data\raw\normal\86\vowels\86-iau.nsp,normal,0,86,94,iau,w,61.7,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\861_a_lhl.npy,data\raw\normal\861\vowels\861-a_lhl.nsp,normal,0,861,734,a_lhl,m,22.2,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\2260_iau.npy,data\raw\normal\2260\vowels\2260-iau.nsp,normal,0,2260,1195,iau,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\2263_a_h.npy,data\raw\normal\2263\vowels\2263-a_h.nsp,normal,0,2263,1198,a_h,w,19.7,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2415_u_h.npy,data\raw\vox_senilis\2415\vowels\2415-u_h.nsp,vox_senilis,1,2415,2549,u_h,w,74.7,6.484517304189436,val,,1,pathological
+data\processed\features\vox_senilis\2522_a_l.npy,data\raw\vox_senilis\2522\vowels\2522-a_l.nsp,vox_senilis,1,2522,2656,a_l,w,84.1,6.484517304189436,val,,1,pathological
+data\processed\features\normal\86_i_h.npy,data\raw\normal\86\vowels\86-i_h.nsp,normal,0,86,94,i_h,w,61.7,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\818_u_lhl.npy,data\raw\vox_senilis\818\vowels\818-u_lhl.nsp,vox_senilis,1,818,1430,u_lhl,m,72.1,6.484517304189436,val,"Multikausale Stimmstörung, Laryngitis, vox senilis, Schwerhörigkeit",1,pathological
+data\processed\features\vox_senilis\818_iau.npy,data\raw\vox_senilis\818\vowels\818-iau.nsp,vox_senilis,1,818,1430,iau,m,72.1,6.484517304189436,val,"Multikausale Stimmstörung, Laryngitis, vox senilis, Schwerhörigkeit",1,pathological
+data\processed\features\vox_senilis\2110_u_lhl.npy,data\raw\vox_senilis\2110\vowels\2110-u_lhl.nsp,vox_senilis,1,2110,2299,u_lhl,w,77.6,6.484517304189436,val,"Laryngitis ist chronisch mit bds. beginnendem Reinke-Ödem, Nikotinabusus",1,pathological
+data\processed\features\vox_senilis\2055_i_l.npy,data\raw\vox_senilis\2055\vowels\2055-i_l.nsp,vox_senilis,1,2055,2244,i_l,m,81.7,6.484517304189436,val,,1,pathological
+data\processed\features\normal\2263_u_l.npy,data\raw\normal\2263\vowels\2263-u_l.nsp,normal,0,2263,1198,u_l,w,19.7,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\1147_iau.npy,data\raw\normal\1147\vowels\1147-iau.nsp,normal,0,1147,911,iau,w,26.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\816_i_n.npy,data\raw\vox_senilis\816\vowels\816-i_n.nsp,vox_senilis,1,816,1428,i_n,w,70.9,6.484517304189436,val,Vox senilis,1,pathological
+data\processed\features\normal\1147_a_lhl.npy,data\raw\normal\1147\vowels\1147-a_lhl.nsp,normal,0,1147,911,a_lhl,w,26.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\818_phrase.npy,data\raw\vox_senilis\818\sentences\818-phrase.nsp,vox_senilis,1,818,1430,phrase,m,72.1,6.484517304189436,val,"Multikausale Stimmstörung, Laryngitis, vox senilis, Schwerhörigkeit",1,pathological
+data\processed\features\normal\2263_i_l.npy,data\raw\normal\2263\vowels\2263-i_l.nsp,normal,0,2263,1198,i_l,w,19.7,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\2260_i_l.npy,data\raw\normal\2260\vowels\2260-i_l.nsp,normal,0,2260,1195,i_l,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\861_u_h.npy,data\raw\normal\861\vowels\861-u_h.nsp,normal,0,861,734,u_h,m,22.2,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\2260_i_h.npy,data\raw\normal\2260\vowels\2260-i_h.nsp,normal,0,2260,1195,i_h,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\1147_i_l.npy,data\raw\normal\1147\vowels\1147-i_l.nsp,normal,0,1147,911,i_l,w,26.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2055_u_lhl.npy,data\raw\vox_senilis\2055\vowels\2055-u_lhl.nsp,vox_senilis,1,2055,2244,u_lhl,m,81.7,6.484517304189436,val,,1,pathological
+data\processed\features\laryngozele\1449_i_l.npy,data\raw\laryngozele\1449\vowels\1449-i_l.nsp,laryngozele,1,1449,1633,i_l,m,43.1,169.52380952380952,val,Zustand nach Abtragung,1,pathological
+data\processed\features\normal\861_u_n.npy,data\raw\normal\861\vowels\861-u_n.nsp,normal,0,861,734,u_n,m,22.2,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\816_iau.npy,data\raw\vox_senilis\816\vowels\816-iau.nsp,vox_senilis,1,816,1428,iau,w,70.9,6.484517304189436,val,Vox senilis,1,pathological
+data\processed\features\vox_senilis\816_u_h.npy,data\raw\vox_senilis\816\vowels\816-u_h.nsp,vox_senilis,1,816,1428,u_h,w,70.9,6.484517304189436,val,Vox senilis,1,pathological
+data\processed\features\laryngozele\1449_iau.npy,data\raw\laryngozele\1449\vowels\1449-iau.nsp,laryngozele,1,1449,1633,iau,m,43.1,169.52380952380952,val,Zustand nach Abtragung,1,pathological
+data\processed\features\normal\1147_i_lhl.npy,data\raw\normal\1147\vowels\1147-i_lhl.nsp,normal,0,1147,911,i_lhl,w,26.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\1147_u_n.npy,data\raw\normal\1147\vowels\1147-u_n.nsp,normal,0,1147,911,u_n,w,26.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\86_a_lhl.npy,data\raw\normal\86\vowels\86-a_lhl.nsp,normal,0,86,94,a_lhl,w,61.7,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\816_a_h.npy,data\raw\vox_senilis\816\vowels\816-a_h.nsp,vox_senilis,1,816,1428,a_h,w,70.9,6.484517304189436,val,Vox senilis,1,pathological
+data\processed\features\vox_senilis\2415_iau.npy,data\raw\vox_senilis\2415\vowels\2415-iau.nsp,vox_senilis,1,2415,2549,iau,w,74.7,6.484517304189436,val,,1,pathological
+data\processed\features\normal\1880_a_lhl.npy,data\raw\normal\1880\vowels\1880-a_lhl.nsp,normal,0,1880,1105,a_lhl,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\861_a_l.npy,data\raw\normal\861\vowels\861-a_l.nsp,normal,0,861,734,a_l,m,22.2,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\816_a_n.npy,data\raw\vox_senilis\816\vowels\816-a_n.nsp,vox_senilis,1,816,1428,a_n,w,70.9,6.484517304189436,val,Vox senilis,1,pathological
+data\processed\features\vox_senilis\2415_i_lhl.npy,data\raw\vox_senilis\2415\vowels\2415-i_lhl.nsp,vox_senilis,1,2415,2549,i_lhl,w,74.7,6.484517304189436,val,,1,pathological
+data\processed\features\vox_senilis\816_u_n.npy,data\raw\vox_senilis\816\vowels\816-u_n.nsp,vox_senilis,1,816,1428,u_n,w,70.9,6.484517304189436,val,Vox senilis,1,pathological
+data\processed\features\vox_senilis\816_u_lhl.npy,data\raw\vox_senilis\816\vowels\816-u_lhl.nsp,vox_senilis,1,816,1428,u_lhl,w,70.9,6.484517304189436,val,Vox senilis,1,pathological
+data\processed\features\normal\86_i_l.npy,data\raw\normal\86\vowels\86-i_l.nsp,normal,0,86,94,i_l,w,61.7,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\2263_u_lhl.npy,data\raw\normal\2263\vowels\2263-u_lhl.nsp,normal,0,2263,1198,u_lhl,w,19.7,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2055_i_n.npy,data\raw\vox_senilis\2055\vowels\2055-i_n.nsp,vox_senilis,1,2055,2244,i_n,m,81.7,6.484517304189436,val,,1,pathological
+data\processed\features\normal\2263_i_lhl.npy,data\raw\normal\2263\vowels\2263-i_lhl.nsp,normal,0,2263,1198,i_lhl,w,19.7,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\818_u_h.npy,data\raw\vox_senilis\818\vowels\818-u_h.nsp,vox_senilis,1,818,1430,u_h,m,72.1,6.484517304189436,val,"Multikausale Stimmstörung, Laryngitis, vox senilis, Schwerhörigkeit",1,pathological
+data\processed\features\normal\86_a_l.npy,data\raw\normal\86\vowels\86-a_l.nsp,normal,0,86,94,a_l,w,61.7,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\2263_i_h.npy,data\raw\normal\2263\vowels\2263-i_h.nsp,normal,0,2263,1198,i_h,w,19.7,0.3521266073194856,val,,0,healthy
+data\processed\features\laryngozele\1449_a_n.npy,data\raw\laryngozele\1449\vowels\1449-a_n.nsp,laryngozele,1,1449,1633,a_n,m,43.1,169.52380952380952,val,Zustand nach Abtragung,1,pathological
+data\processed\features\normal\1880_i_l.npy,data\raw\normal\1880\vowels\1880-i_l.nsp,normal,0,1880,1105,i_l,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\86_a_h.npy,data\raw\normal\86\vowels\86-a_h.nsp,normal,0,86,94,a_h,w,61.7,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\818_i_l.npy,data\raw\vox_senilis\818\vowels\818-i_l.nsp,vox_senilis,1,818,1430,i_l,m,72.1,6.484517304189436,val,"Multikausale Stimmstörung, Laryngitis, vox senilis, Schwerhörigkeit",1,pathological
+data\processed\features\vox_senilis\2415_a_lhl.npy,data\raw\vox_senilis\2415\vowels\2415-a_lhl.nsp,vox_senilis,1,2415,2549,a_lhl,w,74.7,6.484517304189436,val,,1,pathological
+data\processed\features\normal\2260_i_n.npy,data\raw\normal\2260\vowels\2260-i_n.nsp,normal,0,2260,1195,i_n,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\816_a_lhl.npy,data\raw\vox_senilis\816\vowels\816-a_lhl.nsp,vox_senilis,1,816,1428,a_lhl,w,70.9,6.484517304189436,val,Vox senilis,1,pathological
+data\processed\features\vox_senilis\818_a_lhl.npy,data\raw\vox_senilis\818\vowels\818-a_lhl.nsp,vox_senilis,1,818,1430,a_lhl,m,72.1,6.484517304189436,val,"Multikausale Stimmstörung, Laryngitis, vox senilis, Schwerhörigkeit",1,pathological
+data\processed\features\normal\1147_a_h.npy,data\raw\normal\1147\vowels\1147-a_h.nsp,normal,0,1147,911,a_h,w,26.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\2263_u_h.npy,data\raw\normal\2263\vowels\2263-u_h.nsp,normal,0,2263,1198,u_h,w,19.7,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2522_i_n.npy,data\raw\vox_senilis\2522\vowels\2522-i_n.nsp,vox_senilis,1,2522,2656,i_n,w,84.1,6.484517304189436,val,,1,pathological
+data\processed\features\vox_senilis\2415_a_n.npy,data\raw\vox_senilis\2415\vowels\2415-a_n.nsp,vox_senilis,1,2415,2549,a_n,w,74.7,6.484517304189436,val,,1,pathological
+data\processed\features\vox_senilis\2522_u_l.npy,data\raw\vox_senilis\2522\vowels\2522-u_l.nsp,vox_senilis,1,2522,2656,u_l,w,84.1,6.484517304189436,val,,1,pathological
+data\processed\features\vox_senilis\2055_iau.npy,data\raw\vox_senilis\2055\vowels\2055-iau.nsp,vox_senilis,1,2055,2244,iau,m,81.7,6.484517304189436,val,,1,pathological
+data\processed\features\vox_senilis\2055_a_h.npy,data\raw\vox_senilis\2055\vowels\2055-a_h.nsp,vox_senilis,1,2055,2244,a_h,m,81.7,6.484517304189436,val,,1,pathological
+data\processed\features\vox_senilis\2110_a_n.npy,data\raw\vox_senilis\2110\vowels\2110-a_n.nsp,vox_senilis,1,2110,2299,a_n,w,77.6,6.484517304189436,val,"Laryngitis ist chronisch mit bds. beginnendem Reinke-Ödem, Nikotinabusus",1,pathological
+data\processed\features\laryngozele\1449_a_lhl.npy,data\raw\laryngozele\1449\vowels\1449-a_lhl.nsp,laryngozele,1,1449,1633,a_lhl,m,43.1,169.52380952380952,val,Zustand nach Abtragung,1,pathological
+data\processed\features\normal\861_a_n.npy,data\raw\normal\861\vowels\861-a_n.nsp,normal,0,861,734,a_n,m,22.2,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2110_i_n.npy,data\raw\vox_senilis\2110\vowels\2110-i_n.nsp,vox_senilis,1,2110,2299,i_n,w,77.6,6.484517304189436,val,"Laryngitis ist chronisch mit bds. beginnendem Reinke-Ödem, Nikotinabusus",1,pathological
+data\processed\features\vox_senilis\818_u_n.npy,data\raw\vox_senilis\818\vowels\818-u_n.nsp,vox_senilis,1,818,1430,u_n,m,72.1,6.484517304189436,val,"Multikausale Stimmstörung, Laryngitis, vox senilis, Schwerhörigkeit",1,pathological
+data\processed\features\normal\1880_i_h.npy,data\raw\normal\1880\vowels\1880-i_h.nsp,normal,0,1880,1105,i_h,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\normal\861_a_h.npy,data\raw\normal\861\vowels\861-a_h.nsp,normal,0,861,734,a_h,m,22.2,0.3521266073194856,val,,0,healthy
+data\processed\features\vox_senilis\2055_i_lhl.npy,data\raw\vox_senilis\2055\vowels\2055-i_lhl.nsp,vox_senilis,1,2055,2244,i_lhl,m,81.7,6.484517304189436,val,,1,pathological
+data\processed\features\normal\1880_phrase.npy,data\raw\normal\1880\sentences\1880-phrase.nsp,normal,0,1880,1105,phrase,w,20.0,0.3521266073194856,val,,0,healthy
+data\processed\features\laryngozele\1449_i_lhl.npy,data\raw\laryngozele\1449\vowels\1449-i_lhl.nsp,laryngozele,1,1449,1633,i_lhl,m,43.1,169.52380952380952,val,Zustand nach Abtragung,1,pathological
+data\processed\features\vox_senilis\818_u_l.npy,data\raw\vox_senilis\818\vowels\818-u_l.nsp,vox_senilis,1,818,1430,u_l,m,72.1,6.484517304189436,val,"Multikausale Stimmstörung, Laryngitis, vox senilis, Schwerhörigkeit",1,pathological
+data\processed\features\vox_senilis\2055_a_n.npy,data\raw\vox_senilis\2055\vowels\2055-a_n.nsp,vox_senilis,1,2055,2244,a_n,m,81.7,6.484517304189436,val,,1,pathological

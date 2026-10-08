@@ -1,0 +1,237 @@
+================================================================================
+SAARBRUECKEN VOICE DATABASE (SVD) - RAW DATASET STRUCTURE REPORT
+Path: data/raw (laryngozele, vox_senilis, normal)
+Generated: 2026-09-22
+================================================================================
+
+1. EXECUTIVE SUMMARY
+--------------------------------------------------------------------------------
+This report provides a structural and acoustic analysis of the three raw SVD
+dataset classes located in `data/raw`:
+  - `data/raw/laryngozele`
+  - `data/raw/vox_senilis`
+  - `data/raw/normal`
+
+Key Summary Findings:
+  * Total on-disk session folders: 730 sessions across the 3 classes.
+  * Total unique speakers on disk: 722 individual patients/speakers.
+  * Total audio recordings: 10,155 KayPENTAX CSL `.nsp` files + 10,155 companion
+    `.egg` (electroglottograph) files = 20,310 raw signal files.
+  * Acoustic Sample Rate: Exactly 50,000 Hz (50 kHz) across 100% of all 10,155
+    NSP files (verified programmatically with 0 corrupted files).
+  * Audio Format: 16-bit signed PCM integer (mono acoustic channel).
+  * Critical Splitting Requirement: Splitting MUST be performed strictly by
+    `SprecherID` (Speaker/Patient ID), NOT by file or session ID (`AufnahmeID`),
+    to prevent severe patient identity leakage.
+  * Critical Cross-Class Anomaly: Speaker ID 73 appears in BOTH `normal` (session 70)
+    and `vox_senilis` (session 148), which requires explicit handling.
+
+
+2. UNIQUE SESSIONS AND SPEAKERS PER CLASS (QUESTION 1)
+--------------------------------------------------------------------------------
+The dataset was cross-verified across `overview.csv` records and actual on-disk
+folders:
+
++--------------+----------+----------+----------+----------+-------------------+
+| Class        | CSV Rows | Disk Dir | Unique   | Unique   | Multi-Session     |
+|              |          | Count    | Sessions | Speakers | Speakers (Disk)   |
++--------------+----------+----------+----------+----------+-------------------+
+| Laryngozele  | 3        | 3        | 3        | 3        | None (0)          |
+| Vox Senilis  | 40       | 40       | 40       | 39       | Speaker 1445 (2)  |
+| Normal       | 869      | 687      | 687      | 681      | 5 speakers (11)   |
++--------------+----------+----------+----------+----------+-------------------+
+| TOTAL ON DISK| 912      | 730      | 730      | 722*     | 6 speakers (13)   |
++--------------+----------+----------+----------+----------+-------------------+
+*Note on Total Speakers: 722 unique speakers on disk because Speaker 73 is
+shared between normal and vox_senilis (3 + 39 + 681 - 1 = 722).
+
+Class-by-Class Details:
+  a) Laryngozele (Pathology: Air sac enlargement in larynx):
+     - On-Disk Sessions: 3 (IDs: 1205, 1449, 1981)
+     - Unique Speakers: 3 (IDs: 1602, 1633, 2191)
+     - Note: Extreme minority class representing an acute clinical rarity.
+
+  b) Vox Senilis (Pathology: Age-related vocal cord atrophy / presbyphonia):
+     - On-Disk Sessions: 40 sessions.
+     - Unique Speakers: 39 patients.
+     - Multi-session patient: Speaker 1445 has 2 distinct sessions:
+       * Session 846 (recorded 1998-07-01)
+       * Session 1159 (recorded 1998-12-09)
+
+  c) Normal (Healthy controls):
+     - On-Disk Sessions: 687 sessions.
+     - Unique Speakers on Disk: 681 individuals.
+     - Multi-session speakers on disk (5 speakers accounting for 11 sessions):
+       * Speaker 46: 3 sessions (IDs: 46, 746, 747)
+       * Speaker 12: 2 sessions (IDs: 10, 735)
+       * Speaker 23: 2 sessions (IDs: 22, 738)
+       * Speaker 1089: 2 sessions (IDs: 1111, 1112)
+       * Speaker 1912: 2 sessions (IDs: 1917, 1918)
+     - CSV vs Disk Discrepancy: `normal/overview.csv` lists 869 sessions, but
+       exactly 687 are present on disk. Inspection of `healthy.zip` confirmed
+       that the zip archive itself contains exactly 687 numeric session folders.
+       The extraction is 100% complete relative to the archive; the remaining
+       182 sessions are catalog references from the original SVD database not
+       included in this archive distribution.
+
+  d) Cross-Class Patient Overlap (Critical Finding):
+     - Speaker ID 73: Female, DOB 1924-08-25.
+       * Recorded on 1998-01-12 as session 70 in `normal` (Class: Healthy Control).
+       * Recorded on 1998-02-11 (1 month later) as session 148 in `vox_senilis`
+         (Class: Vox senilis).
+     - Impact: If this patient is not handled, models will experience cross-class
+       contamination during evaluation.
+
+
+3. INTERNAL SESSION & RECORDING ORGANIZATION (QUESTION 2)
+--------------------------------------------------------------------------------
+Each session is stored in a root directory named after its numeric `AufnahmeID`
+(e.g., `data/raw/laryngozele/1205/`).
+
+Directory Structure within a Session:
+  `<AufnahmeID>/`
+    ├── `vowels/`     (Contains sustained vowel phonations)
+    ├── `sentences/`  (Contains continuous speech phrase recording)
+    └── `remarks/`    (Optional: phonetician notes in .txt, present in 168 sessions)
+
+Audio and Signal File Pairs:
+  Every acoustic recording (`.nsp`) has a companion electroglottography (`.egg`)
+  file with identical naming and synchronized duration.
+
+Standard Session Inventory (14 NSP + 14 EGG = 28 files):
+  1. Sustained Vowels (13 files in `vowels/`):
+     - /a/: `{id}-a_n.nsp` (normal), `{id}-a_l.nsp` (low), `{id}-a_h.nsp` (high), `{id}-a_lhl.nsp` (gliding: low-high-low)
+     - /i/: `{id}-i_n.nsp` (normal), `{id}-i_l.nsp` (low), `{id}-i_h.nsp` (high), `{id}-i_lhl.nsp` (gliding: low-high-low)
+     - /u/: `{id}-u_n.nsp` (normal), `{id}-u_l.nsp` (low), `{id}-u_h.nsp` (high), `{id}-u_lhl.nsp` (gliding: low-high-low)
+     - Continuous Vowel Sequence: `{id}-iau.nsp` (/i-a-u/ continuous gliding)
+  2. Continuous Speech Phrase (1 file in `sentences/`):
+     - Standard German diagnostic sentence: `{id}-phrase.nsp`
+       ("Guten Morgen, wie geht es Ihnen?" / "Good morning, how are you?")
+
+Observed Variations and Incomplete Sessions:
+  - Full sessions (14 NSP + 14 EGG files): 675 sessions
+  - 13 NSP files (Missing `sentences/phrase`): 53 normal sessions lack the
+    `sentences` folder and contain only the 13 vowel recordings.
+  - Vox Senilis Session 2319: Contains 5 NSP files (`phrase`, `a_n`, `i_n`,
+    `u_n`, `iau`). The low, high, and gliding pitch files were not captured.
+  - Vox Senilis Session 2569: Contains 11 NSP files (missing the 3 gliding
+    pitch files: `a_lhl`, `i_lhl`, `u_lhl`).
+  - Remarks: 168 sessions (all in `normal`) contain a `remarks/` directory with
+    a text file (`{id}-remarks.txt`) detailing recording remarks (e.g.,
+    interrupted sentence, dialect pronunciation, or labeling notes).
+
+
+4. METADATA FIELDS IN OVERVIEW.CSV (QUESTION 3)
+--------------------------------------------------------------------------------
+The `overview.csv` files in all three class folders share the identical 8-column
+schema:
+
+  1. `AufnahmeID`   [Integer]:
+     Unique Recording / Session ID (matches the folder name on disk).
+  2. `AufnahmeTyp`  [String]:
+     Recording type code: 'p' = pathological, 'n' = normal / healthy control.
+  3. `AufnahmeDatum` [Date, YYYY-MM-DD]:
+     Date on which the acoustic session was recorded.
+  4. `Diagnose`      [String, Free text]:
+     Clinical diagnosis description in German (e.g., "Mit Stimmschwäche",
+     "Zustand nach Abtragung"). Empty for normal controls.
+  5. `SprecherID`   [Integer]:
+     Unique Patient / Speaker ID. Critical field for group-based data splitting.
+  6. `Geburtsdatum`  [Date, YYYY-MM-DD]:
+     Date of birth of the patient. Combined with `AufnahmeDatum`, this enables
+     exact decimal age calculation at the time of recording.
+  7. `Geschlecht`    [String, 'm' / 'w']:
+     Biological sex: 'm' = männlich (male), 'w' = weiblich (female).
+  8. `Pathologien`   [String]:
+     Standard pathology classification tag (e.g., "Laryngozele", "Vox senilis",
+     or blank for healthy controls).
+
+Demographic Distributions Derived from Metadata (for on-disk sessions):
+  - Laryngozele (3 sessions / 3 speakers):
+    * Gender: 3 Male (100%), 0 Female (0%)
+    * Age: Min 43.1 yrs, Max 63.8 yrs, Mean 51.3 yrs, Median 47.0 yrs
+  - Vox Senilis (40 sessions / 39 speakers):
+    * Gender: 27 Female sessions (67.5%), 13 Male sessions (32.5%)
+    * Age: Min 30.7 yrs, Max 89.0 yrs, Mean 73.3 yrs, Median 75.2 yrs
+  - Normal (687 sessions / 681 speakers):
+    * Gender: 428 Female sessions (62.3%), 259 Male sessions (37.7%)
+    * Age: Min 9.6 yrs, Max 84.4 yrs, Mean 27.9 yrs, Median 22.6 yrs
+
+
+5. DATA LEAKAGE ANALYSIS & TRAIN/VAL/TEST SPLITTING (QUESTION 4)
+--------------------------------------------------------------------------------
+Can metadata be used to create splits and prevent data leakage?
+YES, the metadata is fully sufficient, but standard naive random splitting will
+CAUSE SEVERE DATA LEAKAGE and CONFOUNDING BIAS.
+
+Key Leakage Vectors & Solutions:
+
+  A. File-Level Leakage (Intra-Session Leakage):
+     - Each session contains up to 14 audio files. If files are randomly split,
+       different pitch recordings from the same person will be present in both
+       train and test sets.
+     - Solution: NEVER split at the audio file level.
+
+  B. Session-Level vs. Patient-Level Leakage:
+     - 6 speakers in the dataset have multiple recording sessions across dates.
+     - If splits are grouped by `AufnahmeID` (session), the same patient's voice
+       will leak into both train and test.
+     - Solution: Grouping MUST be performed strictly on `SprecherID`.
+
+  C. Cross-Class Patient Contamination:
+     - Speaker 73 is present in both Normal and Vox Senilis.
+     - Solution: Speaker 73 must be quarantined, assigned exclusively to one
+       split partition, or excluded from the evaluation set to prevent
+       contradictory ground truth targets for the same vocal anatomy.
+
+  D. Severe Demographic Confounding (Age and Gender Bias):
+     - Vox Senilis patients are elderly (mean age 73.3 years).
+     - Normal controls are predominantly young university students (mean age 27.9).
+     - A machine learning model trained naively on raw acoustic features will
+       inadvertently classify *chronological age* rather than *pathology*.
+     - Solution: Normal controls should be age- and gender-matched or stratified
+       using `Geburtsdatum`, `AufnahmeDatum`, and `Geschlecht` metadata.
+
+  E. Extreme Class Imbalance:
+     - Class distribution: Laryngozele (3) vs. Vox Senilis (39) vs. Normal (681).
+     - With only 3 Laryngozele patients, standard 70/15/15 random splitting is
+       statistically invalid (only 1 sample per split or 0 in test).
+     - Solution: Leave-One-Patient-Out Cross-Validation (LOPO-CV) or Stratified
+       Group K-Fold with specialized few-shot / anomaly-detection evaluation.
+
+
+6. CONFIRMED SAMPLE RATE & RECORDING SPECIFICATIONS (QUESTION 5)
+--------------------------------------------------------------------------------
+A programmatical inspection of all 10,155 `.nsp` files in the dataset confirmed:
+
+  * File Container: KayPENTAX CSL NSP format (`FORMDS16` RIFF-derivative).
+  * Sampling Rate: 50,000 Hz (50 kHz) - 100% uniform across all 10,155 files.
+    No alternative sample rates (such as 25 kHz or 44.1 kHz) were found.
+  * Audio Encoding: 16-bit signed integer linear PCM (`int16`, little-endian).
+  * Channel Architecture: 1 acoustic channel (mono) stored in subchunk `SDA_`.
+  * Synchronous EGG Signal: Electroglottographic contact signal captured in
+    parallel at 50,000 Hz in `.egg` format.
+  * Recording Duration:
+    - Minimum duration: 0.32 seconds (16,000 samples)
+    - Maximum duration: 82.64 seconds (4,132,000 samples)
+    - Average duration: 3.59 seconds (179,500 samples)
+    - Typical vowel duration: 1.0 to 2.5 seconds
+    - Typical sentence duration: 1.5 to 4.5 seconds
+  * Recording Hardware / Environment: Kay Elemetrics / Pentax CSL 4300B system,
+    captured in sound-treated phonetics laboratory environment at University
+    Hospital of Saarland.
+  * File Integrity: 0 corruptions detected among 10,155 `.nsp` files.
+
+
+7. CONCLUSION & NEXT STEPS
+--------------------------------------------------------------------------------
+1. Audio loading pipelines in `src/preprocessing/audio_preprocessor.py` should
+   utilize `nspfile.read()` to extract 50 kHz `int16` mono arrays.
+2. An official resampling target (e.g., 16,000 Hz or 22,050 Hz) should be
+   applied during preprocessing to optimize downstream spectrogram and feature
+   computation.
+3. Dataset splitting scripts should read `overview.csv` and group splits by
+   `SprecherID` while stratifying/filtering for age and handling Speaker 73.
+4. No models were trained or evaluated during this inspection, in compliance
+   with user instructions.
+================================================================================

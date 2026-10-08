@@ -1,0 +1,744 @@
+feature_path,audio_path,class_name,class_label,session_id,speaker_id,vowel_type,gender,age,sample_weight,split,diagnosis
+data\processed\features\normal\59_i_h.npy,data\raw\normal\59\vowels\59-i_h.nsp,normal,0,59,59,i_h,m,21.2,0.3521266073194856,train,
+data\processed\features\normal\1573_iau.npy,data\raw\normal\1573\vowels\1573-iau.nsp,normal,0,1573,1027,iau,m,21.4,0.3521266073194856,train,
+data\processed\features\normal\972_i_h.npy,data\raw\normal\972\vowels\972-i_h.nsp,normal,0,972,776,i_h,m,27.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\899_u_lhl.npy,data\raw\vox_senilis\899\vowels\899-u_lhl.nsp,vox_senilis,2,899,1491,u_lhl,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts
+data\processed\features\vox_senilis\2307_i_h.npy,data\raw\vox_senilis\2307\vowels\2307-i_h.nsp,vox_senilis,2,2307,2441,i_h,w,76.0,6.484517304189436,train,
+data\processed\features\vox_senilis\1478_u_l.npy,data\raw\vox_senilis\1478\vowels\1478-u_l.nsp,vox_senilis,2,1478,1826,u_l,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis"
+data\processed\features\vox_senilis\933_a_lhl.npy,data\raw\vox_senilis\933\vowels\933-a_lhl.nsp,vox_senilis,2,933,1525,a_lhl,w,79.7,6.484517304189436,train,Stimmlippenvarizen links
+data\processed\features\normal\1121_a_l.npy,data\raw\normal\1121\vowels\1121-a_l.nsp,normal,0,1121,882,a_l,w,25.3,0.3521266073194856,train,
+data\processed\features\normal\1542_a_lhl.npy,data\raw\normal\1542\vowels\1542-a_lhl.nsp,normal,0,1542,1023,a_lhl,w,20.1,0.3521266073194856,train,
+data\processed\features\normal\688_phrase.npy,data\raw\normal\688\sentences\688-phrase.nsp,normal,0,688,616,phrase,w,19.7,0.3521266073194856,train,
+data\processed\features\normal\984_i_n.npy,data\raw\normal\984\vowels\984-i_n.nsp,normal,0,984,790,i_n,m,32.2,0.3521266073194856,train,
+data\processed\features\laryngozele\1205_a_h.npy,data\raw\laryngozele\1205\vowels\1205-a_h.nsp,laryngozele,1,1205,1602,a_h,m,47.0,169.52380952380952,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B."
+data\processed\features\vox_senilis\2596_i_l.npy,data\raw\vox_senilis\2596\vowels\2596-i_l.nsp,vox_senilis,2,2596,2336,i_l,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend"
+data\processed\features\vox_senilis\1971_a_lhl.npy,data\raw\vox_senilis\1971\vowels\1971-a_lhl.nsp,vox_senilis,2,1971,2180,a_lhl,w,78.0,6.484517304189436,train,Intermediärschwäche
+data\processed\features\normal\1542_i_h.npy,data\raw\normal\1542\vowels\1542-i_h.nsp,normal,0,1542,1023,i_h,w,20.1,0.3521266073194856,train,
+data\processed\features\normal\1060_a_l.npy,data\raw\normal\1060\vowels\1060-a_l.nsp,normal,0,1060,837,a_l,w,21.1,0.3521266073194856,train,
+data\processed\features\vox_senilis\360_a_n.npy,data\raw\vox_senilis\360\vowels\360-a_n.nsp,vox_senilis,2,360,1347,a_n,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset"
+data\processed\features\vox_senilis\2564_i_l.npy,data\raw\vox_senilis\2564\vowels\2564-i_l.nsp,vox_senilis,2,2564,2007,i_l,w,61.8,6.484517304189436,train,"Kompensiert, alte"
+data\processed\features\vox_senilis\2303_u_l.npy,data\raw\vox_senilis\2303\vowels\2303-u_l.nsp,vox_senilis,2,2303,2420,u_l,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps
+data\processed\features\normal\59_phrase.npy,data\raw\normal\59\sentences\59-phrase.nsp,normal,0,59,59,phrase,m,21.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1220_u_l.npy,data\raw\vox_senilis\1220\vowels\1220-u_l.nsp,vox_senilis,2,1220,1608,u_l,m,76.7,6.484517304189436,train,Vox senilis
+data\processed\features\vox_senilis\1971_u_l.npy,data\raw\vox_senilis\1971\vowels\1971-u_l.nsp,vox_senilis,2,1971,2180,u_l,w,78.0,6.484517304189436,train,Intermediärschwäche
+data\processed\features\normal\998_phrase.npy,data\raw\normal\998\sentences\998-phrase.nsp,normal,0,998,792,phrase,m,29.3,0.3521266073194856,train,
+data\processed\features\normal\1214_u_h.npy,data\raw\normal\1214\vowels\1214-u_h.nsp,normal,0,1214,938,u_h,w,31.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\2307_u_n.npy,data\raw\vox_senilis\2307\vowels\2307-u_n.nsp,vox_senilis,2,2307,2441,u_n,w,76.0,6.484517304189436,train,
+data\processed\features\normal\1060_phrase.npy,data\raw\normal\1060\sentences\1060-phrase.nsp,normal,0,1060,837,phrase,w,21.1,0.3521266073194856,train,
+data\processed\features\vox_senilis\846_a_lhl.npy,data\raw\vox_senilis\846\vowels\846-a_lhl.nsp,vox_senilis,2,846,1445,a_lhl,w,68.7,6.484517304189436,train,Subglottale Cyste
+data\processed\features\vox_senilis\2421_u_lhl.npy,data\raw\vox_senilis\2421\vowels\2421-u_lhl.nsp,vox_senilis,2,2421,2555,u_lhl,w,87.6,6.484517304189436,train,
+data\processed\features\vox_senilis\2564_a_h.npy,data\raw\vox_senilis\2564\vowels\2564-a_h.nsp,vox_senilis,2,2564,2007,a_h,w,61.8,6.484517304189436,train,"Kompensiert, alte"
+data\processed\features\vox_senilis\1819_u_n.npy,data\raw\vox_senilis\1819\vowels\1819-u_n.nsp,vox_senilis,2,1819,2084,u_n,m,66.6,6.484517304189436,train,Ohne Reflux
+data\processed\features\vox_senilis\2509_a_lhl.npy,data\raw\vox_senilis\2509\vowels\2509-a_lhl.nsp,vox_senilis,2,2509,2643,a_lhl,w,63.9,6.484517304189436,train,
+data\processed\features\vox_senilis\1478_i_lhl.npy,data\raw\vox_senilis\1478\vowels\1478-i_lhl.nsp,vox_senilis,2,1478,1826,i_lhl,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis"
+data\processed\features\normal\16_i_n.npy,data\raw\normal\16\vowels\16-i_n.nsp,normal,0,16,18,i_n,w,19.9,0.3521266073194856,train,
+data\processed\features\vox_senilis\2003_i_h.npy,data\raw\vox_senilis\2003\vowels\2003-i_h.nsp,vox_senilis,2,2003,2212,i_h,m,77.6,6.484517304189436,train,Laryngitis subglottisch
+data\processed\features\normal\87_a_h.npy,data\raw\normal\87\vowels\87-a_h.nsp,normal,0,87,97,a_h,m,68.7,0.3521266073194856,train,
+data\processed\features\normal\1072_u_lhl.npy,data\raw\normal\1072\vowels\1072-u_lhl.nsp,normal,0,1072,851,u_lhl,m,32.5,0.3521266073194856,train,
+data\processed\features\normal\1513_a_l.npy,data\raw\normal\1513\vowels\1513-a_l.nsp,normal,0,1513,996,a_l,w,20.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\933_i_lhl.npy,data\raw\vox_senilis\933\vowels\933-i_lhl.nsp,vox_senilis,2,933,1525,i_lhl,w,79.7,6.484517304189436,train,Stimmlippenvarizen links
+data\processed\features\vox_senilis\2303_a_h.npy,data\raw\vox_senilis\2303\vowels\2303-a_h.nsp,vox_senilis,2,2303,2420,a_h,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps
+data\processed\features\normal\16_a_n.npy,data\raw\normal\16\vowels\16-a_n.nsp,normal,0,16,18,a_n,w,19.9,0.3521266073194856,train,
+data\processed\features\vox_senilis\1220_iau.npy,data\raw\vox_senilis\1220\vowels\1220-iau.nsp,vox_senilis,2,1220,1608,iau,m,76.7,6.484517304189436,train,Vox senilis
+data\processed\features\vox_senilis\2569_a_l.npy,data\raw\vox_senilis\2569\vowels\2569-a_l.nsp,vox_senilis,2,2569,2703,a_l,w,73.9,6.484517304189436,train,"Zustand nach Strumektomie, keine Rekurrensparese"
+data\processed\features\vox_senilis\933_i_n.npy,data\raw\vox_senilis\933\vowels\933-i_n.nsp,vox_senilis,2,933,1525,i_n,w,79.7,6.484517304189436,train,Stimmlippenvarizen links
+data\processed\features\vox_senilis\1478_i_h.npy,data\raw\vox_senilis\1478\vowels\1478-i_h.nsp,vox_senilis,2,1478,1826,i_h,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis"
+data\processed\features\normal\125_u_lhl.npy,data\raw\normal\125\vowels\125-u_lhl.nsp,normal,0,125,132,u_lhl,w,20.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\1338_i_n.npy,data\raw\vox_senilis\1338\vowels\1338-i_n.nsp,vox_senilis,2,1338,1720,i_n,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom"
+data\processed\features\normal\943_a_l.npy,data\raw\normal\943\vowels\943-a_l.nsp,normal,0,943,747,a_l,m,45.6,0.3521266073194856,train,
+data\processed\features\normal\1121_i_l.npy,data\raw\normal\1121\vowels\1121-i_l.nsp,normal,0,1121,882,i_l,w,25.3,0.3521266073194856,train,
+data\processed\features\vox_senilis\1159_u_h.npy,data\raw\vox_senilis\1159\vowels\1159-u_h.nsp,vox_senilis,2,1159,1445,u_h,w,69.1,6.484517304189436,train,Leichte subglottische Einengung
+data\processed\features\normal\1071_a_h.npy,data\raw\normal\1071\vowels\1071-a_h.nsp,normal,0,1071,850,a_h,m,29.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1338_u_h.npy,data\raw\vox_senilis\1338\vowels\1338-u_h.nsp,vox_senilis,2,1338,1720,u_h,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom"
+data\processed\features\vox_senilis\2003_i_lhl.npy,data\raw\vox_senilis\2003\vowels\2003-i_lhl.nsp,vox_senilis,2,2003,2212,i_lhl,m,77.6,6.484517304189436,train,Laryngitis subglottisch
+data\processed\features\normal\998_u_h.npy,data\raw\normal\998\vowels\998-u_h.nsp,normal,0,998,792,u_h,m,29.3,0.3521266073194856,train,
+data\processed\features\vox_senilis\2377_u_lhl.npy,data\raw\vox_senilis\2377\vowels\2377-u_lhl.nsp,vox_senilis,2,2377,2511,u_lhl,m,67.4,6.484517304189436,train,
+data\processed\features\normal\1060_u_n.npy,data\raw\normal\1060\vowels\1060-u_n.nsp,normal,0,1060,837,u_n,w,21.1,0.3521266073194856,train,
+data\processed\features\normal\1542_u_n.npy,data\raw\normal\1542\vowels\1542-u_n.nsp,normal,0,1542,1023,u_n,w,20.1,0.3521266073194856,train,
+data\processed\features\vox_senilis\1478_i_l.npy,data\raw\vox_senilis\1478\vowels\1478-i_l.nsp,vox_senilis,2,1478,1826,i_l,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis"
+data\processed\features\vox_senilis\1268_u_lhl.npy,data\raw\vox_senilis\1268\vowels\1268-u_lhl.nsp,vox_senilis,2,1268,1656,u_lhl,m,83.5,6.484517304189436,train,Mit Stimmschwäche
+data\processed\features\vox_senilis\846_u_l.npy,data\raw\vox_senilis\846\vowels\846-u_l.nsp,vox_senilis,2,846,1445,u_l,w,68.7,6.484517304189436,train,Subglottale Cyste
+data\processed\features\vox_senilis\2601_u_lhl.npy,data\raw\vox_senilis\2601\vowels\2601-u_lhl.nsp,vox_senilis,2,2601,2727,u_lhl,w,64.7,6.484517304189436,train,
+data\processed\features\normal\98_i_lhl.npy,data\raw\normal\98\vowels\98-i_lhl.nsp,normal,0,98,114,i_lhl,m,27.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\2564_u_l.npy,data\raw\vox_senilis\2564\vowels\2564-u_l.nsp,vox_senilis,2,2564,2007,u_l,w,61.8,6.484517304189436,train,"Kompensiert, alte"
+data\processed\features\vox_senilis\2421_i_n.npy,data\raw\vox_senilis\2421\vowels\2421-i_n.nsp,vox_senilis,2,2421,2555,i_n,w,87.6,6.484517304189436,train,
+data\processed\features\normal\1531_a_h.npy,data\raw\normal\1531\vowels\1531-a_h.nsp,normal,0,1531,1012,a_h,w,19.6,0.3521266073194856,train,
+data\processed\features\vox_senilis\360_a_lhl.npy,data\raw\vox_senilis\360\vowels\360-a_lhl.nsp,vox_senilis,2,360,1347,a_lhl,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset"
+data\processed\features\normal\16_a_lhl.npy,data\raw\normal\16\vowels\16-a_lhl.nsp,normal,0,16,18,a_lhl,w,19.9,0.3521266073194856,train,
+data\processed\features\vox_senilis\846_u_lhl.npy,data\raw\vox_senilis\846\vowels\846-u_lhl.nsp,vox_senilis,2,846,1445,u_lhl,w,68.7,6.484517304189436,train,Subglottale Cyste
+data\processed\features\vox_senilis\933_u_h.npy,data\raw\vox_senilis\933\vowels\933-u_h.nsp,vox_senilis,2,933,1525,u_h,w,79.7,6.484517304189436,train,Stimmlippenvarizen links
+data\processed\features\normal\125_phrase.npy,data\raw\normal\125\sentences\125-phrase.nsp,normal,0,125,132,phrase,w,20.7,0.3521266073194856,train,
+data\processed\features\normal\1121_u_lhl.npy,data\raw\normal\1121\vowels\1121-u_lhl.nsp,normal,0,1121,882,u_lhl,w,25.3,0.3521266073194856,train,
+data\processed\features\normal\1072_i_n.npy,data\raw\normal\1072\vowels\1072-i_n.nsp,normal,0,1072,851,i_n,m,32.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\846_i_l.npy,data\raw\vox_senilis\846\vowels\846-i_l.nsp,vox_senilis,2,846,1445,i_l,w,68.7,6.484517304189436,train,Subglottale Cyste
+data\processed\features\vox_senilis\2377_iau.npy,data\raw\vox_senilis\2377\vowels\2377-iau.nsp,vox_senilis,2,2377,2511,iau,m,67.4,6.484517304189436,train,
+data\processed\features\vox_senilis\1478_a_l.npy,data\raw\vox_senilis\1478\vowels\1478-a_l.nsp,vox_senilis,2,1478,1826,a_l,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis"
+data\processed\features\vox_senilis\2509_i_lhl.npy,data\raw\vox_senilis\2509\vowels\2509-i_lhl.nsp,vox_senilis,2,2509,2643,i_lhl,w,63.9,6.484517304189436,train,
+data\processed\features\normal\125_i_l.npy,data\raw\normal\125\vowels\125-i_l.nsp,normal,0,125,132,i_l,w,20.7,0.3521266073194856,train,
+data\processed\features\normal\2018_i_l.npy,data\raw\normal\2018\vowels\2018-i_l.nsp,normal,0,2018,1127,i_l,w,23.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1338_i_l.npy,data\raw\vox_senilis\1338\vowels\1338-i_l.nsp,vox_senilis,2,1338,1720,i_l,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom"
+data\processed\features\normal\838_a_n.npy,data\raw\normal\838\vowels\838-a_n.nsp,normal,0,838,726,a_n,w,18.9,0.3521266073194856,train,
+data\processed\features\normal\1072_a_lhl.npy,data\raw\normal\1072\vowels\1072-a_lhl.nsp,normal,0,1072,851,a_lhl,m,32.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\1268_i_l.npy,data\raw\vox_senilis\1268\vowels\1268-i_l.nsp,vox_senilis,2,1268,1656,i_l,m,83.5,6.484517304189436,train,Mit Stimmschwäche
+data\processed\features\normal\1121_a_n.npy,data\raw\normal\1121\vowels\1121-a_n.nsp,normal,0,1121,882,a_n,w,25.3,0.3521266073194856,train,
+data\processed\features\normal\1542_u_lhl.npy,data\raw\normal\1542\vowels\1542-u_lhl.nsp,normal,0,1542,1023,u_lhl,w,20.1,0.3521266073194856,train,
+data\processed\features\laryngozele\1205_i_n.npy,data\raw\laryngozele\1205\vowels\1205-i_n.nsp,laryngozele,1,1205,1602,i_n,m,47.0,169.52380952380952,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B."
+data\processed\features\normal\943_iau.npy,data\raw\normal\943\vowels\943-iau.nsp,normal,0,943,747,iau,m,45.6,0.3521266073194856,train,
+data\processed\features\normal\2018_i_lhl.npy,data\raw\normal\2018\vowels\2018-i_lhl.nsp,normal,0,2018,1127,i_lhl,w,23.2,0.3521266073194856,train,
+data\processed\features\normal\1513_i_n.npy,data\raw\normal\1513\vowels\1513-i_n.nsp,normal,0,1513,996,i_n,w,20.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1203_i_n.npy,data\raw\vox_senilis\1203\vowels\1203-i_n.nsp,vox_senilis,2,1203,1600,i_n,w,61.1,6.484517304189436,train,Leicht
+data\processed\features\normal\1071_u_l.npy,data\raw\normal\1071\vowels\1071-u_l.nsp,normal,0,1071,850,u_l,m,29.2,0.3521266073194856,train,
+data\processed\features\normal\998_i_n.npy,data\raw\normal\998\vowels\998-i_n.nsp,normal,0,998,792,i_n,m,29.3,0.3521266073194856,train,
+data\processed\features\normal\1214_u_lhl.npy,data\raw\normal\1214\vowels\1214-u_lhl.nsp,normal,0,1214,938,u_lhl,w,31.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\2303_u_h.npy,data\raw\vox_senilis\2303\vowels\2303-u_h.nsp,vox_senilis,2,2303,2420,u_h,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps
+data\processed\features\vox_senilis\2601_u_h.npy,data\raw\vox_senilis\2601\vowels\2601-u_h.nsp,vox_senilis,2,2601,2727,u_h,w,64.7,6.484517304189436,train,
+data\processed\features\normal\1071_a_l.npy,data\raw\normal\1071\vowels\1071-a_l.nsp,normal,0,1071,850,a_l,m,29.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2569_u_l.npy,data\raw\vox_senilis\2569\vowels\2569-u_l.nsp,vox_senilis,2,2569,2703,u_l,w,73.9,6.484517304189436,train,"Zustand nach Strumektomie, keine Rekurrensparese"
+data\processed\features\vox_senilis\1819_a_l.npy,data\raw\vox_senilis\1819\vowels\1819-a_l.nsp,vox_senilis,2,1819,2084,a_l,m,66.6,6.484517304189436,train,Ohne Reflux
+data\processed\features\normal\2207_a_n.npy,data\raw\normal\2207\vowels\2207-a_n.nsp,normal,0,2207,1179,a_n,w,19.4,0.3521266073194856,train,
+data\processed\features\vox_senilis\1159_a_l.npy,data\raw\vox_senilis\1159\vowels\1159-a_l.nsp,vox_senilis,2,1159,1445,a_l,w,69.1,6.484517304189436,train,Leichte subglottische Einengung
+data\processed\features\vox_senilis\933_phrase.npy,data\raw\vox_senilis\933\sentences\933-phrase.nsp,vox_senilis,2,933,1525,phrase,w,79.7,6.484517304189436,train,Stimmlippenvarizen links
+data\processed\features\normal\59_a_lhl.npy,data\raw\normal\59\vowels\59-a_lhl.nsp,normal,0,59,59,a_lhl,m,21.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1220_a_l.npy,data\raw\vox_senilis\1220\vowels\1220-a_l.nsp,vox_senilis,2,1220,1608,a_l,m,76.7,6.484517304189436,train,Vox senilis
+data\processed\features\normal\59_u_n.npy,data\raw\normal\59\vowels\59-u_n.nsp,normal,0,59,59,u_n,m,21.2,0.3521266073194856,train,
+data\processed\features\normal\972_a_l.npy,data\raw\normal\972\vowels\972-a_l.nsp,normal,0,972,776,a_l,m,27.8,0.3521266073194856,train,
+data\processed\features\normal\1214_a_lhl.npy,data\raw\normal\1214\vowels\1214-a_lhl.nsp,normal,0,1214,938,a_lhl,w,31.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\2097_i_l.npy,data\raw\vox_senilis\2097\vowels\2097-i_l.nsp,vox_senilis,2,2097,2283,i_l,w,30.7,6.484517304189436,train,Chron. Laryngitis
+data\processed\features\vox_senilis\826_a_n.npy,data\raw\vox_senilis\826\vowels\826-a_n.nsp,vox_senilis,2,826,1438,a_n,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen
+data\processed\features\normal\1072_a_n.npy,data\raw\normal\1072\vowels\1072-a_n.nsp,normal,0,1072,851,a_n,m,32.5,0.3521266073194856,train,
+data\processed\features\normal\87_i_h.npy,data\raw\normal\87\vowels\87-i_h.nsp,normal,0,87,97,i_h,m,68.7,0.3521266073194856,train,
+data\processed\features\normal\1121_i_lhl.npy,data\raw\normal\1121\vowels\1121-i_lhl.nsp,normal,0,1121,882,i_lhl,w,25.3,0.3521266073194856,train,
+data\processed\features\vox_senilis\2564_a_n.npy,data\raw\vox_senilis\2564\vowels\2564-a_n.nsp,vox_senilis,2,2564,2007,a_n,w,61.8,6.484517304189436,train,"Kompensiert, alte"
+data\processed\features\normal\838_i_h.npy,data\raw\normal\838\vowels\838-i_h.nsp,normal,0,838,726,i_h,w,18.9,0.3521266073194856,train,
+data\processed\features\vox_senilis\2377_i_n.npy,data\raw\vox_senilis\2377\vowels\2377-i_n.nsp,vox_senilis,2,2377,2511,i_n,m,67.4,6.484517304189436,train,
+data\processed\features\vox_senilis\2515_a_l.npy,data\raw\vox_senilis\2515\vowels\2515-a_l.nsp,vox_senilis,2,2515,2649,a_l,w,75.2,6.484517304189436,train,
+data\processed\features\normal\1513_a_n.npy,data\raw\normal\1513\vowels\1513-a_n.nsp,normal,0,1513,996,a_n,w,20.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1819_phrase.npy,data\raw\vox_senilis\1819\sentences\1819-phrase.nsp,vox_senilis,2,1819,2084,phrase,m,66.6,6.484517304189436,train,Ohne Reflux
+data\processed\features\vox_senilis\1478_i_n.npy,data\raw\vox_senilis\1478\vowels\1478-i_n.nsp,vox_senilis,2,1478,1826,i_n,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis"
+data\processed\features\vox_senilis\2515_iau.npy,data\raw\vox_senilis\2515\vowels\2515-iau.nsp,vox_senilis,2,2515,2649,iau,w,75.2,6.484517304189436,train,
+data\processed\features\vox_senilis\360_phrase.npy,data\raw\vox_senilis\360\sentences\360-phrase.nsp,vox_senilis,2,360,1347,phrase,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset"
+data\processed\features\normal\1071_a_n.npy,data\raw\normal\1071\vowels\1071-a_n.nsp,normal,0,1071,850,a_n,m,29.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2303_a_n.npy,data\raw\vox_senilis\2303\vowels\2303-a_n.nsp,vox_senilis,2,2303,2420,a_n,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps
+data\processed\features\vox_senilis\1220_a_lhl.npy,data\raw\vox_senilis\1220\vowels\1220-a_lhl.nsp,vox_senilis,2,1220,1608,a_lhl,m,76.7,6.484517304189436,train,Vox senilis
+data\processed\features\vox_senilis\2121_i_lhl.npy,data\raw\vox_senilis\2121\vowels\2121-i_lhl.nsp,vox_senilis,2,2121,2310,i_lhl,w,69.0,6.484517304189436,train,
+data\processed\features\normal\85_a_lhl.npy,data\raw\normal\85\vowels\85-a_lhl.nsp,normal,0,85,92,a_lhl,m,59.7,0.3521266073194856,train,
+data\processed\features\normal\1072_i_lhl.npy,data\raw\normal\1072\vowels\1072-i_lhl.nsp,normal,0,1072,851,i_lhl,m,32.5,0.3521266073194856,train,
+data\processed\features\normal\1121_u_h.npy,data\raw\normal\1121\vowels\1121-u_h.nsp,normal,0,1121,882,u_h,w,25.3,0.3521266073194856,train,
+data\processed\features\normal\1522_i_n.npy,data\raw\normal\1522\vowels\1522-i_n.nsp,normal,0,1522,987,i_n,m,23.2,0.3521266073194856,train,
+data\processed\features\normal\998_a_n.npy,data\raw\normal\998\vowels\998-a_n.nsp,normal,0,998,792,a_n,m,29.3,0.3521266073194856,train,
+data\processed\features\normal\1845_i_l.npy,data\raw\normal\1845\vowels\1845-i_l.nsp,normal,0,1845,1078,i_l,w,19.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\1268_u_n.npy,data\raw\vox_senilis\1268\vowels\1268-u_n.nsp,vox_senilis,2,1268,1656,u_n,m,83.5,6.484517304189436,train,Mit Stimmschwäche
+data\processed\features\vox_senilis\2421_i_l.npy,data\raw\vox_senilis\2421\vowels\2421-i_l.nsp,vox_senilis,2,2421,2555,i_l,w,87.6,6.484517304189436,train,
+data\processed\features\vox_senilis\846_iau.npy,data\raw\vox_senilis\846\vowels\846-iau.nsp,vox_senilis,2,846,1445,iau,w,68.7,6.484517304189436,train,Subglottale Cyste
+data\processed\features\normal\1531_i_l.npy,data\raw\normal\1531\vowels\1531-i_l.nsp,normal,0,1531,1012,i_l,w,19.6,0.3521266073194856,train,
+data\processed\features\vox_senilis\826_i_n.npy,data\raw\vox_senilis\826\vowels\826-i_n.nsp,vox_senilis,2,826,1438,i_n,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen
+data\processed\features\vox_senilis\2421_u_h.npy,data\raw\vox_senilis\2421\vowels\2421-u_h.nsp,vox_senilis,2,2421,2555,u_h,w,87.6,6.484517304189436,train,
+data\processed\features\vox_senilis\826_u_n.npy,data\raw\vox_senilis\826\vowels\826-u_n.nsp,vox_senilis,2,826,1438,u_n,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen
+data\processed\features\vox_senilis\1338_a_n.npy,data\raw\vox_senilis\1338\vowels\1338-a_n.nsp,vox_senilis,2,1338,1720,a_n,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom"
+data\processed\features\normal\2207_u_lhl.npy,data\raw\normal\2207\vowels\2207-u_lhl.nsp,normal,0,2207,1179,u_lhl,w,19.4,0.3521266073194856,train,
+data\processed\features\normal\838_u_n.npy,data\raw\normal\838\vowels\838-u_n.nsp,normal,0,838,726,u_n,w,18.9,0.3521266073194856,train,
+data\processed\features\normal\98_i_n.npy,data\raw\normal\98\vowels\98-i_n.nsp,normal,0,98,114,i_n,m,27.8,0.3521266073194856,train,
+data\processed\features\normal\2207_phrase.npy,data\raw\normal\2207\sentences\2207-phrase.nsp,normal,0,2207,1179,phrase,w,19.4,0.3521266073194856,train,
+data\processed\features\vox_senilis\2509_phrase.npy,data\raw\vox_senilis\2509\sentences\2509-phrase.nsp,vox_senilis,2,2509,2643,phrase,w,63.9,6.484517304189436,train,
+data\processed\features\vox_senilis\2564_iau.npy,data\raw\vox_senilis\2564\vowels\2564-iau.nsp,vox_senilis,2,2564,2007,iau,w,61.8,6.484517304189436,train,"Kompensiert, alte"
+data\processed\features\vox_senilis\1819_i_h.npy,data\raw\vox_senilis\1819\vowels\1819-i_h.nsp,vox_senilis,2,1819,2084,i_h,m,66.6,6.484517304189436,train,Ohne Reflux
+data\processed\features\normal\2207_a_l.npy,data\raw\normal\2207\vowels\2207-a_l.nsp,normal,0,2207,1179,a_l,w,19.4,0.3521266073194856,train,
+data\processed\features\normal\1071_u_h.npy,data\raw\normal\1071\vowels\1071-u_h.nsp,normal,0,1071,850,u_h,m,29.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1338_u_n.npy,data\raw\vox_senilis\1338\vowels\1338-u_n.nsp,vox_senilis,2,1338,1720,u_n,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom"
+data\processed\features\normal\98_u_h.npy,data\raw\normal\98\vowels\98-u_h.nsp,normal,0,98,114,u_h,m,27.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\2097_iau.npy,data\raw\vox_senilis\2097\vowels\2097-iau.nsp,vox_senilis,2,2097,2283,iau,w,30.7,6.484517304189436,train,Chron. Laryngitis
+data\processed\features\vox_senilis\1268_a_l.npy,data\raw\vox_senilis\1268\vowels\1268-a_l.nsp,vox_senilis,2,1268,1656,a_l,m,83.5,6.484517304189436,train,Mit Stimmschwäche
+data\processed\features\vox_senilis\1478_phrase.npy,data\raw\vox_senilis\1478\sentences\1478-phrase.nsp,vox_senilis,2,1478,1826,phrase,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis"
+data\processed\features\normal\2207_u_h.npy,data\raw\normal\2207\vowels\2207-u_h.nsp,normal,0,2207,1179,u_h,w,19.4,0.3521266073194856,train,
+data\processed\features\vox_senilis\2421_a_lhl.npy,data\raw\vox_senilis\2421\vowels\2421-a_lhl.nsp,vox_senilis,2,2421,2555,a_lhl,w,87.6,6.484517304189436,train,
+data\processed\features\vox_senilis\2569_i_n.npy,data\raw\vox_senilis\2569\vowels\2569-i_n.nsp,vox_senilis,2,2569,2703,i_n,w,73.9,6.484517304189436,train,"Zustand nach Strumektomie, keine Rekurrensparese"
+data\processed\features\normal\1344_i_n.npy,data\raw\normal\1344\vowels\1344-i_n.nsp,normal,0,1344,950,i_n,m,22.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\2097_i_n.npy,data\raw\vox_senilis\2097\vowels\2097-i_n.nsp,vox_senilis,2,2097,2283,i_n,w,30.7,6.484517304189436,train,Chron. Laryngitis
+data\processed\features\normal\688_a_lhl.npy,data\raw\normal\688\vowels\688-a_lhl.nsp,normal,0,688,616,a_lhl,w,19.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\1220_phrase.npy,data\raw\vox_senilis\1220\sentences\1220-phrase.nsp,vox_senilis,2,1220,1608,phrase,m,76.7,6.484517304189436,train,Vox senilis
+data\processed\features\vox_senilis\899_i_lhl.npy,data\raw\vox_senilis\899\vowels\899-i_lhl.nsp,vox_senilis,2,899,1491,i_lhl,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts
+data\processed\features\normal\1522_u_l.npy,data\raw\normal\1522\vowels\1522-u_l.nsp,normal,0,1522,987,u_l,m,23.2,0.3521266073194856,train,
+data\processed\features\normal\85_a_n.npy,data\raw\normal\85\vowels\85-a_n.nsp,normal,0,85,92,a_n,m,59.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\2097_u_h.npy,data\raw\vox_senilis\2097\vowels\2097-u_h.nsp,vox_senilis,2,2097,2283,u_h,w,30.7,6.484517304189436,train,Chron. Laryngitis
+data\processed\features\normal\16_phrase.npy,data\raw\normal\16\sentences\16-phrase.nsp,normal,0,16,18,phrase,w,19.9,0.3521266073194856,train,
+data\processed\features\vox_senilis\1159_i_h.npy,data\raw\vox_senilis\1159\vowels\1159-i_h.nsp,vox_senilis,2,1159,1445,i_h,w,69.1,6.484517304189436,train,Leichte subglottische Einengung
+data\processed\features\vox_senilis\846_i_n.npy,data\raw\vox_senilis\846\vowels\846-i_n.nsp,vox_senilis,2,846,1445,i_n,w,68.7,6.484517304189436,train,Subglottale Cyste
+data\processed\features\vox_senilis\1478_a_lhl.npy,data\raw\vox_senilis\1478\vowels\1478-a_lhl.nsp,vox_senilis,2,1478,1826,a_lhl,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis"
+data\processed\features\normal\1845_u_n.npy,data\raw\normal\1845\vowels\1845-u_n.nsp,normal,0,1845,1078,u_n,w,19.5,0.3521266073194856,train,
+data\processed\features\normal\998_i_lhl.npy,data\raw\normal\998\vowels\998-i_lhl.nsp,normal,0,998,792,i_lhl,m,29.3,0.3521266073194856,train,
+data\processed\features\vox_senilis\2121_iau.npy,data\raw\vox_senilis\2121\vowels\2121-iau.nsp,vox_senilis,2,2121,2310,iau,w,69.0,6.484517304189436,train,
+data\processed\features\vox_senilis\2515_u_h.npy,data\raw\vox_senilis\2515\vowels\2515-u_h.nsp,vox_senilis,2,2515,2649,u_h,w,75.2,6.484517304189436,train,
+data\processed\features\vox_senilis\899_phrase.npy,data\raw\vox_senilis\899\sentences\899-phrase.nsp,vox_senilis,2,899,1491,phrase,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts
+data\processed\features\vox_senilis\2097_i_h.npy,data\raw\vox_senilis\2097\vowels\2097-i_h.nsp,vox_senilis,2,2097,2283,i_h,w,30.7,6.484517304189436,train,Chron. Laryngitis
+data\processed\features\normal\838_i_l.npy,data\raw\normal\838\vowels\838-i_l.nsp,normal,0,838,726,i_l,w,18.9,0.3521266073194856,train,
+data\processed\features\normal\2018_u_h.npy,data\raw\normal\2018\vowels\2018-u_h.nsp,normal,0,2018,1127,u_h,w,23.2,0.3521266073194856,train,
+data\processed\features\normal\972_i_l.npy,data\raw\normal\972\vowels\972-i_l.nsp,normal,0,972,776,i_l,m,27.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\1220_u_n.npy,data\raw\vox_senilis\1220\vowels\1220-u_n.nsp,vox_senilis,2,1220,1608,u_n,m,76.7,6.484517304189436,train,Vox senilis
+data\processed\features\vox_senilis\1971_u_h.npy,data\raw\vox_senilis\1971\vowels\1971-u_h.nsp,vox_senilis,2,1971,2180,u_h,w,78.0,6.484517304189436,train,Intermediärschwäche
+data\processed\features\vox_senilis\2601_i_n.npy,data\raw\vox_senilis\2601\vowels\2601-i_n.nsp,vox_senilis,2,2601,2727,i_n,w,64.7,6.484517304189436,train,
+data\processed\features\vox_senilis\1338_phrase.npy,data\raw\vox_senilis\1338\sentences\1338-phrase.nsp,vox_senilis,2,1338,1720,phrase,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom"
+data\processed\features\normal\688_i_lhl.npy,data\raw\normal\688\vowels\688-i_lhl.nsp,normal,0,688,616,i_lhl,w,19.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\2509_iau.npy,data\raw\vox_senilis\2509\vowels\2509-iau.nsp,vox_senilis,2,2509,2643,iau,w,63.9,6.484517304189436,train,
+data\processed\features\vox_senilis\899_u_l.npy,data\raw\vox_senilis\899\vowels\899-u_l.nsp,vox_senilis,2,899,1491,u_l,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts
+data\processed\features\normal\16_a_l.npy,data\raw\normal\16\vowels\16-a_l.nsp,normal,0,16,18,a_l,w,19.9,0.3521266073194856,train,
+data\processed\features\vox_senilis\2596_u_n.npy,data\raw\vox_senilis\2596\vowels\2596-u_n.nsp,vox_senilis,2,2596,2336,u_n,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend"
+data\processed\features\vox_senilis\1203_u_h.npy,data\raw\vox_senilis\1203\vowels\1203-u_h.nsp,vox_senilis,2,1203,1600,u_h,w,61.1,6.484517304189436,train,Leicht
+data\processed\features\vox_senilis\2377_u_l.npy,data\raw\vox_senilis\2377\vowels\2377-u_l.nsp,vox_senilis,2,2377,2511,u_l,m,67.4,6.484517304189436,train,
+data\processed\features\vox_senilis\2421_u_l.npy,data\raw\vox_senilis\2421\vowels\2421-u_l.nsp,vox_senilis,2,2421,2555,u_l,w,87.6,6.484517304189436,train,
+data\processed\features\normal\1542_i_l.npy,data\raw\normal\1542\vowels\1542-i_l.nsp,normal,0,1542,1023,i_l,w,20.1,0.3521266073194856,train,
+data\processed\features\vox_senilis\846_a_l.npy,data\raw\vox_senilis\846\vowels\846-a_l.nsp,vox_senilis,2,846,1445,a_l,w,68.7,6.484517304189436,train,Subglottale Cyste
+data\processed\features\vox_senilis\360_i_h.npy,data\raw\vox_senilis\360\vowels\360-i_h.nsp,vox_senilis,2,360,1347,i_h,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset"
+data\processed\features\vox_senilis\1971_u_lhl.npy,data\raw\vox_senilis\1971\vowels\1971-u_lhl.nsp,vox_senilis,2,1971,2180,u_lhl,w,78.0,6.484517304189436,train,Intermediärschwäche
+data\processed\features\vox_senilis\1478_u_lhl.npy,data\raw\vox_senilis\1478\vowels\1478-u_lhl.nsp,vox_senilis,2,1478,1826,u_lhl,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis"
+data\processed\features\vox_senilis\1268_i_n.npy,data\raw\vox_senilis\1268\vowels\1268-i_n.nsp,vox_senilis,2,1268,1656,i_n,m,83.5,6.484517304189436,train,Mit Stimmschwäche
+data\processed\features\normal\984_iau.npy,data\raw\normal\984\vowels\984-iau.nsp,normal,0,984,790,iau,m,32.2,0.3521266073194856,train,
+data\processed\features\normal\2207_i_l.npy,data\raw\normal\2207\vowels\2207-i_l.nsp,normal,0,2207,1179,i_l,w,19.4,0.3521266073194856,train,
+data\processed\features\normal\1531_u_l.npy,data\raw\normal\1531\vowels\1531-u_l.nsp,normal,0,1531,1012,u_l,w,19.6,0.3521266073194856,train,
+data\processed\features\vox_senilis\933_iau.npy,data\raw\vox_senilis\933\vowels\933-iau.nsp,vox_senilis,2,933,1525,iau,w,79.7,6.484517304189436,train,Stimmlippenvarizen links
+data\processed\features\vox_senilis\846_phrase.npy,data\raw\vox_senilis\846\sentences\846-phrase.nsp,vox_senilis,2,846,1445,phrase,w,68.7,6.484517304189436,train,Subglottale Cyste
+data\processed\features\normal\1513_i_lhl.npy,data\raw\normal\1513\vowels\1513-i_lhl.nsp,normal,0,1513,996,i_lhl,w,20.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2097_u_n.npy,data\raw\vox_senilis\2097\vowels\2097-u_n.nsp,vox_senilis,2,2097,2283,u_n,w,30.7,6.484517304189436,train,Chron. Laryngitis
+data\processed\features\normal\125_a_lhl.npy,data\raw\normal\125\vowels\125-a_lhl.nsp,normal,0,125,132,a_lhl,w,20.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\2509_u_lhl.npy,data\raw\vox_senilis\2509\vowels\2509-u_lhl.nsp,vox_senilis,2,2509,2643,u_lhl,w,63.9,6.484517304189436,train,
+data\processed\features\vox_senilis\1203_a_n.npy,data\raw\vox_senilis\1203\vowels\1203-a_n.nsp,vox_senilis,2,1203,1600,a_n,w,61.1,6.484517304189436,train,Leicht
+data\processed\features\normal\1573_i_l.npy,data\raw\normal\1573\vowels\1573-i_l.nsp,normal,0,1573,1027,i_l,m,21.4,0.3521266073194856,train,
+data\processed\features\vox_senilis\2121_phrase.npy,data\raw\vox_senilis\2121\sentences\2121-phrase.nsp,vox_senilis,2,2121,2310,phrase,w,69.0,6.484517304189436,train,
+data\processed\features\normal\1121_a_lhl.npy,data\raw\normal\1121\vowels\1121-a_lhl.nsp,normal,0,1121,882,a_lhl,w,25.3,0.3521266073194856,train,
+data\processed\features\normal\1845_u_h.npy,data\raw\normal\1845\vowels\1845-u_h.nsp,normal,0,1845,1078,u_h,w,19.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\1478_u_n.npy,data\raw\vox_senilis\1478\vowels\1478-u_n.nsp,vox_senilis,2,1478,1826,u_n,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis"
+data\processed\features\vox_senilis\1338_iau.npy,data\raw\vox_senilis\1338\vowels\1338-iau.nsp,vox_senilis,2,1338,1720,iau,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom"
+data\processed\features\vox_senilis\2515_i_h.npy,data\raw\vox_senilis\2515\vowels\2515-i_h.nsp,vox_senilis,2,2515,2649,i_h,w,75.2,6.484517304189436,train,
+data\processed\features\normal\59_u_lhl.npy,data\raw\normal\59\vowels\59-u_lhl.nsp,normal,0,59,59,u_lhl,m,21.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1220_a_h.npy,data\raw\vox_senilis\1220\vowels\1220-a_h.nsp,vox_senilis,2,1220,1608,a_h,m,76.7,6.484517304189436,train,Vox senilis
+data\processed\features\normal\1214_u_l.npy,data\raw\normal\1214\vowels\1214-u_l.nsp,normal,0,1214,938,u_l,w,31.5,0.3521266073194856,train,
+data\processed\features\normal\125_a_h.npy,data\raw\normal\125\vowels\125-a_h.nsp,normal,0,125,132,a_h,w,20.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\2601_a_n.npy,data\raw\vox_senilis\2601\vowels\2601-a_n.nsp,vox_senilis,2,2601,2727,a_n,w,64.7,6.484517304189436,train,
+data\processed\features\normal\16_u_l.npy,data\raw\normal\16\vowels\16-u_l.nsp,normal,0,16,18,u_l,w,19.9,0.3521266073194856,train,
+data\processed\features\vox_senilis\2319_phrase.npy,data\raw\vox_senilis\2319\sentences\2319-phrase.nsp,vox_senilis,2,2319,2453,phrase,m,81.2,6.484517304189436,train,Vox senilis
+data\processed\features\normal\98_a_n.npy,data\raw\normal\98\vowels\98-a_n.nsp,normal,0,98,114,a_n,m,27.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\2569_a_n.npy,data\raw\vox_senilis\2569\vowels\2569-a_n.nsp,vox_senilis,2,2569,2703,a_n,w,73.9,6.484517304189436,train,"Zustand nach Strumektomie, keine Rekurrensparese"
+data\processed\features\normal\1121_i_h.npy,data\raw\normal\1121\vowels\1121-i_h.nsp,normal,0,1121,882,i_h,w,25.3,0.3521266073194856,train,
+data\processed\features\vox_senilis\933_u_l.npy,data\raw\vox_senilis\933\vowels\933-u_l.nsp,vox_senilis,2,933,1525,u_l,w,79.7,6.484517304189436,train,Stimmlippenvarizen links
+data\processed\features\normal\1344_i_h.npy,data\raw\normal\1344\vowels\1344-i_h.nsp,normal,0,1344,950,i_h,m,22.8,0.3521266073194856,train,
+data\processed\features\normal\998_a_h.npy,data\raw\normal\998\vowels\998-a_h.nsp,normal,0,998,792,a_h,m,29.3,0.3521266073194856,train,
+data\processed\features\vox_senilis\360_u_h.npy,data\raw\vox_senilis\360\vowels\360-u_h.nsp,vox_senilis,2,360,1347,u_h,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset"
+data\processed\features\vox_senilis\2421_i_lhl.npy,data\raw\vox_senilis\2421\vowels\2421-i_lhl.nsp,vox_senilis,2,2421,2555,i_lhl,w,87.6,6.484517304189436,train,
+data\processed\features\normal\1060_a_h.npy,data\raw\normal\1060\vowels\1060-a_h.nsp,normal,0,1060,837,a_h,w,21.1,0.3521266073194856,train,
+data\processed\features\normal\1121_phrase.npy,data\raw\normal\1121\sentences\1121-phrase.nsp,normal,0,1121,882,phrase,w,25.3,0.3521266073194856,train,
+data\processed\features\vox_senilis\2307_i_lhl.npy,data\raw\vox_senilis\2307\vowels\2307-i_lhl.nsp,vox_senilis,2,2307,2441,i_lhl,w,76.0,6.484517304189436,train,
+data\processed\features\normal\1522_iau.npy,data\raw\normal\1522\vowels\1522-iau.nsp,normal,0,1522,987,iau,m,23.2,0.3521266073194856,train,
+data\processed\features\normal\984_i_lhl.npy,data\raw\normal\984\vowels\984-i_lhl.nsp,normal,0,984,790,i_lhl,m,32.2,0.3521266073194856,train,
+data\processed\features\normal\1121_u_l.npy,data\raw\normal\1121\vowels\1121-u_l.nsp,normal,0,1121,882,u_l,w,25.3,0.3521266073194856,train,
+data\processed\features\normal\1573_i_n.npy,data\raw\normal\1573\vowels\1573-i_n.nsp,normal,0,1573,1027,i_n,m,21.4,0.3521266073194856,train,
+data\processed\features\vox_senilis\2569_u_h.npy,data\raw\vox_senilis\2569\vowels\2569-u_h.nsp,vox_senilis,2,2569,2703,u_h,w,73.9,6.484517304189436,train,"Zustand nach Strumektomie, keine Rekurrensparese"
+data\processed\features\vox_senilis\2097_u_l.npy,data\raw\vox_senilis\2097\vowels\2097-u_l.nsp,vox_senilis,2,2097,2283,u_l,w,30.7,6.484517304189436,train,Chron. Laryngitis
+data\processed\features\normal\688_i_l.npy,data\raw\normal\688\vowels\688-i_l.nsp,normal,0,688,616,i_l,w,19.7,0.3521266073194856,train,
+data\processed\features\normal\972_i_lhl.npy,data\raw\normal\972\vowels\972-i_lhl.nsp,normal,0,972,776,i_lhl,m,27.8,0.3521266073194856,train,
+data\processed\features\normal\85_u_lhl.npy,data\raw\normal\85\vowels\85-u_lhl.nsp,normal,0,85,92,u_lhl,m,59.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\2303_i_n.npy,data\raw\vox_senilis\2303\vowels\2303-i_n.nsp,vox_senilis,2,2303,2420,i_n,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps
+data\processed\features\vox_senilis\846_i_lhl.npy,data\raw\vox_senilis\846\vowels\846-i_lhl.nsp,vox_senilis,2,846,1445,i_lhl,w,68.7,6.484517304189436,train,Subglottale Cyste
+data\processed\features\normal\85_i_l.npy,data\raw\normal\85\vowels\85-i_l.nsp,normal,0,85,92,i_l,m,59.7,0.3521266073194856,train,
+data\processed\features\normal\838_u_l.npy,data\raw\normal\838\vowels\838-u_l.nsp,normal,0,838,726,u_l,w,18.9,0.3521266073194856,train,
+data\processed\features\vox_senilis\826_a_h.npy,data\raw\vox_senilis\826\vowels\826-a_h.nsp,vox_senilis,2,826,1438,a_h,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen
+data\processed\features\normal\98_iau.npy,data\raw\normal\98\vowels\98-iau.nsp,normal,0,98,114,iau,m,27.8,0.3521266073194856,train,
+data\processed\features\laryngozele\1205_iau.npy,data\raw\laryngozele\1205\vowels\1205-iau.nsp,laryngozele,1,1205,1602,iau,m,47.0,169.52380952380952,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B."
+data\processed\features\vox_senilis\899_i_h.npy,data\raw\vox_senilis\899\vowels\899-i_h.nsp,vox_senilis,2,899,1491,i_h,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts
+data\processed\features\normal\1522_a_lhl.npy,data\raw\normal\1522\vowels\1522-a_lhl.nsp,normal,0,1522,987,a_lhl,m,23.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1971_i_h.npy,data\raw\vox_senilis\1971\vowels\1971-i_h.nsp,vox_senilis,2,1971,2180,i_h,w,78.0,6.484517304189436,train,Intermediärschwäche
+data\processed\features\vox_senilis\2003_a_l.npy,data\raw\vox_senilis\2003\vowels\2003-a_l.nsp,vox_senilis,2,2003,2212,a_l,m,77.6,6.484517304189436,train,Laryngitis subglottisch
+data\processed\features\normal\87_i_lhl.npy,data\raw\normal\87\vowels\87-i_lhl.nsp,normal,0,87,97,i_lhl,m,68.7,0.3521266073194856,train,
+data\processed\features\normal\98_phrase.npy,data\raw\normal\98\sentences\98-phrase.nsp,normal,0,98,114,phrase,m,27.8,0.3521266073194856,train,
+data\processed\features\normal\87_i_l.npy,data\raw\normal\87\vowels\87-i_l.nsp,normal,0,87,97,i_l,m,68.7,0.3521266073194856,train,
+data\processed\features\normal\1513_iau.npy,data\raw\normal\1513\vowels\1513-iau.nsp,normal,0,1513,996,iau,w,20.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1819_i_lhl.npy,data\raw\vox_senilis\1819\vowels\1819-i_lhl.nsp,vox_senilis,2,1819,2084,i_lhl,m,66.6,6.484517304189436,train,Ohne Reflux
+data\processed\features\vox_senilis\1159_i_l.npy,data\raw\vox_senilis\1159\vowels\1159-i_l.nsp,vox_senilis,2,1159,1445,i_l,w,69.1,6.484517304189436,train,Leichte subglottische Einengung
+data\processed\features\vox_senilis\1819_iau.npy,data\raw\vox_senilis\1819\vowels\1819-iau.nsp,vox_senilis,2,1819,2084,iau,m,66.6,6.484517304189436,train,Ohne Reflux
+data\processed\features\normal\98_a_l.npy,data\raw\normal\98\vowels\98-a_l.nsp,normal,0,98,114,a_l,m,27.8,0.3521266073194856,train,
+data\processed\features\laryngozele\1205_a_lhl.npy,data\raw\laryngozele\1205\vowels\1205-a_lhl.nsp,laryngozele,1,1205,1602,a_lhl,m,47.0,169.52380952380952,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B."
+data\processed\features\normal\1845_i_n.npy,data\raw\normal\1845\vowels\1845-i_n.nsp,normal,0,1845,1078,i_n,w,19.5,0.3521266073194856,train,
+data\processed\features\normal\972_a_h.npy,data\raw\normal\972\vowels\972-a_h.nsp,normal,0,972,776,a_h,m,27.8,0.3521266073194856,train,
+data\processed\features\normal\838_i_n.npy,data\raw\normal\838\vowels\838-i_n.nsp,normal,0,838,726,i_n,w,18.9,0.3521266073194856,train,
+data\processed\features\normal\1121_a_h.npy,data\raw\normal\1121\vowels\1121-a_h.nsp,normal,0,1121,882,a_h,w,25.3,0.3521266073194856,train,
+data\processed\features\vox_senilis\1159_u_l.npy,data\raw\vox_senilis\1159\vowels\1159-u_l.nsp,vox_senilis,2,1159,1445,u_l,w,69.1,6.484517304189436,train,Leichte subglottische Einengung
+data\processed\features\vox_senilis\1268_a_h.npy,data\raw\vox_senilis\1268\vowels\1268-a_h.nsp,vox_senilis,2,1268,1656,a_h,m,83.5,6.484517304189436,train,Mit Stimmschwäche
+data\processed\features\vox_senilis\1268_phrase.npy,data\raw\vox_senilis\1268\sentences\1268-phrase.nsp,vox_senilis,2,1268,1656,phrase,m,83.5,6.484517304189436,train,Mit Stimmschwäche
+data\processed\features\vox_senilis\2303_u_n.npy,data\raw\vox_senilis\2303\vowels\2303-u_n.nsp,vox_senilis,2,2303,2420,u_n,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps
+data\processed\features\normal\85_iau.npy,data\raw\normal\85\vowels\85-iau.nsp,normal,0,85,92,iau,m,59.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\899_u_n.npy,data\raw\vox_senilis\899\vowels\899-u_n.nsp,vox_senilis,2,899,1491,u_n,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts
+data\processed\features\vox_senilis\2307_u_h.npy,data\raw\vox_senilis\2307\vowels\2307-u_h.nsp,vox_senilis,2,2307,2441,u_h,w,76.0,6.484517304189436,train,
+data\processed\features\normal\1344_a_n.npy,data\raw\normal\1344\vowels\1344-a_n.nsp,normal,0,1344,950,a_n,m,22.8,0.3521266073194856,train,
+data\processed\features\normal\1513_i_l.npy,data\raw\normal\1513\vowels\1513-i_l.nsp,normal,0,1513,996,i_l,w,20.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2307_i_n.npy,data\raw\vox_senilis\2307\vowels\2307-i_n.nsp,vox_senilis,2,2307,2441,i_n,w,76.0,6.484517304189436,train,
+data\processed\features\normal\1531_iau.npy,data\raw\normal\1531\vowels\1531-iau.nsp,normal,0,1531,1012,iau,w,19.6,0.3521266073194856,train,
+data\processed\features\normal\1531_u_lhl.npy,data\raw\normal\1531\vowels\1531-u_lhl.nsp,normal,0,1531,1012,u_lhl,w,19.6,0.3521266073194856,train,
+data\processed\features\vox_senilis\2569_phrase.npy,data\raw\vox_senilis\2569\sentences\2569-phrase.nsp,vox_senilis,2,2569,2703,phrase,w,73.9,6.484517304189436,train,"Zustand nach Strumektomie, keine Rekurrensparese"
+data\processed\features\normal\1513_phrase.npy,data\raw\normal\1513\sentences\1513-phrase.nsp,normal,0,1513,996,phrase,w,20.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1203_a_h.npy,data\raw\vox_senilis\1203\vowels\1203-a_h.nsp,vox_senilis,2,1203,1600,a_h,w,61.1,6.484517304189436,train,Leicht
+data\processed\features\normal\1344_a_h.npy,data\raw\normal\1344\vowels\1344-a_h.nsp,normal,0,1344,950,a_h,m,22.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\2564_u_n.npy,data\raw\vox_senilis\2564\vowels\2564-u_n.nsp,vox_senilis,2,2564,2007,u_n,w,61.8,6.484517304189436,train,"Kompensiert, alte"
+data\processed\features\normal\1214_i_n.npy,data\raw\normal\1214\vowels\1214-i_n.nsp,normal,0,1214,938,i_n,w,31.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\846_u_h.npy,data\raw\vox_senilis\846\vowels\846-u_h.nsp,vox_senilis,2,846,1445,u_h,w,68.7,6.484517304189436,train,Subglottale Cyste
+data\processed\features\normal\1214_u_n.npy,data\raw\normal\1214\vowels\1214-u_n.nsp,normal,0,1214,938,u_n,w,31.5,0.3521266073194856,train,
+data\processed\features\normal\2018_iau.npy,data\raw\normal\2018\vowels\2018-iau.nsp,normal,0,2018,1127,iau,w,23.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\933_a_n.npy,data\raw\vox_senilis\933\vowels\933-a_n.nsp,vox_senilis,2,933,1525,a_n,w,79.7,6.484517304189436,train,Stimmlippenvarizen links
+data\processed\features\vox_senilis\2601_i_lhl.npy,data\raw\vox_senilis\2601\vowels\2601-i_lhl.nsp,vox_senilis,2,2601,2727,i_lhl,w,64.7,6.484517304189436,train,
+data\processed\features\normal\1071_phrase.npy,data\raw\normal\1071\sentences\1071-phrase.nsp,normal,0,1071,850,phrase,m,29.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1159_i_n.npy,data\raw\vox_senilis\1159\vowels\1159-i_n.nsp,vox_senilis,2,1159,1445,i_n,w,69.1,6.484517304189436,train,Leichte subglottische Einengung
+data\processed\features\vox_senilis\2564_i_h.npy,data\raw\vox_senilis\2564\vowels\2564-i_h.nsp,vox_senilis,2,2564,2007,i_h,w,61.8,6.484517304189436,train,"Kompensiert, alte"
+data\processed\features\vox_senilis\1203_i_lhl.npy,data\raw\vox_senilis\1203\vowels\1203-i_lhl.nsp,vox_senilis,2,1203,1600,i_lhl,w,61.1,6.484517304189436,train,Leicht
+data\processed\features\vox_senilis\2509_i_h.npy,data\raw\vox_senilis\2509\vowels\2509-i_h.nsp,vox_senilis,2,2509,2643,i_h,w,63.9,6.484517304189436,train,
+data\processed\features\normal\838_u_lhl.npy,data\raw\normal\838\vowels\838-u_lhl.nsp,normal,0,838,726,u_lhl,w,18.9,0.3521266073194856,train,
+data\processed\features\normal\1513_a_h.npy,data\raw\normal\1513\vowels\1513-a_h.nsp,normal,0,1513,996,a_h,w,20.2,0.3521266073194856,train,
+data\processed\features\normal\984_u_lhl.npy,data\raw\normal\984\vowels\984-u_lhl.nsp,normal,0,984,790,u_lhl,m,32.2,0.3521266073194856,train,
+data\processed\features\normal\1060_u_h.npy,data\raw\normal\1060\vowels\1060-u_h.nsp,normal,0,1060,837,u_h,w,21.1,0.3521266073194856,train,
+data\processed\features\normal\688_a_n.npy,data\raw\normal\688\vowels\688-a_n.nsp,normal,0,688,616,a_n,w,19.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\2421_a_l.npy,data\raw\vox_senilis\2421\vowels\2421-a_l.nsp,vox_senilis,2,2421,2555,a_l,w,87.6,6.484517304189436,train,
+data\processed\features\normal\688_i_h.npy,data\raw\normal\688\vowels\688-i_h.nsp,normal,0,688,616,i_h,w,19.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\1819_i_n.npy,data\raw\vox_senilis\1819\vowels\1819-i_n.nsp,vox_senilis,2,1819,2084,i_n,m,66.6,6.484517304189436,train,Ohne Reflux
+data\processed\features\vox_senilis\899_a_n.npy,data\raw\vox_senilis\899\vowels\899-a_n.nsp,vox_senilis,2,899,1491,a_n,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts
+data\processed\features\vox_senilis\899_a_l.npy,data\raw\vox_senilis\899\vowels\899-a_l.nsp,vox_senilis,2,899,1491,a_l,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts
+data\processed\features\normal\1214_phrase.npy,data\raw\normal\1214\sentences\1214-phrase.nsp,normal,0,1214,938,phrase,w,31.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\2601_a_l.npy,data\raw\vox_senilis\2601\vowels\2601-a_l.nsp,vox_senilis,2,2601,2727,a_l,w,64.7,6.484517304189436,train,
+data\processed\features\vox_senilis\2319_iau.npy,data\raw\vox_senilis\2319\vowels\2319-iau.nsp,vox_senilis,2,2319,2453,iau,m,81.2,6.484517304189436,train,Vox senilis
+data\processed\features\normal\972_a_n.npy,data\raw\normal\972\vowels\972-a_n.nsp,normal,0,972,776,a_n,m,27.8,0.3521266073194856,train,
+data\processed\features\normal\1522_i_l.npy,data\raw\normal\1522\vowels\1522-i_l.nsp,normal,0,1522,987,i_l,m,23.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2121_u_n.npy,data\raw\vox_senilis\2121\vowels\2121-u_n.nsp,vox_senilis,2,2121,2310,u_n,w,69.0,6.484517304189436,train,
+data\processed\features\vox_senilis\1478_iau.npy,data\raw\vox_senilis\1478\vowels\1478-iau.nsp,vox_senilis,2,1478,1826,iau,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis"
+data\processed\features\normal\1060_i_lhl.npy,data\raw\normal\1060\vowels\1060-i_lhl.nsp,normal,0,1060,837,i_lhl,w,21.1,0.3521266073194856,train,
+data\processed\features\vox_senilis\2596_i_n.npy,data\raw\vox_senilis\2596\vowels\2596-i_n.nsp,vox_senilis,2,2596,2336,i_n,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend"
+data\processed\features\vox_senilis\1338_u_lhl.npy,data\raw\vox_senilis\1338\vowels\1338-u_lhl.nsp,vox_senilis,2,1338,1720,u_lhl,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom"
+data\processed\features\normal\1214_a_n.npy,data\raw\normal\1214\vowels\1214-a_n.nsp,normal,0,1214,938,a_n,w,31.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\2377_a_h.npy,data\raw\vox_senilis\2377\vowels\2377-a_h.nsp,vox_senilis,2,2377,2511,a_h,m,67.4,6.484517304189436,train,
+data\processed\features\vox_senilis\2596_a_lhl.npy,data\raw\vox_senilis\2596\vowels\2596-a_lhl.nsp,vox_senilis,2,2596,2336,a_lhl,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend"
+data\processed\features\vox_senilis\2515_i_l.npy,data\raw\vox_senilis\2515\vowels\2515-i_l.nsp,vox_senilis,2,2515,2649,i_l,w,75.2,6.484517304189436,train,
+data\processed\features\vox_senilis\1819_a_n.npy,data\raw\vox_senilis\1819\vowels\1819-a_n.nsp,vox_senilis,2,1819,2084,a_n,m,66.6,6.484517304189436,train,Ohne Reflux
+data\processed\features\normal\688_u_n.npy,data\raw\normal\688\vowels\688-u_n.nsp,normal,0,688,616,u_n,w,19.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\2003_iau.npy,data\raw\vox_senilis\2003\vowels\2003-iau.nsp,vox_senilis,2,2003,2212,iau,m,77.6,6.484517304189436,train,Laryngitis subglottisch
+data\processed\features\vox_senilis\2003_u_n.npy,data\raw\vox_senilis\2003\vowels\2003-u_n.nsp,vox_senilis,2,2003,2212,u_n,m,77.6,6.484517304189436,train,Laryngitis subglottisch
+data\processed\features\normal\59_i_l.npy,data\raw\normal\59\vowels\59-i_l.nsp,normal,0,59,59,i_l,m,21.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2601_i_l.npy,data\raw\vox_senilis\2601\vowels\2601-i_l.nsp,vox_senilis,2,2601,2727,i_l,w,64.7,6.484517304189436,train,
+data\processed\features\vox_senilis\2515_i_n.npy,data\raw\vox_senilis\2515\vowels\2515-i_n.nsp,vox_senilis,2,2515,2649,i_n,w,75.2,6.484517304189436,train,
+data\processed\features\vox_senilis\1159_phrase.npy,data\raw\vox_senilis\1159\sentences\1159-phrase.nsp,vox_senilis,2,1159,1445,phrase,w,69.1,6.484517304189436,train,Leichte subglottische Einengung
+data\processed\features\normal\998_iau.npy,data\raw\normal\998\vowels\998-iau.nsp,normal,0,998,792,iau,m,29.3,0.3521266073194856,train,
+data\processed\features\vox_senilis\846_a_n.npy,data\raw\vox_senilis\846\vowels\846-a_n.nsp,vox_senilis,2,846,1445,a_n,w,68.7,6.484517304189436,train,Subglottale Cyste
+data\processed\features\normal\85_a_l.npy,data\raw\normal\85\vowels\85-a_l.nsp,normal,0,85,92,a_l,m,59.7,0.3521266073194856,train,
+data\processed\features\normal\1071_iau.npy,data\raw\normal\1071\vowels\1071-iau.nsp,normal,0,1071,850,iau,m,29.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2596_u_h.npy,data\raw\vox_senilis\2596\vowels\2596-u_h.nsp,vox_senilis,2,2596,2336,u_h,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend"
+data\processed\features\normal\2018_a_n.npy,data\raw\normal\2018\vowels\2018-a_n.nsp,normal,0,2018,1127,a_n,w,23.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2003_a_n.npy,data\raw\vox_senilis\2003\vowels\2003-a_n.nsp,vox_senilis,2,2003,2212,a_n,m,77.6,6.484517304189436,train,Laryngitis subglottisch
+data\processed\features\vox_senilis\2509_u_n.npy,data\raw\vox_senilis\2509\vowels\2509-u_n.nsp,vox_senilis,2,2509,2643,u_n,w,63.9,6.484517304189436,train,
+data\processed\features\normal\59_iau.npy,data\raw\normal\59\vowels\59-iau.nsp,normal,0,59,59,iau,m,21.2,0.3521266073194856,train,
+data\processed\features\normal\2018_a_h.npy,data\raw\normal\2018\vowels\2018-a_h.nsp,normal,0,2018,1127,a_h,w,23.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2596_i_h.npy,data\raw\vox_senilis\2596\vowels\2596-i_h.nsp,vox_senilis,2,2596,2336,i_h,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend"
+data\processed\features\vox_senilis\826_i_lhl.npy,data\raw\vox_senilis\826\vowels\826-i_lhl.nsp,vox_senilis,2,826,1438,i_lhl,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen
+data\processed\features\normal\1845_i_h.npy,data\raw\normal\1845\vowels\1845-i_h.nsp,normal,0,1845,1078,i_h,w,19.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\2121_a_n.npy,data\raw\vox_senilis\2121\vowels\2121-a_n.nsp,vox_senilis,2,2121,2310,a_n,w,69.0,6.484517304189436,train,
+data\processed\features\normal\1214_i_l.npy,data\raw\normal\1214\vowels\1214-i_l.nsp,normal,0,1214,938,i_l,w,31.5,0.3521266073194856,train,
+data\processed\features\normal\998_u_lhl.npy,data\raw\normal\998\vowels\998-u_lhl.nsp,normal,0,998,792,u_lhl,m,29.3,0.3521266073194856,train,
+data\processed\features\normal\87_u_lhl.npy,data\raw\normal\87\vowels\87-u_lhl.nsp,normal,0,87,97,u_lhl,m,68.7,0.3521266073194856,train,
+data\processed\features\normal\1573_i_lhl.npy,data\raw\normal\1573\vowels\1573-i_lhl.nsp,normal,0,1573,1027,i_lhl,m,21.4,0.3521266073194856,train,
+data\processed\features\vox_senilis\2596_phrase.npy,data\raw\vox_senilis\2596\sentences\2596-phrase.nsp,vox_senilis,2,2596,2336,phrase,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend"
+data\processed\features\normal\1542_iau.npy,data\raw\normal\1542\vowels\1542-iau.nsp,normal,0,1542,1023,iau,w,20.1,0.3521266073194856,train,
+data\processed\features\vox_senilis\360_u_l.npy,data\raw\vox_senilis\360\vowels\360-u_l.nsp,vox_senilis,2,360,1347,u_l,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset"
+data\processed\features\vox_senilis\826_phrase.npy,data\raw\vox_senilis\826\sentences\826-phrase.nsp,vox_senilis,2,826,1438,phrase,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen
+data\processed\features\vox_senilis\1268_a_n.npy,data\raw\vox_senilis\1268\vowels\1268-a_n.nsp,vox_senilis,2,1268,1656,a_n,m,83.5,6.484517304189436,train,Mit Stimmschwäche
+data\processed\features\vox_senilis\2569_iau.npy,data\raw\vox_senilis\2569\vowels\2569-iau.nsp,vox_senilis,2,2569,2703,iau,w,73.9,6.484517304189436,train,"Zustand nach Strumektomie, keine Rekurrensparese"
+data\processed\features\vox_senilis\2377_i_lhl.npy,data\raw\vox_senilis\2377\vowels\2377-i_lhl.nsp,vox_senilis,2,2377,2511,i_lhl,m,67.4,6.484517304189436,train,
+data\processed\features\normal\998_u_n.npy,data\raw\normal\998\vowels\998-u_n.nsp,normal,0,998,792,u_n,m,29.3,0.3521266073194856,train,
+data\processed\features\normal\688_iau.npy,data\raw\normal\688\vowels\688-iau.nsp,normal,0,688,616,iau,w,19.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\1971_i_n.npy,data\raw\vox_senilis\1971\vowels\1971-i_n.nsp,vox_senilis,2,1971,2180,i_n,w,78.0,6.484517304189436,train,Intermediärschwäche
+data\processed\features\vox_senilis\1338_a_lhl.npy,data\raw\vox_senilis\1338\vowels\1338-a_lhl.nsp,vox_senilis,2,1338,1720,a_lhl,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom"
+data\processed\features\normal\2207_i_n.npy,data\raw\normal\2207\vowels\2207-i_n.nsp,normal,0,2207,1179,i_n,w,19.4,0.3521266073194856,train,
+data\processed\features\laryngozele\1205_u_l.npy,data\raw\laryngozele\1205\vowels\1205-u_l.nsp,laryngozele,1,1205,1602,u_l,m,47.0,169.52380952380952,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B."
+data\processed\features\vox_senilis\1971_a_l.npy,data\raw\vox_senilis\1971\vowels\1971-a_l.nsp,vox_senilis,2,1971,2180,a_l,w,78.0,6.484517304189436,train,Intermediärschwäche
+data\processed\features\normal\1072_a_h.npy,data\raw\normal\1072\vowels\1072-a_h.nsp,normal,0,1072,851,a_h,m,32.5,0.3521266073194856,train,
+data\processed\features\normal\87_iau.npy,data\raw\normal\87\vowels\87-iau.nsp,normal,0,87,97,iau,m,68.7,0.3521266073194856,train,
+data\processed\features\normal\59_a_l.npy,data\raw\normal\59\vowels\59-a_l.nsp,normal,0,59,59,a_l,m,21.2,0.3521266073194856,train,
+data\processed\features\normal\943_phrase.npy,data\raw\normal\943\sentences\943-phrase.nsp,normal,0,943,747,phrase,m,45.6,0.3521266073194856,train,
+data\processed\features\vox_senilis\2307_u_l.npy,data\raw\vox_senilis\2307\vowels\2307-u_l.nsp,vox_senilis,2,2307,2441,u_l,w,76.0,6.484517304189436,train,
+data\processed\features\vox_senilis\360_i_lhl.npy,data\raw\vox_senilis\360\vowels\360-i_lhl.nsp,vox_senilis,2,360,1347,i_lhl,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset"
+data\processed\features\laryngozele\1205_a_l.npy,data\raw\laryngozele\1205\vowels\1205-a_l.nsp,laryngozele,1,1205,1602,a_l,m,47.0,169.52380952380952,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B."
+data\processed\features\normal\1072_phrase.npy,data\raw\normal\1072\sentences\1072-phrase.nsp,normal,0,1072,851,phrase,m,32.5,0.3521266073194856,train,
+data\processed\features\normal\98_u_n.npy,data\raw\normal\98\vowels\98-u_n.nsp,normal,0,98,114,u_n,m,27.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\2121_i_n.npy,data\raw\vox_senilis\2121\vowels\2121-i_n.nsp,vox_senilis,2,2121,2310,i_n,w,69.0,6.484517304189436,train,
+data\processed\features\vox_senilis\2003_u_lhl.npy,data\raw\vox_senilis\2003\vowels\2003-u_lhl.nsp,vox_senilis,2,2003,2212,u_lhl,m,77.6,6.484517304189436,train,Laryngitis subglottisch
+data\processed\features\normal\2018_u_n.npy,data\raw\normal\2018\vowels\2018-u_n.nsp,normal,0,2018,1127,u_n,w,23.2,0.3521266073194856,train,
+data\processed\features\normal\85_phrase.npy,data\raw\normal\85\sentences\85-phrase.nsp,normal,0,85,92,phrase,m,59.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\2319_i_n.npy,data\raw\vox_senilis\2319\vowels\2319-i_n.nsp,vox_senilis,2,2319,2453,i_n,m,81.2,6.484517304189436,train,Vox senilis
+data\processed\features\normal\1522_a_h.npy,data\raw\normal\1522\vowels\1522-a_h.nsp,normal,0,1522,987,a_h,m,23.2,0.3521266073194856,train,
+data\processed\features\normal\125_i_h.npy,data\raw\normal\125\vowels\125-i_h.nsp,normal,0,125,132,i_h,w,20.7,0.3521266073194856,train,
+data\processed\features\normal\984_i_h.npy,data\raw\normal\984\vowels\984-i_h.nsp,normal,0,984,790,i_h,m,32.2,0.3521266073194856,train,
+data\processed\features\normal\998_a_lhl.npy,data\raw\normal\998\vowels\998-a_lhl.nsp,normal,0,998,792,a_lhl,m,29.3,0.3521266073194856,train,
+data\processed\features\normal\1573_a_lhl.npy,data\raw\normal\1573\vowels\1573-a_lhl.nsp,normal,0,1573,1027,a_lhl,m,21.4,0.3521266073194856,train,
+data\processed\features\vox_senilis\826_u_l.npy,data\raw\vox_senilis\826\vowels\826-u_l.nsp,vox_senilis,2,826,1438,u_l,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen
+data\processed\features\vox_senilis\933_a_h.npy,data\raw\vox_senilis\933\vowels\933-a_h.nsp,vox_senilis,2,933,1525,a_h,w,79.7,6.484517304189436,train,Stimmlippenvarizen links
+data\processed\features\normal\943_u_l.npy,data\raw\normal\943\vowels\943-u_l.nsp,normal,0,943,747,u_l,m,45.6,0.3521266073194856,train,
+data\processed\features\vox_senilis\2121_a_l.npy,data\raw\vox_senilis\2121\vowels\2121-a_l.nsp,vox_senilis,2,2121,2310,a_l,w,69.0,6.484517304189436,train,
+data\processed\features\normal\1344_phrase.npy,data\raw\normal\1344\sentences\1344-phrase.nsp,normal,0,1344,950,phrase,m,22.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\2121_a_h.npy,data\raw\vox_senilis\2121\vowels\2121-a_h.nsp,vox_senilis,2,2121,2310,a_h,w,69.0,6.484517304189436,train,
+data\processed\features\normal\943_i_n.npy,data\raw\normal\943\vowels\943-i_n.nsp,normal,0,943,747,i_n,m,45.6,0.3521266073194856,train,
+data\processed\features\vox_senilis\826_u_h.npy,data\raw\vox_senilis\826\vowels\826-u_h.nsp,vox_senilis,2,826,1438,u_h,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen
+data\processed\features\vox_senilis\1203_iau.npy,data\raw\vox_senilis\1203\vowels\1203-iau.nsp,vox_senilis,2,1203,1600,iau,w,61.1,6.484517304189436,train,Leicht
+data\processed\features\vox_senilis\2307_a_n.npy,data\raw\vox_senilis\2307\vowels\2307-a_n.nsp,vox_senilis,2,2307,2441,a_n,w,76.0,6.484517304189436,train,
+data\processed\features\normal\59_a_h.npy,data\raw\normal\59\vowels\59-a_h.nsp,normal,0,59,59,a_h,m,21.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\826_a_l.npy,data\raw\vox_senilis\826\vowels\826-a_l.nsp,vox_senilis,2,826,1438,a_l,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen
+data\processed\features\normal\972_a_lhl.npy,data\raw\normal\972\vowels\972-a_lhl.nsp,normal,0,972,776,a_lhl,m,27.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\1159_u_lhl.npy,data\raw\vox_senilis\1159\vowels\1159-u_lhl.nsp,vox_senilis,2,1159,1445,u_lhl,w,69.1,6.484517304189436,train,Leichte subglottische Einengung
+data\processed\features\vox_senilis\360_i_n.npy,data\raw\vox_senilis\360\vowels\360-i_n.nsp,vox_senilis,2,360,1347,i_n,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset"
+data\processed\features\vox_senilis\933_a_l.npy,data\raw\vox_senilis\933\vowels\933-a_l.nsp,vox_senilis,2,933,1525,a_l,w,79.7,6.484517304189436,train,Stimmlippenvarizen links
+data\processed\features\vox_senilis\1203_u_l.npy,data\raw\vox_senilis\1203\vowels\1203-u_l.nsp,vox_senilis,2,1203,1600,u_l,w,61.1,6.484517304189436,train,Leicht
+data\processed\features\normal\16_i_h.npy,data\raw\normal\16\vowels\16-i_h.nsp,normal,0,16,18,i_h,w,19.9,0.3521266073194856,train,
+data\processed\features\vox_senilis\2307_a_h.npy,data\raw\vox_senilis\2307\vowels\2307-a_h.nsp,vox_senilis,2,2307,2441,a_h,w,76.0,6.484517304189436,train,
+data\processed\features\vox_senilis\1220_u_h.npy,data\raw\vox_senilis\1220\vowels\1220-u_h.nsp,vox_senilis,2,1220,1608,u_h,m,76.7,6.484517304189436,train,Vox senilis
+data\processed\features\normal\1344_a_lhl.npy,data\raw\normal\1344\vowels\1344-a_lhl.nsp,normal,0,1344,950,a_lhl,m,22.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\2564_a_l.npy,data\raw\vox_senilis\2564\vowels\2564-a_l.nsp,vox_senilis,2,2564,2007,a_l,w,61.8,6.484517304189436,train,"Kompensiert, alte"
+data\processed\features\vox_senilis\360_a_l.npy,data\raw\vox_senilis\360\vowels\360-a_l.nsp,vox_senilis,2,360,1347,a_l,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset"
+data\processed\features\normal\688_a_h.npy,data\raw\normal\688\vowels\688-a_h.nsp,normal,0,688,616,a_h,w,19.7,0.3521266073194856,train,
+data\processed\features\normal\1522_i_lhl.npy,data\raw\normal\1522\vowels\1522-i_lhl.nsp,normal,0,1522,987,i_lhl,m,23.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2596_a_n.npy,data\raw\vox_senilis\2596\vowels\2596-a_n.nsp,vox_senilis,2,2596,2336,a_n,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend"
+data\processed\features\normal\1845_iau.npy,data\raw\normal\1845\vowels\1845-iau.nsp,normal,0,1845,1078,iau,w,19.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\2303_phrase.npy,data\raw\vox_senilis\2303\sentences\2303-phrase.nsp,vox_senilis,2,2303,2420,phrase,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps
+data\processed\features\vox_senilis\2097_phrase.npy,data\raw\vox_senilis\2097\sentences\2097-phrase.nsp,vox_senilis,2,2097,2283,phrase,w,30.7,6.484517304189436,train,Chron. Laryngitis
+data\processed\features\normal\1542_i_n.npy,data\raw\normal\1542\vowels\1542-i_n.nsp,normal,0,1542,1023,i_n,w,20.1,0.3521266073194856,train,
+data\processed\features\vox_senilis\899_a_lhl.npy,data\raw\vox_senilis\899\vowels\899-a_lhl.nsp,vox_senilis,2,899,1491,a_lhl,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts
+data\processed\features\vox_senilis\2601_iau.npy,data\raw\vox_senilis\2601\vowels\2601-iau.nsp,vox_senilis,2,2601,2727,iau,w,64.7,6.484517304189436,train,
+data\processed\features\vox_senilis\2003_a_h.npy,data\raw\vox_senilis\2003\vowels\2003-a_h.nsp,vox_senilis,2,2003,2212,a_h,m,77.6,6.484517304189436,train,Laryngitis subglottisch
+data\processed\features\normal\98_i_h.npy,data\raw\normal\98\vowels\98-i_h.nsp,normal,0,98,114,i_h,m,27.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\2307_iau.npy,data\raw\vox_senilis\2307\vowels\2307-iau.nsp,vox_senilis,2,2307,2441,iau,w,76.0,6.484517304189436,train,
+data\processed\features\vox_senilis\933_i_l.npy,data\raw\vox_senilis\933\vowels\933-i_l.nsp,vox_senilis,2,933,1525,i_l,w,79.7,6.484517304189436,train,Stimmlippenvarizen links
+data\processed\features\normal\1542_i_lhl.npy,data\raw\normal\1542\vowels\1542-i_lhl.nsp,normal,0,1542,1023,i_lhl,w,20.1,0.3521266073194856,train,
+data\processed\features\vox_senilis\1338_a_h.npy,data\raw\vox_senilis\1338\vowels\1338-a_h.nsp,vox_senilis,2,1338,1720,a_h,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom"
+data\processed\features\normal\1573_a_h.npy,data\raw\normal\1573\vowels\1573-a_h.nsp,normal,0,1573,1027,a_h,m,21.4,0.3521266073194856,train,
+data\processed\features\vox_senilis\2509_i_l.npy,data\raw\vox_senilis\2509\vowels\2509-i_l.nsp,vox_senilis,2,2509,2643,i_l,w,63.9,6.484517304189436,train,
+data\processed\features\vox_senilis\2596_u_lhl.npy,data\raw\vox_senilis\2596\vowels\2596-u_lhl.nsp,vox_senilis,2,2596,2336,u_lhl,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend"
+data\processed\features\vox_senilis\1203_a_lhl.npy,data\raw\vox_senilis\1203\vowels\1203-a_lhl.nsp,vox_senilis,2,1203,1600,a_lhl,w,61.1,6.484517304189436,train,Leicht
+data\processed\features\normal\1344_iau.npy,data\raw\normal\1344\vowels\1344-iau.nsp,normal,0,1344,950,iau,m,22.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\826_u_lhl.npy,data\raw\vox_senilis\826\vowels\826-u_lhl.nsp,vox_senilis,2,826,1438,u_lhl,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen
+data\processed\features\vox_senilis\2564_u_lhl.npy,data\raw\vox_senilis\2564\vowels\2564-u_lhl.nsp,vox_senilis,2,2564,2007,u_lhl,w,61.8,6.484517304189436,train,"Kompensiert, alte"
+data\processed\features\normal\1513_a_lhl.npy,data\raw\normal\1513\vowels\1513-a_lhl.nsp,normal,0,1513,996,a_lhl,w,20.2,0.3521266073194856,train,
+data\processed\features\normal\2207_i_h.npy,data\raw\normal\2207\vowels\2207-i_h.nsp,normal,0,2207,1179,i_h,w,19.4,0.3521266073194856,train,
+data\processed\features\normal\98_u_l.npy,data\raw\normal\98\vowels\98-u_l.nsp,normal,0,98,114,u_l,m,27.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\2377_a_lhl.npy,data\raw\vox_senilis\2377\vowels\2377-a_lhl.nsp,vox_senilis,2,2377,2511,a_lhl,m,67.4,6.484517304189436,train,
+data\processed\features\normal\1531_phrase.npy,data\raw\normal\1531\sentences\1531-phrase.nsp,normal,0,1531,1012,phrase,w,19.6,0.3521266073194856,train,
+data\processed\features\normal\85_u_l.npy,data\raw\normal\85\vowels\85-u_l.nsp,normal,0,85,92,u_l,m,59.7,0.3521266073194856,train,
+data\processed\features\normal\1121_i_n.npy,data\raw\normal\1121\vowels\1121-i_n.nsp,normal,0,1121,882,i_n,w,25.3,0.3521266073194856,train,
+data\processed\features\vox_senilis\1819_u_h.npy,data\raw\vox_senilis\1819\vowels\1819-u_h.nsp,vox_senilis,2,1819,2084,u_h,m,66.6,6.484517304189436,train,Ohne Reflux
+data\processed\features\vox_senilis\2307_u_lhl.npy,data\raw\vox_senilis\2307\vowels\2307-u_lhl.nsp,vox_senilis,2,2307,2441,u_lhl,w,76.0,6.484517304189436,train,
+data\processed\features\vox_senilis\360_iau.npy,data\raw\vox_senilis\360\vowels\360-iau.nsp,vox_senilis,2,360,1347,iau,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset"
+data\processed\features\normal\85_i_n.npy,data\raw\normal\85\vowels\85-i_n.nsp,normal,0,85,92,i_n,m,59.7,0.3521266073194856,train,
+data\processed\features\normal\1573_u_n.npy,data\raw\normal\1573\vowels\1573-u_n.nsp,normal,0,1573,1027,u_n,m,21.4,0.3521266073194856,train,
+data\processed\features\normal\1531_u_n.npy,data\raw\normal\1531\vowels\1531-u_n.nsp,normal,0,1531,1012,u_n,w,19.6,0.3521266073194856,train,
+data\processed\features\normal\1531_u_h.npy,data\raw\normal\1531\vowels\1531-u_h.nsp,normal,0,1531,1012,u_h,w,19.6,0.3521266073194856,train,
+data\processed\features\normal\85_u_h.npy,data\raw\normal\85\vowels\85-u_h.nsp,normal,0,85,92,u_h,m,59.7,0.3521266073194856,train,
+data\processed\features\normal\1522_a_l.npy,data\raw\normal\1522\vowels\1522-a_l.nsp,normal,0,1522,987,a_l,m,23.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1159_iau.npy,data\raw\vox_senilis\1159\vowels\1159-iau.nsp,vox_senilis,2,1159,1445,iau,w,69.1,6.484517304189436,train,Leichte subglottische Einengung
+data\processed\features\normal\984_u_n.npy,data\raw\normal\984\vowels\984-u_n.nsp,normal,0,984,790,u_n,m,32.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1268_a_lhl.npy,data\raw\vox_senilis\1268\vowels\1268-a_lhl.nsp,vox_senilis,2,1268,1656,a_lhl,m,83.5,6.484517304189436,train,Mit Stimmschwäche
+data\processed\features\normal\998_i_h.npy,data\raw\normal\998\vowels\998-i_h.nsp,normal,0,998,792,i_h,m,29.3,0.3521266073194856,train,
+data\processed\features\normal\943_a_lhl.npy,data\raw\normal\943\vowels\943-a_lhl.nsp,normal,0,943,747,a_lhl,m,45.6,0.3521266073194856,train,
+data\processed\features\vox_senilis\2307_a_lhl.npy,data\raw\vox_senilis\2307\vowels\2307-a_lhl.nsp,vox_senilis,2,2307,2441,a_lhl,w,76.0,6.484517304189436,train,
+data\processed\features\vox_senilis\1203_a_l.npy,data\raw\vox_senilis\1203\vowels\1203-a_l.nsp,vox_senilis,2,1203,1600,a_l,w,61.1,6.484517304189436,train,Leicht
+data\processed\features\vox_senilis\1268_i_h.npy,data\raw\vox_senilis\1268\vowels\1268-i_h.nsp,vox_senilis,2,1268,1656,i_h,m,83.5,6.484517304189436,train,Mit Stimmschwäche
+data\processed\features\normal\984_a_lhl.npy,data\raw\normal\984\vowels\984-a_lhl.nsp,normal,0,984,790,a_lhl,m,32.2,0.3521266073194856,train,
+data\processed\features\normal\943_i_h.npy,data\raw\normal\943\vowels\943-i_h.nsp,normal,0,943,747,i_h,m,45.6,0.3521266073194856,train,
+data\processed\features\vox_senilis\1159_a_lhl.npy,data\raw\vox_senilis\1159\vowels\1159-a_lhl.nsp,vox_senilis,2,1159,1445,a_lhl,w,69.1,6.484517304189436,train,Leichte subglottische Einengung
+data\processed\features\normal\1573_phrase.npy,data\raw\normal\1573\sentences\1573-phrase.nsp,normal,0,1573,1027,phrase,m,21.4,0.3521266073194856,train,
+data\processed\features\normal\87_u_l.npy,data\raw\normal\87\vowels\87-u_l.nsp,normal,0,87,97,u_l,m,68.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\826_i_h.npy,data\raw\vox_senilis\826\vowels\826-i_h.nsp,vox_senilis,2,826,1438,i_h,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen
+data\processed\features\normal\943_u_h.npy,data\raw\normal\943\vowels\943-u_h.nsp,normal,0,943,747,u_h,m,45.6,0.3521266073194856,train,
+data\processed\features\vox_senilis\2601_a_h.npy,data\raw\vox_senilis\2601\vowels\2601-a_h.nsp,vox_senilis,2,2601,2727,a_h,w,64.7,6.484517304189436,train,
+data\processed\features\vox_senilis\1819_u_lhl.npy,data\raw\vox_senilis\1819\vowels\1819-u_lhl.nsp,vox_senilis,2,1819,2084,u_lhl,m,66.6,6.484517304189436,train,Ohne Reflux
+data\processed\features\vox_senilis\2601_a_lhl.npy,data\raw\vox_senilis\2601\vowels\2601-a_lhl.nsp,vox_senilis,2,2601,2727,a_lhl,w,64.7,6.484517304189436,train,
+data\processed\features\normal\1344_u_n.npy,data\raw\normal\1344\vowels\1344-u_n.nsp,normal,0,1344,950,u_n,m,22.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\2509_u_h.npy,data\raw\vox_senilis\2509\vowels\2509-u_h.nsp,vox_senilis,2,2509,2643,u_h,w,63.9,6.484517304189436,train,
+data\processed\features\vox_senilis\1203_u_lhl.npy,data\raw\vox_senilis\1203\vowels\1203-u_lhl.nsp,vox_senilis,2,1203,1600,u_lhl,w,61.1,6.484517304189436,train,Leicht
+data\processed\features\normal\2018_i_n.npy,data\raw\normal\2018\vowels\2018-i_n.nsp,normal,0,2018,1127,i_n,w,23.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2569_i_l.npy,data\raw\vox_senilis\2569\vowels\2569-i_l.nsp,vox_senilis,2,2569,2703,i_l,w,73.9,6.484517304189436,train,"Zustand nach Strumektomie, keine Rekurrensparese"
+data\processed\features\normal\1214_a_h.npy,data\raw\normal\1214\vowels\1214-a_h.nsp,normal,0,1214,938,a_h,w,31.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\1268_i_lhl.npy,data\raw\vox_senilis\1268\vowels\1268-i_lhl.nsp,vox_senilis,2,1268,1656,i_lhl,m,83.5,6.484517304189436,train,Mit Stimmschwäche
+data\processed\features\vox_senilis\933_u_lhl.npy,data\raw\vox_senilis\933\vowels\933-u_lhl.nsp,vox_senilis,2,933,1525,u_lhl,w,79.7,6.484517304189436,train,Stimmlippenvarizen links
+data\processed\features\vox_senilis\2515_phrase.npy,data\raw\vox_senilis\2515\sentences\2515-phrase.nsp,vox_senilis,2,2515,2649,phrase,w,75.2,6.484517304189436,train,
+data\processed\features\vox_senilis\1220_i_n.npy,data\raw\vox_senilis\1220\vowels\1220-i_n.nsp,vox_senilis,2,1220,1608,i_n,m,76.7,6.484517304189436,train,Vox senilis
+data\processed\features\vox_senilis\2303_a_lhl.npy,data\raw\vox_senilis\2303\vowels\2303-a_lhl.nsp,vox_senilis,2,2303,2420,a_lhl,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps
+data\processed\features\vox_senilis\2515_i_lhl.npy,data\raw\vox_senilis\2515\vowels\2515-i_lhl.nsp,vox_senilis,2,2515,2649,i_lhl,w,75.2,6.484517304189436,train,
+data\processed\features\normal\98_u_lhl.npy,data\raw\normal\98\vowels\98-u_lhl.nsp,normal,0,98,114,u_lhl,m,27.8,0.3521266073194856,train,
+data\processed\features\laryngozele\1205_i_lhl.npy,data\raw\laryngozele\1205\vowels\1205-i_lhl.nsp,laryngozele,1,1205,1602,i_lhl,m,47.0,169.52380952380952,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B."
+data\processed\features\laryngozele\1205_a_n.npy,data\raw\laryngozele\1205\vowels\1205-a_n.nsp,laryngozele,1,1205,1602,a_n,m,47.0,169.52380952380952,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B."
+data\processed\features\normal\1214_i_h.npy,data\raw\normal\1214\vowels\1214-i_h.nsp,normal,0,1214,938,i_h,w,31.5,0.3521266073194856,train,
+data\processed\features\normal\984_phrase.npy,data\raw\normal\984\sentences\984-phrase.nsp,normal,0,984,790,phrase,m,32.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2307_i_l.npy,data\raw\vox_senilis\2307\vowels\2307-i_l.nsp,vox_senilis,2,2307,2441,i_l,w,76.0,6.484517304189436,train,
+data\processed\features\normal\838_phrase.npy,data\raw\normal\838\sentences\838-phrase.nsp,normal,0,838,726,phrase,w,18.9,0.3521266073194856,train,
+data\processed\features\vox_senilis\2097_a_h.npy,data\raw\vox_senilis\2097\vowels\2097-a_h.nsp,vox_senilis,2,2097,2283,a_h,w,30.7,6.484517304189436,train,Chron. Laryngitis
+data\processed\features\normal\16_a_h.npy,data\raw\normal\16\vowels\16-a_h.nsp,normal,0,16,18,a_h,w,19.9,0.3521266073194856,train,
+data\processed\features\vox_senilis\2377_i_l.npy,data\raw\vox_senilis\2377\vowels\2377-i_l.nsp,vox_senilis,2,2377,2511,i_l,m,67.4,6.484517304189436,train,
+data\processed\features\normal\838_a_l.npy,data\raw\normal\838\vowels\838-a_l.nsp,normal,0,838,726,a_l,w,18.9,0.3521266073194856,train,
+data\processed\features\normal\838_u_h.npy,data\raw\normal\838\vowels\838-u_h.nsp,normal,0,838,726,u_h,w,18.9,0.3521266073194856,train,
+data\processed\features\normal\1513_u_lhl.npy,data\raw\normal\1513\vowels\1513-u_lhl.nsp,normal,0,1513,996,u_lhl,w,20.2,0.3521266073194856,train,
+data\processed\features\normal\1531_i_h.npy,data\raw\normal\1531\vowels\1531-i_h.nsp,normal,0,1531,1012,i_h,w,19.6,0.3521266073194856,train,
+data\processed\features\normal\1542_a_l.npy,data\raw\normal\1542\vowels\1542-a_l.nsp,normal,0,1542,1023,a_l,w,20.1,0.3521266073194856,train,
+data\processed\features\normal\984_a_l.npy,data\raw\normal\984\vowels\984-a_l.nsp,normal,0,984,790,a_l,m,32.2,0.3521266073194856,train,
+data\processed\features\normal\688_a_l.npy,data\raw\normal\688\vowels\688-a_l.nsp,normal,0,688,616,a_l,w,19.7,0.3521266073194856,train,
+data\processed\features\normal\838_i_lhl.npy,data\raw\normal\838\vowels\838-i_lhl.nsp,normal,0,838,726,i_lhl,w,18.9,0.3521266073194856,train,
+data\processed\features\vox_senilis\1338_u_l.npy,data\raw\vox_senilis\1338\vowels\1338-u_l.nsp,vox_senilis,2,1338,1720,u_l,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom"
+data\processed\features\normal\943_i_l.npy,data\raw\normal\943\vowels\943-i_l.nsp,normal,0,943,747,i_l,m,45.6,0.3521266073194856,train,
+data\processed\features\vox_senilis\2307_phrase.npy,data\raw\vox_senilis\2307\sentences\2307-phrase.nsp,vox_senilis,2,2307,2441,phrase,w,76.0,6.484517304189436,train,
+data\processed\features\normal\1214_i_lhl.npy,data\raw\normal\1214\vowels\1214-i_lhl.nsp,normal,0,1214,938,i_lhl,w,31.5,0.3521266073194856,train,
+data\processed\features\normal\1531_i_lhl.npy,data\raw\normal\1531\vowels\1531-i_lhl.nsp,normal,0,1531,1012,i_lhl,w,19.6,0.3521266073194856,train,
+data\processed\features\vox_senilis\2303_i_lhl.npy,data\raw\vox_senilis\2303\vowels\2303-i_lhl.nsp,vox_senilis,2,2303,2420,i_lhl,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps
+data\processed\features\vox_senilis\360_u_n.npy,data\raw\vox_senilis\360\vowels\360-u_n.nsp,vox_senilis,2,360,1347,u_n,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset"
+data\processed\features\vox_senilis\2377_i_h.npy,data\raw\vox_senilis\2377\vowels\2377-i_h.nsp,vox_senilis,2,2377,2511,i_h,m,67.4,6.484517304189436,train,
+data\processed\features\normal\1542_u_l.npy,data\raw\normal\1542\vowels\1542-u_l.nsp,normal,0,1542,1023,u_l,w,20.1,0.3521266073194856,train,
+data\processed\features\vox_senilis\933_u_n.npy,data\raw\vox_senilis\933\vowels\933-u_n.nsp,vox_senilis,2,933,1525,u_n,w,79.7,6.484517304189436,train,Stimmlippenvarizen links
+data\processed\features\normal\1060_a_lhl.npy,data\raw\normal\1060\vowels\1060-a_lhl.nsp,normal,0,1060,837,a_lhl,w,21.1,0.3521266073194856,train,
+data\processed\features\normal\87_u_h.npy,data\raw\normal\87\vowels\87-u_h.nsp,normal,0,87,97,u_h,m,68.7,0.3521266073194856,train,
+data\processed\features\normal\1573_a_n.npy,data\raw\normal\1573\vowels\1573-a_n.nsp,normal,0,1573,1027,a_n,m,21.4,0.3521266073194856,train,
+data\processed\features\vox_senilis\2121_u_lhl.npy,data\raw\vox_senilis\2121\vowels\2121-u_lhl.nsp,vox_senilis,2,2121,2310,u_lhl,w,69.0,6.484517304189436,train,
+data\processed\features\normal\1531_i_n.npy,data\raw\normal\1531\vowels\1531-i_n.nsp,normal,0,1531,1012,i_n,w,19.6,0.3521266073194856,train,
+data\processed\features\normal\1542_u_h.npy,data\raw\normal\1542\vowels\1542-u_h.nsp,normal,0,1542,1023,u_h,w,20.1,0.3521266073194856,train,
+data\processed\features\vox_senilis\1971_u_n.npy,data\raw\vox_senilis\1971\vowels\1971-u_n.nsp,vox_senilis,2,1971,2180,u_n,w,78.0,6.484517304189436,train,Intermediärschwäche
+data\processed\features\vox_senilis\2509_u_l.npy,data\raw\vox_senilis\2509\vowels\2509-u_l.nsp,vox_senilis,2,2509,2643,u_l,w,63.9,6.484517304189436,train,
+data\processed\features\normal\1542_a_h.npy,data\raw\normal\1542\vowels\1542-a_h.nsp,normal,0,1542,1023,a_h,w,20.1,0.3521266073194856,train,
+data\processed\features\normal\2207_iau.npy,data\raw\normal\2207\vowels\2207-iau.nsp,normal,0,2207,1179,iau,w,19.4,0.3521266073194856,train,
+data\processed\features\vox_senilis\1971_iau.npy,data\raw\vox_senilis\1971\vowels\1971-iau.nsp,vox_senilis,2,1971,2180,iau,w,78.0,6.484517304189436,train,Intermediärschwäche
+data\processed\features\normal\1072_u_n.npy,data\raw\normal\1072\vowels\1072-u_n.nsp,normal,0,1072,851,u_n,m,32.5,0.3521266073194856,train,
+data\processed\features\normal\1072_u_l.npy,data\raw\normal\1072\vowels\1072-u_l.nsp,normal,0,1072,851,u_l,m,32.5,0.3521266073194856,train,
+data\processed\features\normal\2018_i_h.npy,data\raw\normal\2018\vowels\2018-i_h.nsp,normal,0,2018,1127,i_h,w,23.2,0.3521266073194856,train,
+data\processed\features\normal\1845_i_lhl.npy,data\raw\normal\1845\vowels\1845-i_lhl.nsp,normal,0,1845,1078,i_lhl,w,19.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\1478_a_n.npy,data\raw\vox_senilis\1478\vowels\1478-a_n.nsp,vox_senilis,2,1478,1826,a_n,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis"
+data\processed\features\vox_senilis\2003_a_lhl.npy,data\raw\vox_senilis\2003\vowels\2003-a_lhl.nsp,vox_senilis,2,2003,2212,a_lhl,m,77.6,6.484517304189436,train,Laryngitis subglottisch
+data\processed\features\normal\1071_u_n.npy,data\raw\normal\1071\vowels\1071-u_n.nsp,normal,0,1071,850,u_n,m,29.2,0.3521266073194856,train,
+data\processed\features\normal\984_a_h.npy,data\raw\normal\984\vowels\984-a_h.nsp,normal,0,984,790,a_h,m,32.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2003_i_l.npy,data\raw\vox_senilis\2003\vowels\2003-i_l.nsp,vox_senilis,2,2003,2212,i_l,m,77.6,6.484517304189436,train,Laryngitis subglottisch
+data\processed\features\vox_senilis\1268_u_l.npy,data\raw\vox_senilis\1268\vowels\1268-u_l.nsp,vox_senilis,2,1268,1656,u_l,m,83.5,6.484517304189436,train,Mit Stimmschwäche
+data\processed\features\vox_senilis\2121_u_l.npy,data\raw\vox_senilis\2121\vowels\2121-u_l.nsp,vox_senilis,2,2121,2310,u_l,w,69.0,6.484517304189436,train,
+data\processed\features\normal\1071_i_n.npy,data\raw\normal\1071\vowels\1071-i_n.nsp,normal,0,1071,850,i_n,m,29.2,0.3521266073194856,train,
+data\processed\features\normal\972_u_l.npy,data\raw\normal\972\vowels\972-u_l.nsp,normal,0,972,776,u_l,m,27.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\2421_i_h.npy,data\raw\vox_senilis\2421\vowels\2421-i_h.nsp,vox_senilis,2,2421,2555,i_h,w,87.6,6.484517304189436,train,
+data\processed\features\normal\688_i_n.npy,data\raw\normal\688\vowels\688-i_n.nsp,normal,0,688,616,i_n,w,19.7,0.3521266073194856,train,
+data\processed\features\normal\59_u_h.npy,data\raw\normal\59\vowels\59-u_h.nsp,normal,0,59,59,u_h,m,21.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1159_i_lhl.npy,data\raw\vox_senilis\1159\vowels\1159-i_lhl.nsp,vox_senilis,2,1159,1445,i_lhl,w,69.1,6.484517304189436,train,Leichte subglottische Einengung
+data\processed\features\normal\2207_u_n.npy,data\raw\normal\2207\vowels\2207-u_n.nsp,normal,0,2207,1179,u_n,w,19.4,0.3521266073194856,train,
+data\processed\features\vox_senilis\1220_i_lhl.npy,data\raw\vox_senilis\1220\vowels\1220-i_lhl.nsp,vox_senilis,2,1220,1608,i_lhl,m,76.7,6.484517304189436,train,Vox senilis
+data\processed\features\normal\125_a_l.npy,data\raw\normal\125\vowels\125-a_l.nsp,normal,0,125,132,a_l,w,20.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\2564_u_h.npy,data\raw\vox_senilis\2564\vowels\2564-u_h.nsp,vox_senilis,2,2564,2007,u_h,w,61.8,6.484517304189436,train,"Kompensiert, alte"
+data\processed\features\vox_senilis\360_i_l.npy,data\raw\vox_senilis\360\vowels\360-i_l.nsp,vox_senilis,2,360,1347,i_l,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset"
+data\processed\features\normal\98_a_h.npy,data\raw\normal\98\vowels\98-a_h.nsp,normal,0,98,114,a_h,m,27.8,0.3521266073194856,train,
+data\processed\features\normal\1573_a_l.npy,data\raw\normal\1573\vowels\1573-a_l.nsp,normal,0,1573,1027,a_l,m,21.4,0.3521266073194856,train,
+data\processed\features\normal\1573_u_h.npy,data\raw\normal\1573\vowels\1573-u_h.nsp,normal,0,1573,1027,u_h,m,21.4,0.3521266073194856,train,
+data\processed\features\vox_senilis\2569_i_h.npy,data\raw\vox_senilis\2569\vowels\2569-i_h.nsp,vox_senilis,2,2569,2703,i_h,w,73.9,6.484517304189436,train,"Zustand nach Strumektomie, keine Rekurrensparese"
+data\processed\features\vox_senilis\360_a_h.npy,data\raw\vox_senilis\360\vowels\360-a_h.nsp,vox_senilis,2,360,1347,a_h,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset"
+data\processed\features\normal\1072_i_h.npy,data\raw\normal\1072\vowels\1072-i_h.nsp,normal,0,1072,851,i_h,m,32.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\2121_u_h.npy,data\raw\vox_senilis\2121\vowels\2121-u_h.nsp,vox_senilis,2,2121,2310,u_h,w,69.0,6.484517304189436,train,
+data\processed\features\normal\2207_a_h.npy,data\raw\normal\2207\vowels\2207-a_h.nsp,normal,0,2207,1179,a_h,w,19.4,0.3521266073194856,train,
+data\processed\features\normal\87_phrase.npy,data\raw\normal\87\sentences\87-phrase.nsp,normal,0,87,97,phrase,m,68.7,0.3521266073194856,train,
+data\processed\features\normal\1513_u_h.npy,data\raw\normal\1513\vowels\1513-u_h.nsp,normal,0,1513,996,u_h,w,20.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2121_i_l.npy,data\raw\vox_senilis\2121\vowels\2121-i_l.nsp,vox_senilis,2,2121,2310,i_l,w,69.0,6.484517304189436,train,
+data\processed\features\vox_senilis\2121_i_h.npy,data\raw\vox_senilis\2121\vowels\2121-i_h.nsp,vox_senilis,2,2121,2310,i_h,w,69.0,6.484517304189436,train,
+data\processed\features\normal\1573_u_l.npy,data\raw\normal\1573\vowels\1573-u_l.nsp,normal,0,1573,1027,u_l,m,21.4,0.3521266073194856,train,
+data\processed\features\normal\972_phrase.npy,data\raw\normal\972\sentences\972-phrase.nsp,normal,0,972,776,phrase,m,27.8,0.3521266073194856,train,
+data\processed\features\normal\16_u_h.npy,data\raw\normal\16\vowels\16-u_h.nsp,normal,0,16,18,u_h,w,19.9,0.3521266073194856,train,
+data\processed\features\vox_senilis\899_u_h.npy,data\raw\vox_senilis\899\vowels\899-u_h.nsp,vox_senilis,2,899,1491,u_h,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts
+data\processed\features\normal\125_u_n.npy,data\raw\normal\125\vowels\125-u_n.nsp,normal,0,125,132,u_n,w,20.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\846_a_h.npy,data\raw\vox_senilis\846\vowels\846-a_h.nsp,vox_senilis,2,846,1445,a_h,w,68.7,6.484517304189436,train,Subglottale Cyste
+data\processed\features\vox_senilis\2319_u_n.npy,data\raw\vox_senilis\2319\vowels\2319-u_n.nsp,vox_senilis,2,2319,2453,u_n,m,81.2,6.484517304189436,train,Vox senilis
+data\processed\features\vox_senilis\2003_u_l.npy,data\raw\vox_senilis\2003\vowels\2003-u_l.nsp,vox_senilis,2,2003,2212,u_l,m,77.6,6.484517304189436,train,Laryngitis subglottisch
+data\processed\features\normal\838_a_h.npy,data\raw\normal\838\vowels\838-a_h.nsp,normal,0,838,726,a_h,w,18.9,0.3521266073194856,train,
+data\processed\features\vox_senilis\2121_a_lhl.npy,data\raw\vox_senilis\2121\vowels\2121-a_lhl.nsp,vox_senilis,2,2121,2310,a_lhl,w,69.0,6.484517304189436,train,
+data\processed\features\normal\98_i_l.npy,data\raw\normal\98\vowels\98-i_l.nsp,normal,0,98,114,i_l,m,27.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\2377_u_h.npy,data\raw\vox_senilis\2377\vowels\2377-u_h.nsp,vox_senilis,2,2377,2511,u_h,m,67.4,6.484517304189436,train,
+data\processed\features\vox_senilis\2596_u_l.npy,data\raw\vox_senilis\2596\vowels\2596-u_l.nsp,vox_senilis,2,2596,2336,u_l,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend"
+data\processed\features\vox_senilis\2601_u_l.npy,data\raw\vox_senilis\2601\vowels\2601-u_l.nsp,vox_senilis,2,2601,2727,u_l,w,64.7,6.484517304189436,train,
+data\processed\features\normal\1071_i_h.npy,data\raw\normal\1071\vowels\1071-i_h.nsp,normal,0,1071,850,i_h,m,29.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2003_u_h.npy,data\raw\vox_senilis\2003\vowels\2003-u_h.nsp,vox_senilis,2,2003,2212,u_h,m,77.6,6.484517304189436,train,Laryngitis subglottisch
+data\processed\features\vox_senilis\2319_a_n.npy,data\raw\vox_senilis\2319\vowels\2319-a_n.nsp,vox_senilis,2,2319,2453,a_n,m,81.2,6.484517304189436,train,Vox senilis
+data\processed\features\vox_senilis\2421_a_h.npy,data\raw\vox_senilis\2421\vowels\2421-a_h.nsp,vox_senilis,2,2421,2555,a_h,w,87.6,6.484517304189436,train,
+data\processed\features\normal\1214_a_l.npy,data\raw\normal\1214\vowels\1214-a_l.nsp,normal,0,1214,938,a_l,w,31.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\2564_a_lhl.npy,data\raw\vox_senilis\2564\vowels\2564-a_lhl.nsp,vox_senilis,2,2564,2007,a_lhl,w,61.8,6.484517304189436,train,"Kompensiert, alte"
+data\processed\features\normal\1072_i_l.npy,data\raw\normal\1072\vowels\1072-i_l.nsp,normal,0,1072,851,i_l,m,32.5,0.3521266073194856,train,
+data\processed\features\normal\85_u_n.npy,data\raw\normal\85\vowels\85-u_n.nsp,normal,0,85,92,u_n,m,59.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\2097_a_lhl.npy,data\raw\vox_senilis\2097\vowels\2097-a_lhl.nsp,vox_senilis,2,2097,2283,a_lhl,w,30.7,6.484517304189436,train,Chron. Laryngitis
+data\processed\features\normal\1071_i_lhl.npy,data\raw\normal\1071\vowels\1071-i_lhl.nsp,normal,0,1071,850,i_lhl,m,29.2,0.3521266073194856,train,
+data\processed\features\normal\2018_u_l.npy,data\raw\normal\2018\vowels\2018-u_l.nsp,normal,0,2018,1127,u_l,w,23.2,0.3521266073194856,train,
+data\processed\features\normal\2018_a_lhl.npy,data\raw\normal\2018\vowels\2018-a_lhl.nsp,normal,0,2018,1127,a_lhl,w,23.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2509_a_n.npy,data\raw\vox_senilis\2509\vowels\2509-a_n.nsp,vox_senilis,2,2509,2643,a_n,w,63.9,6.484517304189436,train,
+data\processed\features\normal\943_a_h.npy,data\raw\normal\943\vowels\943-a_h.nsp,normal,0,943,747,a_h,m,45.6,0.3521266073194856,train,
+data\processed\features\normal\87_u_n.npy,data\raw\normal\87\vowels\87-u_n.nsp,normal,0,87,97,u_n,m,68.7,0.3521266073194856,train,
+data\processed\features\normal\943_a_n.npy,data\raw\normal\943\vowels\943-a_n.nsp,normal,0,943,747,a_n,m,45.6,0.3521266073194856,train,
+data\processed\features\normal\2207_i_lhl.npy,data\raw\normal\2207\vowels\2207-i_lhl.nsp,normal,0,2207,1179,i_lhl,w,19.4,0.3521266073194856,train,
+data\processed\features\normal\1060_i_h.npy,data\raw\normal\1060\vowels\1060-i_h.nsp,normal,0,1060,837,i_h,w,21.1,0.3521266073194856,train,
+data\processed\features\normal\984_a_n.npy,data\raw\normal\984\vowels\984-a_n.nsp,normal,0,984,790,a_n,m,32.2,0.3521266073194856,train,
+data\processed\features\normal\1531_a_lhl.npy,data\raw\normal\1531\vowels\1531-a_lhl.nsp,normal,0,1531,1012,a_lhl,w,19.6,0.3521266073194856,train,
+data\processed\features\vox_senilis\2569_u_n.npy,data\raw\vox_senilis\2569\vowels\2569-u_n.nsp,vox_senilis,2,2569,2703,u_n,w,73.9,6.484517304189436,train,"Zustand nach Strumektomie, keine Rekurrensparese"
+data\processed\features\normal\59_i_lhl.npy,data\raw\normal\59\vowels\59-i_lhl.nsp,normal,0,59,59,i_lhl,m,21.2,0.3521266073194856,train,
+data\processed\features\normal\1214_iau.npy,data\raw\normal\1214\vowels\1214-iau.nsp,normal,0,1214,938,iau,w,31.5,0.3521266073194856,train,
+data\processed\features\normal\1522_a_n.npy,data\raw\normal\1522\vowels\1522-a_n.nsp,normal,0,1522,987,a_n,m,23.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2003_phrase.npy,data\raw\vox_senilis\2003\sentences\2003-phrase.nsp,vox_senilis,2,2003,2212,phrase,m,77.6,6.484517304189436,train,Laryngitis subglottisch
+data\processed\features\vox_senilis\2515_a_lhl.npy,data\raw\vox_senilis\2515\vowels\2515-a_lhl.nsp,vox_senilis,2,2515,2649,a_lhl,w,75.2,6.484517304189436,train,
+data\processed\features\normal\972_i_n.npy,data\raw\normal\972\vowels\972-i_n.nsp,normal,0,972,776,i_n,m,27.8,0.3521266073194856,train,
+data\processed\features\laryngozele\1205_i_l.npy,data\raw\laryngozele\1205\vowels\1205-i_l.nsp,laryngozele,1,1205,1602,i_l,m,47.0,169.52380952380952,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B."
+data\processed\features\vox_senilis\2515_a_n.npy,data\raw\vox_senilis\2515\vowels\2515-a_n.nsp,vox_senilis,2,2515,2649,a_n,w,75.2,6.484517304189436,train,
+data\processed\features\normal\2018_u_lhl.npy,data\raw\normal\2018\vowels\2018-u_lhl.nsp,normal,0,2018,1127,u_lhl,w,23.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\826_i_l.npy,data\raw\vox_senilis\826\vowels\826-i_l.nsp,vox_senilis,2,826,1438,i_l,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen
+data\processed\features\normal\1072_a_l.npy,data\raw\normal\1072\vowels\1072-a_l.nsp,normal,0,1072,851,a_l,m,32.5,0.3521266073194856,train,
+data\processed\features\normal\984_u_l.npy,data\raw\normal\984\vowels\984-u_l.nsp,normal,0,984,790,u_l,m,32.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\933_i_h.npy,data\raw\vox_senilis\933\vowels\933-i_h.nsp,vox_senilis,2,933,1525,i_h,w,79.7,6.484517304189436,train,Stimmlippenvarizen links
+data\processed\features\vox_senilis\2569_a_h.npy,data\raw\vox_senilis\2569\vowels\2569-a_h.nsp,vox_senilis,2,2569,2703,a_h,w,73.9,6.484517304189436,train,"Zustand nach Strumektomie, keine Rekurrensparese"
+data\processed\features\vox_senilis\2601_phrase.npy,data\raw\vox_senilis\2601\sentences\2601-phrase.nsp,vox_senilis,2,2601,2727,phrase,w,64.7,6.484517304189436,train,
+data\processed\features\laryngozele\1205_u_h.npy,data\raw\laryngozele\1205\vowels\1205-u_h.nsp,laryngozele,1,1205,1602,u_h,m,47.0,169.52380952380952,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B."
+data\processed\features\normal\1060_a_n.npy,data\raw\normal\1060\vowels\1060-a_n.nsp,normal,0,1060,837,a_n,w,21.1,0.3521266073194856,train,
+data\processed\features\vox_senilis\2509_i_n.npy,data\raw\vox_senilis\2509\vowels\2509-i_n.nsp,vox_senilis,2,2509,2643,i_n,w,63.9,6.484517304189436,train,
+data\processed\features\normal\98_a_lhl.npy,data\raw\normal\98\vowels\98-a_lhl.nsp,normal,0,98,114,a_lhl,m,27.8,0.3521266073194856,train,
+data\processed\features\normal\59_a_n.npy,data\raw\normal\59\vowels\59-a_n.nsp,normal,0,59,59,a_n,m,21.2,0.3521266073194856,train,
+data\processed\features\normal\1344_i_lhl.npy,data\raw\normal\1344\vowels\1344-i_lhl.nsp,normal,0,1344,950,i_lhl,m,22.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\899_i_n.npy,data\raw\vox_senilis\899\vowels\899-i_n.nsp,vox_senilis,2,899,1491,i_n,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts
+data\processed\features\normal\1522_u_n.npy,data\raw\normal\1522\vowels\1522-u_n.nsp,normal,0,1522,987,u_n,m,23.2,0.3521266073194856,train,
+data\processed\features\normal\998_a_l.npy,data\raw\normal\998\vowels\998-a_l.nsp,normal,0,998,792,a_l,m,29.3,0.3521266073194856,train,
+data\processed\features\normal\943_u_lhl.npy,data\raw\normal\943\vowels\943-u_lhl.nsp,normal,0,943,747,u_lhl,m,45.6,0.3521266073194856,train,
+data\processed\features\normal\87_i_n.npy,data\raw\normal\87\vowels\87-i_n.nsp,normal,0,87,97,i_n,m,68.7,0.3521266073194856,train,
+data\processed\features\normal\838_a_lhl.npy,data\raw\normal\838\vowels\838-a_lhl.nsp,normal,0,838,726,a_lhl,w,18.9,0.3521266073194856,train,
+data\processed\features\normal\688_u_h.npy,data\raw\normal\688\vowels\688-u_h.nsp,normal,0,688,616,u_h,w,19.7,0.3521266073194856,train,
+data\processed\features\normal\16_i_lhl.npy,data\raw\normal\16\vowels\16-i_lhl.nsp,normal,0,16,18,i_lhl,w,19.9,0.3521266073194856,train,
+data\processed\features\normal\2018_a_l.npy,data\raw\normal\2018\vowels\2018-a_l.nsp,normal,0,2018,1127,a_l,w,23.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1819_a_h.npy,data\raw\vox_senilis\1819\vowels\1819-a_h.nsp,vox_senilis,2,1819,2084,a_h,m,66.6,6.484517304189436,train,Ohne Reflux
+data\processed\features\vox_senilis\2515_u_n.npy,data\raw\vox_senilis\2515\vowels\2515-u_n.nsp,vox_senilis,2,2515,2649,u_n,w,75.2,6.484517304189436,train,
+data\processed\features\vox_senilis\2303_iau.npy,data\raw\vox_senilis\2303\vowels\2303-iau.nsp,vox_senilis,2,2303,2420,iau,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps
+data\processed\features\normal\1542_a_n.npy,data\raw\normal\1542\vowels\1542-a_n.nsp,normal,0,1542,1023,a_n,w,20.1,0.3521266073194856,train,
+data\processed\features\vox_senilis\1220_i_l.npy,data\raw\vox_senilis\1220\vowels\1220-i_l.nsp,vox_senilis,2,1220,1608,i_l,m,76.7,6.484517304189436,train,Vox senilis
+data\processed\features\normal\1573_i_h.npy,data\raw\normal\1573\vowels\1573-i_h.nsp,normal,0,1573,1027,i_h,m,21.4,0.3521266073194856,train,
+data\processed\features\vox_senilis\2307_a_l.npy,data\raw\vox_senilis\2307\vowels\2307-a_l.nsp,vox_senilis,2,2307,2441,a_l,w,76.0,6.484517304189436,train,
+data\processed\features\normal\838_iau.npy,data\raw\normal\838\vowels\838-iau.nsp,normal,0,838,726,iau,w,18.9,0.3521266073194856,train,
+data\processed\features\normal\688_u_l.npy,data\raw\normal\688\vowels\688-u_l.nsp,normal,0,688,616,u_l,w,19.7,0.3521266073194856,train,
+data\processed\features\normal\972_u_h.npy,data\raw\normal\972\vowels\972-u_h.nsp,normal,0,972,776,u_h,m,27.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\1819_u_l.npy,data\raw\vox_senilis\1819\vowels\1819-u_l.nsp,vox_senilis,2,1819,2084,u_l,m,66.6,6.484517304189436,train,Ohne Reflux
+data\processed\features\normal\1845_a_h.npy,data\raw\normal\1845\vowels\1845-a_h.nsp,normal,0,1845,1078,a_h,w,19.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\2515_u_l.npy,data\raw\vox_senilis\2515\vowels\2515-u_l.nsp,vox_senilis,2,2515,2649,u_l,w,75.2,6.484517304189436,train,
+data\processed\features\normal\1845_u_lhl.npy,data\raw\normal\1845\vowels\1845-u_lhl.nsp,normal,0,1845,1078,u_lhl,w,19.5,0.3521266073194856,train,
+data\processed\features\normal\125_u_h.npy,data\raw\normal\125\vowels\125-u_h.nsp,normal,0,125,132,u_h,w,20.7,0.3521266073194856,train,
+data\processed\features\normal\16_iau.npy,data\raw\normal\16\vowels\16-iau.nsp,normal,0,16,18,iau,w,19.9,0.3521266073194856,train,
+data\processed\features\normal\85_i_h.npy,data\raw\normal\85\vowels\85-i_h.nsp,normal,0,85,92,i_h,m,59.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\2421_iau.npy,data\raw\vox_senilis\2421\vowels\2421-iau.nsp,vox_senilis,2,2421,2555,iau,w,87.6,6.484517304189436,train,
+data\processed\features\normal\1060_u_lhl.npy,data\raw\normal\1060\vowels\1060-u_lhl.nsp,normal,0,1060,837,u_lhl,w,21.1,0.3521266073194856,train,
+data\processed\features\normal\1071_a_lhl.npy,data\raw\normal\1071\vowels\1071-a_lhl.nsp,normal,0,1071,850,a_lhl,m,29.2,0.3521266073194856,train,
+data\processed\features\normal\688_u_lhl.npy,data\raw\normal\688\vowels\688-u_lhl.nsp,normal,0,688,616,u_lhl,w,19.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\2509_a_l.npy,data\raw\vox_senilis\2509\vowels\2509-a_l.nsp,vox_senilis,2,2509,2643,a_l,w,63.9,6.484517304189436,train,
+data\processed\features\vox_senilis\1159_a_n.npy,data\raw\vox_senilis\1159\vowels\1159-a_n.nsp,vox_senilis,2,1159,1445,a_n,w,69.1,6.484517304189436,train,Leichte subglottische Einengung
+data\processed\features\normal\87_a_lhl.npy,data\raw\normal\87\vowels\87-a_lhl.nsp,normal,0,87,97,a_lhl,m,68.7,0.3521266073194856,train,
+data\processed\features\normal\59_i_n.npy,data\raw\normal\59\vowels\59-i_n.nsp,normal,0,59,59,i_n,m,21.2,0.3521266073194856,train,
+data\processed\features\normal\1573_u_lhl.npy,data\raw\normal\1573\vowels\1573-u_lhl.nsp,normal,0,1573,1027,u_lhl,m,21.4,0.3521266073194856,train,
+data\processed\features\vox_senilis\1971_phrase.npy,data\raw\vox_senilis\1971\sentences\1971-phrase.nsp,vox_senilis,2,1971,2180,phrase,w,78.0,6.484517304189436,train,Intermediärschwäche
+data\processed\features\normal\1845_u_l.npy,data\raw\normal\1845\vowels\1845-u_l.nsp,normal,0,1845,1078,u_l,w,19.5,0.3521266073194856,train,
+data\processed\features\normal\1071_u_lhl.npy,data\raw\normal\1071\vowels\1071-u_lhl.nsp,normal,0,1071,850,u_lhl,m,29.2,0.3521266073194856,train,
+data\processed\features\normal\1522_u_h.npy,data\raw\normal\1522\vowels\1522-u_h.nsp,normal,0,1522,987,u_h,m,23.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1268_iau.npy,data\raw\vox_senilis\1268\vowels\1268-iau.nsp,vox_senilis,2,1268,1656,iau,m,83.5,6.484517304189436,train,Mit Stimmschwäche
+data\processed\features\vox_senilis\1220_a_n.npy,data\raw\vox_senilis\1220\vowels\1220-a_n.nsp,vox_senilis,2,1220,1608,a_n,m,76.7,6.484517304189436,train,Vox senilis
+data\processed\features\vox_senilis\2377_u_n.npy,data\raw\vox_senilis\2377\vowels\2377-u_n.nsp,vox_senilis,2,2377,2511,u_n,m,67.4,6.484517304189436,train,
+data\processed\features\vox_senilis\2097_i_lhl.npy,data\raw\vox_senilis\2097\vowels\2097-i_lhl.nsp,vox_senilis,2,2097,2283,i_lhl,w,30.7,6.484517304189436,train,Chron. Laryngitis
+data\processed\features\vox_senilis\1203_u_n.npy,data\raw\vox_senilis\1203\vowels\1203-u_n.nsp,vox_senilis,2,1203,1600,u_n,w,61.1,6.484517304189436,train,Leicht
+data\processed\features\normal\85_i_lhl.npy,data\raw\normal\85\vowels\85-i_lhl.nsp,normal,0,85,92,i_lhl,m,59.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\2515_a_h.npy,data\raw\vox_senilis\2515\vowels\2515-a_h.nsp,vox_senilis,2,2515,2649,a_h,w,75.2,6.484517304189436,train,
+data\processed\features\normal\1513_u_l.npy,data\raw\normal\1513\vowels\1513-u_l.nsp,normal,0,1513,996,u_l,w,20.2,0.3521266073194856,train,
+data\processed\features\laryngozele\1205_u_lhl.npy,data\raw\laryngozele\1205\vowels\1205-u_lhl.nsp,laryngozele,1,1205,1602,u_lhl,m,47.0,169.52380952380952,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B."
+data\processed\features\vox_senilis\2601_i_h.npy,data\raw\vox_senilis\2601\vowels\2601-i_h.nsp,vox_senilis,2,2601,2727,i_h,w,64.7,6.484517304189436,train,
+data\processed\features\normal\1072_u_h.npy,data\raw\normal\1072\vowels\1072-u_h.nsp,normal,0,1072,851,u_h,m,32.5,0.3521266073194856,train,
+data\processed\features\normal\1060_u_l.npy,data\raw\normal\1060\vowels\1060-u_l.nsp,normal,0,1060,837,u_l,w,21.1,0.3521266073194856,train,
+data\processed\features\normal\2207_a_lhl.npy,data\raw\normal\2207\vowels\2207-a_lhl.nsp,normal,0,2207,1179,a_lhl,w,19.4,0.3521266073194856,train,
+data\processed\features\normal\1522_i_h.npy,data\raw\normal\1522\vowels\1522-i_h.nsp,normal,0,1522,987,i_h,m,23.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2097_u_lhl.npy,data\raw\vox_senilis\2097\vowels\2097-u_lhl.nsp,vox_senilis,2,2097,2283,u_lhl,w,30.7,6.484517304189436,train,Chron. Laryngitis
+data\processed\features\vox_senilis\1338_i_h.npy,data\raw\vox_senilis\1338\vowels\1338-i_h.nsp,vox_senilis,2,1338,1720,i_h,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom"
+data\processed\features\normal\1344_i_l.npy,data\raw\normal\1344\vowels\1344-i_l.nsp,normal,0,1344,950,i_l,m,22.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\2097_a_l.npy,data\raw\vox_senilis\2097\vowels\2097-a_l.nsp,vox_senilis,2,2097,2283,a_l,w,30.7,6.484517304189436,train,Chron. Laryngitis
+data\processed\features\normal\984_i_l.npy,data\raw\normal\984\vowels\984-i_l.nsp,normal,0,984,790,i_l,m,32.2,0.3521266073194856,train,
+data\processed\features\normal\1542_phrase.npy,data\raw\normal\1542\sentences\1542-phrase.nsp,normal,0,1542,1023,phrase,w,20.1,0.3521266073194856,train,
+data\processed\features\vox_senilis\1338_i_lhl.npy,data\raw\vox_senilis\1338\vowels\1338-i_lhl.nsp,vox_senilis,2,1338,1720,i_lhl,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom"
+data\processed\features\vox_senilis\1203_phrase.npy,data\raw\vox_senilis\1203\sentences\1203-phrase.nsp,vox_senilis,2,1203,1600,phrase,w,61.1,6.484517304189436,train,Leicht
+data\processed\features\vox_senilis\2303_a_l.npy,data\raw\vox_senilis\2303\vowels\2303-a_l.nsp,vox_senilis,2,2303,2420,a_l,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps
+data\processed\features\vox_senilis\1220_u_lhl.npy,data\raw\vox_senilis\1220\vowels\1220-u_lhl.nsp,vox_senilis,2,1220,1608,u_lhl,m,76.7,6.484517304189436,train,Vox senilis
+data\processed\features\normal\1522_phrase.npy,data\raw\normal\1522\sentences\1522-phrase.nsp,normal,0,1522,987,phrase,m,23.2,0.3521266073194856,train,
+data\processed\features\laryngozele\1205_u_n.npy,data\raw\laryngozele\1205\vowels\1205-u_n.nsp,laryngozele,1,1205,1602,u_n,m,47.0,169.52380952380952,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B."
+data\processed\features\vox_senilis\2377_phrase.npy,data\raw\vox_senilis\2377\sentences\2377-phrase.nsp,vox_senilis,2,2377,2511,phrase,m,67.4,6.484517304189436,train,
+data\processed\features\vox_senilis\2509_a_h.npy,data\raw\vox_senilis\2509\vowels\2509-a_h.nsp,vox_senilis,2,2509,2643,a_h,w,63.9,6.484517304189436,train,
+data\processed\features\vox_senilis\1268_u_h.npy,data\raw\vox_senilis\1268\vowels\1268-u_h.nsp,vox_senilis,2,1268,1656,u_h,m,83.5,6.484517304189436,train,Mit Stimmschwäche
+data\processed\features\vox_senilis\846_u_n.npy,data\raw\vox_senilis\846\vowels\846-u_n.nsp,vox_senilis,2,846,1445,u_n,w,68.7,6.484517304189436,train,Subglottale Cyste
+data\processed\features\vox_senilis\2601_u_n.npy,data\raw\vox_senilis\2601\vowels\2601-u_n.nsp,vox_senilis,2,2601,2727,u_n,w,64.7,6.484517304189436,train,
+data\processed\features\vox_senilis\2564_i_lhl.npy,data\raw\vox_senilis\2564\vowels\2564-i_lhl.nsp,vox_senilis,2,2564,2007,i_lhl,w,61.8,6.484517304189436,train,"Kompensiert, alte"
+data\processed\features\normal\125_u_l.npy,data\raw\normal\125\vowels\125-u_l.nsp,normal,0,125,132,u_l,w,20.7,0.3521266073194856,train,
+data\processed\features\normal\125_iau.npy,data\raw\normal\125\vowels\125-iau.nsp,normal,0,125,132,iau,w,20.7,0.3521266073194856,train,
+data\processed\features\normal\998_u_l.npy,data\raw\normal\998\vowels\998-u_l.nsp,normal,0,998,792,u_l,m,29.3,0.3521266073194856,train,
+data\processed\features\vox_senilis\2596_a_h.npy,data\raw\vox_senilis\2596\vowels\2596-a_h.nsp,vox_senilis,2,2596,2336,a_h,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend"
+data\processed\features\vox_senilis\2421_phrase.npy,data\raw\vox_senilis\2421\sentences\2421-phrase.nsp,vox_senilis,2,2421,2555,phrase,w,87.6,6.484517304189436,train,
+data\processed\features\vox_senilis\2303_i_l.npy,data\raw\vox_senilis\2303\vowels\2303-i_l.nsp,vox_senilis,2,2303,2420,i_l,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps
+data\processed\features\normal\16_i_l.npy,data\raw\normal\16\vowels\16-i_l.nsp,normal,0,16,18,i_l,w,19.9,0.3521266073194856,train,
+data\processed\features\normal\1071_i_l.npy,data\raw\normal\1071\vowels\1071-i_l.nsp,normal,0,1071,850,i_l,m,29.2,0.3521266073194856,train,
+data\processed\features\normal\1344_u_lhl.npy,data\raw\normal\1344\vowels\1344-u_lhl.nsp,normal,0,1344,950,u_lhl,m,22.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\1971_i_l.npy,data\raw\vox_senilis\1971\vowels\1971-i_l.nsp,vox_senilis,2,1971,2180,i_l,w,78.0,6.484517304189436,train,Intermediärschwäche
+data\processed\features\normal\1845_a_lhl.npy,data\raw\normal\1845\vowels\1845-a_lhl.nsp,normal,0,1845,1078,a_lhl,w,19.5,0.3521266073194856,train,
+data\processed\features\normal\1060_i_n.npy,data\raw\normal\1060\vowels\1060-i_n.nsp,normal,0,1060,837,i_n,w,21.1,0.3521266073194856,train,
+data\processed\features\vox_senilis\1159_a_h.npy,data\raw\vox_senilis\1159\vowels\1159-a_h.nsp,vox_senilis,2,1159,1445,a_h,w,69.1,6.484517304189436,train,Leichte subglottische Einengung
+data\processed\features\normal\972_iau.npy,data\raw\normal\972\vowels\972-iau.nsp,normal,0,972,776,iau,m,27.8,0.3521266073194856,train,
+data\processed\features\normal\16_u_n.npy,data\raw\normal\16\vowels\16-u_n.nsp,normal,0,16,18,u_n,w,19.9,0.3521266073194856,train,
+data\processed\features\vox_senilis\1478_u_h.npy,data\raw\vox_senilis\1478\vowels\1478-u_h.nsp,vox_senilis,2,1478,1826,u_h,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis"
+data\processed\features\vox_senilis\2421_a_n.npy,data\raw\vox_senilis\2421\vowels\2421-a_n.nsp,vox_senilis,2,2421,2555,a_n,w,87.6,6.484517304189436,train,
+data\processed\features\vox_senilis\1220_i_h.npy,data\raw\vox_senilis\1220\vowels\1220-i_h.nsp,vox_senilis,2,1220,1608,i_h,m,76.7,6.484517304189436,train,Vox senilis
+data\processed\features\normal\1531_a_l.npy,data\raw\normal\1531\vowels\1531-a_l.nsp,normal,0,1531,1012,a_l,w,19.6,0.3521266073194856,train,
+data\processed\features\normal\1121_iau.npy,data\raw\normal\1121\vowels\1121-iau.nsp,normal,0,1121,882,iau,w,25.3,0.3521266073194856,train,
+data\processed\features\normal\125_a_n.npy,data\raw\normal\125\vowels\125-a_n.nsp,normal,0,125,132,a_n,w,20.7,0.3521266073194856,train,
+data\processed\features\laryngozele\1205_phrase.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,169.52380952380952,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B."
+data\processed\features\vox_senilis\1819_i_l.npy,data\raw\vox_senilis\1819\vowels\1819-i_l.nsp,vox_senilis,2,1819,2084,i_l,m,66.6,6.484517304189436,train,Ohne Reflux
+data\processed\features\vox_senilis\899_a_h.npy,data\raw\vox_senilis\899\vowels\899-a_h.nsp,vox_senilis,2,899,1491,a_h,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts
+data\processed\features\normal\1845_a_l.npy,data\raw\normal\1845\vowels\1845-a_l.nsp,normal,0,1845,1078,a_l,w,19.5,0.3521266073194856,train,
+data\processed\features\vox_senilis\899_i_l.npy,data\raw\vox_senilis\899\vowels\899-i_l.nsp,vox_senilis,2,899,1491,i_l,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts
+data\processed\features\vox_senilis\2515_u_lhl.npy,data\raw\vox_senilis\2515\vowels\2515-u_lhl.nsp,vox_senilis,2,2515,2649,u_lhl,w,75.2,6.484517304189436,train,
+data\processed\features\vox_senilis\1159_u_n.npy,data\raw\vox_senilis\1159\vowels\1159-u_n.nsp,vox_senilis,2,1159,1445,u_n,w,69.1,6.484517304189436,train,Leichte subglottische Einengung
+data\processed\features\vox_senilis\826_iau.npy,data\raw\vox_senilis\826\vowels\826-iau.nsp,vox_senilis,2,826,1438,iau,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen
+data\processed\features\normal\2207_u_l.npy,data\raw\normal\2207\vowels\2207-u_l.nsp,normal,0,2207,1179,u_l,w,19.4,0.3521266073194856,train,
+data\processed\features\normal\1060_i_l.npy,data\raw\normal\1060\vowels\1060-i_l.nsp,normal,0,1060,837,i_l,w,21.1,0.3521266073194856,train,
+data\processed\features\vox_senilis\2596_iau.npy,data\raw\vox_senilis\2596\vowels\2596-iau.nsp,vox_senilis,2,2596,2336,iau,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend"
+data\processed\features\vox_senilis\2303_u_lhl.npy,data\raw\vox_senilis\2303\vowels\2303-u_lhl.nsp,vox_senilis,2,2303,2420,u_lhl,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps
+data\processed\features\normal\998_i_l.npy,data\raw\normal\998\vowels\998-i_l.nsp,normal,0,998,792,i_l,m,29.3,0.3521266073194856,train,
+data\processed\features\normal\85_a_h.npy,data\raw\normal\85\vowels\85-a_h.nsp,normal,0,85,92,a_h,m,59.7,0.3521266073194856,train,
+data\processed\features\normal\1513_i_h.npy,data\raw\normal\1513\vowels\1513-i_h.nsp,normal,0,1513,996,i_h,w,20.2,0.3521266073194856,train,
+data\processed\features\normal\984_u_h.npy,data\raw\normal\984\vowels\984-u_h.nsp,normal,0,984,790,u_h,m,32.2,0.3521266073194856,train,
+data\processed\features\normal\1522_u_lhl.npy,data\raw\normal\1522\vowels\1522-u_lhl.nsp,normal,0,1522,987,u_lhl,m,23.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\2564_phrase.npy,data\raw\vox_senilis\2564\sentences\2564-phrase.nsp,vox_senilis,2,2564,2007,phrase,w,61.8,6.484517304189436,train,"Kompensiert, alte"
+data\processed\features\normal\1845_a_n.npy,data\raw\normal\1845\vowels\1845-a_n.nsp,normal,0,1845,1078,a_n,w,19.5,0.3521266073194856,train,
+data\processed\features\normal\1845_phrase.npy,data\raw\normal\1845\sentences\1845-phrase.nsp,normal,0,1845,1078,phrase,w,19.5,0.3521266073194856,train,
+data\processed\features\normal\943_u_n.npy,data\raw\normal\943\vowels\943-u_n.nsp,normal,0,943,747,u_n,m,45.6,0.3521266073194856,train,
+data\processed\features\vox_senilis\2377_a_l.npy,data\raw\vox_senilis\2377\vowels\2377-a_l.nsp,vox_senilis,2,2377,2511,a_l,m,67.4,6.484517304189436,train,
+data\processed\features\normal\972_u_lhl.npy,data\raw\normal\972\vowels\972-u_lhl.nsp,normal,0,972,776,u_lhl,m,27.8,0.3521266073194856,train,
+data\processed\features\normal\1344_u_l.npy,data\raw\normal\1344\vowels\1344-u_l.nsp,normal,0,1344,950,u_l,m,22.8,0.3521266073194856,train,
+data\processed\features\normal\943_i_lhl.npy,data\raw\normal\943\vowels\943-i_lhl.nsp,normal,0,943,747,i_lhl,m,45.6,0.3521266073194856,train,
+data\processed\features\normal\1531_a_n.npy,data\raw\normal\1531\vowels\1531-a_n.nsp,normal,0,1531,1012,a_n,w,19.6,0.3521266073194856,train,
+data\processed\features\vox_senilis\1338_a_l.npy,data\raw\vox_senilis\1338\vowels\1338-a_l.nsp,vox_senilis,2,1338,1720,a_l,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom"
+data\processed\features\normal\1344_u_h.npy,data\raw\normal\1344\vowels\1344-u_h.nsp,normal,0,1344,950,u_h,m,22.8,0.3521266073194856,train,
+data\processed\features\normal\16_u_lhl.npy,data\raw\normal\16\vowels\16-u_lhl.nsp,normal,0,16,18,u_lhl,w,19.9,0.3521266073194856,train,
+data\processed\features\vox_senilis\2564_i_n.npy,data\raw\vox_senilis\2564\vowels\2564-i_n.nsp,vox_senilis,2,2564,2007,i_n,w,61.8,6.484517304189436,train,"Kompensiert, alte"
+data\processed\features\vox_senilis\1203_i_l.npy,data\raw\vox_senilis\1203\vowels\1203-i_l.nsp,vox_senilis,2,1203,1600,i_l,w,61.1,6.484517304189436,train,Leicht
+data\processed\features\vox_senilis\826_a_lhl.npy,data\raw\vox_senilis\826\vowels\826-a_lhl.nsp,vox_senilis,2,826,1438,a_lhl,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen
+data\processed\features\normal\125_i_n.npy,data\raw\normal\125\vowels\125-i_n.nsp,normal,0,125,132,i_n,w,20.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\2303_i_h.npy,data\raw\vox_senilis\2303\vowels\2303-i_h.nsp,vox_senilis,2,2303,2420,i_h,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps
+data\processed\features\vox_senilis\2596_i_lhl.npy,data\raw\vox_senilis\2596\vowels\2596-i_lhl.nsp,vox_senilis,2,2596,2336,i_lhl,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend"
+data\processed\features\vox_senilis\2377_a_n.npy,data\raw\vox_senilis\2377\vowels\2377-a_n.nsp,vox_senilis,2,2377,2511,a_n,m,67.4,6.484517304189436,train,
+data\processed\features\normal\1060_iau.npy,data\raw\normal\1060\vowels\1060-iau.nsp,normal,0,1060,837,iau,w,21.1,0.3521266073194856,train,
+data\processed\features\normal\1072_iau.npy,data\raw\normal\1072\vowels\1072-iau.nsp,normal,0,1072,851,iau,m,32.5,0.3521266073194856,train,
+data\processed\features\normal\1513_u_n.npy,data\raw\normal\1513\vowels\1513-u_n.nsp,normal,0,1513,996,u_n,w,20.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\899_iau.npy,data\raw\vox_senilis\899\vowels\899-iau.nsp,vox_senilis,2,899,1491,iau,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts
+data\processed\features\vox_senilis\360_u_lhl.npy,data\raw\vox_senilis\360\vowels\360-u_lhl.nsp,vox_senilis,2,360,1347,u_lhl,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset"
+data\processed\features\normal\87_a_l.npy,data\raw\normal\87\vowels\87-a_l.nsp,normal,0,87,97,a_l,m,68.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\2097_a_n.npy,data\raw\vox_senilis\2097\vowels\2097-a_n.nsp,vox_senilis,2,2097,2283,a_n,w,30.7,6.484517304189436,train,Chron. Laryngitis
+data\processed\features\normal\87_a_n.npy,data\raw\normal\87\vowels\87-a_n.nsp,normal,0,87,97,a_n,m,68.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\1971_a_h.npy,data\raw\vox_senilis\1971\vowels\1971-a_h.nsp,vox_senilis,2,1971,2180,a_h,w,78.0,6.484517304189436,train,Intermediärschwäche
+data\processed\features\laryngozele\1205_i_h.npy,data\raw\laryngozele\1205\vowels\1205-i_h.nsp,laryngozele,1,1205,1602,i_h,m,47.0,169.52380952380952,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B."
+data\processed\features\vox_senilis\1819_a_lhl.npy,data\raw\vox_senilis\1819\vowels\1819-a_lhl.nsp,vox_senilis,2,1819,2084,a_lhl,m,66.6,6.484517304189436,train,Ohne Reflux
+data\processed\features\normal\125_i_lhl.npy,data\raw\normal\125\vowels\125-i_lhl.nsp,normal,0,125,132,i_lhl,w,20.7,0.3521266073194856,train,
+data\processed\features\vox_senilis\846_i_h.npy,data\raw\vox_senilis\846\vowels\846-i_h.nsp,vox_senilis,2,846,1445,i_h,w,68.7,6.484517304189436,train,Subglottale Cyste
+data\processed\features\vox_senilis\2421_u_n.npy,data\raw\vox_senilis\2421\vowels\2421-u_n.nsp,vox_senilis,2,2421,2555,u_n,w,87.6,6.484517304189436,train,
+data\processed\features\normal\1344_a_l.npy,data\raw\normal\1344\vowels\1344-a_l.nsp,normal,0,1344,950,a_l,m,22.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\2003_i_n.npy,data\raw\vox_senilis\2003\vowels\2003-i_n.nsp,vox_senilis,2,2003,2212,i_n,m,77.6,6.484517304189436,train,Laryngitis subglottisch
+data\processed\features\normal\59_u_l.npy,data\raw\normal\59\vowels\59-u_l.nsp,normal,0,59,59,u_l,m,21.2,0.3521266073194856,train,
+data\processed\features\vox_senilis\1203_i_h.npy,data\raw\vox_senilis\1203\vowels\1203-i_h.nsp,vox_senilis,2,1203,1600,i_h,w,61.1,6.484517304189436,train,Leicht
+data\processed\features\normal\972_u_n.npy,data\raw\normal\972\vowels\972-u_n.nsp,normal,0,972,776,u_n,m,27.8,0.3521266073194856,train,
+data\processed\features\vox_senilis\1478_a_h.npy,data\raw\vox_senilis\1478\vowels\1478-a_h.nsp,vox_senilis,2,1478,1826,a_h,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis"
+data\processed\features\vox_senilis\1971_i_lhl.npy,data\raw\vox_senilis\1971\vowels\1971-i_lhl.nsp,vox_senilis,2,1971,2180,i_lhl,w,78.0,6.484517304189436,train,Intermediärschwäche
+data\processed\features\vox_senilis\2596_a_l.npy,data\raw\vox_senilis\2596\vowels\2596-a_l.nsp,vox_senilis,2,2596,2336,a_l,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend"
+data\processed\features\normal\1121_u_n.npy,data\raw\normal\1121\vowels\1121-u_n.nsp,normal,0,1121,882,u_n,w,25.3,0.3521266073194856,train,
+data\processed\features\vox_senilis\1971_a_n.npy,data\raw\vox_senilis\1971\vowels\1971-a_n.nsp,vox_senilis,2,1971,2180,a_n,w,78.0,6.484517304189436,train,Intermediärschwäche

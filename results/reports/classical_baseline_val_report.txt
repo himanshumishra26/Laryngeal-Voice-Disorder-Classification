@@ -1,0 +1,84 @@
+=====================================================================================
+STAGE 4/5 OPTION B: CLASSICAL ACOUSTIC BIOMARKER SVM VALIDATION REPORT
+Automated Multi-Class Laryngeal Voice Disorder Classification
+Generated: 2026-09-22 21:36:26
+=====================================================================================
+
+1. MODEL ARCHITECTURE & PIPELINE CONFIGURATION
+-------------------------------------------------------------------------------------
+  - Feature Extractor:       AcousticBiomarkerExtractor (52 clinical features)
+  - Preprocessing / Scaling: StandardScaler (strictly fit on train partition)
+  - Classification Model:    Support Vector Classifier (SVC, RBF Kernel, One-vs-One)
+  - Best Hyperparameters:    C=1.0, gamma=0.01
+  - Cost-Sensitive Weight:   class_weight='balanced' (inversely proportional to frequency)
+  - Probability Calibration: Platt scaling (probability=True)
+  - Hold-Out Test Sets:      STRICTLY UNTOUCHED & UNACCESSED
+
+2. PRIMARY BENCHMARK: BALANCED VALIDATION SET (VAL_BALANCED.CSV)
+-------------------------------------------------------------------------------------
+  - Total Evaluation Samples: 182
+  - Overall Accuracy:         67.03%
+  - Macro Precision:          69.42%
+  - Macro Recall / Sens.:     60.32%
+  - Macro Specificity:        79.88%
+  - Macro F1-Score:           63.39%
+  - Macro One-vs-Rest ROC-AUC:0.8391
+
+PER-CLASS VALIDATION PERFORMANCE (Balanced Val):
+Class            | Support  | Precision   | Recall      | Specificity  | F1-Score   
+-------------------------------------------------------------------------------------
+Normal           |       84 |     69.32 % |     72.62 % |      72.45 % |    70.93 %
+Laryngozele      |       14 |     75.00 % |     42.86 % |      98.81 % |    54.55 %
+Vox_senilis      |       84 |     63.95 % |     65.48 % |      68.37 % |    64.71 %
+-------------------------------------------------------------------------------------
+Macro Average    |      182 |     69.42 % |     60.32 % |      79.88 % |    63.39 %
+
+CONFUSION MATRIX (Balanced Val - Raw Counts):
+True \ Pred      | Normal   | Laryngoz | Vox Seni
+-------------------------------------------------------------------------------------
+Normal           |       61 |        0 |       23
+Laryngozele      |        0 |        6 |        8
+Vox Senilis      |       27 |        2 |       55
+
+3. INDIVIDUAL PREDICTIONS FOR VALIDATION LARYNGOZELE (SPEAKER 1633, SESS 1449)
+-------------------------------------------------------------------------------------
+Vowel    | True Class   | Predicted Class | P(Normal) | P(Laryngozele) | P(Vox Senilis)
+-------------------------------------------------------------------------------------
+phrase   | laryngozele  | vox_senilis     |     0.159 |          0.014 |         0.827
+a_h      | laryngozele  | laryngozele     |     0.052 |          0.268 |         0.680
+a_l      | laryngozele  | laryngozele     |     0.071 |          0.523 |         0.406
+a_lhl    | laryngozele  | vox_senilis     |     0.156 |          0.021 |         0.823
+a_n      | laryngozele  | laryngozele     |     0.064 |          0.463 |         0.474
+iau      | laryngozele  | laryngozele     |     0.388 |          0.148 |         0.464
+i_h      | laryngozele  | vox_senilis     |     0.062 |          0.071 |         0.866
+i_l      | laryngozele  | vox_senilis     |     0.166 |          0.040 |         0.794
+i_lhl    | laryngozele  | vox_senilis     |     0.090 |          0.085 |         0.824
+i_n      | laryngozele  | laryngozele     |     0.232 |          0.254 |         0.515
+u_h      | laryngozele  | vox_senilis     |     0.041 |          0.049 |         0.909
+u_l      | laryngozele  | vox_senilis     |     0.036 |          0.060 |         0.904
+u_lhl    | laryngozele  | vox_senilis     |     0.034 |          0.073 |         0.893
+u_n      | laryngozele  | laryngozele     |     0.077 |          0.272 |         0.650
+
+4. SECONDARY BENCHMARK: FULL VALIDATION SET (VAL.CSV)
+-------------------------------------------------------------------------------------
+  - Total Evaluation Samples: 1504
+  - Overall Accuracy:         72.27%
+  - Macro Precision:          43.30%
+  - Macro Recall / Sens.:     60.44%
+  - Macro Specificity:        81.69%
+  - Macro F1-Score:           43.98%
+  - Macro One-vs-Rest ROC-AUC:0.8515
+
+CONFUSION MATRIX (Full Val - Raw Counts):
+True \ Pred      | Normal   | Laryngoz | Vox Seni
+-------------------------------------------------------------------------------------
+Normal           |     1026 |       23 |      357
+Laryngozele      |        0 |        6 |        8
+Vox Senilis      |       27 |        2 |       55
+
+5. SCIENTIFIC INTEGRITY CONFIRMATION
+-------------------------------------------------------------------------------------
+  - The hold-out test sets (test.csv and test_balanced.csv) remained 100% UNTOUCHED.
+  - Zero data leakage: Feature scaling and OvO decision boundaries fit only on train.
+  - Zero synthetic pitch-shift sample replication used.
+=====================================================================================

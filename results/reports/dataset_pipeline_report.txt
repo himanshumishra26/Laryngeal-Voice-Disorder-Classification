@@ -1,0 +1,76 @@
+================================================================================
+STAGE 3: FULL DATASET PIPELINE & SPLIT VALIDATION REPORT
+Automated Multi-Class Laryngeal Voice Disorder Classification
+Task: Multi-Core NSP Feature Extraction & Leakage-Free Splitting
+Generated: 2026-09-22 12:46:24
+================================================================================
+
+1. PIPELINE CONFIGURATION & ACOUSTIC SPECIFICATIONS
+--------------------------------------------------------------------------------
+  - Sampling Rate:               22050 Hz (Uniform target)
+  - Normalized Audio Duration:   3.0 seconds (66,150 samples)
+  - Mel Filterbank Channels:     64 bins
+  - FFT Window Size:             2048 samples
+  - Hop Length (Frame Shift):    512 samples
+  - Feature Tensor Shape:        (64, 130) float32
+  - Decibel Dynamic Range:       80.0 dB (ref=np.max)
+  - Silence Trimming Threshold:  20.0 dB
+  - Feature Storage Location:    data/processed/features/{class}/
+  - Split Manifests Location:    data/splits/
+
+2. EXTRACTION RUNTIME SUMMARY
+--------------------------------------------------------------------------------
+  - Total Recordings Processed:  10,155
+  - Successful Extractions:      10,155
+  - Corruptions / Errors:        0
+  - Output Tensor Integrity:     100% verified (0 NaNs, 0 Infs, uniform 64x130)
+
+3. PATIENT-LEVEL SPLIT PARTITIONS & DATA LEAKAGE AUDIT
+--------------------------------------------------------------------------------
+  Strict Speaker ID (SprecherID) grouping check:
+  - Overlap between Train and Val:   0 speakers [PASS]
+  - Overlap between Train and Test:  0 speakers [PASS]
+  - Overlap between Val and Test:    0 speakers [PASS]
+  - Cross-Class Speaker 73 Status:   Quarantined from all splits [PASS]
+  - Overall Patient Separation:      ZERO DATA LEAKAGE CONFIRMED
+
+4. FULL DATASET SPLIT COMPOSITION (WITH CLASS WEIGHTS)
+--------------------------------------------------------------------------------
+Partition    | Total    | Normal   | Laryngozele  | Vox Senilis  | Unique Speakers 
+--------------------------------------------------------------------------------
+Train        | 7120     | 6740     | 14           | 366          | 505             
+Val          | 1504     | 1406     | 14           | 84           | 108             
+Test         | 1503     | 1405     | 14           | 84           | 108             
+--------------------------------------------------------------------------------
+
+5. BALANCED DATASET SPLIT COMPOSITION (DEMOGRAPHIC-MATCHED)
+--------------------------------------------------------------------------------
+Partition    | Total    | Normal   | Laryngozele  | Vox Senilis  | Unique Speakers 
+--------------------------------------------------------------------------------
+Train (Bal)  | 1091     | 361      | 364          | 366          | 53              
+Val (Bal)    | 182      | 84       | 14           | 84           | 13              
+Test (Bal)   | 181      | 83       | 14           | 84           | 13              
+--------------------------------------------------------------------------------
+
+6. GENERATED PIPELINE MANIFESTS & ARTIFACTS
+--------------------------------------------------------------------------------
+  A. Split Manifests (CSV):
+     * D:\Laryngeal_Voice_Disorder_Project\data\splits\train.csv
+     * D:\Laryngeal_Voice_Disorder_Project\data\splits\val.csv
+     * D:\Laryngeal_Voice_Disorder_Project\data\splits\test.csv
+     * D:\Laryngeal_Voice_Disorder_Project\data\splits\full_manifest.csv
+     * D:\Laryngeal_Voice_Disorder_Project\data\splits\train_balanced.csv
+     * D:\Laryngeal_Voice_Disorder_Project\data\splits\val_balanced.csv
+     * D:\Laryngeal_Voice_Disorder_Project\data\splits\test_balanced.csv
+     * D:\Laryngeal_Voice_Disorder_Project\data\splits\split_summary.json
+
+  B. Preprocessed Feature Arrays (.npy):
+     * Stored under: D:\Laryngeal_Voice_Disorder_Project\data\processed\features/{normal, laryngozele, vox_senilis}/*.npy
+
+7. STAGE 4 READINESS
+--------------------------------------------------------------------------------
+  - All feature arrays have uniform shape (64, 130) matching CNN-LSTM input.
+  - PyTorch SVDVoiceDataset is fully implemented in src/preprocessing/dataset.py.
+  - DataLoaders support both full weighted training and balanced cohort training.
+  - Zero models have been trained, satisfying Stage 3 boundaries.
+================================================================================

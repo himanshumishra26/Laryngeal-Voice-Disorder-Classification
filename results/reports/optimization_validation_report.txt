@@ -1,0 +1,38 @@
+=====================================================================================
+VALIDATION BENCHMARK REPORT: OPTIMIZATION SUITE
+Automated Multi-Class Laryngeal Voice Disorder Classification
+Generated: 2026-10-08 15:45:20
+=====================================================================================
+
+1. VALIDATION PERFORMANCE SUMMARY (DEMOGRAPHIC-MATCHED VALIDATION PARTITION, N=182)
+-------------------------------------------------------------------------------------
+Metric                    | Optimized GMM    | Optimized DNN    | Optimized Ensemble
+-------------------------------------------------------------------------------------
+Overall Accuracy          |  61.54%          |  63.74%          |  67.58%
+Balanced Accuracy         |  66.27%          |  63.89%          |  68.65%
+Macro F1-Score            |  59.89%          |  57.83%          |  64.53%
+Laryngozele Recall        |  78.57%          |  64.29%          |  71.43%
+Laryngozele Precision     |  44.00%          |  31.03%          |  47.62%
+
+2. CONFUSION MATRICES (Validation Partition):
+Optimized GMM:
+[[60  1 23]
+ [ 0 11  3]
+ [30 13 41]]
+
+Optimized DNN (ResNet-MLP):
+[[66  1 17]
+ [ 0  9  5]
+ [24 19 41]]
+
+Optimized Ensemble:
+[[66  0 18]
+ [ 0 10  4]
+ [26 11 47]]
+
+3. SAVED FROZEN CHECKPOINTS:
+  - GMM:      D:\Laryngeal_Voice_Disorder_Project\results\checkpoints\optimized_gmm_model.joblib
+  - DNN:      D:\Laryngeal_Voice_Disorder_Project\results\checkpoints\optimized_dnn_model.pt
+  - Ensemble: D:\Laryngeal_Voice_Disorder_Project\results\checkpoints\optimized_ensemble_model.joblib
+
+=====================================================================================

@@ -1,0 +1,91 @@
+=====================================================================================
+FINAL TEST EVALUATION REPORT: DEEP NEURAL NETWORK (DNN)
+Automated Multi-Class Laryngeal Voice Disorder Classification
+Generated: 2026-10-06 20:37:03
+=====================================================================================
+
+1. EVALUATED MODEL CHECKPOINT
+-------------------------------------------------------------------------------------
+  - Model Architecture:      Deep Neural Network (DNN)
+  - Checkpoint Path:         D:\Laryngeal_Voice_Disorder_Project\results\checkpoints\best_dnn_model.pt
+  - Evaluation Invariance:   Held-out test set remained strictly pristine and untouched.
+
+2. PRIMARY BENCHMARK: BALANCED TEST SET (DEMOGRAPHIC-MATCHED, TEST_BALANCED_FEATURES.CSV)
+-------------------------------------------------------------------------------------
+  - Total Evaluation Samples: 181
+  - Overall Accuracy:         62.43%
+  - Balanced Accuracy:        45.17%
+  - Macro Precision:          43.64%
+  - Macro Recall / Sens.:     45.17%
+  - Macro Specificity:        76.96%
+  - Macro F1-Score:           43.13%
+  - Macro One-vs-Rest ROC-AUC:0.6397
+
+PER-CLASS DIAGNOSTIC PERFORMANCE (Balanced Test Set):
+Class           | Support  | Precision  | Recall     | Specificity  | F1-Score  
+-------------------------------------------------------------------------------------
+normal          | 83       |  57.14 %   |  81.93 %   |  47.96 %    |  67.33 %
+laryngozele     | 14       |   0.00 %   |   0.00 %   |  99.40 %    |   0.00 %
+vox_senilis     | 84       |  73.77 %   |  53.57 %   |  83.51 %    |  62.07 %
+-------------------------------------------------------------------------------------
+Macro Average   | 181      |  43.64 %   |  45.17 %   |  76.96 %    |  43.13 %
+
+CONFUSION MATRIX (Balanced Test Set - Raw Counts):
+True \ Pred     | Normal     | Laryngoz   | Vox Seni  
+-------------------------------------------------------------------------------------
+Normal          | 68         | 0          | 15        
+Laryngozele     | 13         | 0          | 1         
+Vox Senilis     | 38         | 1          | 45        
+
+3. INDIVIDUAL PREDICTIONS FOR TEST LARYNGOZELE PATIENT (SPEAKER 2191, SESS 1981)
+-------------------------------------------------------------------------------------
+Vowel / Task   | True Class   | Pred Class   | P(Normal)  | P(Laryngoz) | P(Vox Seni)
+-------------------------------------------------------------------------------------
+phrase         | laryngozele  | vox_senilis  |    0.4252  |     0.0803  |    0.4945
+a_h            | laryngozele  | normal       |    0.9147  |     0.0132  |    0.0721
+a_l            | laryngozele  | normal       |    0.7290  |     0.2252  |    0.0458
+a_lhl          | laryngozele  | normal       |    0.8427  |     0.0161  |    0.1412
+a_n            | laryngozele  | normal       |    0.7532  |     0.1423  |    0.1045
+iau            | laryngozele  | normal       |    0.7803  |     0.0695  |    0.1502
+i_h            | laryngozele  | normal       |    0.4741  |     0.3798  |    0.1461
+i_l            | laryngozele  | normal       |    0.8622  |     0.0221  |    0.1156
+i_lhl          | laryngozele  | normal       |    0.8907  |     0.0158  |    0.0935
+i_n            | laryngozele  | normal       |    0.6577  |     0.0300  |    0.3124
+u_h            | laryngozele  | normal       |    0.9428  |     0.0197  |    0.0375
+u_l            | laryngozele  | normal       |    0.7870  |     0.1459  |    0.0671
+u_lhl          | laryngozele  | normal       |    0.8522  |     0.0164  |    0.1314
+u_n            | laryngozele  | normal       |    0.8950  |     0.0275  |    0.0776
+
+4. SECONDARY BENCHMARK: FULL CLINICAL PREVALENCE TEST SET (TEST_FULL_FEATURES.CSV)
+-------------------------------------------------------------------------------------
+  - Total Evaluation Samples: 1503
+  - Overall Accuracy:         65.54%
+  - Balanced Accuracy:        40.16%
+  - Macro Precision:          34.67%
+  - Macro Recall / Sens.:     40.16%
+  - Macro Specificity:        71.71%
+  - Macro F1-Score:           31.37%
+  - Macro One-vs-Rest ROC-AUC:0.5857
+
+PER-CLASS DIAGNOSTIC PERFORMANCE (Full Prevalence Test Set):
+Class           | Support  | Precision  | Recall     | Specificity  | F1-Score  
+-------------------------------------------------------------------------------------
+normal          | 1405     |  94.85 %   |  66.90 %   |  47.96 %    |  78.46 %
+laryngozele     | 14       |   0.00 %   |   0.00 %   |  98.59 %    |   0.00 %
+vox_senilis     | 84       |   9.16 %   |  53.57 %   |  68.57 %    |  15.65 %
+-------------------------------------------------------------------------------------
+Macro Average   | 1503     |  34.67 %   |  40.16 %   |  71.71 %    |  31.37 %
+
+CONFUSION MATRIX (Full Prevalence Test Set - Raw Counts):
+True \ Pred     | Normal     | Laryngoz   | Vox Seni  
+-------------------------------------------------------------------------------------
+Normal          | 940        | 20         | 445       
+Laryngozele     | 13         | 0          | 1         
+Vox Senilis     | 38         | 1          | 45        
+
+5. SCIENTIFIC RIGOR & ZERO LEAKAGE CONFIRMATION
+-------------------------------------------------------------------------------------
+  - The evaluated test set was NEVER accessed or used during training or hyperparameter tuning.
+  - Feature standardization (StandardScaler) was fit strictly on the training partition.
+  - No test labels or post-hoc label manipulation occurred.
+=====================================================================================

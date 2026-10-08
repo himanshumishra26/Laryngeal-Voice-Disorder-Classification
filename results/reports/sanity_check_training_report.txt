@@ -1,0 +1,24 @@
+===========================================================================
+STAGE 4: CNN-LSTM SANITY-CHECK TRAINING REPORT
+===========================================================================
+
+Execution Device:        CPU
+Model Architecture:      CNNLSTMVoiceClassifier (3 Conv2D Blocks, BiLSTM, Dense Head)
+Total Parameters:        1,686,851
+Input Tensor Shape:      (Batch, 1, 64, 130)
+Target Classes:          0: normal, 1: laryngozele, 2: vox_senilis
+Dataset Manifests Used:  train_balanced.csv (1,091 samples), val_balanced.csv (182 samples)
+Batch Size:              32
+Learning Rate:           0.001 (Adam)
+
+Epoch Results:
+---------------------------------------------------------------------------
+Epoch 01 | Train Loss: 1.1312 | Train Acc:  39.87% | Val Loss: 1.0712 | Val Acc:  40.11%
+Epoch 02 | Train Loss: 1.0616 | Train Acc:  44.27% | Val Loss: 0.9128 | Val Acc:  46.15%
+---------------------------------------------------------------------------
+
+Verification Findings:
+  - Forward pass, backpropagation, and gradient updates executed without errors.
+  - Loss converged downward as expected over 2 epochs.
+  - Full training was NOT started, satisfying sanity-check constraints.
+===========================================================================

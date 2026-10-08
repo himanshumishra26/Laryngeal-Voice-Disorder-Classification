@@ -1,0 +1,22 @@
+===========================================================================
+SUPPLEMENTARY BENCHMARK: 3-FOLD SPEAKER-INDEPENDENT CROSS-VALIDATION
+Generated: 2026-09-30 20:30:37
+Methodological Reference: Frontiers in Digital Health (2026) §4.2.4
+===========================================================================
+
+
+--- FOLD 1 (Test Laryngozele Patient: Speaker 1602 | Train Patients: [1633, 2191]) ---
+  GMM -> Acc: 62.47%, Bal Acc: 45.59%, Macro F1: 45.69%, Recalls: [Normal=74.2%, LZ=7.1%, Vox=55.4%]
+  DNN -> Acc: 62.21%, Bal Acc: 43.01%, Macro F1: 43.44%, Recalls: [Normal=63.7%, LZ=0.0%, Vox=65.3%]
+
+--- FOLD 2 (Test Laryngozele Patient: Speaker 1633 | Train Patients: [1602, 2191]) ---
+  GMM -> Acc: 55.44%, Bal Acc: 40.59%, Macro F1: 40.41%, Recalls: [Normal=64.6%, LZ=7.1%, Vox=50.0%]
+  DNN -> Acc: 71.09%, Bal Acc: 53.61%, Macro F1: 53.86%, Recalls: [Normal=70.7%, LZ=14.3%, Vox=75.8%]
+
+--- FOLD 3 (Test Laryngozele Patient: Speaker 2191 | Train Patients: [1602, 1633]) ---
+  GMM -> Acc: 71.76%, Bal Acc: 51.98%, Macro F1: 52.05%, Recalls: [Normal=80.2%, LZ=7.1%, Vox=68.6%]
+  DNN -> Acc: 76.47%, Bal Acc: 53.04%, Macro F1: 51.98%, Recalls: [Normal=87.4%, LZ=0.0%, Vox=71.7%]
+
+=== 3-FOLD CROSS-VALIDATION SUMMARY (MEAN ± STD) ===
+  GMM   | Accuracy: 63.22 ± 6.69% | Balanced Acc: 46.05 ± 4.66% | Macro F1: 46.05 ± 4.76% | Laryngozele Recall: 7.14 ± 0.00%
+  DNN   | Accuracy: 69.92 ± 5.88% | Balanced Acc: 49.89 ± 4.87% | Macro F1: 49.76 ± 4.53% | Laryngozele Recall: 4.76 ± 6.73%

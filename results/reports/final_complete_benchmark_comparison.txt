@@ -1,0 +1,81 @@
+=========================================================================================================
+FINAL HELD-OUT TEST EVALUATION: OPTIMIZATION & BENCHMARK SUITE
+Automated Multi-Class Laryngeal Voice Disorder Classification
+Generated: 2026-10-08 15:46:29
+Methodological Reference: Frontiers in Digital Health (2026) - doi:10.3389/fdgth.2026.1800132
+=========================================================================================================
+
+PRIMARY BENCHMARK: BALANCED TEST SET (DEMOGRAPHIC-MATCHED, TEST_BALANCED_FEATURES.CSV, N=181)
+---------------------------------------------------------------------------------------------------------
+Model                          | Acc      | Bal Acc  | Macro F1 | Macro Spec | ROC-AUC  | LZ Rec   | LZ Prec  | LZ F1   
+---------------------------------------------------------------------------------------------------------
+GMM (Baseline Reference)       |  67.40% |  52.70% |  53.55% |  80.29%   | 0.7478   |  14.29% |  40.00% |  21.05%
+DNN (Baseline)                 |  62.43% |  45.17% |  43.13% |  76.96%   | 0.6397   |   0.00% |   0.00% |   0.00%
+Optimized GMM                  |  55.25% |  43.94% |  43.48% |  74.07%   | 0.6897   |  14.29% |  14.29% |  14.29%
+Optimized DNN (ResNet-MLP)     |  63.54% |  53.89% |  53.04% |  79.35%   | 0.7964   |  28.57% |  23.53% |  25.81%
+Optimized GMM + DNN Ensemble   |  61.88% |  48.74% |  48.76% |  77.33%   | 0.7838   |  14.29% |  25.00% |  18.18%
+---------------------------------------------------------------------------------------------------------
+
+SECONDARY BENCHMARK: FULL CLINICAL PREVALENCE TEST SET (TEST_FULL_FEATURES.CSV, N=1503)
+---------------------------------------------------------------------------------------------------------
+Model                          | Acc      | Bal Acc  | Macro F1 | Macro Spec | ROC-AUC  | LZ Rec   | LZ Prec  | LZ F1   
+---------------------------------------------------------------------------------------------------------
+GMM (Baseline Reference)       |  68.13% |  48.78% |  36.24% |  77.06%   | 0.7293   |  14.29% |   6.67% |   9.09%
+DNN (Baseline)                 |  65.54% |  40.16% |  31.37% |  71.71%   | 0.5857   |   0.00% |   0.00% |   0.00%
+Optimized GMM                  |  69.46% |  43.66% |  34.37% |  73.13%   | 0.6726   |  14.29% |   3.28% |   5.33%
+Optimized DNN (ResNet-MLP)     |  68.93% |  50.42% |  35.91% |  75.26%   | 0.7460   |  28.57% |   2.63% |   4.82%
+Optimized GMM + DNN Ensemble   |  73.12% |  46.46% |  36.60% |  74.73%   | 0.7446   |  14.29% |   4.08% |   6.35%
+---------------------------------------------------------------------------------------------------------
+
+CONFUSION MATRICES ON BALANCED TEST SET (N=181):
+---------------------------------------------------------------------------------------------------------
+[GMM (Baseline Reference)]
+                 Pred Normal   Pred Laryngoz   Pred Vox Seni
+  True Normal:        67             1               15
+  True Laryngozele:   8              2               4
+  True Vox Senilis:   29             2               53
+
+[DNN (Baseline)]
+                 Pred Normal   Pred Laryngoz   Pred Vox Seni
+  True Normal:        68             0               15
+  True Laryngozele:   13             0               1
+  True Vox Senilis:   38             1               45
+
+[Optimized GMM]
+                 Pred Normal   Pred Laryngoz   Pred Vox Seni
+  True Normal:        60             6               17
+  True Laryngozele:   11             2               1
+  True Vox Senilis:   40             6               38
+
+[Optimized DNN (ResNet-MLP)]
+                 Pred Normal   Pred Laryngoz   Pred Vox Seni
+  True Normal:        67             9               7
+  True Laryngozele:   8              4               2
+  True Vox Senilis:   36             4               44
+
+[Optimized GMM + DNN Ensemble]
+                 Pred Normal   Pred Laryngoz   Pred Vox Seni
+  True Normal:        68             3               12
+  True Laryngozele:   11             2               1
+  True Vox Senilis:   39             3               42
+
+TEST LARYNGOZELE PATIENT (SPEAKER 2191, SESS 1981) PREDICTIONS BREAKDOWN:
+---------------------------------------------------------------------------------------------------------
+Vowel / Task   | GMM Baseline   | DNN Baseline   | Optimized GMM  | Opt DNN        | Opt Ensemble  
+---------------------------------------------------------------------------------------------------------
+phrase         | vox_senilis    | vox_senilis    | normal         | vox_senilis    | normal        
+a_h            | normal         | normal         | normal         | normal         | normal        
+a_l            | normal         | normal         | normal         | normal         | normal        
+a_lhl          | vox_senilis    | normal         | normal         | normal         | normal        
+a_n            | vox_senilis    | normal         | normal         | normal         | normal        
+iau            | normal         | normal         | normal         | normal         | normal        
+i_h            | vox_senilis    | normal         | laryngozele    | laryngozele    | laryngozele   
+i_l            | normal         | normal         | normal         | normal         | normal        
+i_lhl          | laryngozele    | normal         | laryngozele    | laryngozele    | laryngozele   
+i_n            | normal         | normal         | normal         | vox_senilis    | normal        
+u_h            | normal         | normal         | normal         | normal         | normal        
+u_l            | normal         | normal         | normal         | laryngozele    | normal        
+u_lhl          | laryngozele    | normal         | vox_senilis    | laryngozele    | vox_senilis   
+u_n            | normal         | normal         | normal         | normal         | normal        
+
+=========================================================================================================

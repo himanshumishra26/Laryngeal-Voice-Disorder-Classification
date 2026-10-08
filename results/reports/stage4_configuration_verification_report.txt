@@ -1,0 +1,63 @@
+================================================================================
+STAGE 4: FULL TRAINING CONFIGURATION VERIFICATION REPORT
+Automated Multi-Class Laryngeal Voice Disorder Classification
+Architecture: 2D Log-Mel Spectrogram + CNN-LSTM
+================================================================================
+
+1. MODEL ARCHITECTURE & TENSOR SPECIFICATIONS
+--------------------------------------------------------------------------------
+  - Model:                       CNNLSTMVoiceClassifier
+  - Input Tensor Shape:          (Batch, 1, 64, 130) float32
+  - Conv2D Blocks (3 blocks):    Filters: [32, 64, 128], Kernel: [3, 3], Pool: [2, 2], Dropout: [0.25, 0.25, 0.30]
+  - Sequence Modeling:           2-Layer Bidirectional LSTM (input: 1024, hidden: 128, output: 256, dropout: 0.30)
+  - Temporal Aggregation:        Mean-pooling over 16 time steps -> (Batch, 256)
+  - Classifier Head:             Linear(256->64) -> BatchNorm1d -> ReLU -> Dropout(0.40) -> Linear(64->3)
+  - Output Logits Shape:         (Batch, 3) float32
+  - Total Parameters:            1,686,851 (1,686,851 trainable)
+
+2. DATASET SPLITS & LEAKAGE AUDIT
+--------------------------------------------------------------------------------
+  - Grouping Key:                SprecherID (Speaker/Patient ID)
+  - Overlap Train-Val:           0 speakers [PASS]
+  - Overlap Train-Test:          0 speakers [PASS]
+  - Overlap Val-Test:            0 speakers [PASS]
+  - Cross-Class Speaker 73:      Quarantined / Excluded from all splits [PASS]
+  - Full Manifest Counts:        Train: 7120, Val: 1504, Test: 1503
+  - Balanced Manifest Counts:    Train: 1091, Val: 182, Test: 181
+
+3. CLASS IMBALANCE MITIGATION & CLASS WEIGHTS
+--------------------------------------------------------------------------------
+  - Normal (Class 0):            Weight = 0.3521
+  - Laryngozele (Class 1):       Weight = 169.5238
+  - Vox Senilis (Class 2):       Weight = 6.4845
+  - Balanced Sampler Support:    WeightedRandomSampler available for mini-batch balance
+
+4. OPTIMIZER, SCHEDULER & REGULARIZATION
+--------------------------------------------------------------------------------
+  - Batch Size:                  32
+  - Maximum Epochs:              50
+  - Optimizer:                   Adam (lr=0.001, weight_decay=0.0001)
+  - Gradient Clipping Norm:      5.0
+  - Learning Rate Scheduler:     ReduceLROnPlateau (factor=0.5, patience=5, min_lr=1e-05)
+  - Acoustic Regularization:     SpecAugment (Time & Frequency masking during training)
+
+5. EARLY STOPPING & CHECKPOINTING
+--------------------------------------------------------------------------------
+  - Early Stopping Status:       Enabled
+  - Monitored Metric:            Validation Loss (mode: min)
+  - Early Stopping Patience:     10 epochs (min_delta=0.0001)
+  - Best Checkpoint Path:        results/checkpoints\best_cnn_lstm.pt
+  - Latest Checkpoint Path:      results/checkpoints\last_cnn_lstm.pt
+
+6. HOLD-OUT TEST SET ISOLATION AUDIT
+--------------------------------------------------------------------------------
+  - The test manifests (test.csv, test_balanced.csv) are STRICTLY ISOLATED.
+  - ModelTrainer.fit() only ingests train_loader and val_loader.
+  - The test set remains completely unread, unoptimized, and untainted until final Stage 5 evaluation.
+
+7. READINESS CONCLUSION
+--------------------------------------------------------------------------------
+  - All 8 audit checkpoints PASSED.
+  - Raw dataset remains pristine.
+  - Full training pipeline is prepared and ready for execution upon approval.
+================================================================================

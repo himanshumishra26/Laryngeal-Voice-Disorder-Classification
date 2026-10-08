@@ -1,0 +1,182 @@
+feature_path,audio_path,class_name,class_label,session_id,speaker_id,vowel_type,gender,age,sample_weight,split,diagnosis
+data\processed\features\normal\1701_phrase.npy,data\raw\normal\1701\sentences\1701-phrase.nsp,normal,0,1701,1042,phrase,m,22.4,0.35212660731948564,test,
+data\processed\features\normal\1701_a_h.npy,data\raw\normal\1701\vowels\1701-a_h.nsp,normal,0,1701,1042,a_h,m,22.4,0.35212660731948564,test,
+data\processed\features\normal\1701_a_l.npy,data\raw\normal\1701\vowels\1701-a_l.nsp,normal,0,1701,1042,a_l,m,22.4,0.35212660731948564,test,
+data\processed\features\normal\1701_a_lhl.npy,data\raw\normal\1701\vowels\1701-a_lhl.nsp,normal,0,1701,1042,a_lhl,m,22.4,0.35212660731948564,test,
+data\processed\features\normal\1701_a_n.npy,data\raw\normal\1701\vowels\1701-a_n.nsp,normal,0,1701,1042,a_n,m,22.4,0.35212660731948564,test,
+data\processed\features\normal\1701_iau.npy,data\raw\normal\1701\vowels\1701-iau.nsp,normal,0,1701,1042,iau,m,22.4,0.35212660731948564,test,
+data\processed\features\normal\1701_i_h.npy,data\raw\normal\1701\vowels\1701-i_h.nsp,normal,0,1701,1042,i_h,m,22.4,0.35212660731948564,test,
+data\processed\features\normal\1701_i_l.npy,data\raw\normal\1701\vowels\1701-i_l.nsp,normal,0,1701,1042,i_l,m,22.4,0.35212660731948564,test,
+data\processed\features\normal\1701_i_lhl.npy,data\raw\normal\1701\vowels\1701-i_lhl.nsp,normal,0,1701,1042,i_lhl,m,22.4,0.35212660731948564,test,
+data\processed\features\normal\1701_i_n.npy,data\raw\normal\1701\vowels\1701-i_n.nsp,normal,0,1701,1042,i_n,m,22.4,0.35212660731948564,test,
+data\processed\features\normal\1701_u_h.npy,data\raw\normal\1701\vowels\1701-u_h.nsp,normal,0,1701,1042,u_h,m,22.4,0.35212660731948564,test,
+data\processed\features\normal\1701_u_l.npy,data\raw\normal\1701\vowels\1701-u_l.nsp,normal,0,1701,1042,u_l,m,22.4,0.35212660731948564,test,
+data\processed\features\normal\1701_u_lhl.npy,data\raw\normal\1701\vowels\1701-u_lhl.nsp,normal,0,1701,1042,u_lhl,m,22.4,0.35212660731948564,test,
+data\processed\features\normal\1701_u_n.npy,data\raw\normal\1701\vowels\1701-u_n.nsp,normal,0,1701,1042,u_n,m,22.4,0.35212660731948564,test,
+data\processed\features\normal\1846_phrase.npy,data\raw\normal\1846\sentences\1846-phrase.nsp,normal,0,1846,1079,phrase,w,21.0,0.35212660731948564,test,
+data\processed\features\normal\1846_a_h.npy,data\raw\normal\1846\vowels\1846-a_h.nsp,normal,0,1846,1079,a_h,w,21.0,0.35212660731948564,test,
+data\processed\features\normal\1846_a_l.npy,data\raw\normal\1846\vowels\1846-a_l.nsp,normal,0,1846,1079,a_l,w,21.0,0.35212660731948564,test,
+data\processed\features\normal\1846_a_lhl.npy,data\raw\normal\1846\vowels\1846-a_lhl.nsp,normal,0,1846,1079,a_lhl,w,21.0,0.35212660731948564,test,
+data\processed\features\normal\1846_a_n.npy,data\raw\normal\1846\vowels\1846-a_n.nsp,normal,0,1846,1079,a_n,w,21.0,0.35212660731948564,test,
+data\processed\features\normal\1846_iau.npy,data\raw\normal\1846\vowels\1846-iau.nsp,normal,0,1846,1079,iau,w,21.0,0.35212660731948564,test,
+data\processed\features\normal\1846_i_h.npy,data\raw\normal\1846\vowels\1846-i_h.nsp,normal,0,1846,1079,i_h,w,21.0,0.35212660731948564,test,
+data\processed\features\normal\1846_i_l.npy,data\raw\normal\1846\vowels\1846-i_l.nsp,normal,0,1846,1079,i_l,w,21.0,0.35212660731948564,test,
+data\processed\features\normal\1846_i_lhl.npy,data\raw\normal\1846\vowels\1846-i_lhl.nsp,normal,0,1846,1079,i_lhl,w,21.0,0.35212660731948564,test,
+data\processed\features\normal\1846_i_n.npy,data\raw\normal\1846\vowels\1846-i_n.nsp,normal,0,1846,1079,i_n,w,21.0,0.35212660731948564,test,
+data\processed\features\normal\1846_u_h.npy,data\raw\normal\1846\vowels\1846-u_h.nsp,normal,0,1846,1079,u_h,w,21.0,0.35212660731948564,test,
+data\processed\features\normal\1846_u_l.npy,data\raw\normal\1846\vowels\1846-u_l.nsp,normal,0,1846,1079,u_l,w,21.0,0.35212660731948564,test,
+data\processed\features\normal\1846_u_lhl.npy,data\raw\normal\1846\vowels\1846-u_lhl.nsp,normal,0,1846,1079,u_lhl,w,21.0,0.35212660731948564,test,
+data\processed\features\normal\1846_u_n.npy,data\raw\normal\1846\vowels\1846-u_n.nsp,normal,0,1846,1079,u_n,w,21.0,0.35212660731948564,test,
+data\processed\features\normal\19_phrase.npy,data\raw\normal\19\sentences\19-phrase.nsp,normal,0,19,20,phrase,w,23.4,0.35212660731948564,test,
+data\processed\features\normal\19_a_h.npy,data\raw\normal\19\vowels\19-a_h.nsp,normal,0,19,20,a_h,w,23.4,0.35212660731948564,test,
+data\processed\features\normal\19_a_l.npy,data\raw\normal\19\vowels\19-a_l.nsp,normal,0,19,20,a_l,w,23.4,0.35212660731948564,test,
+data\processed\features\normal\19_a_lhl.npy,data\raw\normal\19\vowels\19-a_lhl.nsp,normal,0,19,20,a_lhl,w,23.4,0.35212660731948564,test,
+data\processed\features\normal\19_a_n.npy,data\raw\normal\19\vowels\19-a_n.nsp,normal,0,19,20,a_n,w,23.4,0.35212660731948564,test,
+data\processed\features\normal\19_iau.npy,data\raw\normal\19\vowels\19-iau.nsp,normal,0,19,20,iau,w,23.4,0.35212660731948564,test,
+data\processed\features\normal\19_i_h.npy,data\raw\normal\19\vowels\19-i_h.nsp,normal,0,19,20,i_h,w,23.4,0.35212660731948564,test,
+data\processed\features\normal\19_i_l.npy,data\raw\normal\19\vowels\19-i_l.nsp,normal,0,19,20,i_l,w,23.4,0.35212660731948564,test,
+data\processed\features\normal\19_i_lhl.npy,data\raw\normal\19\vowels\19-i_lhl.nsp,normal,0,19,20,i_lhl,w,23.4,0.35212660731948564,test,
+data\processed\features\normal\19_i_n.npy,data\raw\normal\19\vowels\19-i_n.nsp,normal,0,19,20,i_n,w,23.4,0.35212660731948564,test,
+data\processed\features\normal\19_u_h.npy,data\raw\normal\19\vowels\19-u_h.nsp,normal,0,19,20,u_h,w,23.4,0.35212660731948564,test,
+data\processed\features\normal\19_u_l.npy,data\raw\normal\19\vowels\19-u_l.nsp,normal,0,19,20,u_l,w,23.4,0.35212660731948564,test,
+data\processed\features\normal\19_u_lhl.npy,data\raw\normal\19\vowels\19-u_lhl.nsp,normal,0,19,20,u_lhl,w,23.4,0.35212660731948564,test,
+data\processed\features\normal\19_u_n.npy,data\raw\normal\19\vowels\19-u_n.nsp,normal,0,19,20,u_n,w,23.4,0.35212660731948564,test,
+data\processed\features\normal\2195_a_h.npy,data\raw\normal\2195\vowels\2195-a_h.nsp,normal,0,2195,1167,a_h,m,20.9,0.35212660731948564,test,
+data\processed\features\normal\2195_a_l.npy,data\raw\normal\2195\vowels\2195-a_l.nsp,normal,0,2195,1167,a_l,m,20.9,0.35212660731948564,test,
+data\processed\features\normal\2195_a_lhl.npy,data\raw\normal\2195\vowels\2195-a_lhl.nsp,normal,0,2195,1167,a_lhl,m,20.9,0.35212660731948564,test,
+data\processed\features\normal\2195_a_n.npy,data\raw\normal\2195\vowels\2195-a_n.nsp,normal,0,2195,1167,a_n,m,20.9,0.35212660731948564,test,
+data\processed\features\normal\2195_iau.npy,data\raw\normal\2195\vowels\2195-iau.nsp,normal,0,2195,1167,iau,m,20.9,0.35212660731948564,test,
+data\processed\features\normal\2195_i_h.npy,data\raw\normal\2195\vowels\2195-i_h.nsp,normal,0,2195,1167,i_h,m,20.9,0.35212660731948564,test,
+data\processed\features\normal\2195_i_l.npy,data\raw\normal\2195\vowels\2195-i_l.nsp,normal,0,2195,1167,i_l,m,20.9,0.35212660731948564,test,
+data\processed\features\normal\2195_i_lhl.npy,data\raw\normal\2195\vowels\2195-i_lhl.nsp,normal,0,2195,1167,i_lhl,m,20.9,0.35212660731948564,test,
+data\processed\features\normal\2195_i_n.npy,data\raw\normal\2195\vowels\2195-i_n.nsp,normal,0,2195,1167,i_n,m,20.9,0.35212660731948564,test,
+data\processed\features\normal\2195_u_h.npy,data\raw\normal\2195\vowels\2195-u_h.nsp,normal,0,2195,1167,u_h,m,20.9,0.35212660731948564,test,
+data\processed\features\normal\2195_u_l.npy,data\raw\normal\2195\vowels\2195-u_l.nsp,normal,0,2195,1167,u_l,m,20.9,0.35212660731948564,test,
+data\processed\features\normal\2195_u_lhl.npy,data\raw\normal\2195\vowels\2195-u_lhl.nsp,normal,0,2195,1167,u_lhl,m,20.9,0.35212660731948564,test,
+data\processed\features\normal\2195_u_n.npy,data\raw\normal\2195\vowels\2195-u_n.nsp,normal,0,2195,1167,u_n,m,20.9,0.35212660731948564,test,
+data\processed\features\normal\2252_phrase.npy,data\raw\normal\2252\sentences\2252-phrase.nsp,normal,0,2252,1187,phrase,w,30.7,0.35212660731948564,test,
+data\processed\features\normal\2252_a_h.npy,data\raw\normal\2252\vowels\2252-a_h.nsp,normal,0,2252,1187,a_h,w,30.7,0.35212660731948564,test,
+data\processed\features\normal\2252_a_l.npy,data\raw\normal\2252\vowels\2252-a_l.nsp,normal,0,2252,1187,a_l,w,30.7,0.35212660731948564,test,
+data\processed\features\normal\2252_a_lhl.npy,data\raw\normal\2252\vowels\2252-a_lhl.nsp,normal,0,2252,1187,a_lhl,w,30.7,0.35212660731948564,test,
+data\processed\features\normal\2252_a_n.npy,data\raw\normal\2252\vowels\2252-a_n.nsp,normal,0,2252,1187,a_n,w,30.7,0.35212660731948564,test,
+data\processed\features\normal\2252_iau.npy,data\raw\normal\2252\vowels\2252-iau.nsp,normal,0,2252,1187,iau,w,30.7,0.35212660731948564,test,
+data\processed\features\normal\2252_i_h.npy,data\raw\normal\2252\vowels\2252-i_h.nsp,normal,0,2252,1187,i_h,w,30.7,0.35212660731948564,test,
+data\processed\features\normal\2252_i_l.npy,data\raw\normal\2252\vowels\2252-i_l.nsp,normal,0,2252,1187,i_l,w,30.7,0.35212660731948564,test,
+data\processed\features\normal\2252_i_lhl.npy,data\raw\normal\2252\vowels\2252-i_lhl.nsp,normal,0,2252,1187,i_lhl,w,30.7,0.35212660731948564,test,
+data\processed\features\normal\2252_i_n.npy,data\raw\normal\2252\vowels\2252-i_n.nsp,normal,0,2252,1187,i_n,w,30.7,0.35212660731948564,test,
+data\processed\features\normal\2252_u_h.npy,data\raw\normal\2252\vowels\2252-u_h.nsp,normal,0,2252,1187,u_h,w,30.7,0.35212660731948564,test,
+data\processed\features\normal\2252_u_l.npy,data\raw\normal\2252\vowels\2252-u_l.nsp,normal,0,2252,1187,u_l,w,30.7,0.35212660731948564,test,
+data\processed\features\normal\2252_u_lhl.npy,data\raw\normal\2252\vowels\2252-u_lhl.nsp,normal,0,2252,1187,u_lhl,w,30.7,0.35212660731948564,test,
+data\processed\features\normal\2252_u_n.npy,data\raw\normal\2252\vowels\2252-u_n.nsp,normal,0,2252,1187,u_n,w,30.7,0.35212660731948564,test,
+data\processed\features\normal\23_phrase.npy,data\raw\normal\23\sentences\23-phrase.nsp,normal,0,23,24,phrase,w,26.3,0.35212660731948564,test,
+data\processed\features\normal\23_a_h.npy,data\raw\normal\23\vowels\23-a_h.nsp,normal,0,23,24,a_h,w,26.3,0.35212660731948564,test,
+data\processed\features\normal\23_a_l.npy,data\raw\normal\23\vowels\23-a_l.nsp,normal,0,23,24,a_l,w,26.3,0.35212660731948564,test,
+data\processed\features\normal\23_a_lhl.npy,data\raw\normal\23\vowels\23-a_lhl.nsp,normal,0,23,24,a_lhl,w,26.3,0.35212660731948564,test,
+data\processed\features\normal\23_a_n.npy,data\raw\normal\23\vowels\23-a_n.nsp,normal,0,23,24,a_n,w,26.3,0.35212660731948564,test,
+data\processed\features\normal\23_iau.npy,data\raw\normal\23\vowels\23-iau.nsp,normal,0,23,24,iau,w,26.3,0.35212660731948564,test,
+data\processed\features\normal\23_i_h.npy,data\raw\normal\23\vowels\23-i_h.nsp,normal,0,23,24,i_h,w,26.3,0.35212660731948564,test,
+data\processed\features\normal\23_i_l.npy,data\raw\normal\23\vowels\23-i_l.nsp,normal,0,23,24,i_l,w,26.3,0.35212660731948564,test,
+data\processed\features\normal\23_i_lhl.npy,data\raw\normal\23\vowels\23-i_lhl.nsp,normal,0,23,24,i_lhl,w,26.3,0.35212660731948564,test,
+data\processed\features\normal\23_i_n.npy,data\raw\normal\23\vowels\23-i_n.nsp,normal,0,23,24,i_n,w,26.3,0.35212660731948564,test,
+data\processed\features\normal\23_u_h.npy,data\raw\normal\23\vowels\23-u_h.nsp,normal,0,23,24,u_h,w,26.3,0.35212660731948564,test,
+data\processed\features\normal\23_u_l.npy,data\raw\normal\23\vowels\23-u_l.nsp,normal,0,23,24,u_l,w,26.3,0.35212660731948564,test,
+data\processed\features\normal\23_u_lhl.npy,data\raw\normal\23\vowels\23-u_lhl.nsp,normal,0,23,24,u_lhl,w,26.3,0.35212660731948564,test,
+data\processed\features\normal\23_u_n.npy,data\raw\normal\23\vowels\23-u_n.nsp,normal,0,23,24,u_n,w,26.3,0.35212660731948564,test,
+data\processed\features\laryngozele\1981_phrase.npy,data\raw\laryngozele\1981\sentences\1981-phrase.nsp,laryngozele,1,1981,2191,phrase,m,63.8,169.52380952380952,test,Zustand nach Extirpation
+data\processed\features\laryngozele\1981_a_h.npy,data\raw\laryngozele\1981\vowels\1981-a_h.nsp,laryngozele,1,1981,2191,a_h,m,63.8,169.52380952380952,test,Zustand nach Extirpation
+data\processed\features\laryngozele\1981_a_l.npy,data\raw\laryngozele\1981\vowels\1981-a_l.nsp,laryngozele,1,1981,2191,a_l,m,63.8,169.52380952380952,test,Zustand nach Extirpation
+data\processed\features\laryngozele\1981_a_lhl.npy,data\raw\laryngozele\1981\vowels\1981-a_lhl.nsp,laryngozele,1,1981,2191,a_lhl,m,63.8,169.52380952380952,test,Zustand nach Extirpation
+data\processed\features\laryngozele\1981_a_n.npy,data\raw\laryngozele\1981\vowels\1981-a_n.nsp,laryngozele,1,1981,2191,a_n,m,63.8,169.52380952380952,test,Zustand nach Extirpation
+data\processed\features\laryngozele\1981_iau.npy,data\raw\laryngozele\1981\vowels\1981-iau.nsp,laryngozele,1,1981,2191,iau,m,63.8,169.52380952380952,test,Zustand nach Extirpation
+data\processed\features\laryngozele\1981_i_h.npy,data\raw\laryngozele\1981\vowels\1981-i_h.nsp,laryngozele,1,1981,2191,i_h,m,63.8,169.52380952380952,test,Zustand nach Extirpation
+data\processed\features\laryngozele\1981_i_l.npy,data\raw\laryngozele\1981\vowels\1981-i_l.nsp,laryngozele,1,1981,2191,i_l,m,63.8,169.52380952380952,test,Zustand nach Extirpation
+data\processed\features\laryngozele\1981_i_lhl.npy,data\raw\laryngozele\1981\vowels\1981-i_lhl.nsp,laryngozele,1,1981,2191,i_lhl,m,63.8,169.52380952380952,test,Zustand nach Extirpation
+data\processed\features\laryngozele\1981_i_n.npy,data\raw\laryngozele\1981\vowels\1981-i_n.nsp,laryngozele,1,1981,2191,i_n,m,63.8,169.52380952380952,test,Zustand nach Extirpation
+data\processed\features\laryngozele\1981_u_h.npy,data\raw\laryngozele\1981\vowels\1981-u_h.nsp,laryngozele,1,1981,2191,u_h,m,63.8,169.52380952380952,test,Zustand nach Extirpation
+data\processed\features\laryngozele\1981_u_l.npy,data\raw\laryngozele\1981\vowels\1981-u_l.nsp,laryngozele,1,1981,2191,u_l,m,63.8,169.52380952380952,test,Zustand nach Extirpation
+data\processed\features\laryngozele\1981_u_lhl.npy,data\raw\laryngozele\1981\vowels\1981-u_lhl.nsp,laryngozele,1,1981,2191,u_lhl,m,63.8,169.52380952380952,test,Zustand nach Extirpation
+data\processed\features\laryngozele\1981_u_n.npy,data\raw\laryngozele\1981\vowels\1981-u_n.nsp,laryngozele,1,1981,2191,u_n,m,63.8,169.52380952380952,test,Zustand nach Extirpation
+data\processed\features\vox_senilis\1039_phrase.npy,data\raw\vox_senilis\1039\sentences\1039-phrase.nsp,vox_senilis,2,1039,1535,phrase,m,75.6,6.484517304189436,test,Zentrallaryngale Komponente
+data\processed\features\vox_senilis\1039_a_h.npy,data\raw\vox_senilis\1039\vowels\1039-a_h.nsp,vox_senilis,2,1039,1535,a_h,m,75.6,6.484517304189436,test,Zentrallaryngale Komponente
+data\processed\features\vox_senilis\1039_a_l.npy,data\raw\vox_senilis\1039\vowels\1039-a_l.nsp,vox_senilis,2,1039,1535,a_l,m,75.6,6.484517304189436,test,Zentrallaryngale Komponente
+data\processed\features\vox_senilis\1039_a_lhl.npy,data\raw\vox_senilis\1039\vowels\1039-a_lhl.nsp,vox_senilis,2,1039,1535,a_lhl,m,75.6,6.484517304189436,test,Zentrallaryngale Komponente
+data\processed\features\vox_senilis\1039_a_n.npy,data\raw\vox_senilis\1039\vowels\1039-a_n.nsp,vox_senilis,2,1039,1535,a_n,m,75.6,6.484517304189436,test,Zentrallaryngale Komponente
+data\processed\features\vox_senilis\1039_iau.npy,data\raw\vox_senilis\1039\vowels\1039-iau.nsp,vox_senilis,2,1039,1535,iau,m,75.6,6.484517304189436,test,Zentrallaryngale Komponente
+data\processed\features\vox_senilis\1039_i_h.npy,data\raw\vox_senilis\1039\vowels\1039-i_h.nsp,vox_senilis,2,1039,1535,i_h,m,75.6,6.484517304189436,test,Zentrallaryngale Komponente
+data\processed\features\vox_senilis\1039_i_l.npy,data\raw\vox_senilis\1039\vowels\1039-i_l.nsp,vox_senilis,2,1039,1535,i_l,m,75.6,6.484517304189436,test,Zentrallaryngale Komponente
+data\processed\features\vox_senilis\1039_i_lhl.npy,data\raw\vox_senilis\1039\vowels\1039-i_lhl.nsp,vox_senilis,2,1039,1535,i_lhl,m,75.6,6.484517304189436,test,Zentrallaryngale Komponente
+data\processed\features\vox_senilis\1039_i_n.npy,data\raw\vox_senilis\1039\vowels\1039-i_n.nsp,vox_senilis,2,1039,1535,i_n,m,75.6,6.484517304189436,test,Zentrallaryngale Komponente
+data\processed\features\vox_senilis\1039_u_h.npy,data\raw\vox_senilis\1039\vowels\1039-u_h.nsp,vox_senilis,2,1039,1535,u_h,m,75.6,6.484517304189436,test,Zentrallaryngale Komponente
+data\processed\features\vox_senilis\1039_u_l.npy,data\raw\vox_senilis\1039\vowels\1039-u_l.nsp,vox_senilis,2,1039,1535,u_l,m,75.6,6.484517304189436,test,Zentrallaryngale Komponente
+data\processed\features\vox_senilis\1039_u_lhl.npy,data\raw\vox_senilis\1039\vowels\1039-u_lhl.nsp,vox_senilis,2,1039,1535,u_lhl,m,75.6,6.484517304189436,test,Zentrallaryngale Komponente
+data\processed\features\vox_senilis\1039_u_n.npy,data\raw\vox_senilis\1039\vowels\1039-u_n.nsp,vox_senilis,2,1039,1535,u_n,m,75.6,6.484517304189436,test,Zentrallaryngale Komponente
+data\processed\features\vox_senilis\1197_phrase.npy,data\raw\vox_senilis\1197\sentences\1197-phrase.nsp,vox_senilis,2,1197,1594,phrase,m,69.6,6.484517304189436,test,"Leichte Form, kein pathologischer Befund, hohe mittlere Sprechstimmlage"
+data\processed\features\vox_senilis\1197_a_h.npy,data\raw\vox_senilis\1197\vowels\1197-a_h.nsp,vox_senilis,2,1197,1594,a_h,m,69.6,6.484517304189436,test,"Leichte Form, kein pathologischer Befund, hohe mittlere Sprechstimmlage"
+data\processed\features\vox_senilis\1197_a_l.npy,data\raw\vox_senilis\1197\vowels\1197-a_l.nsp,vox_senilis,2,1197,1594,a_l,m,69.6,6.484517304189436,test,"Leichte Form, kein pathologischer Befund, hohe mittlere Sprechstimmlage"
+data\processed\features\vox_senilis\1197_a_lhl.npy,data\raw\vox_senilis\1197\vowels\1197-a_lhl.nsp,vox_senilis,2,1197,1594,a_lhl,m,69.6,6.484517304189436,test,"Leichte Form, kein pathologischer Befund, hohe mittlere Sprechstimmlage"
+data\processed\features\vox_senilis\1197_a_n.npy,data\raw\vox_senilis\1197\vowels\1197-a_n.nsp,vox_senilis,2,1197,1594,a_n,m,69.6,6.484517304189436,test,"Leichte Form, kein pathologischer Befund, hohe mittlere Sprechstimmlage"
+data\processed\features\vox_senilis\1197_iau.npy,data\raw\vox_senilis\1197\vowels\1197-iau.nsp,vox_senilis,2,1197,1594,iau,m,69.6,6.484517304189436,test,"Leichte Form, kein pathologischer Befund, hohe mittlere Sprechstimmlage"
+data\processed\features\vox_senilis\1197_i_h.npy,data\raw\vox_senilis\1197\vowels\1197-i_h.nsp,vox_senilis,2,1197,1594,i_h,m,69.6,6.484517304189436,test,"Leichte Form, kein pathologischer Befund, hohe mittlere Sprechstimmlage"
+data\processed\features\vox_senilis\1197_i_l.npy,data\raw\vox_senilis\1197\vowels\1197-i_l.nsp,vox_senilis,2,1197,1594,i_l,m,69.6,6.484517304189436,test,"Leichte Form, kein pathologischer Befund, hohe mittlere Sprechstimmlage"
+data\processed\features\vox_senilis\1197_i_lhl.npy,data\raw\vox_senilis\1197\vowels\1197-i_lhl.nsp,vox_senilis,2,1197,1594,i_lhl,m,69.6,6.484517304189436,test,"Leichte Form, kein pathologischer Befund, hohe mittlere Sprechstimmlage"
+data\processed\features\vox_senilis\1197_i_n.npy,data\raw\vox_senilis\1197\vowels\1197-i_n.nsp,vox_senilis,2,1197,1594,i_n,m,69.6,6.484517304189436,test,"Leichte Form, kein pathologischer Befund, hohe mittlere Sprechstimmlage"
+data\processed\features\vox_senilis\1197_u_h.npy,data\raw\vox_senilis\1197\vowels\1197-u_h.nsp,vox_senilis,2,1197,1594,u_h,m,69.6,6.484517304189436,test,"Leichte Form, kein pathologischer Befund, hohe mittlere Sprechstimmlage"
+data\processed\features\vox_senilis\1197_u_l.npy,data\raw\vox_senilis\1197\vowels\1197-u_l.nsp,vox_senilis,2,1197,1594,u_l,m,69.6,6.484517304189436,test,"Leichte Form, kein pathologischer Befund, hohe mittlere Sprechstimmlage"
+data\processed\features\vox_senilis\1197_u_lhl.npy,data\raw\vox_senilis\1197\vowels\1197-u_lhl.nsp,vox_senilis,2,1197,1594,u_lhl,m,69.6,6.484517304189436,test,"Leichte Form, kein pathologischer Befund, hohe mittlere Sprechstimmlage"
+data\processed\features\vox_senilis\1197_u_n.npy,data\raw\vox_senilis\1197\vowels\1197-u_n.nsp,vox_senilis,2,1197,1594,u_n,m,69.6,6.484517304189436,test,"Leichte Form, kein pathologischer Befund, hohe mittlere Sprechstimmlage"
+data\processed\features\vox_senilis\1636_phrase.npy,data\raw\vox_senilis\1636\sentences\1636-phrase.nsp,vox_senilis,2,1636,1936,phrase,w,73.9,6.484517304189436,test,Dyskoordination
+data\processed\features\vox_senilis\1636_a_h.npy,data\raw\vox_senilis\1636\vowels\1636-a_h.nsp,vox_senilis,2,1636,1936,a_h,w,73.9,6.484517304189436,test,Dyskoordination
+data\processed\features\vox_senilis\1636_a_l.npy,data\raw\vox_senilis\1636\vowels\1636-a_l.nsp,vox_senilis,2,1636,1936,a_l,w,73.9,6.484517304189436,test,Dyskoordination
+data\processed\features\vox_senilis\1636_a_lhl.npy,data\raw\vox_senilis\1636\vowels\1636-a_lhl.nsp,vox_senilis,2,1636,1936,a_lhl,w,73.9,6.484517304189436,test,Dyskoordination
+data\processed\features\vox_senilis\1636_a_n.npy,data\raw\vox_senilis\1636\vowels\1636-a_n.nsp,vox_senilis,2,1636,1936,a_n,w,73.9,6.484517304189436,test,Dyskoordination
+data\processed\features\vox_senilis\1636_iau.npy,data\raw\vox_senilis\1636\vowels\1636-iau.nsp,vox_senilis,2,1636,1936,iau,w,73.9,6.484517304189436,test,Dyskoordination
+data\processed\features\vox_senilis\1636_i_h.npy,data\raw\vox_senilis\1636\vowels\1636-i_h.nsp,vox_senilis,2,1636,1936,i_h,w,73.9,6.484517304189436,test,Dyskoordination
+data\processed\features\vox_senilis\1636_i_l.npy,data\raw\vox_senilis\1636\vowels\1636-i_l.nsp,vox_senilis,2,1636,1936,i_l,w,73.9,6.484517304189436,test,Dyskoordination
+data\processed\features\vox_senilis\1636_i_lhl.npy,data\raw\vox_senilis\1636\vowels\1636-i_lhl.nsp,vox_senilis,2,1636,1936,i_lhl,w,73.9,6.484517304189436,test,Dyskoordination
+data\processed\features\vox_senilis\1636_i_n.npy,data\raw\vox_senilis\1636\vowels\1636-i_n.nsp,vox_senilis,2,1636,1936,i_n,w,73.9,6.484517304189436,test,Dyskoordination
+data\processed\features\vox_senilis\1636_u_h.npy,data\raw\vox_senilis\1636\vowels\1636-u_h.nsp,vox_senilis,2,1636,1936,u_h,w,73.9,6.484517304189436,test,Dyskoordination
+data\processed\features\vox_senilis\1636_u_l.npy,data\raw\vox_senilis\1636\vowels\1636-u_l.nsp,vox_senilis,2,1636,1936,u_l,w,73.9,6.484517304189436,test,Dyskoordination
+data\processed\features\vox_senilis\1636_u_lhl.npy,data\raw\vox_senilis\1636\vowels\1636-u_lhl.nsp,vox_senilis,2,1636,1936,u_lhl,w,73.9,6.484517304189436,test,Dyskoordination
+data\processed\features\vox_senilis\1636_u_n.npy,data\raw\vox_senilis\1636\vowels\1636-u_n.nsp,vox_senilis,2,1636,1936,u_n,w,73.9,6.484517304189436,test,Dyskoordination
+data\processed\features\vox_senilis\1694_phrase.npy,data\raw\vox_senilis\1694\sentences\1694-phrase.nsp,vox_senilis,2,1694,1993,phrase,w,66.8,6.484517304189436,test,Funktionelle Dysphonie + Vox senilis
+data\processed\features\vox_senilis\1694_a_h.npy,data\raw\vox_senilis\1694\vowels\1694-a_h.nsp,vox_senilis,2,1694,1993,a_h,w,66.8,6.484517304189436,test,Funktionelle Dysphonie + Vox senilis
+data\processed\features\vox_senilis\1694_a_l.npy,data\raw\vox_senilis\1694\vowels\1694-a_l.nsp,vox_senilis,2,1694,1993,a_l,w,66.8,6.484517304189436,test,Funktionelle Dysphonie + Vox senilis
+data\processed\features\vox_senilis\1694_a_lhl.npy,data\raw\vox_senilis\1694\vowels\1694-a_lhl.nsp,vox_senilis,2,1694,1993,a_lhl,w,66.8,6.484517304189436,test,Funktionelle Dysphonie + Vox senilis
+data\processed\features\vox_senilis\1694_a_n.npy,data\raw\vox_senilis\1694\vowels\1694-a_n.nsp,vox_senilis,2,1694,1993,a_n,w,66.8,6.484517304189436,test,Funktionelle Dysphonie + Vox senilis
+data\processed\features\vox_senilis\1694_iau.npy,data\raw\vox_senilis\1694\vowels\1694-iau.nsp,vox_senilis,2,1694,1993,iau,w,66.8,6.484517304189436,test,Funktionelle Dysphonie + Vox senilis
+data\processed\features\vox_senilis\1694_i_h.npy,data\raw\vox_senilis\1694\vowels\1694-i_h.nsp,vox_senilis,2,1694,1993,i_h,w,66.8,6.484517304189436,test,Funktionelle Dysphonie + Vox senilis
+data\processed\features\vox_senilis\1694_i_l.npy,data\raw\vox_senilis\1694\vowels\1694-i_l.nsp,vox_senilis,2,1694,1993,i_l,w,66.8,6.484517304189436,test,Funktionelle Dysphonie + Vox senilis
+data\processed\features\vox_senilis\1694_i_lhl.npy,data\raw\vox_senilis\1694\vowels\1694-i_lhl.nsp,vox_senilis,2,1694,1993,i_lhl,w,66.8,6.484517304189436,test,Funktionelle Dysphonie + Vox senilis
+data\processed\features\vox_senilis\1694_i_n.npy,data\raw\vox_senilis\1694\vowels\1694-i_n.nsp,vox_senilis,2,1694,1993,i_n,w,66.8,6.484517304189436,test,Funktionelle Dysphonie + Vox senilis
+data\processed\features\vox_senilis\1694_u_h.npy,data\raw\vox_senilis\1694\vowels\1694-u_h.nsp,vox_senilis,2,1694,1993,u_h,w,66.8,6.484517304189436,test,Funktionelle Dysphonie + Vox senilis
+data\processed\features\vox_senilis\1694_u_l.npy,data\raw\vox_senilis\1694\vowels\1694-u_l.nsp,vox_senilis,2,1694,1993,u_l,w,66.8,6.484517304189436,test,Funktionelle Dysphonie + Vox senilis
+data\processed\features\vox_senilis\1694_u_lhl.npy,data\raw\vox_senilis\1694\vowels\1694-u_lhl.nsp,vox_senilis,2,1694,1993,u_lhl,w,66.8,6.484517304189436,test,Funktionelle Dysphonie + Vox senilis
+data\processed\features\vox_senilis\1694_u_n.npy,data\raw\vox_senilis\1694\vowels\1694-u_n.nsp,vox_senilis,2,1694,1993,u_n,w,66.8,6.484517304189436,test,Funktionelle Dysphonie + Vox senilis
+data\processed\features\vox_senilis\1772_phrase.npy,data\raw\vox_senilis\1772\sentences\1772-phrase.nsp,vox_senilis,2,1772,2036,phrase,w,77.5,6.484517304189436,test,Dysarthrophonie mit zentral laryngaler Bewegungsstörung
+data\processed\features\vox_senilis\1772_a_h.npy,data\raw\vox_senilis\1772\vowels\1772-a_h.nsp,vox_senilis,2,1772,2036,a_h,w,77.5,6.484517304189436,test,Dysarthrophonie mit zentral laryngaler Bewegungsstörung
+data\processed\features\vox_senilis\1772_a_l.npy,data\raw\vox_senilis\1772\vowels\1772-a_l.nsp,vox_senilis,2,1772,2036,a_l,w,77.5,6.484517304189436,test,Dysarthrophonie mit zentral laryngaler Bewegungsstörung
+data\processed\features\vox_senilis\1772_a_lhl.npy,data\raw\vox_senilis\1772\vowels\1772-a_lhl.nsp,vox_senilis,2,1772,2036,a_lhl,w,77.5,6.484517304189436,test,Dysarthrophonie mit zentral laryngaler Bewegungsstörung
+data\processed\features\vox_senilis\1772_a_n.npy,data\raw\vox_senilis\1772\vowels\1772-a_n.nsp,vox_senilis,2,1772,2036,a_n,w,77.5,6.484517304189436,test,Dysarthrophonie mit zentral laryngaler Bewegungsstörung
+data\processed\features\vox_senilis\1772_iau.npy,data\raw\vox_senilis\1772\vowels\1772-iau.nsp,vox_senilis,2,1772,2036,iau,w,77.5,6.484517304189436,test,Dysarthrophonie mit zentral laryngaler Bewegungsstörung
+data\processed\features\vox_senilis\1772_i_h.npy,data\raw\vox_senilis\1772\vowels\1772-i_h.nsp,vox_senilis,2,1772,2036,i_h,w,77.5,6.484517304189436,test,Dysarthrophonie mit zentral laryngaler Bewegungsstörung
+data\processed\features\vox_senilis\1772_i_l.npy,data\raw\vox_senilis\1772\vowels\1772-i_l.nsp,vox_senilis,2,1772,2036,i_l,w,77.5,6.484517304189436,test,Dysarthrophonie mit zentral laryngaler Bewegungsstörung
+data\processed\features\vox_senilis\1772_i_lhl.npy,data\raw\vox_senilis\1772\vowels\1772-i_lhl.nsp,vox_senilis,2,1772,2036,i_lhl,w,77.5,6.484517304189436,test,Dysarthrophonie mit zentral laryngaler Bewegungsstörung
+data\processed\features\vox_senilis\1772_i_n.npy,data\raw\vox_senilis\1772\vowels\1772-i_n.nsp,vox_senilis,2,1772,2036,i_n,w,77.5,6.484517304189436,test,Dysarthrophonie mit zentral laryngaler Bewegungsstörung
+data\processed\features\vox_senilis\1772_u_h.npy,data\raw\vox_senilis\1772\vowels\1772-u_h.nsp,vox_senilis,2,1772,2036,u_h,w,77.5,6.484517304189436,test,Dysarthrophonie mit zentral laryngaler Bewegungsstörung
+data\processed\features\vox_senilis\1772_u_l.npy,data\raw\vox_senilis\1772\vowels\1772-u_l.nsp,vox_senilis,2,1772,2036,u_l,w,77.5,6.484517304189436,test,Dysarthrophonie mit zentral laryngaler Bewegungsstörung
+data\processed\features\vox_senilis\1772_u_lhl.npy,data\raw\vox_senilis\1772\vowels\1772-u_lhl.nsp,vox_senilis,2,1772,2036,u_lhl,w,77.5,6.484517304189436,test,Dysarthrophonie mit zentral laryngaler Bewegungsstörung
+data\processed\features\vox_senilis\1772_u_n.npy,data\raw\vox_senilis\1772\vowels\1772-u_n.nsp,vox_senilis,2,1772,2036,u_n,w,77.5,6.484517304189436,test,Dysarthrophonie mit zentral laryngaler Bewegungsstörung
+data\processed\features\vox_senilis\612_phrase.npy,data\raw\vox_senilis\612\sentences\612-phrase.nsp,vox_senilis,2,612,1387,phrase,w,76.4,6.484517304189436,test,Mit Petechien (Einblutungen) rechte  Stimmlippe
+data\processed\features\vox_senilis\612_a_h.npy,data\raw\vox_senilis\612\vowels\612-a_h.nsp,vox_senilis,2,612,1387,a_h,w,76.4,6.484517304189436,test,Mit Petechien (Einblutungen) rechte  Stimmlippe
+data\processed\features\vox_senilis\612_a_l.npy,data\raw\vox_senilis\612\vowels\612-a_l.nsp,vox_senilis,2,612,1387,a_l,w,76.4,6.484517304189436,test,Mit Petechien (Einblutungen) rechte  Stimmlippe
+data\processed\features\vox_senilis\612_a_lhl.npy,data\raw\vox_senilis\612\vowels\612-a_lhl.nsp,vox_senilis,2,612,1387,a_lhl,w,76.4,6.484517304189436,test,Mit Petechien (Einblutungen) rechte  Stimmlippe
+data\processed\features\vox_senilis\612_a_n.npy,data\raw\vox_senilis\612\vowels\612-a_n.nsp,vox_senilis,2,612,1387,a_n,w,76.4,6.484517304189436,test,Mit Petechien (Einblutungen) rechte  Stimmlippe
+data\processed\features\vox_senilis\612_iau.npy,data\raw\vox_senilis\612\vowels\612-iau.nsp,vox_senilis,2,612,1387,iau,w,76.4,6.484517304189436,test,Mit Petechien (Einblutungen) rechte  Stimmlippe
+data\processed\features\vox_senilis\612_i_h.npy,data\raw\vox_senilis\612\vowels\612-i_h.nsp,vox_senilis,2,612,1387,i_h,w,76.4,6.484517304189436,test,Mit Petechien (Einblutungen) rechte  Stimmlippe
+data\processed\features\vox_senilis\612_i_l.npy,data\raw\vox_senilis\612\vowels\612-i_l.nsp,vox_senilis,2,612,1387,i_l,w,76.4,6.484517304189436,test,Mit Petechien (Einblutungen) rechte  Stimmlippe
+data\processed\features\vox_senilis\612_i_lhl.npy,data\raw\vox_senilis\612\vowels\612-i_lhl.nsp,vox_senilis,2,612,1387,i_lhl,w,76.4,6.484517304189436,test,Mit Petechien (Einblutungen) rechte  Stimmlippe
+data\processed\features\vox_senilis\612_i_n.npy,data\raw\vox_senilis\612\vowels\612-i_n.nsp,vox_senilis,2,612,1387,i_n,w,76.4,6.484517304189436,test,Mit Petechien (Einblutungen) rechte  Stimmlippe
+data\processed\features\vox_senilis\612_u_h.npy,data\raw\vox_senilis\612\vowels\612-u_h.nsp,vox_senilis,2,612,1387,u_h,w,76.4,6.484517304189436,test,Mit Petechien (Einblutungen) rechte  Stimmlippe
+data\processed\features\vox_senilis\612_u_l.npy,data\raw\vox_senilis\612\vowels\612-u_l.nsp,vox_senilis,2,612,1387,u_l,w,76.4,6.484517304189436,test,Mit Petechien (Einblutungen) rechte  Stimmlippe
+data\processed\features\vox_senilis\612_u_lhl.npy,data\raw\vox_senilis\612\vowels\612-u_lhl.nsp,vox_senilis,2,612,1387,u_lhl,w,76.4,6.484517304189436,test,Mit Petechien (Einblutungen) rechte  Stimmlippe
+data\processed\features\vox_senilis\612_u_n.npy,data\raw\vox_senilis\612\vowels\612-u_n.nsp,vox_senilis,2,612,1387,u_n,w,76.4,6.484517304189436,test,Mit Petechien (Einblutungen) rechte  Stimmlippe

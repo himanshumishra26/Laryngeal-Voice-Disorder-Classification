@@ -1,0 +1,27 @@
+===========================================================================
+GAUSSIAN MIXTURE MODEL (GMM) - VALIDATION REPORT
+Generated: 2026-10-06 20:32:30
+===========================================================================
+
+Best Configuration: {
+  "n_components": {
+    "0": 6,
+    "1": 1,
+    "2": 6
+  },
+  "reg_covar": 0.2,
+  "w1_prior_offset": 8.0,
+  "likelihood_gate_lz": -113.20836027190082
+}
+
+Overall Accuracy:     65.38%
+Balanced Accuracy:    61.11%
+Macro F1-Score:       62.73%
+Macro Precision:      65.08%
+Macro Recall:         61.11%
+Macro Specificity:    79.14%
+
+Confusion Matrix:
+[[54  0 30]
+ [ 2  7  5]
+ [22  4 58]]

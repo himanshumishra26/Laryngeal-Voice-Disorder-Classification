@@ -1,0 +1,84 @@
+{
+  "extraction_config": {
+    "sample_rate": 22050,
+    "target_duration_sec": 3.0,
+    "n_mels": 64,
+    "n_fft": 2048,
+    "hop_length": 512,
+    "feature_shape": [
+      64,
+      130
+    ],
+    "top_db_trim": 20.0,
+    "top_db_mel": 80.0
+  },
+  "class_mapping": {
+    "normal": 0,
+    "laryngozele": 1,
+    "vox_senilis": 2
+  },
+  "class_weights_train": {
+    "0": 0.35212660731948564,
+    "1": 169.52380952380952,
+    "2": 6.484517304189436
+  },
+  "splits_summary": {
+    "full_train": {
+      "samples": 7120,
+      "speakers": 505,
+      "class_counts": {
+        "normal": 6740,
+        "vox_senilis": 366,
+        "laryngozele": 14
+      }
+    },
+    "full_val": {
+      "samples": 1504,
+      "speakers": 108,
+      "class_counts": {
+        "normal": 1406,
+        "vox_senilis": 84,
+        "laryngozele": 14
+      }
+    },
+    "full_test": {
+      "samples": 1503,
+      "speakers": 108,
+      "class_counts": {
+        "normal": 1405,
+        "vox_senilis": 84,
+        "laryngozele": 14
+      }
+    },
+    "balanced_train": {
+      "samples": 1091,
+      "speakers": 53,
+      "class_counts": {
+        "vox_senilis": 366,
+        "laryngozele": 364,
+        "normal": 361
+      }
+    },
+    "balanced_val": {
+      "samples": 182,
+      "speakers": 13,
+      "class_counts": {
+        "normal": 84,
+        "vox_senilis": 84,
+        "laryngozele": 14
+      }
+    },
+    "balanced_test": {
+      "samples": 181,
+      "speakers": 13,
+      "class_counts": {
+        "vox_senilis": 84,
+        "normal": 83,
+        "laryngozele": 14
+      }
+    }
+  },
+  "quarantined_speakers": [
+    "73"
+  ]
+}

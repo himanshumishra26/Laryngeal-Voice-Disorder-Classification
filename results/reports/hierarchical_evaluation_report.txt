@@ -1,0 +1,76 @@
+=====================================================================================
+STAGE 5: TWO-STAGE HIERARCHICAL MODEL EVALUATION REPORT
+Automated Multi-Class Laryngeal Voice Disorder Classification
+Generated: 2026-09-22 15:02:40
+=====================================================================================
+
+1. EVALUATED MODEL CHECKPOINT
+-------------------------------------------------------------------------------------
+  - Checkpoint Path:       Stage 1: D:\Laryngeal_Voice_Disorder_Project\results\checkpoints\hierarchical_stage1_best.pt | Stage 2: D:\Laryngeal_Voice_Disorder_Project\results\checkpoints\hierarchical_stage2_best.pt
+  - Training Epoch:        Epoch Stage 1: Ep 33 | Stage 2: Ep 2
+  - Validation Loss:       Stage 1: 0.6392 | Stage 2: 0.4501
+  - Validation Accuracy:   Stage 1: 64.84% | Stage 2: 89.80%
+  - Execution Device:      CPU
+
+2. PRIMARY BENCHMARK: BALANCED TEST SET (Demographic-Matched)
+EVALUATION RESULTS: BALANCED TEST SET (TEST_BALANCED.CSV)
+-------------------------------------------------------------------------------------
+  - Total Evaluation Samples: 181
+  - Overall Accuracy:         50.83%
+  - Macro Precision:          38.90%
+  - Macro Recall / Sens.:     36.87%
+  - Macro Specificity:        69.98%
+  - Macro F1-Score:           31.49%
+  - Macro One-vs-Rest ROC-AUC:0.6089
+
+PER-CLASS DIAGNOSTIC PERFORMANCE:
+Class            | Support  | Precision   | Recall      | Specificity  | F1-Score   | ROC-AUC 
+-------------------------------------------------------------------------------------
+Normal           | 83       | 48.70     % | 90.36     % | 19.39      % | 63.29    % | 0.6515  
+Laryngozele      | 14       | 0.00      % | 0.00      % | 98.80      % | 0.00     % | 0.4786  
+Vox Senilis      | 84       | 68.00     % | 20.24     % | 91.75      % | 31.19    % | 0.6966  
+-------------------------------------------------------------------------------------
+Macro Average    | 181      | 38.90     % | 36.87     % | 69.98      % | 31.49    % | 0.6089  
+Weighted Average | 181      | 53.89     % | 50.83     % | 59.11      % | 43.50    % | 0.6590  
+
+CONFUSION MATRIX (Raw Counts):
+True \ Pred      | Normal   | Laryngoz | Vox Seni
+-------------------------------------------------------------------------------------
+Normal           | 75       | 0        | 8       
+Laryngozele      | 14       | 0        | 0       
+Vox Senilis      | 65       | 2        | 17      
+
+3. SECONDARY BENCHMARK: FULL CLINICAL PREVALENCE TEST SET
+EVALUATION RESULTS: FULL PREVALENCE TEST SET (TEST.CSV)
+-------------------------------------------------------------------------------------
+  - Total Evaluation Samples: 1503
+  - Overall Accuracy:         78.98%
+  - Macro Precision:          33.84%
+  - Macro Recall / Sens.:     34.50%
+  - Macro Specificity:        67.60%
+  - Macro F1-Score:           33.15%
+  - Macro One-vs-Rest ROC-AUC:0.5785
+
+PER-CLASS DIAGNOSTIC PERFORMANCE:
+Class            | Support  | Precision   | Recall      | Specificity  | F1-Score   | ROC-AUC 
+-------------------------------------------------------------------------------------
+Normal           | 1405     | 93.67     % | 83.27     % | 19.39      % | 88.17    % | 0.5954  
+Laryngozele      | 14       | 0.00      % | 0.00      % | 97.52      % | 0.00     % | 0.5135  
+Vox Senilis      | 84       | 7.83      % | 20.24     % | 85.91      % | 11.30    % | 0.6266  
+-------------------------------------------------------------------------------------
+Macro Average    | 1503     | 33.84     % | 34.50     % | 67.60      % | 33.15    % | 0.5785  
+Weighted Average | 1503     | 88.00     % | 78.98     % | 23.83      % | 83.05    % | 0.5963  
+
+CONFUSION MATRIX (Raw Counts):
+True \ Pred      | Normal   | Laryngoz | Vox Seni
+-------------------------------------------------------------------------------------
+Normal           | 1170     | 35       | 200     
+Laryngozele      | 14       | 0        | 0       
+Vox Senilis      | 65       | 2        | 17      
+
+4. ZERO DATA LEAKAGE & SCIENTIFIC RIGOR CONFIRMATION
+-------------------------------------------------------------------------------------
+  - Zero speaker overlap between train, validation, and test partitions.
+  - Cross-class Speaker 73 remained strictly quarantined.
+  - The evaluated test sets were never exposed during model training or selection.
+=====================================================================================

@@ -1,0 +1,727 @@
+feature_path,audio_path,class_name,class_label,session_id,speaker_id,vowel_type,gender,age,sample_weight,split,diagnosis,stage1_label,stage1_class_name
+data\processed\features\normal\1067_phrase.npy,data\raw\normal\1067\sentences\1067-phrase.nsp,normal,0,1067,844,phrase,w,33.8,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2515_a_l.npy,data\raw\vox_senilis\2515\vowels\2515-a_l.nsp,vox_senilis,1,2515,2649,a_l,w,75.2,6.484517304189436,train,,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_l_p11_0.npy,data\raw\laryngozele\1205\vowels\1205-u_l.nsp,laryngozele,1,1205,1602,u_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1012_a_h.npy,data\raw\normal\1012\vowels\1012-a_h.nsp,normal,0,1012,813,a_h,m,22.4,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_n_p3_0.npy,data\raw\laryngozele\1205\vowels\1205-u_n.nsp,laryngozele,1,1205,1602,u_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2421_a_l.npy,data\raw\vox_senilis\2421\vowels\2421-a_l.nsp,vox_senilis,1,2421,2555,a_l,w,87.6,6.484517304189436,train,,1,pathological
+data\processed\features\normal\1573_u_l.npy,data\raw\normal\1573\vowels\1573-u_l.nsp,normal,0,1573,1027,u_l,m,21.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2179_u_l.npy,data\raw\normal\2179\vowels\2179-u_l.nsp,normal,0,2179,1164,u_l,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\123_u_l.npy,data\raw\normal\123\vowels\123-u_l.nsp,normal,0,123,130,u_l,w,20.0,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_lhl_p5_0.npy,data\raw\laryngozele\1205\vowels\1205-a_lhl.nsp,laryngozele,1,1205,1602,a_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1573_a_n.npy,data\raw\normal\1573\vowels\1573-a_n.nsp,normal,0,1573,1027,a_n,m,21.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\20_a_l.npy,data\raw\normal\20\vowels\20-a_l.nsp,normal,0,20,21,a_l,w,21.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\899_a_lhl.npy,data\raw\vox_senilis\899\vowels\899-a_lhl.nsp,vox_senilis,1,899,1491,a_lhl,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts,1,pathological
+data\processed\features\normal\747_i_n.npy,data\raw\normal\747\vowels\747-i_n.nsp,normal,0,747,651,i_n,w,26.9,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_l_p5_5.npy,data\raw\laryngozele\1205\vowels\1205-u_l.nsp,laryngozele,1,1205,1602,u_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\1220_iau.npy,data\raw\vox_senilis\1220\vowels\1220-iau.nsp,vox_senilis,1,1220,1608,iau,m,76.7,6.484517304189436,train,Vox senilis,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_lhl_pm1_0.npy,data\raw\laryngozele\1205\vowels\1205-u_lhl.nsp,laryngozele,1,1205,1602,u_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2596_iau.npy,data\raw\vox_senilis\2596\vowels\2596-iau.nsp,vox_senilis,1,2596,2336,iau,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend",1,pathological
+data\processed\features\normal\943_u_lhl.npy,data\raw\normal\943\vowels\943-u_lhl.nsp,normal,0,943,747,u_lhl,m,45.6,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_lhl_p11_0.npy,data\raw\laryngozele\1205\vowels\1205-a_lhl.nsp,laryngozele,1,1205,1602,a_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1815_u_n.npy,data\raw\normal\1815\vowels\1815-u_n.nsp,normal,0,1815,2082,u_n,w,56.2,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1573_u_n.npy,data\raw\normal\1573\vowels\1573-u_n.nsp,normal,0,1573,1027,u_n,m,21.4,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2303_a_lhl.npy,data\raw\vox_senilis\2303\vowels\2303-a_lhl.nsp,vox_senilis,1,2303,2420,a_lhl,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps,1,pathological
+data\processed\features\normal\1019_i_l.npy,data\raw\normal\1019\vowels\1019-i_l.nsp,normal,0,1019,811,i_l,m,49.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1519_a_n.npy,data\raw\normal\1519\vowels\1519-a_n.nsp,normal,0,1519,1003,a_n,w,23.1,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1203_u_l.npy,data\raw\vox_senilis\1203\vowels\1203-u_l.nsp,vox_senilis,1,1203,1600,u_l,w,61.1,6.484517304189436,train,Leicht,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_l_p13_0.npy,data\raw\laryngozele\1205\vowels\1205-u_l.nsp,laryngozele,1,1205,1602,u_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2515_i_lhl.npy,data\raw\vox_senilis\2515\vowels\2515-i_lhl.nsp,vox_senilis,1,2515,2649,i_lhl,w,75.2,6.484517304189436,train,,1,pathological
+data\processed\features\normal\58_phrase.npy,data\raw\normal\58\sentences\58-phrase.nsp,normal,0,58,58,phrase,w,25.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\15_i_l.npy,data\raw\normal\15\vowels\15-i_l.nsp,normal,0,15,17,i_l,m,24.7,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\747_u_l.npy,data\raw\normal\747\vowels\747-u_l.nsp,normal,0,747,651,u_l,w,26.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2248_u_n.npy,data\raw\normal\2248\vowels\2248-u_n.nsp,normal,0,2248,1183,u_n,w,23.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1573_i_n.npy,data\raw\normal\1573\vowels\1573-i_n.nsp,normal,0,1573,1027,i_n,m,21.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\58_a_h.npy,data\raw\normal\58\vowels\58-a_h.nsp,normal,0,58,58,a_h,w,25.4,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_l_p3_0.npy,data\raw\laryngozele\1205\vowels\1205-u_l.nsp,laryngozele,1,1205,1602,u_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1023_u_h.npy,data\raw\normal\1023\vowels\1023-u_h.nsp,normal,0,1023,822,u_h,m,41.1,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_lhl_p5_0.npy,data\raw\laryngozele\1205\vowels\1205-u_lhl.nsp,laryngozele,1,1205,1602,u_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1815_i_h.npy,data\raw\normal\1815\vowels\1815-i_h.nsp,normal,0,1815,2082,i_h,w,56.2,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1012_a_lhl.npy,data\raw\normal\1012\vowels\1012-a_lhl.nsp,normal,0,1012,813,a_lhl,m,22.4,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1268_u_n.npy,data\raw\vox_senilis\1268\vowels\1268-u_n.nsp,vox_senilis,1,1268,1656,u_n,m,83.5,6.484517304189436,train,Mit Stimmschwäche,1,pathological
+data\processed\features\normal\15_u_h.npy,data\raw\normal\15\vowels\15-u_h.nsp,normal,0,15,17,u_h,m,24.7,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1067_i_lhl.npy,data\raw\normal\1067\vowels\1067-i_lhl.nsp,normal,0,1067,844,i_lhl,w,33.8,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\15_i_n.npy,data\raw\normal\15\vowels\15-i_n.nsp,normal,0,15,17,i_n,m,24.7,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_h_p10_5.npy,data\raw\laryngozele\1205\vowels\1205-a_h.nsp,laryngozele,1,1205,1602,a_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\813_u_n.npy,data\raw\normal\813\vowels\813-u_n.nsp,normal,0,813,718,u_n,m,19.0,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_n_p7_0.npy,data\raw\laryngozele\1205\vowels\1205-a_n.nsp,laryngozele,1,1205,1602,a_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\15_u_lhl.npy,data\raw\normal\15\vowels\15-u_lhl.nsp,normal,0,15,17,u_lhl,m,24.7,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_h_p12_0.npy,data\raw\laryngozele\1205\vowels\1205-u_h.nsp,laryngozele,1,1205,1602,u_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2515_a_lhl.npy,data\raw\vox_senilis\2515\vowels\2515-a_lhl.nsp,vox_senilis,1,2515,2649,a_lhl,w,75.2,6.484517304189436,train,,1,pathological
+data\processed\features\vox_senilis\2303_i_lhl.npy,data\raw\vox_senilis\2303\vowels\2303-i_lhl.nsp,vox_senilis,1,2303,2420,i_lhl,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps,1,pathological
+data\processed\features\normal\2251_u_n.npy,data\raw\normal\2251\vowels\2251-u_n.nsp,normal,0,2251,1186,u_n,m,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2601_iau.npy,data\raw\vox_senilis\2601\vowels\2601-iau.nsp,vox_senilis,1,2601,2727,iau,w,64.7,6.484517304189436,train,,1,pathological
+data\processed\features\normal\1815_phrase.npy,data\raw\normal\1815\sentences\1815-phrase.nsp,normal,0,1815,2082,phrase,w,56.2,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\58_u_lhl.npy,data\raw\normal\58\vowels\58-u_lhl.nsp,normal,0,58,58,u_lhl,w,25.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\813_i_l.npy,data\raw\normal\813\vowels\813-i_l.nsp,normal,0,813,718,i_l,m,19.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2205_i_l.npy,data\raw\normal\2205\vowels\2205-i_l.nsp,normal,0,2205,1177,i_l,w,19.5,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_phrase_pm2_0.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\2179_u_h.npy,data\raw\normal\2179\vowels\2179-u_h.nsp,normal,0,2179,1164,u_h,w,19.9,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_l_p5_0.npy,data\raw\laryngozele\1205\vowels\1205-a_l.nsp,laryngozele,1,1205,1602,a_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\1268_a_l.npy,data\raw\vox_senilis\1268\vowels\1268-a_l.nsp,vox_senilis,1,1268,1656,a_l,m,83.5,6.484517304189436,train,Mit Stimmschwäche,1,pathological
+data\processed\features\normal\943_i_h.npy,data\raw\normal\943\vowels\943-i_h.nsp,normal,0,943,747,i_h,m,45.6,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_lhl_p1_0.npy,data\raw\laryngozele\1205\vowels\1205-u_lhl.nsp,laryngozele,1,1205,1602,u_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1020_u_n.npy,data\raw\normal\1020\vowels\1020-u_n.nsp,normal,0,1020,819,u_n,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1023_iau.npy,data\raw\normal\1023\vowels\1023-iau.nsp,normal,0,1023,822,iau,m,41.1,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2205_u_lhl.npy,data\raw\normal\2205\vowels\2205-u_lhl.nsp,normal,0,2205,1177,u_lhl,w,19.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2601_a_lhl.npy,data\raw\vox_senilis\2601\vowels\2601-a_lhl.nsp,vox_senilis,1,2601,2727,a_lhl,w,64.7,6.484517304189436,train,,1,pathological
+data\processed\features\normal\58_a_l.npy,data\raw\normal\58\vowels\58-a_l.nsp,normal,0,58,58,a_l,w,25.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\20_u_l.npy,data\raw\normal\20\vowels\20-u_l.nsp,normal,0,20,21,u_l,w,21.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2251_a_lhl.npy,data\raw\normal\2251\vowels\2251-a_lhl.nsp,normal,0,2251,1186,a_lhl,m,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1519_u_h.npy,data\raw\normal\1519\vowels\1519-u_h.nsp,normal,0,1519,1003,u_h,w,23.1,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_n_p14_0.npy,data\raw\laryngozele\1205\vowels\1205-a_n.nsp,laryngozele,1,1205,1602,a_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1023_u_n.npy,data\raw\normal\1023\vowels\1023-u_n.nsp,normal,0,1023,822,u_n,m,41.1,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2377_u_l.npy,data\raw\vox_senilis\2377\vowels\2377-u_l.nsp,vox_senilis,1,2377,2511,u_l,m,67.4,6.484517304189436,train,,1,pathological
+data\processed\features\normal\1519_a_h.npy,data\raw\normal\1519\vowels\1519-a_h.nsp,normal,0,1519,1003,a_h,w,23.1,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1067_i_l.npy,data\raw\normal\1067\vowels\1067-i_l.nsp,normal,0,1067,844,i_l,w,33.8,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_lhl_p7_0.npy,data\raw\laryngozele\1205\vowels\1205-i_lhl.nsp,laryngozele,1,1205,1602,i_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\20_i_h.npy,data\raw\normal\20\vowels\20-i_h.nsp,normal,0,20,21,i_h,w,21.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1586_i_n.npy,data\raw\normal\1586\vowels\1586-i_n.nsp,normal,0,1586,1032,i_n,m,25.3,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_h_p0_0.npy,data\raw\laryngozele\1205\vowels\1205-u_h.nsp,laryngozele,1,1205,1602,u_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_l_p2_0.npy,data\raw\laryngozele\1205\vowels\1205-a_l.nsp,laryngozele,1,1205,1602,a_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_lhl_pm3_0.npy,data\raw\laryngozele\1205\vowels\1205-u_lhl.nsp,laryngozele,1,1205,1602,u_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\943_i_l.npy,data\raw\normal\943\vowels\943-i_l.nsp,normal,0,943,747,i_l,m,45.6,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_h_p5_5.npy,data\raw\laryngozele\1205\vowels\1205-a_h.nsp,laryngozele,1,1205,1602,a_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_n_p8_5.npy,data\raw\laryngozele\1205\vowels\1205-i_n.nsp,laryngozele,1,1205,1602,i_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_n_p5_0.npy,data\raw\laryngozele\1205\vowels\1205-a_n.nsp,laryngozele,1,1205,1602,a_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\2248_phrase.npy,data\raw\normal\2248\sentences\2248-phrase.nsp,normal,0,2248,1183,phrase,w,23.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1971_i_h.npy,data\raw\vox_senilis\1971\vowels\1971-i_h.nsp,vox_senilis,1,1971,2180,i_h,w,78.0,6.484517304189436,train,Intermediärschwäche,1,pathological
+data\processed\features\normal\1067_a_n.npy,data\raw\normal\1067\vowels\1067-a_n.nsp,normal,0,1067,844,a_n,w,33.8,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2179_u_n.npy,data\raw\normal\2179\vowels\2179-u_n.nsp,normal,0,2179,1164,u_n,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2251_i_l.npy,data\raw\normal\2251\vowels\2251-i_l.nsp,normal,0,2251,1186,i_l,m,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1023_i_h.npy,data\raw\normal\1023\vowels\1023-i_h.nsp,normal,0,1023,822,i_h,m,41.1,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\123_i_h.npy,data\raw\normal\123\vowels\123-i_h.nsp,normal,0,123,130,i_h,w,20.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\899_a_n.npy,data\raw\vox_senilis\899\vowels\899-a_n.nsp,vox_senilis,1,899,1491,a_n,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_h_pm3_0.npy,data\raw\laryngozele\1205\vowels\1205-u_h.nsp,laryngozele,1,1205,1602,u_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1108_i_l.npy,data\raw\normal\1108\vowels\1108-i_l.nsp,normal,0,1108,881,i_l,m,24.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2249_i_n.npy,data\raw\normal\2249\vowels\2249-i_n.nsp,normal,0,2249,1184,i_n,m,24.6,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\933_a_h.npy,data\raw\vox_senilis\933\vowels\933-a_h.nsp,vox_senilis,1,933,1525,a_h,w,79.7,6.484517304189436,train,Stimmlippenvarizen links,1,pathological
+data\processed\features\vox_senilis\846_i_l.npy,data\raw\vox_senilis\846\vowels\846-i_l.nsp,vox_senilis,1,846,1445,i_l,w,68.7,6.484517304189436,train,Subglottale Cyste,1,pathological
+data\processed\features\vox_senilis\1268_i_n.npy,data\raw\vox_senilis\1268\vowels\1268-i_n.nsp,vox_senilis,1,1268,1656,i_n,m,83.5,6.484517304189436,train,Mit Stimmschwäche,1,pathological
+data\processed\features\vox_senilis\1268_u_h.npy,data\raw\vox_senilis\1268\vowels\1268-u_h.nsp,vox_senilis,1,1268,1656,u_h,m,83.5,6.484517304189436,train,Mit Stimmschwäche,1,pathological
+data\processed\features\vox_senilis\933_i_l.npy,data\raw\vox_senilis\933\vowels\933-i_l.nsp,vox_senilis,1,933,1525,i_l,w,79.7,6.484517304189436,train,Stimmlippenvarizen links,1,pathological
+data\processed\features\normal\2249_a_lhl.npy,data\raw\normal\2249\vowels\2249-a_lhl.nsp,normal,0,2249,1184,a_lhl,m,24.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\26_i_lhl.npy,data\raw\normal\26\vowels\26-i_lhl.nsp,normal,0,26,19,i_lhl,w,26.4,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_lhl_pm3_0.npy,data\raw\laryngozele\1205\vowels\1205-a_lhl.nsp,laryngozele,1,1205,1602,a_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2121_a_lhl.npy,data\raw\vox_senilis\2121\vowels\2121-a_lhl.nsp,vox_senilis,1,2121,2310,a_lhl,w,69.0,6.484517304189436,train,,1,pathological
+data\processed\features\normal\2251_u_l.npy,data\raw\normal\2251\vowels\2251-u_l.nsp,normal,0,2251,1186,u_l,m,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1519_i_n.npy,data\raw\normal\1519\vowels\1519-i_n.nsp,normal,0,1519,1003,i_n,w,23.1,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2251_i_lhl.npy,data\raw\normal\2251\vowels\2251-i_lhl.nsp,normal,0,2251,1186,i_lhl,m,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1573_i_h.npy,data\raw\normal\1573\vowels\1573-i_h.nsp,normal,0,1573,1027,i_h,m,21.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2248_a_l.npy,data\raw\normal\2248\vowels\2248-a_l.nsp,normal,0,2248,1183,a_l,w,23.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1478_a_h.npy,data\raw\vox_senilis\1478\vowels\1478-a_h.nsp,vox_senilis,1,1478,1826,a_h,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis",1,pathological
+data\processed\features\normal\782_a_lhl.npy,data\raw\normal\782\vowels\782-a_lhl.nsp,normal,0,782,715,a_lhl,m,18.5,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_n_p10_0.npy,data\raw\laryngozele\1205\vowels\1205-i_n.nsp,laryngozele,1,1205,1602,i_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_h_p6_0.npy,data\raw\laryngozele\1205\vowels\1205-u_h.nsp,laryngozele,1,1205,1602,u_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\782_i_l.npy,data\raw\normal\782\vowels\782-i_l.nsp,normal,0,782,715,i_l,m,18.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\813_a_n.npy,data\raw\normal\813\vowels\813-a_n.nsp,normal,0,813,718,a_n,m,19.0,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_l_pm1_0.npy,data\raw\laryngozele\1205\vowels\1205-u_l.nsp,laryngozele,1,1205,1602,u_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_lhl_p8_0.npy,data\raw\laryngozele\1205\vowels\1205-a_lhl.nsp,laryngozele,1,1205,1602,a_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2421_iau.npy,data\raw\vox_senilis\2421\vowels\2421-iau.nsp,vox_senilis,1,2421,2555,iau,w,87.6,6.484517304189436,train,,1,pathological
+data\processed\features\normal\1067_u_lhl.npy,data\raw\normal\1067\vowels\1067-u_lhl.nsp,normal,0,1067,844,u_lhl,w,33.8,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1067_u_n.npy,data\raw\normal\1067\vowels\1067-u_n.nsp,normal,0,1067,844,u_n,w,33.8,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_l_p9_0.npy,data\raw\laryngozele\1205\vowels\1205-u_l.nsp,laryngozele,1,1205,1602,u_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2121_i_n.npy,data\raw\vox_senilis\2121\vowels\2121-i_n.nsp,vox_senilis,1,2121,2310,i_n,w,69.0,6.484517304189436,train,,1,pathological
+data\processed\features\normal\2248_a_lhl.npy,data\raw\normal\2248\vowels\2248-a_lhl.nsp,normal,0,2248,1183,a_lhl,w,23.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1019_a_l.npy,data\raw\normal\1019\vowels\1019-a_l.nsp,normal,0,1019,811,a_l,m,49.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1363_a_l.npy,data\raw\normal\1363\vowels\1363-a_l.nsp,normal,0,1363,968,a_l,w,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\943_u_l.npy,data\raw\normal\943\vowels\943-u_l.nsp,normal,0,943,747,u_l,m,45.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1020_a_n.npy,data\raw\normal\1020\vowels\1020-a_n.nsp,normal,0,1020,819,a_n,m,25.3,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_iau_p12_0.npy,data\raw\laryngozele\1205\vowels\1205-iau.nsp,laryngozele,1,1205,1602,iau,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1067_i_n.npy,data\raw\normal\1067\vowels\1067-i_n.nsp,normal,0,1067,844,i_n,w,33.8,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1363_a_lhl.npy,data\raw\normal\1363\vowels\1363-a_lhl.nsp,normal,0,1363,968,a_lhl,w,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1159_i_h.npy,data\raw\vox_senilis\1159\vowels\1159-i_h.nsp,vox_senilis,1,1159,1445,i_h,w,69.1,6.484517304189436,train,Leichte subglottische Einengung,1,pathological
+data\processed\features\normal\15_i_lhl.npy,data\raw\normal\15\vowels\15-i_lhl.nsp,normal,0,15,17,i_lhl,m,24.7,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1020_i_n.npy,data\raw\normal\1020\vowels\1020-i_n.nsp,normal,0,1020,819,i_n,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\747_u_lhl.npy,data\raw\normal\747\vowels\747-u_lhl.nsp,normal,0,747,651,u_lhl,w,26.9,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1159_i_lhl.npy,data\raw\vox_senilis\1159\vowels\1159-i_lhl.nsp,vox_senilis,1,1159,1445,i_lhl,w,69.1,6.484517304189436,train,Leichte subglottische Einengung,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_phrase_p5_0.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1012_i_n.npy,data\raw\normal\1012\vowels\1012-i_n.nsp,normal,0,1012,813,i_n,m,22.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\123_i_l.npy,data\raw\normal\123\vowels\123-i_l.nsp,normal,0,123,130,i_l,w,20.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1203_u_lhl.npy,data\raw\vox_senilis\1203\vowels\1203-u_lhl.nsp,vox_senilis,1,1203,1600,u_lhl,w,61.1,6.484517304189436,train,Leicht,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_h_p10_5.npy,data\raw\laryngozele\1205\vowels\1205-u_h.nsp,laryngozele,1,1205,1602,u_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\813_i_n.npy,data\raw\normal\813\vowels\813-i_n.nsp,normal,0,813,718,i_n,m,19.0,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_l_p12_0.npy,data\raw\laryngozele\1205\vowels\1205-i_l.nsp,laryngozele,1,1205,1602,i_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\1203_a_h.npy,data\raw\vox_senilis\1203\vowels\1203-a_h.nsp,vox_senilis,1,1203,1600,a_h,w,61.1,6.484517304189436,train,Leicht,1,pathological
+data\processed\features\normal\1023_a_n.npy,data\raw\normal\1023\vowels\1023-a_n.nsp,normal,0,1023,822,a_n,m,41.1,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1971_phrase.npy,data\raw\vox_senilis\1971\sentences\1971-phrase.nsp,vox_senilis,1,1971,2180,phrase,w,78.0,6.484517304189436,train,Intermediärschwäche,1,pathological
+data\processed\features\normal\1012_u_lhl.npy,data\raw\normal\1012\vowels\1012-u_lhl.nsp,normal,0,1012,813,u_lhl,m,22.4,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\846_i_h.npy,data\raw\vox_senilis\846\vowels\846-i_h.nsp,vox_senilis,1,846,1445,i_h,w,68.7,6.484517304189436,train,Subglottale Cyste,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_iau_p10_5.npy,data\raw\laryngozele\1205\vowels\1205-iau.nsp,laryngozele,1,1205,1602,iau,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_lhl_p1_0.npy,data\raw\laryngozele\1205\vowels\1205-i_lhl.nsp,laryngozele,1,1205,1602,i_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_phrase_p2_0.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\782_i_n.npy,data\raw\normal\782\vowels\782-i_n.nsp,normal,0,782,715,i_n,m,18.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1363_i_lhl.npy,data\raw\normal\1363\vowels\1363-i_lhl.nsp,normal,0,1363,968,i_lhl,w,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\782_iau.npy,data\raw\normal\782\vowels\782-iau.nsp,normal,0,782,715,iau,m,18.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2564_a_h.npy,data\raw\vox_senilis\2564\vowels\2564-a_h.nsp,vox_senilis,1,2564,2007,a_h,w,61.8,6.484517304189436,train,"Kompensiert, alte",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_lhl_p10_0.npy,data\raw\laryngozele\1205\vowels\1205-i_lhl.nsp,laryngozele,1,1205,1602,i_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\123_u_h.npy,data\raw\normal\123\vowels\123-u_h.nsp,normal,0,123,130,u_h,w,20.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\123_u_n.npy,data\raw\normal\123\vowels\123-u_n.nsp,normal,0,123,130,u_n,w,20.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1971_i_l.npy,data\raw\vox_senilis\1971\vowels\1971-i_l.nsp,vox_senilis,1,1971,2180,i_l,w,78.0,6.484517304189436,train,Intermediärschwäche,1,pathological
+data\processed\features\normal\20_i_lhl.npy,data\raw\normal\20\vowels\20-i_lhl.nsp,normal,0,20,21,i_lhl,w,21.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1012_u_h.npy,data\raw\normal\1012\vowels\1012-u_h.nsp,normal,0,1012,813,u_h,m,22.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1108_a_l.npy,data\raw\normal\1108\vowels\1108-a_l.nsp,normal,0,1108,881,a_l,m,24.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\20_i_n.npy,data\raw\normal\20\vowels\20-i_n.nsp,normal,0,20,21,i_n,w,21.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2121_phrase.npy,data\raw\vox_senilis\2121\sentences\2121-phrase.nsp,vox_senilis,1,2121,2310,phrase,w,69.0,6.484517304189436,train,,1,pathological
+data\processed\features\normal\1586_i_l.npy,data\raw\normal\1586\vowels\1586-i_l.nsp,normal,0,1586,1032,i_l,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2248_i_l.npy,data\raw\normal\2248\vowels\2248-i_l.nsp,normal,0,2248,1183,i_l,w,23.0,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_h_p10_0.npy,data\raw\laryngozele\1205\vowels\1205-a_h.nsp,laryngozele,1,1205,1602,a_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2421_u_lhl.npy,data\raw\vox_senilis\2421\vowels\2421-u_lhl.nsp,vox_senilis,1,2421,2555,u_lhl,w,87.6,6.484517304189436,train,,1,pathological
+data\processed\features\normal\15_u_l.npy,data\raw\normal\15\vowels\15-u_l.nsp,normal,0,15,17,u_l,m,24.7,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1573_phrase.npy,data\raw\normal\1573\sentences\1573-phrase.nsp,normal,0,1573,1027,phrase,m,21.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\782_u_lhl.npy,data\raw\normal\782\vowels\782-u_lhl.nsp,normal,0,782,715,u_lhl,m,18.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\747_u_n.npy,data\raw\normal\747\vowels\747-u_n.nsp,normal,0,747,651,u_n,w,26.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\782_i_lhl.npy,data\raw\normal\782\vowels\782-i_lhl.nsp,normal,0,782,715,i_lhl,m,18.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2307_u_h.npy,data\raw\vox_senilis\2307\vowels\2307-u_h.nsp,vox_senilis,1,2307,2441,u_h,w,76.0,6.484517304189436,train,,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_lhl_p3_0.npy,data\raw\laryngozele\1205\vowels\1205-a_lhl.nsp,laryngozele,1,1205,1602,a_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2515_i_h.npy,data\raw\vox_senilis\2515\vowels\2515-i_h.nsp,vox_senilis,1,2515,2649,i_h,w,75.2,6.484517304189436,train,,1,pathological
+data\processed\features\normal\2248_u_l.npy,data\raw\normal\2248\vowels\2248-u_l.nsp,normal,0,2248,1183,u_l,w,23.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1020_i_l.npy,data\raw\normal\1020\vowels\1020-i_l.nsp,normal,0,1020,819,i_l,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1220_u_l.npy,data\raw\vox_senilis\1220\vowels\1220-u_l.nsp,vox_senilis,1,1220,1608,u_l,m,76.7,6.484517304189436,train,Vox senilis,1,pathological
+data\processed\features\vox_senilis\2596_phrase.npy,data\raw\vox_senilis\2596\sentences\2596-phrase.nsp,vox_senilis,1,2596,2336,phrase,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend",1,pathological
+data\processed\features\normal\2179_i_n.npy,data\raw\normal\2179\vowels\2179-i_n.nsp,normal,0,2179,1164,i_n,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1108_phrase.npy,data\raw\normal\1108\sentences\1108-phrase.nsp,normal,0,1108,881,phrase,m,24.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\20_phrase.npy,data\raw\normal\20\sentences\20-phrase.nsp,normal,0,20,21,phrase,w,21.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2248_i_h.npy,data\raw\normal\2248\vowels\2248-i_h.nsp,normal,0,2248,1183,i_h,w,23.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1220_i_lhl.npy,data\raw\vox_senilis\1220\vowels\1220-i_lhl.nsp,vox_senilis,1,1220,1608,i_lhl,m,76.7,6.484517304189436,train,Vox senilis,1,pathological
+data\processed\features\normal\1019_i_h.npy,data\raw\normal\1019\vowels\1019-i_h.nsp,normal,0,1019,811,i_h,m,49.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2205_a_n.npy,data\raw\normal\2205\vowels\2205-a_n.nsp,normal,0,2205,1177,a_n,w,19.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1363_phrase.npy,data\raw\normal\1363\sentences\1363-phrase.nsp,normal,0,1363,968,phrase,w,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2307_iau.npy,data\raw\vox_senilis\2307\vowels\2307-iau.nsp,vox_senilis,1,2307,2441,iau,w,76.0,6.484517304189436,train,,1,pathological
+data\processed\features\normal\2205_i_lhl.npy,data\raw\normal\2205\vowels\2205-i_lhl.nsp,normal,0,2205,1177,i_lhl,w,19.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1067_u_h.npy,data\raw\normal\1067\vowels\1067-u_h.nsp,normal,0,1067,844,u_h,w,33.8,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1338_u_n.npy,data\raw\vox_senilis\1338\vowels\1338-u_n.nsp,vox_senilis,1,1338,1720,u_n,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom",1,pathological
+data\processed\features\vox_senilis\2421_u_h.npy,data\raw\vox_senilis\2421\vowels\2421-u_h.nsp,vox_senilis,1,2421,2555,u_h,w,87.6,6.484517304189436,train,,1,pathological
+data\processed\features\vox_senilis\360_u_h.npy,data\raw\vox_senilis\360\vowels\360-u_h.nsp,vox_senilis,1,360,1347,u_h,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset",1,pathological
+data\processed\features\normal\1012_a_n.npy,data\raw\normal\1012\vowels\1012-a_n.nsp,normal,0,1012,813,a_n,m,22.4,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1971_i_n.npy,data\raw\vox_senilis\1971\vowels\1971-i_n.nsp,vox_senilis,1,1971,2180,i_n,w,78.0,6.484517304189436,train,Intermediärschwäche,1,pathological
+data\processed\features\normal\2249_iau.npy,data\raw\normal\2249\vowels\2249-iau.nsp,normal,0,2249,1184,iau,m,24.6,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\360_a_h.npy,data\raw\vox_senilis\360\vowels\360-a_h.nsp,vox_senilis,1,360,1347,a_h,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset",1,pathological
+data\processed\features\normal\1067_a_lhl.npy,data\raw\normal\1067\vowels\1067-a_lhl.nsp,normal,0,1067,844,a_lhl,w,33.8,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2121_u_l.npy,data\raw\vox_senilis\2121\vowels\2121-u_l.nsp,vox_senilis,1,2121,2310,u_l,w,69.0,6.484517304189436,train,,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_lhl_p7_5.npy,data\raw\laryngozele\1205\vowels\1205-u_lhl.nsp,laryngozele,1,1205,1602,u_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1108_iau.npy,data\raw\normal\1108\vowels\1108-iau.nsp,normal,0,1108,881,iau,m,24.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2596_a_n.npy,data\raw\vox_senilis\2596\vowels\2596-a_n.nsp,vox_senilis,1,2596,2336,a_n,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend",1,pathological
+data\processed\features\vox_senilis\2003_u_n.npy,data\raw\vox_senilis\2003\vowels\2003-u_n.nsp,vox_senilis,1,2003,2212,u_n,m,77.6,6.484517304189436,train,Laryngitis subglottisch,1,pathological
+data\processed\features\normal\1363_u_l.npy,data\raw\normal\1363\vowels\1363-u_l.nsp,normal,0,1363,968,u_l,w,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2319_i_n.npy,data\raw\vox_senilis\2319\vowels\2319-i_n.nsp,vox_senilis,1,2319,2453,i_n,m,81.2,6.484517304189436,train,Vox senilis,1,pathological
+data\processed\features\vox_senilis\899_i_lhl.npy,data\raw\vox_senilis\899\vowels\899-i_lhl.nsp,vox_senilis,1,899,1491,i_lhl,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts,1,pathological
+data\processed\features\vox_senilis\1819_u_n.npy,data\raw\vox_senilis\1819\vowels\1819-u_n.nsp,vox_senilis,1,1819,2084,u_n,m,66.6,6.484517304189436,train,Ohne Reflux,1,pathological
+data\processed\features\normal\1363_i_n.npy,data\raw\normal\1363\vowels\1363-i_n.nsp,normal,0,1363,968,i_n,w,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\15_a_n.npy,data\raw\normal\15\vowels\15-a_n.nsp,normal,0,15,17,a_n,m,24.7,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1573_a_l.npy,data\raw\normal\1573\vowels\1573-a_l.nsp,normal,0,1573,1027,a_l,m,21.4,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_l_p9_5.npy,data\raw\laryngozele\1205\vowels\1205-i_l.nsp,laryngozele,1,1205,1602,i_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\2249_a_l.npy,data\raw\normal\2249\vowels\2249-a_l.nsp,normal,0,2249,1184,a_l,m,24.6,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_iau_pm4_0.npy,data\raw\laryngozele\1205\vowels\1205-iau.nsp,laryngozele,1,1205,1602,iau,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_n_p8_0.npy,data\raw\laryngozele\1205\vowels\1205-i_n.nsp,laryngozele,1,1205,1602,i_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\360_i_l.npy,data\raw\vox_senilis\360\vowels\360-i_l.nsp,vox_senilis,1,360,1347,i_l,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset",1,pathological
+data\processed\features\vox_senilis\1478_u_h.npy,data\raw\vox_senilis\1478\vowels\1478-u_h.nsp,vox_senilis,1,1478,1826,u_h,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis",1,pathological
+data\processed\features\normal\1573_i_l.npy,data\raw\normal\1573\vowels\1573-i_l.nsp,normal,0,1573,1027,i_l,m,21.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\943_a_n.npy,data\raw\normal\943\vowels\943-a_n.nsp,normal,0,943,747,a_n,m,45.6,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2097_i_lhl.npy,data\raw\vox_senilis\2097\vowels\2097-i_lhl.nsp,vox_senilis,1,2097,2283,i_lhl,w,30.7,6.484517304189436,train,Chron. Laryngitis,1,pathological
+data\processed\features\normal\747_i_lhl.npy,data\raw\normal\747\vowels\747-i_lhl.nsp,normal,0,747,651,i_lhl,w,26.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1020_i_h.npy,data\raw\normal\1020\vowels\1020-i_h.nsp,normal,0,1020,819,i_h,m,25.3,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_l_p0_0.npy,data\raw\laryngozele\1205\vowels\1205-a_l.nsp,laryngozele,1,1205,1602,a_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1586_phrase.npy,data\raw\normal\1586\sentences\1586-phrase.nsp,normal,0,1586,1032,phrase,m,25.3,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_h_p7_0.npy,data\raw\laryngozele\1205\vowels\1205-u_h.nsp,laryngozele,1,1205,1602,u_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2509_u_h.npy,data\raw\vox_senilis\2509\vowels\2509-u_h.nsp,vox_senilis,1,2509,2643,u_h,w,63.9,6.484517304189436,train,,1,pathological
+data\processed\features\normal\1815_i_n.npy,data\raw\normal\1815\vowels\1815-i_n.nsp,normal,0,1815,2082,i_n,w,56.2,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1815_u_lhl.npy,data\raw\normal\1815\vowels\1815-u_lhl.nsp,normal,0,1815,2082,u_lhl,w,56.2,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1586_u_n.npy,data\raw\normal\1586\vowels\1586-u_n.nsp,normal,0,1586,1032,u_n,m,25.3,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_h_pm3_0.npy,data\raw\laryngozele\1205\vowels\1205-i_h.nsp,laryngozele,1,1205,1602,i_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\813_a_lhl.npy,data\raw\normal\813\vowels\813-a_lhl.nsp,normal,0,813,718,a_lhl,m,19.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1338_phrase.npy,data\raw\vox_senilis\1338\sentences\1338-phrase.nsp,vox_senilis,1,1338,1720,phrase,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom",1,pathological
+data\processed\features\vox_senilis\2601_u_h.npy,data\raw\vox_senilis\2601\vowels\2601-u_h.nsp,vox_senilis,1,2601,2727,u_h,w,64.7,6.484517304189436,train,,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_n_pm1_0.npy,data\raw\laryngozele\1205\vowels\1205-i_n.nsp,laryngozele,1,1205,1602,i_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\1159_iau.npy,data\raw\vox_senilis\1159\vowels\1159-iau.nsp,vox_senilis,1,1159,1445,iau,w,69.1,6.484517304189436,train,Leichte subglottische Einengung,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_h_pm3_0.npy,data\raw\laryngozele\1205\vowels\1205-a_h.nsp,laryngozele,1,1205,1602,a_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\2205_phrase.npy,data\raw\normal\2205\sentences\2205-phrase.nsp,normal,0,2205,1177,phrase,w,19.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\943_i_lhl.npy,data\raw\normal\943\vowels\943-i_lhl.nsp,normal,0,943,747,i_lhl,m,45.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2251_a_l.npy,data\raw\normal\2251\vowels\2251-a_l.nsp,normal,0,2251,1186,a_l,m,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2249_u_l.npy,data\raw\normal\2249\vowels\2249-u_l.nsp,normal,0,2249,1184,u_l,m,24.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1020_i_lhl.npy,data\raw\normal\1020\vowels\1020-i_lhl.nsp,normal,0,1020,819,i_lhl,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\813_i_h.npy,data\raw\normal\813\vowels\813-i_h.nsp,normal,0,813,718,i_h,m,19.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\20_iau.npy,data\raw\normal\20\vowels\20-iau.nsp,normal,0,20,21,iau,w,21.5,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_h_p6_0.npy,data\raw\laryngozele\1205\vowels\1205-i_h.nsp,laryngozele,1,1205,1602,i_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\58_i_n.npy,data\raw\normal\58\vowels\58-i_n.nsp,normal,0,58,58,i_n,w,25.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\58_a_n.npy,data\raw\normal\58\vowels\58-a_n.nsp,normal,0,58,58,a_n,w,25.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1586_i_lhl.npy,data\raw\normal\1586\vowels\1586-i_lhl.nsp,normal,0,1586,1032,i_lhl,m,25.3,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_n_p7_0.npy,data\raw\laryngozele\1205\vowels\1205-i_n.nsp,laryngozele,1,1205,1602,i_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1573_iau.npy,data\raw\normal\1573\vowels\1573-iau.nsp,normal,0,1573,1027,iau,m,21.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1108_u_l.npy,data\raw\normal\1108\vowels\1108-u_l.nsp,normal,0,1108,881,u_l,m,24.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1159_u_n.npy,data\raw\vox_senilis\1159\vowels\1159-u_n.nsp,vox_senilis,1,1159,1445,u_n,w,69.1,6.484517304189436,train,Leichte subglottische Einengung,1,pathological
+data\processed\features\vox_senilis\2307_i_h.npy,data\raw\vox_senilis\2307\vowels\2307-i_h.nsp,vox_senilis,1,2307,2441,i_h,w,76.0,6.484517304189436,train,,1,pathological
+data\processed\features\normal\1586_a_h.npy,data\raw\normal\1586\vowels\1586-a_h.nsp,normal,0,1586,1032,a_h,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1971_a_lhl.npy,data\raw\vox_senilis\1971\vowels\1971-a_lhl.nsp,vox_senilis,1,1971,2180,a_lhl,w,78.0,6.484517304189436,train,Intermediärschwäche,1,pathological
+data\processed\features\normal\1815_iau.npy,data\raw\normal\1815\vowels\1815-iau.nsp,normal,0,1815,2082,iau,w,56.2,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2509_iau.npy,data\raw\vox_senilis\2509\vowels\2509-iau.nsp,vox_senilis,1,2509,2643,iau,w,63.9,6.484517304189436,train,,1,pathological
+data\processed\features\vox_senilis\2121_i_h.npy,data\raw\vox_senilis\2121\vowels\2121-i_h.nsp,vox_senilis,1,2121,2310,i_h,w,69.0,6.484517304189436,train,,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_phrase_p12_0.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\26_u_n.npy,data\raw\normal\26\vowels\26-u_n.nsp,normal,0,26,19,u_n,w,26.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1020_phrase.npy,data\raw\normal\1020\sentences\1020-phrase.nsp,normal,0,1020,819,phrase,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1020_u_l.npy,data\raw\normal\1020\vowels\1020-u_l.nsp,normal,0,1020,819,u_l,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2421_u_l.npy,data\raw\vox_senilis\2421\vowels\2421-u_l.nsp,vox_senilis,1,2421,2555,u_l,w,87.6,6.484517304189436,train,,1,pathological
+data\processed\features\normal\1067_i_h.npy,data\raw\normal\1067\vowels\1067-i_h.nsp,normal,0,1067,844,i_h,w,33.8,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2596_a_h.npy,data\raw\vox_senilis\2596\vowels\2596-a_h.nsp,vox_senilis,1,2596,2336,a_h,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_n_pm3_0.npy,data\raw\laryngozele\1205\vowels\1205-i_n.nsp,laryngozele,1,1205,1602,i_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_phrase_p11_0.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2377_u_h.npy,data\raw\vox_senilis\2377\vowels\2377-u_h.nsp,vox_senilis,1,2377,2511,u_h,m,67.4,6.484517304189436,train,,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_n_p10_0.npy,data\raw\laryngozele\1205\vowels\1205-u_n.nsp,laryngozele,1,1205,1602,u_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\747_i_h.npy,data\raw\normal\747\vowels\747-i_h.nsp,normal,0,747,651,i_h,w,26.9,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_n_p4_0.npy,data\raw\laryngozele\1205\vowels\1205-i_n.nsp,laryngozele,1,1205,1602,i_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\2251_a_n.npy,data\raw\normal\2251\vowels\2251-a_n.nsp,normal,0,2251,1186,a_n,m,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1573_u_lhl.npy,data\raw\normal\1573\vowels\1573-u_lhl.nsp,normal,0,1573,1027,u_lhl,m,21.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1020_a_l.npy,data\raw\normal\1020\vowels\1020-a_l.nsp,normal,0,1020,819,a_l,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1023_phrase.npy,data\raw\normal\1023\sentences\1023-phrase.nsp,normal,0,1023,822,phrase,m,41.1,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_h_pm1_0.npy,data\raw\laryngozele\1205\vowels\1205-a_h.nsp,laryngozele,1,1205,1602,a_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_lhl_p7_0.npy,data\raw\laryngozele\1205\vowels\1205-u_lhl.nsp,laryngozele,1,1205,1602,u_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\1268_u_lhl.npy,data\raw\vox_senilis\1268\vowels\1268-u_lhl.nsp,vox_senilis,1,1268,1656,u_lhl,m,83.5,6.484517304189436,train,Mit Stimmschwäche,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_n_p5_0.npy,data\raw\laryngozele\1205\vowels\1205-i_n.nsp,laryngozele,1,1205,1602,i_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\16_u_h.npy,data\raw\normal\16\vowels\16-u_h.nsp,normal,0,16,18,u_h,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\360_u_lhl.npy,data\raw\vox_senilis\360\vowels\360-u_lhl.nsp,vox_senilis,1,360,1347,u_lhl,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset",1,pathological
+data\processed\features\normal\1012_i_l.npy,data\raw\normal\1012\vowels\1012-i_l.nsp,normal,0,1012,813,i_l,m,22.4,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2377_a_l.npy,data\raw\vox_senilis\2377\vowels\2377-a_l.nsp,vox_senilis,1,2377,2511,a_l,m,67.4,6.484517304189436,train,,1,pathological
+data\processed\features\normal\20_u_lhl.npy,data\raw\normal\20\vowels\20-u_lhl.nsp,normal,0,20,21,u_lhl,w,21.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1268_i_h.npy,data\raw\vox_senilis\1268\vowels\1268-i_h.nsp,vox_senilis,1,1268,1656,i_h,m,83.5,6.484517304189436,train,Mit Stimmschwäche,1,pathological
+data\processed\features\normal\2251_i_h.npy,data\raw\normal\2251\vowels\2251-i_h.nsp,normal,0,2251,1186,i_h,m,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1108_i_h.npy,data\raw\normal\1108\vowels\1108-i_h.nsp,normal,0,1108,881,i_h,m,24.5,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_lhl_p0_0.npy,data\raw\laryngozele\1205\vowels\1205-a_lhl.nsp,laryngozele,1,1205,1602,a_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_phrase_p0_0.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\2179_a_l.npy,data\raw\normal\2179\vowels\2179-a_l.nsp,normal,0,2179,1164,a_l,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1586_u_lhl.npy,data\raw\normal\1586\vowels\1586-u_lhl.nsp,normal,0,1586,1032,u_lhl,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2509_phrase.npy,data\raw\vox_senilis\2509\sentences\2509-phrase.nsp,vox_senilis,1,2509,2643,phrase,w,63.9,6.484517304189436,train,,1,pathological
+data\processed\features\normal\20_a_lhl.npy,data\raw\normal\20\vowels\20-a_lhl.nsp,normal,0,20,21,a_lhl,w,21.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\123_phrase.npy,data\raw\normal\123\sentences\123-phrase.nsp,normal,0,123,130,phrase,w,20.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\899_u_lhl.npy,data\raw\vox_senilis\899\vowels\899-u_lhl.nsp,vox_senilis,1,899,1491,u_lhl,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts,1,pathological
+data\processed\features\normal\1012_i_h.npy,data\raw\normal\1012\vowels\1012-i_h.nsp,normal,0,1012,813,i_h,m,22.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\26_u_l.npy,data\raw\normal\26\vowels\26-u_l.nsp,normal,0,26,19,u_l,w,26.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2251_a_h.npy,data\raw\normal\2251\vowels\2251-a_h.nsp,normal,0,2251,1186,a_h,m,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1815_u_h.npy,data\raw\normal\1815\vowels\1815-u_h.nsp,normal,0,1815,2082,u_h,w,56.2,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_h_p9_5.npy,data\raw\laryngozele\1205\vowels\1205-i_h.nsp,laryngozele,1,1205,1602,i_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\813_u_h.npy,data\raw\normal\813\vowels\813-u_h.nsp,normal,0,813,718,u_h,m,19.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1815_i_l.npy,data\raw\normal\1815\vowels\1815-i_l.nsp,normal,0,1815,2082,i_l,w,56.2,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_l_p10_0.npy,data\raw\laryngozele\1205\vowels\1205-a_l.nsp,laryngozele,1,1205,1602,a_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\58_i_lhl.npy,data\raw\normal\58\vowels\58-i_lhl.nsp,normal,0,58,58,i_lhl,w,25.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2205_i_h.npy,data\raw\normal\2205\vowels\2205-i_h.nsp,normal,0,2205,1177,i_h,w,19.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1019_phrase.npy,data\raw\normal\1019\sentences\1019-phrase.nsp,normal,0,1019,811,phrase,m,49.0,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_l_p10_5.npy,data\raw\laryngozele\1205\vowels\1205-a_l.nsp,laryngozele,1,1205,1602,a_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_lhl_p10_0.npy,data\raw\laryngozele\1205\vowels\1205-a_lhl.nsp,laryngozele,1,1205,1602,a_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_h_p3_0.npy,data\raw\laryngozele\1205\vowels\1205-u_h.nsp,laryngozele,1,1205,1602,u_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2569_a_n.npy,data\raw\vox_senilis\2569\vowels\2569-a_n.nsp,vox_senilis,1,2569,2703,a_n,w,73.9,6.484517304189436,train,"Zustand nach Strumektomie, keine Rekurrensparese",1,pathological
+data\processed\features\normal\2248_a_h.npy,data\raw\normal\2248\vowels\2248-a_h.nsp,normal,0,2248,1183,a_h,w,23.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2251_iau.npy,data\raw\normal\2251\vowels\2251-iau.nsp,normal,0,2251,1186,iau,m,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\16_i_h.npy,data\raw\normal\16\vowels\16-i_h.nsp,normal,0,16,18,i_h,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\813_a_h.npy,data\raw\normal\813\vowels\813-a_h.nsp,normal,0,813,718,a_h,m,19.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1020_a_lhl.npy,data\raw\normal\1020\vowels\1020-a_lhl.nsp,normal,0,1020,819,a_lhl,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1019_iau.npy,data\raw\normal\1019\vowels\1019-iau.nsp,normal,0,1019,811,iau,m,49.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\846_u_h.npy,data\raw\vox_senilis\846\vowels\846-u_h.nsp,vox_senilis,1,846,1445,u_h,w,68.7,6.484517304189436,train,Subglottale Cyste,1,pathological
+data\processed\features\normal\747_a_h.npy,data\raw\normal\747\vowels\747-a_h.nsp,normal,0,747,651,a_h,w,26.9,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\826_u_n.npy,data\raw\vox_senilis\826\vowels\826-u_n.nsp,vox_senilis,1,826,1438,u_n,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen,1,pathological
+data\processed\features\vox_senilis\826_u_l.npy,data\raw\vox_senilis\826\vowels\826-u_l.nsp,vox_senilis,1,826,1438,u_l,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_l_p7_5.npy,data\raw\laryngozele\1205\vowels\1205-a_l.nsp,laryngozele,1,1205,1602,a_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2596_a_l.npy,data\raw\vox_senilis\2596\vowels\2596-a_l.nsp,vox_senilis,1,2596,2336,a_l,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend",1,pathological
+data\processed\features\normal\2248_iau.npy,data\raw\normal\2248\vowels\2248-iau.nsp,normal,0,2248,1183,iau,w,23.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1478_u_n.npy,data\raw\vox_senilis\1478\vowels\1478-u_n.nsp,vox_senilis,1,1478,1826,u_n,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis",1,pathological
+data\processed\features\normal\16_i_l.npy,data\raw\normal\16\vowels\16-i_l.nsp,normal,0,16,18,i_l,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1108_i_lhl.npy,data\raw\normal\1108\vowels\1108-i_lhl.nsp,normal,0,1108,881,i_lhl,m,24.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\747_i_l.npy,data\raw\normal\747\vowels\747-i_l.nsp,normal,0,747,651,i_l,w,26.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\26_i_l.npy,data\raw\normal\26\vowels\26-i_l.nsp,normal,0,26,19,i_l,w,26.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1108_a_n.npy,data\raw\normal\1108\vowels\1108-a_n.nsp,normal,0,1108,881,a_n,m,24.5,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_h_p5_0.npy,data\raw\laryngozele\1205\vowels\1205-i_h.nsp,laryngozele,1,1205,1602,i_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_h_p9_0.npy,data\raw\laryngozele\1205\vowels\1205-i_h.nsp,laryngozele,1,1205,1602,i_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\58_u_n.npy,data\raw\normal\58\vowels\58-u_n.nsp,normal,0,58,58,u_n,w,25.4,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_iau_p9_0.npy,data\raw\laryngozele\1205\vowels\1205-iau.nsp,laryngozele,1,1205,1602,iau,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2569_u_l.npy,data\raw\vox_senilis\2569\vowels\2569-u_l.nsp,vox_senilis,1,2569,2703,u_l,w,73.9,6.484517304189436,train,"Zustand nach Strumektomie, keine Rekurrensparese",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_l_p11_5.npy,data\raw\laryngozele\1205\vowels\1205-u_l.nsp,laryngozele,1,1205,1602,u_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1023_a_lhl.npy,data\raw\normal\1023\vowels\1023-a_lhl.nsp,normal,0,1023,822,a_lhl,m,41.1,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_l_p5_5.npy,data\raw\laryngozele\1205\vowels\1205-i_l.nsp,laryngozele,1,1205,1602,i_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_l_pm2_0.npy,data\raw\laryngozele\1205\vowels\1205-i_l.nsp,laryngozele,1,1205,1602,i_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\899_u_h.npy,data\raw\vox_senilis\899\vowels\899-u_h.nsp,vox_senilis,1,899,1491,u_h,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts,1,pathological
+data\processed\features\vox_senilis\2097_i_l.npy,data\raw\vox_senilis\2097\vowels\2097-i_l.nsp,vox_senilis,1,2097,2283,i_l,w,30.7,6.484517304189436,train,Chron. Laryngitis,1,pathological
+data\processed\features\normal\26_iau.npy,data\raw\normal\26\vowels\26-iau.nsp,normal,0,26,19,iau,w,26.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1815_a_h.npy,data\raw\normal\1815\vowels\1815-a_h.nsp,normal,0,1815,2082,a_h,w,56.2,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\15_a_lhl.npy,data\raw\normal\15\vowels\15-a_lhl.nsp,normal,0,15,17,a_lhl,m,24.7,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1478_a_n.npy,data\raw\vox_senilis\1478\vowels\1478-a_n.nsp,vox_senilis,1,1478,1826,a_n,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_h_p4_0.npy,data\raw\laryngozele\1205\vowels\1205-a_h.nsp,laryngozele,1,1205,1602,a_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1023_i_l.npy,data\raw\normal\1023\vowels\1023-i_l.nsp,normal,0,1023,822,i_l,m,41.1,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2249_i_l.npy,data\raw\normal\2249\vowels\2249-i_l.nsp,normal,0,2249,1184,i_l,m,24.6,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_l_p11_0.npy,data\raw\laryngozele\1205\vowels\1205-a_l.nsp,laryngozele,1,1205,1602,a_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_lhl_p14_0.npy,data\raw\laryngozele\1205\vowels\1205-i_lhl.nsp,laryngozele,1,1205,1602,i_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\2249_u_lhl.npy,data\raw\normal\2249\vowels\2249-u_lhl.nsp,normal,0,2249,1184,u_lhl,m,24.6,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\899_iau.npy,data\raw\vox_senilis\899\vowels\899-iau.nsp,vox_senilis,1,899,1491,iau,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts,1,pathological
+data\processed\features\vox_senilis\1338_iau.npy,data\raw\vox_senilis\1338\vowels\1338-iau.nsp,vox_senilis,1,1338,1720,iau,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom",1,pathological
+data\processed\features\vox_senilis\2303_u_lhl.npy,data\raw\vox_senilis\2303\vowels\2303-u_lhl.nsp,vox_senilis,1,2303,2420,u_lhl,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_l_p7_0.npy,data\raw\laryngozele\1205\vowels\1205-i_l.nsp,laryngozele,1,1205,1602,i_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2097_u_l.npy,data\raw\vox_senilis\2097\vowels\2097-u_l.nsp,vox_senilis,1,2097,2283,u_l,w,30.7,6.484517304189436,train,Chron. Laryngitis,1,pathological
+data\processed\features\normal\1012_u_l.npy,data\raw\normal\1012\vowels\1012-u_l.nsp,normal,0,1012,813,u_l,m,22.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2248_a_n.npy,data\raw\normal\2248\vowels\2248-a_n.nsp,normal,0,2248,1183,a_n,w,23.0,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_phrase_p5_5.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\747_phrase.npy,data\raw\normal\747\sentences\747-phrase.nsp,normal,0,747,651,phrase,w,26.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1573_a_lhl.npy,data\raw\normal\1573\vowels\1573-a_lhl.nsp,normal,0,1573,1027,a_lhl,m,21.4,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1819_i_lhl.npy,data\raw\vox_senilis\1819\vowels\1819-i_lhl.nsp,vox_senilis,1,1819,2084,i_lhl,m,66.6,6.484517304189436,train,Ohne Reflux,1,pathological
+data\processed\features\normal\123_a_n.npy,data\raw\normal\123\vowels\123-a_n.nsp,normal,0,123,130,a_n,w,20.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1519_phrase.npy,data\raw\normal\1519\sentences\1519-phrase.nsp,normal,0,1519,1003,phrase,w,23.1,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1519_i_l.npy,data\raw\normal\1519\vowels\1519-i_l.nsp,normal,0,1519,1003,i_l,w,23.1,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_h_p11_0.npy,data\raw\laryngozele\1205\vowels\1205-u_h.nsp,laryngozele,1,1205,1602,u_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1023_i_lhl.npy,data\raw\normal\1023\vowels\1023-i_lhl.nsp,normal,0,1023,822,i_lhl,m,41.1,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_l_p5_5.npy,data\raw\laryngozele\1205\vowels\1205-a_l.nsp,laryngozele,1,1205,1602,a_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1023_a_h.npy,data\raw\normal\1023\vowels\1023-a_h.nsp,normal,0,1023,822,a_h,m,41.1,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1019_u_lhl.npy,data\raw\normal\1019\vowels\1019-u_lhl.nsp,normal,0,1019,811,u_lhl,m,49.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2249_i_lhl.npy,data\raw\normal\2249\vowels\2249-i_lhl.nsp,normal,0,2249,1184,i_lhl,m,24.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1586_a_n.npy,data\raw\normal\1586\vowels\1586-a_n.nsp,normal,0,1586,1032,a_n,m,25.3,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_n_p7_5.npy,data\raw\laryngozele\1205\vowels\1205-a_n.nsp,laryngozele,1,1205,1602,a_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\58_i_h.npy,data\raw\normal\58\vowels\58-i_h.nsp,normal,0,58,58,i_h,w,25.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1108_a_h.npy,data\raw\normal\1108\vowels\1108-a_h.nsp,normal,0,1108,881,a_h,m,24.5,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_lhl_pm4_0.npy,data\raw\laryngozele\1205\vowels\1205-i_lhl.nsp,laryngozele,1,1205,1602,i_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1519_u_lhl.npy,data\raw\normal\1519\vowels\1519-u_lhl.nsp,normal,0,1519,1003,u_lhl,w,23.1,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1108_i_n.npy,data\raw\normal\1108\vowels\1108-i_n.nsp,normal,0,1108,881,i_n,m,24.5,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_n_p14_0.npy,data\raw\laryngozele\1205\vowels\1205-i_n.nsp,laryngozele,1,1205,1602,i_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\16_i_lhl.npy,data\raw\normal\16\vowels\16-i_lhl.nsp,normal,0,16,18,i_lhl,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1019_u_n.npy,data\raw\normal\1019\vowels\1019-u_n.nsp,normal,0,1019,811,u_n,m,49.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\782_i_h.npy,data\raw\normal\782\vowels\782-i_h.nsp,normal,0,782,715,i_h,m,18.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2509_i_lhl.npy,data\raw\vox_senilis\2509\vowels\2509-i_lhl.nsp,vox_senilis,1,2509,2643,i_lhl,w,63.9,6.484517304189436,train,,1,pathological
+data\processed\features\normal\26_phrase.npy,data\raw\normal\26\sentences\26-phrase.nsp,normal,0,26,19,phrase,w,26.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1363_a_n.npy,data\raw\normal\1363\vowels\1363-a_n.nsp,normal,0,1363,968,a_n,w,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\15_iau.npy,data\raw\normal\15\vowels\15-iau.nsp,normal,0,15,17,iau,m,24.7,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_n_p9_0.npy,data\raw\laryngozele\1205\vowels\1205-i_n.nsp,laryngozele,1,1205,1602,i_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\747_u_h.npy,data\raw\normal\747\vowels\747-u_h.nsp,normal,0,747,651,u_h,w,26.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1023_u_l.npy,data\raw\normal\1023\vowels\1023-u_l.nsp,normal,0,1023,822,u_l,m,41.1,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2564_u_l.npy,data\raw\vox_senilis\2564\vowels\2564-u_l.nsp,vox_senilis,1,2564,2007,u_l,w,61.8,6.484517304189436,train,"Kompensiert, alte",1,pathological
+data\processed\features\normal\782_u_l.npy,data\raw\normal\782\vowels\782-u_l.nsp,normal,0,782,715,u_l,m,18.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1819_u_lhl.npy,data\raw\vox_senilis\1819\vowels\1819-u_lhl.nsp,vox_senilis,1,1819,2084,u_lhl,m,66.6,6.484517304189436,train,Ohne Reflux,1,pathological
+data\processed\features\normal\1519_i_h.npy,data\raw\normal\1519\vowels\1519-i_h.nsp,normal,0,1519,1003,i_h,w,23.1,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\943_a_l.npy,data\raw\normal\943\vowels\943-a_l.nsp,normal,0,943,747,a_l,m,45.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2251_i_n.npy,data\raw\normal\2251\vowels\2251-i_n.nsp,normal,0,2251,1186,i_n,m,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2564_i_h.npy,data\raw\vox_senilis\2564\vowels\2564-i_h.nsp,vox_senilis,1,2564,2007,i_h,w,61.8,6.484517304189436,train,"Kompensiert, alte",1,pathological
+data\processed\features\normal\2179_a_n.npy,data\raw\normal\2179\vowels\2179-a_n.nsp,normal,0,2179,1164,a_n,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\16_u_lhl.npy,data\raw\normal\16\vowels\16-u_lhl.nsp,normal,0,16,18,u_lhl,w,19.9,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_n_p11_5.npy,data\raw\laryngozele\1205\vowels\1205-u_n.nsp,laryngozele,1,1205,1602,u_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_lhl_p11_0.npy,data\raw\laryngozele\1205\vowels\1205-i_lhl.nsp,laryngozele,1,1205,1602,i_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\20_a_h.npy,data\raw\normal\20\vowels\20-a_h.nsp,normal,0,20,21,a_h,w,21.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2303_u_l.npy,data\raw\vox_senilis\2303\vowels\2303-u_l.nsp,vox_senilis,1,2303,2420,u_l,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_n_p13_0.npy,data\raw\laryngozele\1205\vowels\1205-u_n.nsp,laryngozele,1,1205,1602,u_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_lhl_pm2_0.npy,data\raw\laryngozele\1205\vowels\1205-i_lhl.nsp,laryngozele,1,1205,1602,i_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1519_u_l.npy,data\raw\normal\1519\vowels\1519-u_l.nsp,normal,0,1519,1003,u_l,w,23.1,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\813_i_lhl.npy,data\raw\normal\813\vowels\813-i_lhl.nsp,normal,0,813,718,i_lhl,m,19.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\813_iau.npy,data\raw\normal\813\vowels\813-iau.nsp,normal,0,813,718,iau,m,19.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1971_a_n.npy,data\raw\vox_senilis\1971\vowels\1971-a_n.nsp,vox_senilis,1,1971,2180,a_n,w,78.0,6.484517304189436,train,Intermediärschwäche,1,pathological
+data\processed\features\vox_senilis\2421_a_n.npy,data\raw\vox_senilis\2421\vowels\2421-a_n.nsp,vox_senilis,1,2421,2555,a_n,w,87.6,6.484517304189436,train,,1,pathological
+data\processed\features\vox_senilis\2596_i_n.npy,data\raw\vox_senilis\2596\vowels\2596-i_n.nsp,vox_senilis,1,2596,2336,i_n,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend",1,pathological
+data\processed\features\vox_senilis\1338_u_h.npy,data\raw\vox_senilis\1338\vowels\1338-u_h.nsp,vox_senilis,1,1338,1720,u_h,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_l_p13_0.npy,data\raw\laryngozele\1205\vowels\1205-a_l.nsp,laryngozele,1,1205,1602,a_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_n_p1_0.npy,data\raw\laryngozele\1205\vowels\1205-a_n.nsp,laryngozele,1,1205,1602,a_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\26_i_n.npy,data\raw\normal\26\vowels\26-i_n.nsp,normal,0,26,19,i_n,w,26.4,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_h_p11_5.npy,data\raw\laryngozele\1205\vowels\1205-i_h.nsp,laryngozele,1,1205,1602,i_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1519_a_lhl.npy,data\raw\normal\1519\vowels\1519-a_lhl.nsp,normal,0,1519,1003,a_lhl,w,23.1,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1220_a_n.npy,data\raw\vox_senilis\1220\vowels\1220-a_n.nsp,vox_senilis,1,1220,1608,a_n,m,76.7,6.484517304189436,train,Vox senilis,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_n_p11_5.npy,data\raw\laryngozele\1205\vowels\1205-i_n.nsp,laryngozele,1,1205,1602,i_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\26_a_n.npy,data\raw\normal\26\vowels\26-a_n.nsp,normal,0,26,19,a_n,w,26.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2205_u_n.npy,data\raw\normal\2205\vowels\2205-u_n.nsp,normal,0,2205,1177,u_n,w,19.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\26_i_h.npy,data\raw\normal\26\vowels\26-i_h.nsp,normal,0,26,19,i_h,w,26.4,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_phrase_p7_5.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_iau_p5_5.npy,data\raw\laryngozele\1205\vowels\1205-iau.nsp,laryngozele,1,1205,1602,iau,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\2251_u_h.npy,data\raw\normal\2251\vowels\2251-u_h.nsp,normal,0,2251,1186,u_h,m,20.6,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_n_p13_0.npy,data\raw\laryngozele\1205\vowels\1205-a_n.nsp,laryngozele,1,1205,1602,a_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2509_a_l.npy,data\raw\vox_senilis\2509\vowels\2509-a_l.nsp,vox_senilis,1,2509,2643,a_l,w,63.9,6.484517304189436,train,,1,pathological
+data\processed\features\normal\2205_a_lhl.npy,data\raw\normal\2205\vowels\2205-a_lhl.nsp,normal,0,2205,1177,a_lhl,w,19.5,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_n_p5_0.npy,data\raw\laryngozele\1205\vowels\1205-u_n.nsp,laryngozele,1,1205,1602,u_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\15_a_h.npy,data\raw\normal\15\vowels\15-a_h.nsp,normal,0,15,17,a_h,m,24.7,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2248_i_n.npy,data\raw\normal\2248\vowels\2248-i_n.nsp,normal,0,2248,1183,i_n,w,23.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1363_u_lhl.npy,data\raw\normal\1363\vowels\1363-u_lhl.nsp,normal,0,1363,968,u_lhl,w,20.6,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_h_p9_0.npy,data\raw\laryngozele\1205\vowels\1205-a_h.nsp,laryngozele,1,1205,1602,a_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1067_u_l.npy,data\raw\normal\1067\vowels\1067-u_l.nsp,normal,0,1067,844,u_l,w,33.8,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1363_u_h.npy,data\raw\normal\1363\vowels\1363-u_h.nsp,normal,0,1363,968,u_h,w,20.6,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_h_p0_0.npy,data\raw\laryngozele\1205\vowels\1205-i_h.nsp,laryngozele,1,1205,1602,i_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\2249_a_n.npy,data\raw\normal\2249\vowels\2249-a_n.nsp,normal,0,2249,1184,a_n,m,24.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1067_a_h.npy,data\raw\normal\1067\vowels\1067-a_h.nsp,normal,0,1067,844,a_h,w,33.8,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2601_i_lhl.npy,data\raw\vox_senilis\2601\vowels\2601-i_lhl.nsp,vox_senilis,1,2601,2727,i_lhl,w,64.7,6.484517304189436,train,,1,pathological
+data\processed\features\normal\813_phrase.npy,data\raw\normal\813\sentences\813-phrase.nsp,normal,0,813,718,phrase,m,19.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\16_a_h.npy,data\raw\normal\16\vowels\16-a_h.nsp,normal,0,16,18,a_h,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1020_u_h.npy,data\raw\normal\1020\vowels\1020-u_h.nsp,normal,0,1020,819,u_h,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\943_phrase.npy,data\raw\normal\943\sentences\943-phrase.nsp,normal,0,943,747,phrase,m,45.6,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_phrase_pm1_0.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2097_u_n.npy,data\raw\vox_senilis\2097\vowels\2097-u_n.nsp,vox_senilis,1,2097,2283,u_n,w,30.7,6.484517304189436,train,Chron. Laryngitis,1,pathological
+data\processed\features\vox_senilis\1478_i_l.npy,data\raw\vox_senilis\1478\vowels\1478-i_l.nsp,vox_senilis,1,1478,1826,i_l,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis",1,pathological
+data\processed\features\vox_senilis\2003_a_h.npy,data\raw\vox_senilis\2003\vowels\2003-a_h.nsp,vox_senilis,1,2003,2212,a_h,m,77.6,6.484517304189436,train,Laryngitis subglottisch,1,pathological
+data\processed\features\normal\747_iau.npy,data\raw\normal\747\vowels\747-iau.nsp,normal,0,747,651,iau,w,26.9,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_iau_p13_0.npy,data\raw\laryngozele\1205\vowels\1205-iau.nsp,laryngozele,1,1205,1602,iau,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\782_a_l.npy,data\raw\normal\782\vowels\782-a_l.nsp,normal,0,782,715,a_l,m,18.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2569_a_h.npy,data\raw\vox_senilis\2569\vowels\2569-a_h.nsp,vox_senilis,1,2569,2703,a_h,w,73.9,6.484517304189436,train,"Zustand nach Strumektomie, keine Rekurrensparese",1,pathological
+data\processed\features\normal\16_iau.npy,data\raw\normal\16\vowels\16-iau.nsp,normal,0,16,18,iau,w,19.9,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_l_p8_0.npy,data\raw\laryngozele\1205\vowels\1205-i_l.nsp,laryngozele,1,1205,1602,i_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_h_p8_5.npy,data\raw\laryngozele\1205\vowels\1205-u_h.nsp,laryngozele,1,1205,1602,u_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2307_i_n.npy,data\raw\vox_senilis\2307\vowels\2307-i_n.nsp,vox_senilis,1,2307,2441,i_n,w,76.0,6.484517304189436,train,,1,pathological
+data\processed\features\vox_senilis\2097_a_lhl.npy,data\raw\vox_senilis\2097\vowels\2097-a_lhl.nsp,vox_senilis,1,2097,2283,a_lhl,w,30.7,6.484517304189436,train,Chron. Laryngitis,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_phrase_p6_0.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_h_p8_5.npy,data\raw\laryngozele\1205\vowels\1205-i_h.nsp,laryngozele,1,1205,1602,i_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_h_p13_0.npy,data\raw\laryngozele\1205\vowels\1205-i_h.nsp,laryngozele,1,1205,1602,i_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_n_p0_0.npy,data\raw\laryngozele\1205\vowels\1205-i_n.nsp,laryngozele,1,1205,1602,i_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1019_a_h.npy,data\raw\normal\1019\vowels\1019-a_h.nsp,normal,0,1019,811,a_h,m,49.0,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_l_pm3_0.npy,data\raw\laryngozele\1205\vowels\1205-u_l.nsp,laryngozele,1,1205,1602,u_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1012_a_l.npy,data\raw\normal\1012\vowels\1012-a_l.nsp,normal,0,1012,813,a_l,m,22.4,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2509_u_l.npy,data\raw\vox_senilis\2509\vowels\2509-u_l.nsp,vox_senilis,1,2509,2643,u_l,w,63.9,6.484517304189436,train,,1,pathological
+data\processed\features\vox_senilis\2509_a_n.npy,data\raw\vox_senilis\2509\vowels\2509-a_n.nsp,vox_senilis,1,2509,2643,a_n,w,63.9,6.484517304189436,train,,1,pathological
+data\processed\features\normal\26_u_h.npy,data\raw\normal\26\vowels\26-u_h.nsp,normal,0,26,19,u_h,w,26.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\26_a_h.npy,data\raw\normal\26\vowels\26-a_h.nsp,normal,0,26,19,a_h,w,26.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2249_a_h.npy,data\raw\normal\2249\vowels\2249-a_h.nsp,normal,0,2249,1184,a_h,m,24.6,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2319_phrase.npy,data\raw\vox_senilis\2319\sentences\2319-phrase.nsp,vox_senilis,1,2319,2453,phrase,m,81.2,6.484517304189436,train,Vox senilis,1,pathological
+data\processed\features\vox_senilis\2601_i_l.npy,data\raw\vox_senilis\2601\vowels\2601-i_l.nsp,vox_senilis,1,2601,2727,i_l,w,64.7,6.484517304189436,train,,1,pathological
+data\processed\features\vox_senilis\360_u_n.npy,data\raw\vox_senilis\360\vowels\360-u_n.nsp,vox_senilis,1,360,1347,u_n,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_h_p5_0.npy,data\raw\laryngozele\1205\vowels\1205-a_h.nsp,laryngozele,1,1205,1602,a_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_l_p8_5.npy,data\raw\laryngozele\1205\vowels\1205-a_l.nsp,laryngozele,1,1205,1602,a_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1012_iau.npy,data\raw\normal\1012\vowels\1012-iau.nsp,normal,0,1012,813,iau,m,22.4,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2377_i_h.npy,data\raw\vox_senilis\2377\vowels\2377-i_h.nsp,vox_senilis,1,2377,2511,i_h,m,67.4,6.484517304189436,train,,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_l_p0_0.npy,data\raw\laryngozele\1205\vowels\1205-u_l.nsp,laryngozele,1,1205,1602,u_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1363_i_h.npy,data\raw\normal\1363\vowels\1363-i_h.nsp,normal,0,1363,968,i_h,w,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1971_u_l.npy,data\raw\vox_senilis\1971\vowels\1971-u_l.nsp,vox_senilis,1,1971,2180,u_l,w,78.0,6.484517304189436,train,Intermediärschwäche,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_lhl_p10_5.npy,data\raw\laryngozele\1205\vowels\1205-a_lhl.nsp,laryngozele,1,1205,1602,a_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1108_a_lhl.npy,data\raw\normal\1108\vowels\1108-a_lhl.nsp,normal,0,1108,881,a_lhl,m,24.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2596_i_lhl.npy,data\raw\vox_senilis\2596\vowels\2596-i_lhl.nsp,vox_senilis,1,2596,2336,i_lhl,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend",1,pathological
+data\processed\features\vox_senilis\1338_a_n.npy,data\raw\vox_senilis\1338\vowels\1338-a_n.nsp,vox_senilis,1,1338,1720,a_n,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_h_p5_5.npy,data\raw\laryngozele\1205\vowels\1205-u_h.nsp,laryngozele,1,1205,1602,u_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_n_p10_5.npy,data\raw\laryngozele\1205\vowels\1205-u_n.nsp,laryngozele,1,1205,1602,u_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1586_i_h.npy,data\raw\normal\1586\vowels\1586-i_h.nsp,normal,0,1586,1032,i_h,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2251_phrase.npy,data\raw\normal\2251\sentences\2251-phrase.nsp,normal,0,2251,1186,phrase,m,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\933_u_h.npy,data\raw\vox_senilis\933\vowels\933-u_h.nsp,vox_senilis,1,933,1525,u_h,w,79.7,6.484517304189436,train,Stimmlippenvarizen links,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_lhl_p5_5.npy,data\raw\laryngozele\1205\vowels\1205-a_lhl.nsp,laryngozele,1,1205,1602,a_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\2179_a_h.npy,data\raw\normal\2179\vowels\2179-a_h.nsp,normal,0,2179,1164,a_h,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1815_i_lhl.npy,data\raw\normal\1815\vowels\1815-i_lhl.nsp,normal,0,1815,2082,i_lhl,w,56.2,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\943_iau.npy,data\raw\normal\943\vowels\943-iau.nsp,normal,0,943,747,iau,m,45.6,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2307_i_l.npy,data\raw\vox_senilis\2307\vowels\2307-i_l.nsp,vox_senilis,1,2307,2441,i_l,w,76.0,6.484517304189436,train,,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_phrase_pm4_0.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\20_i_l.npy,data\raw\normal\20\vowels\20-i_l.nsp,normal,0,20,21,i_l,w,21.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2121_a_n.npy,data\raw\vox_senilis\2121\vowels\2121-a_n.nsp,vox_senilis,1,2121,2310,a_n,w,69.0,6.484517304189436,train,,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_lhl_p10_5.npy,data\raw\laryngozele\1205\vowels\1205-u_lhl.nsp,laryngozele,1,1205,1602,u_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_h_p10_0.npy,data\raw\laryngozele\1205\vowels\1205-u_h.nsp,laryngozele,1,1205,1602,u_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_h_p8_0.npy,data\raw\laryngozele\1205\vowels\1205-a_h.nsp,laryngozele,1,1205,1602,a_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\2179_u_lhl.npy,data\raw\normal\2179\vowels\2179-u_lhl.nsp,normal,0,2179,1164,u_lhl,w,19.9,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_l_p6_0.npy,data\raw\laryngozele\1205\vowels\1205-a_l.nsp,laryngozele,1,1205,1602,a_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\16_u_l.npy,data\raw\normal\16\vowels\16-u_l.nsp,normal,0,16,18,u_l,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2509_i_h.npy,data\raw\vox_senilis\2509\vowels\2509-i_h.nsp,vox_senilis,1,2509,2643,i_h,w,63.9,6.484517304189436,train,,1,pathological
+data\processed\features\normal\782_a_h.npy,data\raw\normal\782\vowels\782-a_h.nsp,normal,0,782,715,a_h,m,18.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1363_i_l.npy,data\raw\normal\1363\vowels\1363-i_l.nsp,normal,0,1363,968,i_l,w,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1019_a_lhl.npy,data\raw\normal\1019\vowels\1019-a_lhl.nsp,normal,0,1019,811,a_lhl,m,49.0,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_phrase_p8_0.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_lhl_p3_0.npy,data\raw\laryngozele\1205\vowels\1205-u_lhl.nsp,laryngozele,1,1205,1602,u_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2421_u_n.npy,data\raw\vox_senilis\2421\vowels\2421-u_n.nsp,vox_senilis,1,2421,2555,u_n,w,87.6,6.484517304189436,train,,1,pathological
+data\processed\features\normal\813_a_l.npy,data\raw\normal\813\vowels\813-a_l.nsp,normal,0,813,718,a_l,m,19.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1268_a_lhl.npy,data\raw\vox_senilis\1268\vowels\1268-a_lhl.nsp,vox_senilis,1,1268,1656,a_lhl,m,83.5,6.484517304189436,train,Mit Stimmschwäche,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_l_p6_0.npy,data\raw\laryngozele\1205\vowels\1205-u_l.nsp,laryngozele,1,1205,1602,u_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1067_a_l.npy,data\raw\normal\1067\vowels\1067-a_l.nsp,normal,0,1067,844,a_l,w,33.8,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\846_iau.npy,data\raw\vox_senilis\846\vowels\846-iau.nsp,vox_senilis,1,846,1445,iau,w,68.7,6.484517304189436,train,Subglottale Cyste,1,pathological
+data\processed\features\vox_senilis\2509_u_n.npy,data\raw\vox_senilis\2509\vowels\2509-u_n.nsp,vox_senilis,1,2509,2643,u_n,w,63.9,6.484517304189436,train,,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_n_p7_0.npy,data\raw\laryngozele\1205\vowels\1205-u_n.nsp,laryngozele,1,1205,1602,u_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1023_u_lhl.npy,data\raw\normal\1023\vowels\1023-u_lhl.nsp,normal,0,1023,822,u_lhl,m,41.1,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2248_u_h.npy,data\raw\normal\2248\vowels\2248-u_h.nsp,normal,0,2248,1183,u_h,w,23.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2564_i_lhl.npy,data\raw\vox_senilis\2564\vowels\2564-i_lhl.nsp,vox_senilis,1,2564,2007,i_lhl,w,61.8,6.484517304189436,train,"Kompensiert, alte",1,pathological
+data\processed\features\normal\20_a_n.npy,data\raw\normal\20\vowels\20-a_n.nsp,normal,0,20,21,a_n,w,21.5,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_l_p9_0.npy,data\raw\laryngozele\1205\vowels\1205-i_l.nsp,laryngozele,1,1205,1602,i_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_n_p6_0.npy,data\raw\laryngozele\1205\vowels\1205-a_n.nsp,laryngozele,1,1205,1602,a_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2515_iau.npy,data\raw\vox_senilis\2515\vowels\2515-iau.nsp,vox_senilis,1,2515,2649,iau,w,75.2,6.484517304189436,train,,1,pathological
+data\processed\features\normal\58_iau.npy,data\raw\normal\58\vowels\58-iau.nsp,normal,0,58,58,iau,w,25.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1108_u_h.npy,data\raw\normal\1108\vowels\1108-u_h.nsp,normal,0,1108,881,u_h,m,24.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\899_i_n.npy,data\raw\vox_senilis\899\vowels\899-i_n.nsp,vox_senilis,1,899,1491,i_n,m,85.0,6.484517304189436,train,Differentialdiagnose: eventuell alte Schädigung des Arygelenks rechts,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_iau_pm2_0.npy,data\raw\laryngozele\1205\vowels\1205-iau.nsp,laryngozele,1,1205,1602,iau,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\1819_a_n.npy,data\raw\vox_senilis\1819\vowels\1819-a_n.nsp,vox_senilis,1,1819,2084,a_n,m,66.6,6.484517304189436,train,Ohne Reflux,1,pathological
+data\processed\features\normal\16_u_n.npy,data\raw\normal\16\vowels\16-u_n.nsp,normal,0,16,18,u_n,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1159_u_l.npy,data\raw\vox_senilis\1159\vowels\1159-u_l.nsp,vox_senilis,1,1159,1445,u_l,w,69.1,6.484517304189436,train,Leichte subglottische Einengung,1,pathological
+data\processed\features\normal\26_a_lhl.npy,data\raw\normal\26\vowels\26-a_lhl.nsp,normal,0,26,19,a_lhl,w,26.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\123_a_l.npy,data\raw\normal\123\vowels\123-a_l.nsp,normal,0,123,130,a_l,w,20.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1363_iau.npy,data\raw\normal\1363\vowels\1363-iau.nsp,normal,0,1363,968,iau,w,20.6,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_lhl_pm1_0.npy,data\raw\laryngozele\1205\vowels\1205-a_lhl.nsp,laryngozele,1,1205,1602,a_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\782_a_n.npy,data\raw\normal\782\vowels\782-a_n.nsp,normal,0,782,715,a_n,m,18.5,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_h_pm4_0.npy,data\raw\laryngozele\1205\vowels\1205-a_h.nsp,laryngozele,1,1205,1602,a_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\2205_u_h.npy,data\raw\normal\2205\vowels\2205-u_h.nsp,normal,0,2205,1177,u_h,w,19.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1573_u_h.npy,data\raw\normal\1573\vowels\1573-u_h.nsp,normal,0,1573,1027,u_h,m,21.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\943_i_n.npy,data\raw\normal\943\vowels\943-i_n.nsp,normal,0,943,747,i_n,m,45.6,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2121_a_h.npy,data\raw\vox_senilis\2121\vowels\2121-a_h.nsp,vox_senilis,1,2121,2310,a_h,w,69.0,6.484517304189436,train,,1,pathological
+data\processed\features\normal\1519_a_l.npy,data\raw\normal\1519\vowels\1519-a_l.nsp,normal,0,1519,1003,a_l,w,23.1,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2179_i_lhl.npy,data\raw\normal\2179\vowels\2179-i_lhl.nsp,normal,0,2179,1164,i_lhl,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2249_u_h.npy,data\raw\normal\2249\vowels\2249-u_h.nsp,normal,0,2249,1184,u_h,m,24.6,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\846_u_l.npy,data\raw\vox_senilis\846\vowels\846-u_l.nsp,vox_senilis,1,846,1445,u_l,w,68.7,6.484517304189436,train,Subglottale Cyste,1,pathological
+data\processed\features\normal\16_a_n.npy,data\raw\normal\16\vowels\16-a_n.nsp,normal,0,16,18,a_n,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2121_u_h.npy,data\raw\vox_senilis\2121\vowels\2121-u_h.nsp,vox_senilis,1,2121,2310,u_h,w,69.0,6.484517304189436,train,,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_n_p10_5.npy,data\raw\laryngozele\1205\vowels\1205-i_n.nsp,laryngozele,1,1205,1602,i_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\20_u_n.npy,data\raw\normal\20\vowels\20-u_n.nsp,normal,0,20,21,u_n,w,21.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2097_u_lhl.npy,data\raw\vox_senilis\2097\vowels\2097-u_lhl.nsp,vox_senilis,1,2097,2283,u_lhl,w,30.7,6.484517304189436,train,Chron. Laryngitis,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_h_p1_0.npy,data\raw\laryngozele\1205\vowels\1205-a_h.nsp,laryngozele,1,1205,1602,a_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_lhl_p5_5.npy,data\raw\laryngozele\1205\vowels\1205-u_lhl.nsp,laryngozele,1,1205,1602,u_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1586_a_lhl.npy,data\raw\normal\1586\vowels\1586-a_lhl.nsp,normal,0,1586,1032,a_lhl,m,25.3,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_iau_p9_5.npy,data\raw\laryngozele\1205\vowels\1205-iau.nsp,laryngozele,1,1205,1602,iau,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_h_p4_0.npy,data\raw\laryngozele\1205\vowels\1205-i_h.nsp,laryngozele,1,1205,1602,i_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_n_p8_5.npy,data\raw\laryngozele\1205\vowels\1205-u_n.nsp,laryngozele,1,1205,1602,u_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_n_p10_5.npy,data\raw\laryngozele\1205\vowels\1205-a_n.nsp,laryngozele,1,1205,1602,a_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\360_iau.npy,data\raw\vox_senilis\360\vowels\360-iau.nsp,vox_senilis,1,360,1347,iau,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_n_p13_0.npy,data\raw\laryngozele\1205\vowels\1205-i_n.nsp,laryngozele,1,1205,1602,i_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\846_a_l.npy,data\raw\vox_senilis\846\vowels\846-a_l.nsp,vox_senilis,1,846,1445,a_l,w,68.7,6.484517304189436,train,Subglottale Cyste,1,pathological
+data\processed\features\normal\16_phrase.npy,data\raw\normal\16\sentences\16-phrase.nsp,normal,0,16,18,phrase,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\826_iau.npy,data\raw\vox_senilis\826\vowels\826-iau.nsp,vox_senilis,1,826,1438,iau,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen,1,pathological
+data\processed\features\vox_senilis\2303_i_n.npy,data\raw\vox_senilis\2303\vowels\2303-i_n.nsp,vox_senilis,1,2303,2420,i_n,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps,1,pathological
+data\processed\features\normal\123_i_lhl.npy,data\raw\normal\123\vowels\123-i_lhl.nsp,normal,0,123,130,i_lhl,w,20.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2249_phrase.npy,data\raw\normal\2249\sentences\2249-phrase.nsp,normal,0,2249,1184,phrase,m,24.6,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_l_p6_0.npy,data\raw\laryngozele\1205\vowels\1205-i_l.nsp,laryngozele,1,1205,1602,i_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2377_phrase.npy,data\raw\vox_senilis\2377\sentences\2377-phrase.nsp,vox_senilis,1,2377,2511,phrase,m,67.4,6.484517304189436,train,,1,pathological
+data\processed\features\normal\123_a_lhl.npy,data\raw\normal\123\vowels\123-a_lhl.nsp,normal,0,123,130,a_lhl,w,20.0,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_lhl_pm3_0.npy,data\raw\laryngozele\1205\vowels\1205-i_lhl.nsp,laryngozele,1,1205,1602,i_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1019_i_lhl.npy,data\raw\normal\1019\vowels\1019-i_lhl.nsp,normal,0,1019,811,i_lhl,m,49.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2564_phrase.npy,data\raw\vox_senilis\2564\sentences\2564-phrase.nsp,vox_senilis,1,2564,2007,phrase,w,61.8,6.484517304189436,train,"Kompensiert, alte",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_phrase_p7_0.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\123_iau.npy,data\raw\normal\123\vowels\123-iau.nsp,normal,0,123,130,iau,w,20.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2179_a_lhl.npy,data\raw\normal\2179\vowels\2179-a_lhl.nsp,normal,0,2179,1164,a_lhl,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2179_iau.npy,data\raw\normal\2179\vowels\2179-iau.nsp,normal,0,2179,1164,iau,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\846_i_lhl.npy,data\raw\vox_senilis\846\vowels\846-i_lhl.nsp,vox_senilis,1,846,1445,i_lhl,w,68.7,6.484517304189436,train,Subglottale Cyste,1,pathological
+data\processed\features\vox_senilis\2097_iau.npy,data\raw\vox_senilis\2097\vowels\2097-iau.nsp,vox_senilis,1,2097,2283,iau,w,30.7,6.484517304189436,train,Chron. Laryngitis,1,pathological
+data\processed\features\normal\1067_iau.npy,data\raw\normal\1067\vowels\1067-iau.nsp,normal,0,1067,844,iau,w,33.8,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_h_p9_0.npy,data\raw\laryngozele\1205\vowels\1205-u_h.nsp,laryngozele,1,1205,1602,u_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_l_p0_0.npy,data\raw\laryngozele\1205\vowels\1205-i_l.nsp,laryngozele,1,1205,1602,i_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\1203_u_n.npy,data\raw\vox_senilis\1203\vowels\1203-u_n.nsp,vox_senilis,1,1203,1600,u_n,w,61.1,6.484517304189436,train,Leicht,1,pathological
+data\processed\features\normal\943_a_h.npy,data\raw\normal\943\vowels\943-a_h.nsp,normal,0,943,747,a_h,m,45.6,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1203_i_lhl.npy,data\raw\vox_senilis\1203\vowels\1203-i_lhl.nsp,vox_senilis,1,1203,1600,i_lhl,w,61.1,6.484517304189436,train,Leicht,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_n_p9_5.npy,data\raw\laryngozele\1205\vowels\1205-a_n.nsp,laryngozele,1,1205,1602,a_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_l_p8_0.npy,data\raw\laryngozele\1205\vowels\1205-u_l.nsp,laryngozele,1,1205,1602,u_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_l_p11_0.npy,data\raw\laryngozele\1205\vowels\1205-i_l.nsp,laryngozele,1,1205,1602,i_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_lhl_p11_5.npy,data\raw\laryngozele\1205\vowels\1205-a_lhl.nsp,laryngozele,1,1205,1602,a_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_h_pm2_0.npy,data\raw\laryngozele\1205\vowels\1205-a_h.nsp,laryngozele,1,1205,1602,a_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_lhl_p4_0.npy,data\raw\laryngozele\1205\vowels\1205-i_lhl.nsp,laryngozele,1,1205,1602,i_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_lhl_p2_0.npy,data\raw\laryngozele\1205\vowels\1205-a_lhl.nsp,laryngozele,1,1205,1602,a_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\16_a_lhl.npy,data\raw\normal\16\vowels\16-a_lhl.nsp,normal,0,16,18,a_lhl,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1108_u_lhl.npy,data\raw\normal\1108\vowels\1108-u_lhl.nsp,normal,0,1108,881,u_lhl,m,24.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1020_iau.npy,data\raw\normal\1020\vowels\1020-iau.nsp,normal,0,1020,819,iau,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\360_a_lhl.npy,data\raw\vox_senilis\360\vowels\360-a_lhl.nsp,vox_senilis,1,360,1347,a_lhl,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset",1,pathological
+data\processed\features\normal\1815_a_n.npy,data\raw\normal\1815\vowels\1815-a_n.nsp,normal,0,1815,2082,a_n,w,56.2,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2596_a_lhl.npy,data\raw\vox_senilis\2596\vowels\2596-a_lhl.nsp,vox_senilis,1,2596,2336,a_lhl,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend",1,pathological
+data\processed\features\normal\15_phrase.npy,data\raw\normal\15\sentences\15-phrase.nsp,normal,0,15,17,phrase,m,24.7,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_n_p7_5.npy,data\raw\laryngozele\1205\vowels\1205-i_n.nsp,laryngozele,1,1205,1602,i_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_n_p5_5.npy,data\raw\laryngozele\1205\vowels\1205-i_n.nsp,laryngozele,1,1205,1602,i_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_h_pm2_0.npy,data\raw\laryngozele\1205\vowels\1205-i_h.nsp,laryngozele,1,1205,1602,i_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1363_u_n.npy,data\raw\normal\1363\vowels\1363-u_n.nsp,normal,0,1363,968,u_n,w,20.6,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_n_p10_0.npy,data\raw\laryngozele\1205\vowels\1205-a_n.nsp,laryngozele,1,1205,1602,a_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\123_a_h.npy,data\raw\normal\123\vowels\123-a_h.nsp,normal,0,123,130,a_h,w,20.0,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_l_pm2_0.npy,data\raw\laryngozele\1205\vowels\1205-a_l.nsp,laryngozele,1,1205,1602,a_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2564_u_n.npy,data\raw\vox_senilis\2564\vowels\2564-u_n.nsp,vox_senilis,1,2564,2007,u_n,w,61.8,6.484517304189436,train,"Kompensiert, alte",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_lhl_p13_0.npy,data\raw\laryngozele\1205\vowels\1205-a_lhl.nsp,laryngozele,1,1205,1602,a_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_lhl_p8_0.npy,data\raw\laryngozele\1205\vowels\1205-u_lhl.nsp,laryngozele,1,1205,1602,u_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1012_phrase.npy,data\raw\normal\1012\sentences\1012-phrase.nsp,normal,0,1012,813,phrase,m,22.4,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2097_a_n.npy,data\raw\vox_senilis\2097\vowels\2097-a_n.nsp,vox_senilis,1,2097,2283,a_n,w,30.7,6.484517304189436,train,Chron. Laryngitis,1,pathological
+data\processed\features\vox_senilis\2003_a_l.npy,data\raw\vox_senilis\2003\vowels\2003-a_l.nsp,vox_senilis,1,2003,2212,a_l,m,77.6,6.484517304189436,train,Laryngitis subglottisch,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_h_p8_0.npy,data\raw\laryngozele\1205\vowels\1205-u_h.nsp,laryngozele,1,1205,1602,u_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1573_i_lhl.npy,data\raw\normal\1573\vowels\1573-i_lhl.nsp,normal,0,1573,1027,i_lhl,m,21.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2205_u_l.npy,data\raw\normal\2205\vowels\2205-u_l.nsp,normal,0,2205,1177,u_l,w,19.5,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_lhl_pm1_0.npy,data\raw\laryngozele\1205\vowels\1205-i_lhl.nsp,laryngozele,1,1205,1602,i_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_phrase_p9_5.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\2249_u_n.npy,data\raw\normal\2249\vowels\2249-u_n.nsp,normal,0,2249,1184,u_n,m,24.6,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_phrase_p4_0.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2564_a_lhl.npy,data\raw\vox_senilis\2564\vowels\2564-a_lhl.nsp,vox_senilis,1,2564,2007,a_lhl,w,61.8,6.484517304189436,train,"Kompensiert, alte",1,pathological
+data\processed\features\vox_senilis\1220_a_h.npy,data\raw\vox_senilis\1220\vowels\1220-a_h.nsp,vox_senilis,1,1220,1608,a_h,m,76.7,6.484517304189436,train,Vox senilis,1,pathological
+data\processed\features\normal\58_u_h.npy,data\raw\normal\58\vowels\58-u_h.nsp,normal,0,58,58,u_h,w,25.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1020_a_h.npy,data\raw\normal\1020\vowels\1020-a_h.nsp,normal,0,1020,819,a_h,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\782_u_h.npy,data\raw\normal\782\vowels\782-u_h.nsp,normal,0,782,715,u_h,m,18.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\747_a_n.npy,data\raw\normal\747\vowels\747-a_n.nsp,normal,0,747,651,a_n,w,26.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\58_a_lhl.npy,data\raw\normal\58\vowels\58-a_lhl.nsp,normal,0,58,58,a_lhl,w,25.4,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_n_p1_0.npy,data\raw\laryngozele\1205\vowels\1205-u_n.nsp,laryngozele,1,1205,1602,u_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\813_u_lhl.npy,data\raw\normal\813\vowels\813-u_lhl.nsp,normal,0,813,718,u_lhl,m,19.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1159_a_n.npy,data\raw\vox_senilis\1159\vowels\1159-a_n.nsp,vox_senilis,1,1159,1445,a_n,w,69.1,6.484517304189436,train,Leichte subglottische Einengung,1,pathological
+data\processed\features\vox_senilis\1159_a_h.npy,data\raw\vox_senilis\1159\vowels\1159-a_h.nsp,vox_senilis,1,1159,1445,a_h,w,69.1,6.484517304189436,train,Leichte subglottische Einengung,1,pathological
+data\processed\features\normal\16_i_n.npy,data\raw\normal\16\vowels\16-i_n.nsp,normal,0,16,18,i_n,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1220_u_lhl.npy,data\raw\vox_senilis\1220\vowels\1220-u_lhl.nsp,vox_senilis,1,1220,1608,u_lhl,m,76.7,6.484517304189436,train,Vox senilis,1,pathological
+data\processed\features\vox_senilis\1220_i_h.npy,data\raw\vox_senilis\1220\vowels\1220-i_h.nsp,vox_senilis,1,1220,1608,i_h,m,76.7,6.484517304189436,train,Vox senilis,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_phrase_p8_5.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\1220_i_l.npy,data\raw\vox_senilis\1220\vowels\1220-i_l.nsp,vox_senilis,1,1220,1608,i_l,m,76.7,6.484517304189436,train,Vox senilis,1,pathological
+data\processed\features\normal\1586_a_l.npy,data\raw\normal\1586\vowels\1586-a_l.nsp,normal,0,1586,1032,a_l,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2205_a_h.npy,data\raw\normal\2205\vowels\2205-a_h.nsp,normal,0,2205,1177,a_h,w,19.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\933_a_n.npy,data\raw\vox_senilis\933\vowels\933-a_n.nsp,vox_senilis,1,933,1525,a_n,w,79.7,6.484517304189436,train,Stimmlippenvarizen links,1,pathological
+data\processed\features\normal\58_u_l.npy,data\raw\normal\58\vowels\58-u_l.nsp,normal,0,58,58,u_l,w,25.4,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_h_p7_5.npy,data\raw\laryngozele\1205\vowels\1205-a_h.nsp,laryngozele,1,1205,1602,a_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\933_a_lhl.npy,data\raw\vox_senilis\933\vowels\933-a_lhl.nsp,vox_senilis,1,933,1525,a_lhl,w,79.7,6.484517304189436,train,Stimmlippenvarizen links,1,pathological
+data\processed\features\normal\1019_a_n.npy,data\raw\normal\1019\vowels\1019-a_n.nsp,normal,0,1019,811,a_n,m,49.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\943_u_h.npy,data\raw\normal\943\vowels\943-u_h.nsp,normal,0,943,747,u_h,m,45.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1815_a_l.npy,data\raw\normal\1815\vowels\1815-a_l.nsp,normal,0,1815,2082,a_l,w,56.2,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\26_a_l.npy,data\raw\normal\26\vowels\26-a_l.nsp,normal,0,26,19,a_l,w,26.4,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1220_phrase.npy,data\raw\vox_senilis\1220\sentences\1220-phrase.nsp,vox_senilis,1,1220,1608,phrase,m,76.7,6.484517304189436,train,Vox senilis,1,pathological
+data\processed\features\vox_senilis\2303_a_n.npy,data\raw\vox_senilis\2303\vowels\2303-a_n.nsp,vox_senilis,1,2303,2420,a_n,w,73.5,6.484517304189436,train,Zustand nach Abtragung des Polyps,1,pathological
+data\processed\features\normal\2205_i_n.npy,data\raw\normal\2205\vowels\2205-i_n.nsp,normal,0,2205,1177,i_n,w,19.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\813_u_l.npy,data\raw\normal\813\vowels\813-u_l.nsp,normal,0,813,718,u_l,m,19.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\20_u_h.npy,data\raw\normal\20\vowels\20-u_h.nsp,normal,0,20,21,u_h,w,21.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1012_i_lhl.npy,data\raw\normal\1012\vowels\1012-i_lhl.nsp,normal,0,1012,813,i_lhl,m,22.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2249_i_h.npy,data\raw\normal\2249\vowels\2249-i_h.nsp,normal,0,2249,1184,i_h,m,24.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1519_i_lhl.npy,data\raw\normal\1519\vowels\1519-i_lhl.nsp,normal,0,1519,1003,i_lhl,w,23.1,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1478_i_n.npy,data\raw\vox_senilis\1478\vowels\1478-i_n.nsp,vox_senilis,1,1478,1826,i_n,m,77.3,6.484517304189436,train,"Links, nach Strumektomie bei beginnender vox senilis",1,pathological
+data\processed\features\vox_senilis\933_i_lhl.npy,data\raw\vox_senilis\933\vowels\933-i_lhl.nsp,vox_senilis,1,933,1525,i_lhl,w,79.7,6.484517304189436,train,Stimmlippenvarizen links,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_phrase_p11_5.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\747_a_lhl.npy,data\raw\normal\747\vowels\747-a_lhl.nsp,normal,0,747,651,a_lhl,w,26.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1519_u_n.npy,data\raw\normal\1519\vowels\1519-u_n.nsp,normal,0,1519,1003,u_n,w,23.1,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2205_iau.npy,data\raw\normal\2205\vowels\2205-iau.nsp,normal,0,2205,1177,iau,w,19.5,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_iau_p5_0.npy,data\raw\laryngozele\1205\vowels\1205-iau.nsp,laryngozele,1,1205,1602,iau,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2421_phrase.npy,data\raw\vox_senilis\2421\sentences\2421-phrase.nsp,vox_senilis,1,2421,2555,phrase,w,87.6,6.484517304189436,train,,1,pathological
+data\processed\features\vox_senilis\1338_a_lhl.npy,data\raw\vox_senilis\1338\vowels\1338-a_lhl.nsp,vox_senilis,1,1338,1720,a_lhl,m,89.0,6.484517304189436,train,"Massive Form mit breiter Excavation, Subglottisches Chondrom",1,pathological
+data\processed\features\normal\1586_u_l.npy,data\raw\normal\1586\vowels\1586-u_l.nsp,normal,0,1586,1032,u_l,m,25.3,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_h_pm4_0.npy,data\raw\laryngozele\1205\vowels\1205-i_h.nsp,laryngozele,1,1205,1602,i_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2003_iau.npy,data\raw\vox_senilis\2003\vowels\2003-iau.nsp,vox_senilis,1,2003,2212,iau,m,77.6,6.484517304189436,train,Laryngitis subglottisch,1,pathological
+data\processed\features\normal\15_a_l.npy,data\raw\normal\15\vowels\15-a_l.nsp,normal,0,15,17,a_l,m,24.7,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_lhl_p8_0.npy,data\raw\laryngozele\1205\vowels\1205-i_lhl.nsp,laryngozele,1,1205,1602,i_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_lhl_p9_0.npy,data\raw\laryngozele\1205\vowels\1205-i_lhl.nsp,laryngozele,1,1205,1602,i_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\1019_i_n.npy,data\raw\normal\1019\vowels\1019-i_n.nsp,normal,0,1019,811,i_n,m,49.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\782_phrase.npy,data\raw\normal\782\sentences\782-phrase.nsp,normal,0,782,715,phrase,m,18.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2248_i_lhl.npy,data\raw\normal\2248\vowels\2248-i_lhl.nsp,normal,0,2248,1183,i_lhl,w,23.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2097_a_h.npy,data\raw\vox_senilis\2097\vowels\2097-a_h.nsp,vox_senilis,1,2097,2283,a_h,w,30.7,6.484517304189436,train,Chron. Laryngitis,1,pathological
+data\processed\features\vox_senilis\1220_i_n.npy,data\raw\vox_senilis\1220\vowels\1220-i_n.nsp,vox_senilis,1,1220,1608,i_n,m,76.7,6.484517304189436,train,Vox senilis,1,pathological
+data\processed\features\vox_senilis\2601_u_lhl.npy,data\raw\vox_senilis\2601\vowels\2601-u_lhl.nsp,vox_senilis,1,2601,2727,u_lhl,w,64.7,6.484517304189436,train,,1,pathological
+data\processed\features\vox_senilis\2601_phrase.npy,data\raw\vox_senilis\2601\sentences\2601-phrase.nsp,vox_senilis,1,2601,2727,phrase,w,64.7,6.484517304189436,train,,1,pathological
+data\processed\features\normal\782_u_n.npy,data\raw\normal\782\vowels\782-u_n.nsp,normal,0,782,715,u_n,m,18.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1363_a_h.npy,data\raw\normal\1363\vowels\1363-a_h.nsp,normal,0,1363,968,a_h,w,20.6,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_lhl_p9_0.npy,data\raw\laryngozele\1205\vowels\1205-a_lhl.nsp,laryngozele,1,1205,1602,a_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\747_a_l.npy,data\raw\normal\747\vowels\747-a_l.nsp,normal,0,747,651,a_l,w,26.9,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1108_u_n.npy,data\raw\normal\1108\vowels\1108-u_n.nsp,normal,0,1108,881,u_n,m,24.5,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1023_a_l.npy,data\raw\normal\1023\vowels\1023-a_l.nsp,normal,0,1023,822,a_l,m,41.1,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\58_i_l.npy,data\raw\normal\58\vowels\58-i_l.nsp,normal,0,58,58,i_l,w,25.4,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_l_pm1_0.npy,data\raw\laryngozele\1205\vowels\1205-a_l.nsp,laryngozele,1,1205,1602,a_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\826_u_lhl.npy,data\raw\vox_senilis\826\vowels\826-u_lhl.nsp,vox_senilis,1,826,1438,u_lhl,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen,1,pathological
+data\processed\features\normal\26_u_lhl.npy,data\raw\normal\26\vowels\26-u_lhl.nsp,normal,0,26,19,u_lhl,w,26.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1023_i_n.npy,data\raw\normal\1023\vowels\1023-i_n.nsp,normal,0,1023,822,i_n,m,41.1,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_phrase_p1_0.npy,data\raw\laryngozele\1205\sentences\1205-phrase.nsp,laryngozele,1,1205,1602,phrase,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_h_pm1_0.npy,data\raw\laryngozele\1205\vowels\1205-i_h.nsp,laryngozele,1,1205,1602,i_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2421_a_lhl.npy,data\raw\vox_senilis\2421\vowels\2421-a_lhl.nsp,vox_senilis,1,2421,2555,a_lhl,w,87.6,6.484517304189436,train,,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_n_p4_0.npy,data\raw\laryngozele\1205\vowels\1205-u_n.nsp,laryngozele,1,1205,1602,u_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\2121_iau.npy,data\raw\vox_senilis\2121\vowels\2121-iau.nsp,vox_senilis,1,2121,2310,iau,w,69.0,6.484517304189436,train,,1,pathological
+data\processed\features\normal\943_u_n.npy,data\raw\normal\943\vowels\943-u_n.nsp,normal,0,943,747,u_n,m,45.6,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_lhl_p14_0.npy,data\raw\laryngozele\1205\vowels\1205-u_lhl.nsp,laryngozele,1,1205,1602,u_lhl,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_iau_pm1_0.npy,data\raw\laryngozele\1205\vowels\1205-iau.nsp,laryngozele,1,1205,1602,iau,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_u_h_p7_5.npy,data\raw\laryngozele\1205\vowels\1205-u_h.nsp,laryngozele,1,1205,1602,u_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\2179_i_l.npy,data\raw\normal\2179\vowels\2179-i_l.nsp,normal,0,2179,1164,i_l,w,19.9,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2307_a_n.npy,data\raw\vox_senilis\2307\vowels\2307-a_n.nsp,vox_senilis,1,2307,2441,a_n,w,76.0,6.484517304189436,train,,1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_a_n_p3_0.npy,data\raw\laryngozele\1205\vowels\1205-a_n.nsp,laryngozele,1,1205,1602,a_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\vox_senilis\1268_phrase.npy,data\raw\vox_senilis\1268\sentences\1268-phrase.nsp,vox_senilis,1,1268,1656,phrase,m,83.5,6.484517304189436,train,Mit Stimmschwäche,1,pathological
+data\processed\features\normal\1019_u_l.npy,data\raw\normal\1019\vowels\1019-u_l.nsp,normal,0,1019,811,u_l,m,49.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\360_i_lhl.npy,data\raw\vox_senilis\360\vowels\360-i_lhl.nsp,vox_senilis,1,360,1347,i_lhl,w,75.5,6.484517304189436,train,"Beginnnende vox senilis, auffälliges voice onset",1,pathological
+data/processed/features_augmented/laryngozele/1205_1602_i_l_p13_0.npy,data\raw\laryngozele\1205\vowels\1205-i_l.nsp,laryngozele,1,1205,1602,i_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\123_i_n.npy,data\raw\normal\123\vowels\123-i_n.nsp,normal,0,123,130,i_n,w,20.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1586_u_h.npy,data\raw\normal\1586\vowels\1586-u_h.nsp,normal,0,1586,1032,u_h,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2248_u_lhl.npy,data\raw\normal\2248\vowels\2248-u_lhl.nsp,normal,0,2248,1183,u_lhl,w,23.0,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\1159_i_l.npy,data\raw\vox_senilis\1159\vowels\1159-i_l.nsp,vox_senilis,1,1159,1445,i_l,w,69.1,6.484517304189436,train,Leichte subglottische Einengung,1,pathological
+data\processed\features\normal\1815_a_lhl.npy,data\raw\normal\1815\vowels\1815-a_lhl.nsp,normal,0,1815,2082,a_lhl,w,56.2,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\2251_u_lhl.npy,data\raw\normal\2251\vowels\2251-u_lhl.nsp,normal,0,2251,1186,u_lhl,m,20.6,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\15_i_h.npy,data\raw\normal\15\vowels\15-i_h.nsp,normal,0,15,17,i_h,m,24.7,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2596_i_l.npy,data\raw\vox_senilis\2596\vowels\2596-i_l.nsp,vox_senilis,1,2596,2336,i_l,w,64.2,6.484517304189436,train,"Funktionelle Dysphonie, Vox senilis beginnend",1,pathological
+data\processed\features\vox_senilis\826_a_lhl.npy,data\raw\vox_senilis\826\vowels\826-a_lhl.nsp,vox_senilis,1,826,1438,a_lhl,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen,1,pathological
+data\processed\features\vox_senilis\826_a_h.npy,data\raw\vox_senilis\826\vowels\826-a_h.nsp,vox_senilis,1,826,1438,a_h,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen,1,pathological
+data\processed\features\normal\1012_u_n.npy,data\raw\normal\1012\vowels\1012-u_n.nsp,normal,0,1012,813,u_n,m,22.4,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1573_a_h.npy,data\raw\normal\1573\vowels\1573-a_h.nsp,normal,0,1573,1027,a_h,m,21.4,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_l_p2_0.npy,data\raw\laryngozele\1205\vowels\1205-u_l.nsp,laryngozele,1,1205,1602,u_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\16_a_l.npy,data\raw\normal\16\vowels\16-a_l.nsp,normal,0,16,18,a_l,w,19.9,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_a_n_p5_5.npy,data\raw\laryngozele\1205\vowels\1205-a_n.nsp,laryngozele,1,1205,1602,a_n,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\2205_a_l.npy,data\raw\normal\2205\vowels\2205-a_l.nsp,normal,0,2205,1177,a_l,w,19.5,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\933_a_l.npy,data\raw\vox_senilis\933\vowels\933-a_l.nsp,vox_senilis,1,933,1525,a_l,w,79.7,6.484517304189436,train,Stimmlippenvarizen links,1,pathological
+data\processed\features\normal\1815_u_l.npy,data\raw\normal\1815\vowels\1815-u_l.nsp,normal,0,1815,2082,u_l,w,56.2,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2003_a_n.npy,data\raw\vox_senilis\2003\vowels\2003-a_n.nsp,vox_senilis,1,2003,2212,a_n,m,77.6,6.484517304189436,train,Laryngitis subglottisch,1,pathological
+data\processed\features\normal\123_u_lhl.npy,data\raw\normal\123\vowels\123-u_lhl.nsp,normal,0,123,130,u_lhl,w,20.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1519_iau.npy,data\raw\normal\1519\vowels\1519-iau.nsp,normal,0,1519,1003,iau,w,23.1,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\2601_u_l.npy,data\raw\vox_senilis\2601\vowels\2601-u_l.nsp,vox_senilis,1,2601,2727,u_l,w,64.7,6.484517304189436,train,,1,pathological
+data\processed\features\normal\943_a_lhl.npy,data\raw\normal\943\vowels\943-a_lhl.nsp,normal,0,943,747,a_lhl,m,45.6,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_i_l_p3_0.npy,data\raw\laryngozele\1205\vowels\1205-i_l.nsp,laryngozele,1,1205,1602,i_l,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\2179_i_h.npy,data\raw\normal\2179\vowels\2179-i_h.nsp,normal,0,2179,1164,i_h,w,19.9,0.3521266073194856,train,,0,healthy
+data/processed/features_augmented/laryngozele/1205_1602_u_h_pm4_0.npy,data\raw\laryngozele\1205\vowels\1205-u_h.nsp,laryngozele,1,1205,1602,u_h,m,47.0,1.0,train,"Z.B. linkes Taschenband, Stimmlippen o.B.; Stroboskopie o.B.",1,pathological
+data\processed\features\normal\15_u_n.npy,data\raw\normal\15\vowels\15-u_n.nsp,normal,0,15,17,u_n,m,24.7,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1019_u_h.npy,data\raw\normal\1019\vowels\1019-u_h.nsp,normal,0,1019,811,u_h,m,49.0,0.3521266073194856,train,,0,healthy
+data\processed\features\normal\1586_iau.npy,data\raw\normal\1586\vowels\1586-iau.nsp,normal,0,1586,1032,iau,m,25.3,0.3521266073194856,train,,0,healthy
+data\processed\features\vox_senilis\826_i_l.npy,data\raw\vox_senilis\826\vowels\826-i_l.nsp,vox_senilis,1,826,1438,i_l,w,78.9,6.484517304189436,train,Leicht ödematöse Stimmlippen,1,pathological
+data\processed\features\normal\1020_u_lhl.npy,data\raw\normal\1020\vowels\1020-u_lhl.nsp,normal,0,1020,819,u_lhl,m,25.3,0.3521266073194856,train,,0,healthy

@@ -1,0 +1,21 @@
+=====================================================================================
+COMPARATIVE EVALUATION SUMMARY: GMM vs. DNN
+Automated Multi-Class Laryngeal Voice Disorder Classification
+Generated: 2026-10-06 20:37:03
+=====================================================================================
+
+PRIMARY BENCHMARK: BALANCED TEST SET (N = 181)
+-------------------------------------------------------------------------------------
+Metric                    | GMM             | DNN             | Winner         
+-------------------------------------------------------------------------------------
+Overall Accuracy          |  67.40%        |  62.43%        | GMM            
+Balanced Accuracy         |  52.70%        |  45.17%        | GMM            
+Macro F1-Score            |  53.55%        |  43.13%        | GMM            
+Macro Precision           |  59.34%        |  43.64%        | GMM            
+Macro Recall              |  52.70%        |  45.17%        | GMM            
+Macro Specificity         |  80.29%        |  76.96%        | GMM            
+Macro ROC-AUC             |   0.75         |   0.64         | GMM            
+-------------------------------------------------------------------------------------
+Laryngozele Recall        |  14.29%        |   0.00%        | GMM            
+Laryngozele Precision     |  40.00%        |   0.00%        | GMM            
+Laryngozele F1-Score      |  21.05%        |   0.00%        | GMM            
